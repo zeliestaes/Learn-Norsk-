@@ -24,7 +24,7 @@
         ]
       },
       "texte": {
-        "no": "Marie bor i en leilighet i Bergen. Det er et kjøkken, et bad og en stue. Det er også et soverom. Familien min bor i et hus med en hage. Jeg liker en hage, men jeg har ikke en hage i Bergen.",
+        "no": "Marie bor i en leilighet i Bergen. Det er et kjøkken, et bad og en stue. Det er også et soverom. Familien min bor i et hus med en hage. Jeg liker hager, men jeg har ikke hage i Bergen.",
         "fr": "Marie habite dans un appartement à Bergen. Il y a une cuisine, une salle de bain et un salon. Il y a aussi une chambre. Ma famille habite dans une maison avec un jardin. J'aime les jardins, mais je n'ai pas de jardin à Bergen.",
         "aide": [
           {"no": "med", "fr": "avec"},
@@ -48,10 +48,10 @@
     {
       "titre": "Les meubles et la forme définie",
       "mots": [
-        {"no": "ei seng", "fr": "le lit", "pron": "SENG", "ex": "Sengen er i soverommet.", "ex_fr": "Le lit est dans la chambre."},
+        {"no": "ei seng", "fr": "le lit", "pron": "SENG", "ex": "Sengen er på soverommet.", "ex_fr": "Le lit est dans la chambre."},
         {"no": "en stol", "fr": "la chaise", "pron": "STOUL", "ex": "Stolen er på kjøkkenet.", "ex_fr": "La chaise est dans la cuisine."},
         {"no": "en sofa", "fr": "le canapé", "pron": "SOU-fa", "ex": "Sofaen er i stuen.", "ex_fr": "Le canapé est dans le salon."},
-        {"no": "et skap", "fr": "l'armoire / le placard", "pron": "SKAAP", "ex": "Skapet er i soverommet.", "ex_fr": "L'armoire est dans la chambre."},
+        {"no": "et skap", "fr": "l'armoire / le placard", "pron": "SKAAP", "ex": "Skapet er på soverommet.", "ex_fr": "L'armoire est dans la chambre."},
         {"no": "ei dør", "fr": "la porte", "pron": "DEUR", "ex": "Døra er her.", "ex_fr": "La porte est ici."},
         {"no": "et vindu", "fr": "la fenêtre", "pron": "VIN-du", "ex": "Vinduet er på kjøkkenet.", "ex_fr": "La fenêtre est dans la cuisine."},
         {"no": "en lampe", "fr": "la lampe", "pron": "LAM-pe", "ex": "Lampen er på bordet.", "ex_fr": "La lampe est sur la table."},
@@ -59,7 +59,7 @@
       ],
       "grammaire": {
         "titre": "La forme définie : « le / la » en fin de mot",
-        "texte": "En norvégien, « le / la » se colle à la fin du nom :\nen stol → stolen · et skap → skapet · ei dør → døra (ou døren) · ei bok → boka\nSi le mot finit par -e : en lampe → lampen, et rom → rommet.\nOn dit « i stuen » (dans le salon), « på bordet » (sur la table).",
+        "texte": "En norvégien, « le / la » se colle à la fin du nom :\nen stol → stolen · et skap → skapet · ei dør → døra (ou døren) · ei bok → boka\nSi le mot finit par -e : en lampe → lampen, et rom → rommet.\nOn dit « i stuen » (dans le salon), mais « på kjøkkenet », « på badet », « på soverommet » (à la cuisine, dans la salle de bain, dans la chambre), et « på bordet » (sur la table).",
         "exemples": [
           {"no": "en stol → stolen", "fr": "une chaise → la chaise"},
           {"no": "et skap → skapet", "fr": "une armoire → l'armoire"},
@@ -67,7 +67,7 @@
         ]
       },
       "texte": {
-        "no": "I stuen er det en sofa, en stol og et bord. Sofaen er ved vinduet. Lampen er på bordet, og boka er på bordet også. I soverommet er det en seng og et skap. Døra er i stuen. Det er en fin leilighet!",
+        "no": "I stuen er det en sofa, en stol og et bord. Sofaen er ved vinduet. Lampen er på bordet, og boka er på bordet også. På soverommet er det en seng og et skap. Døra er i stuen. Det er en fin leilighet!",
         "fr": "Dans le salon, il y a un canapé, une chaise et une table. Le canapé est près de la fenêtre. La lampe est sur la table et le livre est aussi sur la table. Dans la chambre, il y a un lit et une armoire. La porte est dans le salon. C'est un bel appartement !",
         "aide": [
           {"no": "ved", "fr": "près de"},
@@ -92,8 +92,8 @@
       "mots": [
         {"no": "et kjøleskap", "fr": "le réfrigérateur", "pron": "CHEU-le-skaap", "ex": "Kjøleskapet er på kjøkkenet.", "ex_fr": "Le frigo est dans la cuisine."},
         {"no": "en komfyr", "fr": "la cuisinière", "pron": "kom-FÜR", "ex": "Komfyren er på kjøkkenet.", "ex_fr": "La cuisinière est dans la cuisine."},
-        {"no": "en dusj", "fr": "la douche", "pron": "DUCH", "ex": "Dusjen er i badet.", "ex_fr": "La douche est dans la salle de bain."},
-        {"no": "et speil", "fr": "le miroir", "pron": "SPAÏL", "ex": "Speilet er i badet.", "ex_fr": "Le miroir est dans la salle de bain."},
+        {"no": "en dusj", "fr": "la douche", "pron": "DUCH", "ex": "Dusjen er på badet.", "ex_fr": "La douche est dans la salle de bain."},
+        {"no": "et speil", "fr": "le miroir", "pron": "SPAÏL", "ex": "Speilet er på badet.", "ex_fr": "Le miroir est dans la salle de bain."},
         {"no": "et teppe", "fr": "le tapis", "pron": "TEP-pe", "ex": "Teppet er i stuen.", "ex_fr": "Le tapis est dans le salon."},
         {"no": "et bilde", "fr": "l'image / la photo", "pron": "BIL-de", "ex": "Bildet er på døra.", "ex_fr": "L'image est sur la porte."},
         {"no": "en nøkkel", "fr": "la clé", "pron": "NEUK-kel", "ex": "Nøkkelen er på bordet.", "ex_fr": "La clé est sur la table."},
@@ -109,7 +109,7 @@
         ]
       },
       "texte": {
-        "no": "Marie er hos Anna i Voss. Anna bor i et hus. Kjøleskapet og komfyren er på kjøkkenet. Dusjen og speilet er i badet. I stuen er det et teppe og et bilde. Nøkkelen er på bordet. Trappa er ved døra. Det er et fint hus!",
+        "no": "Marie er hos Anna i Voss. Anna bor i et hus. Kjøleskapet og komfyren er på kjøkkenet. Dusjen og speilet er på badet. I stuen er det et teppe og et bilde. Nøkkelen er på bordet. Trappa er ved døra. Det er et fint hus!",
         "fr": "Marie est chez Anna à Voss. Anna habite dans une maison. Le frigo et la cuisinière sont dans la cuisine. La douche et le miroir sont dans la salle de bain. Dans le salon, il y a un tapis et une image. La clé est sur la table. L'escalier est près de la porte. C'est une belle maison !",
         "aide": [
           {"no": "hos", "fr": "chez"}
@@ -150,7 +150,7 @@
         ]
       },
       "texte": {
-        "no": "Marie og Anna flytter til Bergen. De leier en leilighet. Anna åpner døra, og Marie stenger vinduet. Marie lager suppe, og Anna vasker kjøkkenet. De ser et bilde på bordet. Det er et bilde av familien. Om kvelden sover Marie i soverommet, og Anna sover i stuen.",
+        "no": "Marie og Anna flytter til Bergen. De leier en leilighet. Anna åpner døra, og Marie stenger vinduet. Marie lager suppe, og Anna vasker kjøkkenet. De ser et bilde på bordet. Det er et bilde av familien. Om kvelden sover Marie på soverommet, og Anna sover i stuen.",
         "fr": "Marie et Anna déménagent à Bergen. Elles louent un appartement. Anna ouvre la porte et Marie ferme la fenêtre. Marie prépare de la soupe et Anna nettoie la cuisine. Elles voient une photo sur la table. C'est une photo de la famille. Le soir, Marie dort dans la chambre et Anna dort dans le salon.",
         "aide": [
           {"no": "av", "fr": "de"}
@@ -213,7 +213,7 @@
     }
   ],
   "synthese": {
-    "no": "Marie og Anna leier en leilighet i en gate i Bergen. Leiligheten har et kjøkken, en stue, et bad og et soverom. På kjøkkenet er det et kjøleskap og en komfyr. I stuen er det en sofa, en stol, et bord og en lampe. Boka er på bordet, og bildet er ved vinduet. I soverommet er det en seng og et skap. Nøkkelen er på bordet. Marie åpner døra, og Anna stenger vinduet. Naboen heter Per. Han bor i en etasje over dem. Det er et fint sted å bo!",
+    "no": "Marie og Anna leier en leilighet i en gate i Bergen. Leiligheten har et kjøkken, en stue, et bad og et soverom. På kjøkkenet er det et kjøleskap og en komfyr. I stuen er det en sofa, en stol, et bord og en lampe. Boka er på bordet, og bildet er ved vinduet. På soverommet er det en seng og et skap. Nøkkelen er på bordet. Marie åpner døra, og Anna stenger vinduet. Naboen heter Per. Han bor i en etasje over dem. Det er et fint sted å bo!",
     "fr": "Marie et Anna louent un appartement dans une rue de Bergen. L'appartement a une cuisine, un salon, une salle de bain et une chambre. Dans la cuisine, il y a un frigo et une cuisinière. Dans le salon, il y a un canapé, une chaise, une table et une lampe. Le livre est sur la table et la photo est près de la fenêtre. Dans la chambre, il y a un lit et une armoire. La clé est sur la table. Marie ouvre la porte et Anna ferme la fenêtre. Le voisin s'appelle Per. Il habite un étage au-dessus d'elles. C'est un bel endroit où habiter !",
     "aide": [
       {"no": "over dem", "fr": "au-dessus d'elles"}

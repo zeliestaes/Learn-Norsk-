@@ -89,11 +89,11 @@
     {
       "titre": "Les possessifs",
       "mots": [
-        {"no": "din", "fr": "ton / ta (masc.)", "pron": "DIN", "ex": "Er det din mobil?", "ex_fr": "Est-ce ton portable ?"},
+        {"no": "din", "fr": "ton / ta (masc.)", "pron": "DIN", "ex": "Er det mobilen din?", "ex_fr": "Est-ce ton portable ?"},
         {"no": "hans", "fr": "son (à lui)", "pron": "HANS", "ex": "Det er hans telefon.", "ex_fr": "C'est son téléphone (à lui)."},
         {"no": "hennes", "fr": "son (à elle)", "pron": "HEN-nes", "ex": "Det er hennes melding.", "ex_fr": "C'est son message (à elle)."},
-        {"no": "vår", "fr": "notre", "pron": "VOR", "ex": "Vår familie er stor.", "ex_fr": "Notre famille est grande."},
-        {"no": "deres", "fr": "leur / votre (pluriel)", "pron": "DÉ-res", "ex": "Det er deres hus.", "ex_fr": "C'est leur maison."},
+        {"no": "vår", "fr": "notre", "pron": "VOR", "ex": "Familien vår er stor.", "ex_fr": "Notre famille est grande."},
+        {"no": "deres", "fr": "leur / votre (pluriel)", "pron": "DÉ-res", "ex": "Det er huset deres.", "ex_fr": "C'est leur maison."},
         {"no": "sin", "fr": "son (propre)", "pron": "SIN", "ex": "Han leser sin bok.", "ex_fr": "Il lit son propre livre."},
         {"no": "selv", "fr": "soi-même", "pron": "SELV", "ex": "Jeg gjør det selv.", "ex_fr": "Je le fais moi-même."},
         {"no": "hverandre", "fr": "l'un l'autre", "pron": "ver-AN-dre", "ex": "De ringer hverandre.", "ex_fr": "Ils s'appellent."}
@@ -102,13 +102,13 @@
         "titre": "Les possessifs",
         "texte": "min / mi / mitt (mon) ; din / di / ditt (ton) ; hans (son, à lui) ; hennes (son, à elle) ; vår / vår / vårt (notre) ; deres (leur ou votre).\n« Sin » s'emploie quand le possesseur est le sujet : Han leser sin bok (son propre livre). Han leser hans bok = le livre d'un autre.\nEn langage courant, on place souvent le possessif après le nom : familien min, mobilen din.",
         "exemples": [
-          {"no": "din mobil", "fr": "ton portable"},
+          {"no": "mobilen din", "fr": "ton portable"},
           {"no": "Han leser sin bok.", "fr": "Il lit son (propre) livre."},
           {"no": "De ringer hverandre.", "fr": "Ils s'appellent l'un l'autre."}
         ]
       },
       "texte": {
-        "no": "– Er det din mobil, Marie?\n– Nei, det er Annas mobil. Mobilen min er på kjøkkenet.\n– Her er hennes telefon, og her er hans.\n– Takk! Vår familie ringer oss ofte. Deres familie ringer hver dag, ikke sant?\n– Ja, vi ringer hverandre hver kveld. Jeg gjør det selv.",
+        "no": "– Er det mobilen din, Marie?\n– Nei, det er Annas mobil. Mobilen min er på kjøkkenet.\n– Her er hennes telefon, og her er hans.\n– Takk! Familien vår ringer oss ofte. Familien deres ringer hver dag, ikke sant?\n– Ja, vi ringer hverandre hver kveld. Jeg gjør det selv.",
         "fr": "– Est-ce ton portable, Marie ?\n– Non, c'est le portable d'Anna. Mon portable est dans la cuisine.\n– Voici son téléphone à elle et voici le sien à lui.\n– Merci ! Notre famille nous appelle souvent. Votre famille appelle chaque jour, n'est-ce pas ?\n– Oui, nous nous appelons chaque soir. Je le fais moi-même.",
         "aide": [
           {"no": "Annas", "fr": "d'Anna"},
@@ -177,7 +177,7 @@
         {"no": "et øyeblikk", "fr": "le moment", "pron": "EU-ye-blik", "ex": "Et øyeblikk, takk.", "ex_fr": "Un instant, s'il vous plaît."},
         {"no": "opptatt", "fr": "occupé", "pron": "OP-tatt", "ex": "Han er opptatt nå.", "ex_fr": "Il est occupé maintenant."},
         {"no": "ledig", "fr": "libre (disponible)", "pron": "LÉ-di", "ex": "Hun er ledig i morgen.", "ex_fr": "Elle est libre demain."},
-        {"no": "en beskjed", "fr": "le message (oral)", "pron": "be-CHED", "ex": "Har du en beskjed?", "ex_fr": "As-tu un message ?"},
+        {"no": "en beskjed", "fr": "le message (oral)", "pron": "be-CHED", "ex": "Kan jeg legge igjen en beskjed?", "ex_fr": "Puis-je laisser un message ?"},
         {"no": "tilbake", "fr": "en retour", "pron": "til-BAA-ke", "ex": "Jeg ringer tilbake.", "ex_fr": "Je rappelle."},
         {"no": "å legge på", "fr": "raccrocher", "pron": "LEG-ge POU", "ex": "Hun legger på.", "ex_fr": "Elle raccroche."},
         {"no": "snart", "fr": "bientôt", "pron": "SNART", "ex": "Vi ses snart!", "ex_fr": "À bientôt !"}
