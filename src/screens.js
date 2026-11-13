@@ -1,14 +1,14 @@
 // Écrans : accueil/carte, chapitre, révisions, lexique, profil, boutique, réglages.
 import { h, toast, frDate, today, dayDiff } from './util.js';
 import { state, save, exportJSON, importJSON, resetAll } from './state.js';
-import { C, chapterById, unitById } from './content.js';
+import { C, chapterById, unitById, chapterWords, FOCUS_LABEL } from './content.js';
 import { unitStatus, todayInfo, paceIndicator, unlockBonus, currentChapter, chapterProgress, isDone, doneCourse, totalCourse, daysSince } from './schedule.js';
 import { dueCount, dueWords, level5, learnedCount } from './leitner.js';
 import { levelInfo, todayQuests, BADGES, SHOP, owns, buy, equip, skillRate, a2Progress, checkBadges } from './game.js';
 import { avatarSVG, DECORS } from './avatar.js';
 import { speak, norwegianVoices, hasVoice, hasSynth } from './audio.js';
 import { runSession } from './engine.js';
-import { buildLesson, buildSynth, buildReview } from './exercises.js';
+import { buildLesson, buildSynth, buildReview, buildDrill } from './exercises.js';
 import { fold } from './text.js';
 import { canRecognize } from './speech.js';
 import { downloadChapterPdf } from './pdf.js';
@@ -135,7 +135,7 @@ export function Home(app) {
     const u = info.unit, ch = chapterById(u.ch);
     todayCard = h('div', { class: 'card tint-mint today' },
       h('small', null, 'Leçon du jour'),
-      h('h2', null, `${ch.etape} · ${u.kind === 'synth' ? 'Synthèse' : 'Leçon ' + u.n}`),
+      h('h2', null, `${ch.etape} · ${u.kind === 'synth' ? 'Synthèse' : u.kind === 'drill' ? 'Entraînement' : 'Leçon ' + u.n}`),
       h('p', { class: 'muted' }, `Chapitre ${ch.id} : ${ch.titre}`),
       h('button', { class: 'btn', onclick: () => go('#/jouer/' + u.id) }, 'Commencer'));
   } else if (info.kind === 'rest') {
@@ -205,15 +205,16 @@ export function Chapter(app, id) {
     else if (st.reason === 'soon') sub = 'Contenu en préparation';
     else if (st.reason === 'date') sub = `Disponible le ${frDate(st.date)}`;
     else if (st.reason === 'order') sub = 'Termine d\'abord la leçon précédente';
-    else sub = u.kind === 'synth' ? 'Il faut 70 % pour valider' : '8 nouveaux mots';
-    const title = u.kind === 'synth' ? 'Synthèse' : `Leçon ${u.n}${u.lesson ? ' · ' + u.lesson.titre : ''}`;
+    else if (st.reason === 'lessons') sub = 'Termine d\'abord les leçons du chapitre';
+    else sub = u.kind === 'synth' ? 'Il faut 70 % pour valider' : u.kind === 'drill' ? 'Révision active des mots du chapitre' : '8 nouveaux mots';
+    const title = u.kind === 'synth' ? 'Synthèse' : u.kind === 'drill' ? u.titre : `Leçon ${u.n}${u.lesson ? ' · ' + u.lesson.titre : ''}`;
     return h('button', {
       class: 'item' + (st.open ? '' : ' locked') + (next ? ' now' : ''),
       onclick: () => {
         if (st.open) return go('#/jouer/' + u.id);
         toast(st.reason === 'date' ? `Cette leçon se débloque le ${frDate(st.date)}.` : sub);
       },
-    }, h('span', { class: 'badge' }, done ? '✓' : st.open ? (u.kind === 'synth' ? '🏁' : u.n) : '🔒'),
+    }, h('span', { class: 'badge' }, done ? '✓' : st.open ? (u.kind === 'synth' ? '🏁' : u.kind === 'drill' ? '🏋️' : u.n) : '🔒'),
       h('span', { class: 't' }, h('b', null, title), h('small', null, sub)));
   });
   const words = [...C.words.values()].filter((w) => w.ch === ch.id);
@@ -225,6 +226,7 @@ export function Chapter(app, id) {
       h('div', { class: 'bar', style: { marginTop: '10px' } }, h('i', { style: { width: Math.round(p.t * 100) + '%' } })),
       h('small', null, `${p.done}/${p.total} · ${words.length} mots`)),
     h('div', { class: 'list' }, items),
+    practiceCard(ch),
     ch.ready ? h('button', {
       class: 'btn secondary', style: { marginTop: '16px' },
       onclick: async (e) => {
@@ -237,6 +239,34 @@ export function Chapter(app, id) {
     }, '📄 Télécharger le PDF du chapitre') : null));
 }
 
+const FOCI = [['vocab', '🔤 Vocabulaire'], ['write', '✍️ Écrire'], ['listen', '👂 Écouter'], ['sentences', '💬 Phrases']];
+function practiceCard(ch) {
+  const seen = chapterWords(ch.id).filter((w) => state.words[w.id]).length;
+  if (!ch.ready || seen < 4) return null;
+  return h('div', { class: 'card', style: { marginTop: '16px' } },
+    h('h3', null, '🏋️ Entraînement libre'),
+    h('p', { class: 'muted' }, `Autant de fois que tu veux, sur les ${seen} mots déjà vus de ce chapitre.`),
+    h('div', { class: 'grid2' }, FOCI.map(([f, label]) => h('button', { class: 'btn ghost small', style: { width: '100%' }, onclick: () => go(`#/entrainement/${ch.id}/${f}`) }, label))));
+}
+
+export function Practice(app, chId, focus) {
+  if (chId === 'all') {
+    const all = [...C.words.values()].filter((w) => state.words[w.id]);
+    if (all.length < 5) { toast('Fais d\'abord quelques leçons.'); return go('#/revision'); }
+    // priorité aux mots les moins bien connus
+    const words = all.sort((a, b) => level5(a.id) - level5(b.id)).slice(0, 40);
+    return runSession(app, { kind: 'drill', exercises: buildDrill(words, focus), onClose: () => go('#/revision'), onRetry: () => Practice(app, 'all', focus) });
+  }
+  const ch = chapterById(+chId);
+  const words = ch ? chapterWords(ch.id).filter((w) => state.words[w.id]) : [];
+  if (!ch || words.length < 4) { toast('Fais d\'abord quelques leçons de ce chapitre.'); return go('#/chapitre/' + chId); }
+  runSession(app, {
+    kind: 'drill', chapter: ch, exercises: buildDrill(words, focus),
+    onClose: () => go('#/chapitre/' + ch.id),
+    onRetry: () => Practice(app, chId, focus),
+  });
+}
+
 // ======================================================================
 // SÉANCES
 // ======================================================================
@@ -246,7 +276,7 @@ export function Play(app, id) {
   const st = unitStatus(unit);
   if (!st.open) { toast('Cette leçon n\'est pas disponible.'); return go('#/chapitre/' + unit.ch); }
   const ch = chapterById(unit.ch);
-  const exercises = unit.kind === 'synth' ? buildSynth(ch) : buildLesson(unit);
+  const exercises = unit.kind === 'synth' ? buildSynth(ch) : unit.kind === 'drill' ? buildDrill(chapterWords(ch.id), unit.focus) : buildLesson(unit);
   runSession(app, {
     kind: unit.kind, unit, chapter: ch, exercises,
     onClose: () => go('#/'),
@@ -273,6 +303,11 @@ export function Review(app, mode) {
       h('p', null, n === 0 ? 'Rien à réviser aujourd\'hui, bravo !' : n > 15 ? `${n} mots attendent ; on en révise 15 à la fois.` : `mot${n > 1 ? 's' : ''} à réviser`),
       upcoming && n === 0 ? h('p', { class: 'muted' }, `Prochaine révision : ${frDate(upcoming)}.`) : null,
       n ? h('button', { class: 'btn', onclick: () => go('#/revision/go') }, 'Commencer') : null),
+    h('div', { class: 'card' },
+      h('h3', null, 'Entraînement ciblé'),
+      h('p', { class: 'muted' }, 'Plus d\'exercices sur tous les mots déjà appris, pour mieux les retenir.'),
+      h('div', { class: 'grid2' }, [['write', '✍️ Écrire'], ['listen', '👂 Écouter'], ['sentences', '💬 Phrases'], ['vocab', '🔤 Vocabulaire']].map(([f, label]) =>
+        h('button', { class: 'btn ghost small', style: { width: '100%' }, onclick: () => go('#/entrainement/all/' + f) }, label)))),
     h('div', { class: 'card' },
       h('h3', null, 'Pratique libre'),
       h('p', { class: 'muted' }, 'Envie de t\'entraîner encore ? On reprend les mots les moins bien connus.'),

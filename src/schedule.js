@@ -13,6 +13,10 @@ export function availableCount() { return daysSince() + 1 + (state.bonus || 0); 
 export function unitStatus(u) {
   const done = isDone(u);
   if (!u.ready) return { open: false, done, reason: 'soon' };
+  if (u.kind === 'drill' && !done) {
+    const ch = C.chapters.find((c) => c.id === u.ch);
+    if (!ch.units.filter((x) => x.kind === 'lesson').every(isDone)) return { open: false, done, reason: 'lessons' };
+  }
   if (u.ch <= 5) return { open: true, done };
   const k = C.course.indexOf(u);
   if (k >= availableCount()) {

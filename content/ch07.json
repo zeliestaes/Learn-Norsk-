@@ -218,48 +218,6 @@
           }
         ]
       }
-    },
-    {
-      "titre": "Organiser le temps",
-      "mots": [
-        {"no": "først", "fr": "d'abord", "pron": "FEUSHT", "ex": "Først drikker jeg kaffe.", "ex_fr": "D'abord, je bois du café."},
-        {"no": "deretter", "fr": "ensuite", "pron": "DÉ-ret-ter", "ex": "Deretter spiser jeg frokost.", "ex_fr": "Ensuite, je prends le petit-déjeuner."},
-        {"no": "tidligere", "fr": "plus tôt", "pron": "TID-li-ge-re", "ex": "Jeg kommer tidligere i dag.", "ex_fr": "Je viens plus tôt aujourd'hui."},
-        {"no": "senere", "fr": "plus tard", "pron": "SÉ-ne-re", "ex": "Jeg kommer senere.", "ex_fr": "Je viens plus tard."},
-        {"no": "neste", "fr": "prochain", "pron": "NES-te", "ex": "Neste uke er jeg her.", "ex_fr": "La semaine prochaine, je suis ici."},
-        {"no": "siste", "fr": "dernier", "pron": "SIS-te", "ex": "Dette er siste dag.", "ex_fr": "C'est le dernier jour."},
-        {"no": "i kveld", "fr": "ce soir", "pron": "i KVELL", "ex": "I kveld er jeg hjemme.", "ex_fr": "Ce soir, je suis à la maison."},
-        {"no": "i natt", "fr": "cette nuit", "pron": "i NATT", "ex": "I natt sover jeg tidlig.", "ex_fr": "Cette nuit, je dors tôt."}
-      ],
-      "grammaire": {
-        "titre": "Enchaîner les actions",
-        "texte": "Pour raconter une suite : først (d'abord), deretter (ensuite), senere (plus tard), til slutt (à la fin).\nPlacés au début, ces mots déclenchent l'inversion (règle V2) : Først drikker jeg kaffe. Deretter går jeg på jobb.\n« Neste » et « siste » précèdent le nom : neste uke (la semaine prochaine), siste dag (dernier jour).",
-        "exemples": [
-          {"no": "Først drikker jeg kaffe.", "fr": "D'abord, je bois du café."},
-          {"no": "neste uke", "fr": "la semaine prochaine"},
-          {"no": "I kveld er jeg hjemme.", "fr": "Ce soir, je suis à la maison."}
-        ]
-      },
-      "texte": {
-        "no": "I dag har Marie en lang dag. Først står hun opp og drikker kaffe. Deretter går hun til en time. Senere spiser hun lunsj med Anna. Neste uke er hun i Bergen. I kveld er hun hjemme, og i natt sover hun tidlig. Dette er siste dag i uka.",
-        "fr": "Aujourd'hui, Marie a une longue journée. D'abord, elle se lève et boit du café. Ensuite, elle va à un cours. Plus tard, elle déjeune avec Anna. La semaine prochaine, elle est à Bergen. Ce soir, elle est à la maison et cette nuit elle dort tôt. C'est le dernier jour de la semaine.",
-        "aide": [
-          {"no": "dette", "fr": "ceci"},
-          {"no": "i uka", "fr": "de la semaine"}
-        ],
-        "questions": [
-          {
-            "q": "Que fait Marie d'abord ?",
-            "choix": ["Elle se lève et boit du café", "Elle déjeune", "Elle va en cours"],
-            "rep": 0
-          },
-          {
-            "q": "Où sera-t-elle la semaine prochaine ?",
-            "choix": ["À Bergen", "À Oslo", "À la maison"],
-            "rep": 0
-          }
-        ]
-      }
     }
   ],
   "synthese": {

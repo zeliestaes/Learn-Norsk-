@@ -210,50 +210,6 @@
           }
         ]
       }
-    },
-    {
-      "titre": "Les parties de la maison",
-      "mots": [
-        {"no": "et tak", "fr": "le toit / le plafond", "pron": "TAAK", "ex": "Taket er hvitt.", "ex_fr": "Le plafond est blanc."},
-        {"no": "et gulv", "fr": "le sol", "pron": "GULV", "ex": "Gulvet er brunt.", "ex_fr": "Le sol est marron."},
-        {"no": "en vegg", "fr": "le mur", "pron": "VEGG", "ex": "Veggen er grønn.", "ex_fr": "Le mur est vert."},
-        {"no": "en balkong", "fr": "le balcon", "pron": "bal-KONG", "ex": "Vi har en balkong.", "ex_fr": "Nous avons un balcon."},
-        {"no": "en kjeller", "fr": "la cave", "pron": "CHEL-ler", "ex": "Vi har en kjeller.", "ex_fr": "Nous avons une cave."},
-        {"no": "et loft", "fr": "le grenier", "pron": "LOFT", "ex": "Det er et loft her.", "ex_fr": "Il y a un grenier ici."},
-        {"no": "en garasje", "fr": "le garage", "pron": "ga-RAA-sje", "ex": "Bilen er i garasjen.", "ex_fr": "La voiture est dans le garage."},
-        {"no": "en inngang", "fr": "l'entrée", "pron": "IN-gang", "ex": "Inngangen er ved døra.", "ex_fr": "L'entrée est près de la porte."}
-      ],
-      "grammaire": {
-        "titre": "Où est-ce dans la maison ?",
-        "texte": "On dit : i kjelleren (à la cave), i garasjen (dans le garage), på loftet (au grenier), på balkongen (sur le balcon), ved inngangen (à l'entrée).\nAvec les couleurs, on retrouve l'accord : Taket er hvitt (neutre → -t), Veggen er grønn.",
-        "exemples": [
-          {"no": "på balkongen", "fr": "sur le balcon"},
-          {"no": "i kjelleren", "fr": "à la cave"},
-          {"no": "Taket er hvitt.", "fr": "Le plafond est blanc."}
-        ]
-      },
-      "texte": {
-        "no": "Huset har en inngang og en garasje. Inne er det en stue og et kjøkken. Veggene er hvite, og gulvet er brunt. Taket er også hvitt. I kjelleren er det mange bøker, og på loftet er det et gammelt skap. På balkongen er det to stoler og et bord. Marie liker å sitte der om sommeren.",
-        "fr": "La maison a une entrée et un garage. À l'intérieur, il y a un salon et une cuisine. Les murs sont blancs et le sol est marron. Le plafond est aussi blanc. À la cave, il y a beaucoup de livres et au grenier il y a une vieille armoire. Sur le balcon, il y a deux chaises et une table. Marie aime s'y asseoir en été.",
-        "aide": [
-          {"no": "inne", "fr": "à l'intérieur"},
-          {"no": "veggene", "fr": "les murs"},
-          {"no": "gammelt", "fr": "vieux"},
-          {"no": "å sitte", "fr": "s'asseoir"}
-        ],
-        "questions": [
-          {
-            "q": "Quelle couleur ont les murs ?",
-            "choix": ["Blancs", "Marron", "Verts"],
-            "rep": 0
-          },
-          {
-            "q": "Où y a-t-il beaucoup de livres ?",
-            "choix": ["À la cave", "Au grenier", "Sur le balcon"],
-            "rep": 0
-          }
-        ]
-      }
     }
   ],
   "synthese": {

@@ -7,6 +7,8 @@ export const C = {
   free: [],          // unités des chapitres 1-5
 };
 
+export const FOCUS_LABEL = { vocab: 'vocabulaire', write: 'écrire', listen: 'écouter', sentences: 'phrases', mix: 'mixte' };
+
 export function parseNo(no) {
   // Renvoie { art, bare, verb } pour "en kaffe" / "å drikke" / "hei".
   const m = /^(en|ei|et) (.+)$/.exec(no);
@@ -31,7 +33,7 @@ export async function loadContent() {
   }));
   for (const ch of loaded) {
     ch.units = [];
-    const nLessons = ch.data?.lecons?.length || 6;
+    const nLessons = ch.data?.lecons?.length || (ch.id <= 5 ? 2 : 5);
     for (let l = 1; l <= nLessons; l++) {
       const lesson = ch.data?.lecons?.[l - 1] || null;
       ch.units.push({ id: `${ch.id}-${l}`, ch: ch.id, kind: 'lesson', n: l, lesson, ready: !!lesson, titre: lesson?.titre || `Leçon ${l}` });
@@ -40,6 +42,11 @@ export async function loadContent() {
         C.words.set(id, { id, ch: ch.id, lesson: l, ...parseNo(w.no), ...w });
       });
     }
+    // Séances d'entraînement : elles réutilisent les mots du chapitre (aucun mot nouveau).
+    const foci = ch.id <= 5 ? ['vocab', 'write', 'listen', 'sentences'] : ['mix'];
+    foci.forEach((focus, k) => {
+      ch.units.push({ id: `${ch.id}-D${k + 1}`, ch: ch.id, kind: 'drill', n: k + 1, focus, lesson: null, ready: !!ch.data, titre: 'Entraînement · ' + FOCUS_LABEL[focus] });
+    });
     const synth = ch.data?.synthese || null;
     ch.units.push({ id: `${ch.id}-S`, ch: ch.id, kind: 'synth', n: 0, lesson: synth, ready: !!synth, titre: 'Synthèse' });
     ch.units.forEach((u) => { C.units.push(u); (ch.id <= 5 ? C.free : C.course).push(u); });

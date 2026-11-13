@@ -211,49 +211,6 @@
           }
         ]
       }
-    },
-    {
-      "titre": "Matières et motifs",
-      "mots": [
-        {"no": "ull", "fr": "la laine", "pron": "ULL", "ex": "Genseren er av ull.", "ex_fr": "Le pull est en laine."},
-        {"no": "bomull", "fr": "le coton", "pron": "BOM-mull", "ex": "Skjorten er av bomull.", "ex_fr": "La chemise est en coton."},
-        {"no": "skinn", "fr": "le cuir", "pron": "SHINN", "ex": "Jakken er av skinn.", "ex_fr": "La veste est en cuir."},
-        {"no": "silke", "fr": "la soie", "pron": "SIL-ke", "ex": "Skjerfet er av silke.", "ex_fr": "L'écharpe est en soie."},
-        {"no": "stripet", "fr": "rayé", "pron": "STRI-pet", "ex": "Genseren er stripet.", "ex_fr": "Le pull est rayé."},
-        {"no": "rutete", "fr": "à carreaux", "pron": "RU-te-te", "ex": "Skjorten er rutete.", "ex_fr": "La chemise est à carreaux."},
-        {"no": "prikkete", "fr": "à pois", "pron": "PRIK-ke-te", "ex": "Kjolen er prikkete.", "ex_fr": "La robe est à pois."},
-        {"no": "et mønster", "fr": "le motif", "pron": "MEUN-ster", "ex": "Det er et pent mønster.", "ex_fr": "C'est un joli motif."}
-      ],
-      "grammaire": {
-        "titre": "La matière et le motif",
-        "texte": "La matière s'exprime avec « av » : Genseren er av ull (le pull est en laine), Jakken er av skinn.\nLes adjectifs de motif en -et (stripet, rutete, prikkete) restent identiques au masculin et au neutre ; au pluriel, ils prennent -e : stripete, rutete, prikkete.",
-        "exemples": [
-          {"no": "Genseren er av ull.", "fr": "Le pull est en laine."},
-          {"no": "Skjorten er rutete.", "fr": "La chemise est à carreaux."},
-          {"no": "et pent mønster", "fr": "un joli motif"}
-        ]
-      },
-      "texte": {
-        "no": "Det er vinter, og Marie kjøper klær. Hun vil ha en genser av ull. Den er stripet og pen. Anna vil ha en jakke av skinn. Jonas velger en skjorte av bomull. Den er rutete. Til sommeren vil Marie ha en kjole av silke. Den er prikkete. «Det er et fint mønster!» sier Anna.",
-        "fr": "C'est l'hiver et Marie achète des vêtements. Elle veut un pull en laine. Il est rayé et joli. Anna veut une veste en cuir. Jonas choisit une chemise en coton. Elle est à carreaux. Pour l'été, Marie veut une robe en soie. Elle est à pois. « C'est un beau motif ! » dit Anna.",
-        "aide": [
-          {"no": "kjøper", "fr": "achète"},
-          {"no": "velger", "fr": "choisit"},
-          {"no": "til sommeren", "fr": "pour l'été"}
-        ],
-        "questions": [
-          {
-            "q": "En quelle matière est le pull ?",
-            "choix": ["En laine", "En cuir", "En soie"],
-            "rep": 0
-          },
-          {
-            "q": "Comment est la chemise de Jonas ?",
-            "choix": ["À carreaux", "Rayée", "À pois"],
-            "rep": 0
-          }
-        ]
-      }
     }
   ],
   "synthese": {

@@ -212,51 +212,6 @@
           }
         ]
       }
-    },
-    {
-      "titre": "Messages et réseaux",
-      "mots": [
-        {"no": "en samtale", "fr": "la conversation", "pron": "SAM-ta-le", "ex": "Vi har en samtale.", "ex_fr": "Nous avons une conversation."},
-        {"no": "en tekstmelding", "fr": "le SMS", "pron": "TEKST-mel-ding", "ex": "Jeg skriver en tekstmelding.", "ex_fr": "J'écris un SMS."},
-        {"no": "en bruker", "fr": "l'utilisateur", "pron": "BRU-ker", "ex": "Hun er en bruker.", "ex_fr": "C'est une utilisatrice."},
-        {"no": "en profil", "fr": "le profil", "pron": "pro-FIL", "ex": "Jeg har en profil.", "ex_fr": "J'ai un profil."},
-        {"no": "en kommentar", "fr": "le commentaire", "pron": "kom-men-TAAR", "ex": "Jeg skriver en kommentar.", "ex_fr": "J'écris un commentaire."},
-        {"no": "å chatte", "fr": "discuter en ligne", "pron": "TJAT-te", "ex": "Vi chatter hver kveld.", "ex_fr": "Nous discutons en ligne chaque soir."},
-        {"no": "å videresende", "fr": "transférer", "pron": "VI-de-re-sen-de", "ex": "Jeg videresender en e-post.", "ex_fr": "Je transfère un courriel."},
-        {"no": "å blokkere", "fr": "bloquer", "pron": "blo-KÉ-re", "ex": "Jeg blokkerer et nummer.", "ex_fr": "Je bloque un numéro."}
-      ],
-      "grammaire": {
-        "titre": "Verbes en -ere et pronoms objets",
-        "texte": "Les verbes en -ere prennent -er au présent : blokkere → blokkerer. Les autres : chatte → chatter, videresende → videresender.\nAvec un pronom objet : Jeg chatter med henne (je discute avec elle), Jeg blokkerer ham (je le bloque), Jeg videresender den (je le transfère).",
-        "exemples": [
-          {"no": "Jeg chatter med henne.", "fr": "Je discute avec elle."},
-          {"no": "Jeg blokkerer ham.", "fr": "Je le bloque."},
-          {"no": "Jeg videresender den.", "fr": "Je le transfère."}
-        ]
-      },
-      "texte": {
-        "no": "Marie har en profil og skriver mange kommentarer. Hun chatter med Anna hver kveld. I dag har hun en lang samtale med henne. Så får hun en tekstmelding fra en ukjent bruker. Hun blokkerer ham og videresender meldingen til Jonas. «Du må være forsiktig», skriver han. Marie sier takk og går til sengs.",
-        "fr": "Marie a un profil et écrit beaucoup de commentaires. Elle discute avec Anna chaque soir. Aujourd'hui, elle a une longue conversation avec elle. Puis elle reçoit un SMS d'un utilisateur inconnu. Elle le bloque et transfère le message à Jonas. « Tu dois être prudente », écrit-il. Marie dit merci et va se coucher.",
-        "aide": [
-          {"no": "får", "fr": "reçoit"},
-          {"no": "ukjent", "fr": "inconnu"},
-          {"no": "må", "fr": "dois"},
-          {"no": "forsiktig", "fr": "prudent"},
-          {"no": "går til sengs", "fr": "va se coucher"}
-        ],
-        "questions": [
-          {
-            "q": "Avec qui Marie discute-t-elle chaque soir ?",
-            "choix": ["Avec Anna", "Avec Jonas", "Avec un inconnu"],
-            "rep": 0
-          },
-          {
-            "q": "Que fait-elle du message ?",
-            "choix": ["Elle le transfère à Jonas", "Elle le supprime", "Elle y répond"],
-            "rep": 0
-          }
-        ]
-      }
     }
   ],
   "synthese": {
