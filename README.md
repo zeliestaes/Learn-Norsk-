@@ -45,6 +45,10 @@ Ouvre l'adresse dans **Safari** → bouton Partager ⬆️ → **Sur l'écran d'
 Lance l'appli une fois en ligne, elle fonctionnera ensuite hors ligne.
 Voix norvégienne : Réglages iPhone → Accessibilité → Contenu énoncé → Voix → Norvégien → « Nora ».
 
+## PDF par chapitre
+
+Sur la page de chaque chapitre, le bouton **Télécharger le PDF** génère (dans l'appli, y compris hors ligne) un PDF avec le vocabulaire, les phrases d'exemple, la grammaire et les textes. Il se met à jour tout seul quand le contenu change. Bibliothèque : jsPDF (`assets/vendor/`).
+
 ## Sauvegarde
 
 La progression est dans IndexedDB (sur l'appareil). Utilise **Réglages → Exporter** de temps en temps :
