@@ -11,6 +11,7 @@ import { runSession } from './engine.js';
 import { buildLesson, buildSynth, buildReview } from './exercises.js';
 import { fold } from './text.js';
 import { canRecognize } from './speech.js';
+import { downloadChapterPdf } from './pdf.js';
 
 const go = (hash) => { location.hash = hash; };
 const dots = (n) => h('span', { class: 'dots', 'aria-label': `Maîtrise ${n} sur 5` }, [0, 1, 2, 3, 4].map((i) => h('i', { class: i < n ? 'on' : '' })));
@@ -223,7 +224,17 @@ export function Chapter(app, id) {
       h('h1', null, ch.titre),
       h('div', { class: 'bar', style: { marginTop: '10px' } }, h('i', { style: { width: Math.round(p.t * 100) + '%' } })),
       h('small', null, `${p.done}/${p.total} · ${words.length} mots`)),
-    h('div', { class: 'list' }, items)));
+    h('div', { class: 'list' }, items),
+    ch.ready ? h('button', {
+      class: 'btn secondary', style: { marginTop: '16px' },
+      onclick: async (e) => {
+        const b = e.currentTarget; b.disabled = true;
+        toast('Création du PDF…');
+        try { await downloadChapterPdf(ch); }
+        catch (err) { console.error(err); toast('Impossible de créer le PDF : ' + err.message); }
+        b.disabled = false;
+      },
+    }, '📄 Télécharger le PDF du chapitre') : null));
 }
 
 // ======================================================================
