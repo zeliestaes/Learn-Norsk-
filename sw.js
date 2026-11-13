@@ -1,6 +1,6 @@
 /* Service worker : application utilisable hors ligne.
    La liste PRECACHE est générée par `node scripts/build-sw.js`. */
-const VERSION = 'c9f21980c9';
+const VERSION = '655263e9d4';
 const CACHE = 'norsk-reisen-' + VERSION;
 const PRECACHE = ['./'];
 // -- PRECACHE-START
@@ -13,19 +13,22 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k.startsWith('norsk-reisen-') && k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 });
-// Réseau d'abord pour les contenus JSON (corrections visibles vite), cache d'abord pour le reste.
+// Réseau d'abord (les mises à jour apparaissent dès que l'appli est ouverte avec internet),
+// cache en secours pour le mode hors ligne.
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
-  const isContent = req.url.includes('/content/');
   e.respondWith((async () => {
     const cache = await caches.open(CACHE);
-    const hit = await cache.match(req, { ignoreSearch: true });
-    if (isContent) {
-      try { const r = await fetch(req); if (r.ok) cache.put(req, r.clone()); return r; } catch { if (hit) return hit; throw new Error('offline'); }
+    try {
+      const r = await fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' });
+      if (r.ok) cache.put(req, r.clone());
+      return r;
+    } catch {
+      const hit = await cache.match(req, { ignoreSearch: true });
+      if (hit) return hit;
+      if (req.mode === 'navigate') { const home = await cache.match('./'); if (home) return home; }
+      throw new Error('offline');
     }
-    if (hit) { fetch(req).then((r) => { if (r.ok) cache.put(req, r); }).catch(() => {}); return hit; }
-    try { const r = await fetch(req); if (r.ok) cache.put(req, r.clone()); return r; }
-    catch { if (req.mode === 'navigate') return cache.match('./'); throw new Error('offline'); }
   })());
 });
