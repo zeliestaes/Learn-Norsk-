@@ -1,10 +1,10 @@
 /* Service worker : application utilisable hors ligne.
    La liste PRECACHE est générée par `node scripts/build-sw.js`. */
-const VERSION = 'b8d2359fe2';
+const VERSION = '32af19ed48';
 const CACHE = 'norsk-reisen-' + VERSION;
 const PRECACHE = ['./'];
 // -- PRECACHE-START
-PRECACHE.push("./assets/fonts/nunito.woff2", "./content/ch01.json", "./content/ch02.json", "./content/ch03.json", "./content/ch04.json", "./content/ch05.json", "./content/ch06.json", "./content/ch07.json", "./content/ch08.json", "./content/ch09.json", "./content/ch10.json", "./content/index.json", "./icons/apple-touch-icon.png", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon.svg", "./index.html", "./manifest.webmanifest", "./src/audio.js", "./src/avatar.js", "./src/content.js", "./src/db.js", "./src/engine.js", "./src/exercises.js", "./src/game.js", "./src/leitner.js", "./src/main.js", "./src/schedule.js", "./src/screens.js", "./src/speech.js", "./src/state.js", "./src/text.js", "./src/util.js", "./styles/main.css");
+PRECACHE.push("./assets/fonts/nunito.woff2", "./content/ch01.json", "./content/ch02.json", "./content/ch03.json", "./content/ch04.json", "./content/ch05.json", "./content/ch06.json", "./content/ch07.json", "./content/ch08.json", "./content/ch09.json", "./content/ch10.json", "./content/ch11.json", "./content/ch12.json", "./content/ch13.json", "./content/ch14.json", "./content/index.json", "./icons/apple-touch-icon.png", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon.svg", "./index.html", "./manifest.webmanifest", "./src/audio.js", "./src/avatar.js", "./src/content.js", "./src/db.js", "./src/engine.js", "./src/exercises.js", "./src/game.js", "./src/leitner.js", "./src/main.js", "./src/schedule.js", "./src/screens.js", "./src/speech.js", "./src/state.js", "./src/text.js", "./src/util.js", "./styles/main.css");
 // -- PRECACHE-END
 
 self.addEventListener('install', (e) => {

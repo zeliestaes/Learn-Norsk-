@@ -1,0 +1,252 @@
+{
+  "id": 11,
+  "titre": "Faire les courses",
+  "lecons": [
+    {
+      "titre": "Les magasins",
+      "mots": [
+        {"no": "en butikk", "fr": "le magasin", "pron": "bu-TIKK", "ex": "Jeg går til en butikk.", "ex_fr": "Je vais dans un magasin."},
+        {"no": "et supermarked", "fr": "le supermarché", "pron": "SU-per-mar-ked", "ex": "Vi går til et supermarked.", "ex_fr": "Nous allons dans un supermarché."},
+        {"no": "et bakeri", "fr": "la boulangerie", "pron": "ba-ke-RI", "ex": "Det er et bakeri her.", "ex_fr": "Il y a une boulangerie ici."},
+        {"no": "et marked", "fr": "le marché", "pron": "MAR-ked", "ex": "Det er et marked i Geiranger.", "ex_fr": "Il y a un marché à Geiranger."},
+        {"no": "en kasse", "fr": "la caisse", "pron": "KAS-se", "ex": "Jeg betaler ved kassen.", "ex_fr": "Je paie à la caisse."},
+        {"no": "en pose", "fr": "le sac (en plastique ou papier)", "pron": "POU-se", "ex": "Jeg vil ha en pose, takk.", "ex_fr": "Je voudrais un sac, s'il vous plaît."},
+        {"no": "en kurv", "fr": "le panier", "pron": "KURV", "ex": "Jeg tar en kurv.", "ex_fr": "Je prends un panier."},
+        {"no": "en liste", "fr": "la liste", "pron": "LIS-te", "ex": "Jeg har en liste.", "ex_fr": "J'ai une liste."}
+      ],
+      "grammaire": {
+        "titre": "Le pluriel des noms (1) : -er",
+        "texte": "Pour former le pluriel, on ajoute en général -er aux noms en en / ei : en butikk → butikker, en kurv → kurver, en liste → lister (après un -e final, on ajoute seulement -r : en pose → poser).\nLes noms neutres d'une seule syllabe ne changent pas : et hus → hus. Les noms neutres plus longs prennent -er : et marked → markeder, et bakeri → bakerier.",
+        "exemples": [
+          {"no": "en butikk → butikker", "fr": "un magasin → des magasins"},
+          {"no": "en pose → poser", "fr": "un sac → des sacs"},
+          {"no": "et hus → hus", "fr": "une maison → des maisons"}
+        ]
+      },
+      "texte": {
+        "no": "Marie skal handle. Hun går til et supermarked. Hun tar en kurv og en liste. Det er mange butikker i Geiranger, men bare ett supermarked. Marie liker et lite marked også. Hun kjøper også et brød. Ved kassen sier hun: «En pose, takk!»",
+        "fr": "Marie va faire des courses. Elle va dans un supermarché. Elle prend un panier et une liste. Il y a beaucoup de magasins à Geiranger mais un seul supermarché. Marie aime aussi un petit marché. Elle achète aussi un pain. À la caisse, elle dit : « Un sac, s'il vous plaît ! »",
+        "aide": [
+          {"no": "skal handle", "fr": "va faire des courses"},
+          {"no": "mange", "fr": "beaucoup de"},
+          {"no": "bare", "fr": "seulement"},
+          {"no": "kjøper", "fr": "achète"}
+        ],
+        "questions": [
+          {
+            "q": "Que prend Marie en entrant ?",
+            "choix": ["Un panier et une liste", "Un sac", "Un pain"],
+            "rep": 0
+          },
+          {
+            "q": "Que demande-t-elle à la caisse ?",
+            "choix": ["Un sac", "L'addition", "Un panier"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Fruits et légumes (pluriel)",
+      "mots": [
+        {"no": "et eple", "fr": "la pomme", "pron": "EP-le", "ex": "Jeg vil ha to epler.", "ex_fr": "Je voudrais deux pommes."},
+        {"no": "en banan", "fr": "la banane", "pron": "ba-NAAN", "ex": "Hun kjøper tre bananer.", "ex_fr": "Elle achète trois bananes."},
+        {"no": "en appelsin", "fr": "l'orange", "pron": "a-pel-SIN", "ex": "Fem appelsiner, takk.", "ex_fr": "Cinq oranges, s'il vous plaît."},
+        {"no": "en tomat", "fr": "la tomate", "pron": "to-MAAT", "ex": "Jeg vil ha fire tomater.", "ex_fr": "Je voudrais quatre tomates."},
+        {"no": "en løk", "fr": "l'oignon", "pron": "LEUK", "ex": "Jeg vil ha to løker.", "ex_fr": "Je voudrais deux oignons."},
+        {"no": "en gulrot", "fr": "la carotte", "pron": "GUL-rot", "ex": "Hun spiser seks gulrøtter.", "ex_fr": "Elle mange six carottes."},
+        {"no": "en ost", "fr": "le fromage", "pron": "OST", "ex": "Jeg spiser ost.", "ex_fr": "Je mange du fromage."},
+        {"no": "et smør", "fr": "le beurre", "pron": "SMEUR", "ex": "Jeg vil ha smør, takk.", "ex_fr": "Je voudrais du beurre, s'il vous plaît."}
+      ],
+      "grammaire": {
+        "titre": "Le pluriel des noms (2) : après un nombre",
+        "texte": "Après un nombre, le nom est au pluriel : to epler, tre bananer, fem tomater.\nOn ajoute -er (ou -r après -e) : en banan → bananer, et eple → epler.\nQuelques pluriels changent la voyelle : en gulrot → gulrøtter.\nPour une matière sans nombre, on n'a ni article ni pluriel : ost, smør.",
+        "exemples": [
+          {"no": "to epler", "fr": "deux pommes"},
+          {"no": "tre bananer", "fr": "trois bananes"},
+          {"no": "seks gulrøtter", "fr": "six carottes"}
+        ]
+      },
+      "texte": {
+        "no": "Marie er på et marked. Hun vil ha to epler, tre bananer og fire appelsiner. Hun vil også ha fem tomater og to løker. Anna vil ha seks gulrøtter, en ost og litt smør. «Hvor mye er det?» sier Marie. «Det er litt dyrt», sier Anna.",
+        "fr": "Marie est sur un marché. Elle veut deux pommes, trois bananes et quatre oranges. Elle veut aussi cinq tomates et deux oignons. Anna veut six carottes, un fromage et un peu de beurre. « Combien ça fait ? » dit Marie. « C'est un peu cher », dit Anna.",
+        "aide": [
+          {"no": "litt", "fr": "un peu"},
+          {"no": "hvor mye", "fr": "combien"},
+          {"no": "dyrt", "fr": "cher"}
+        ],
+        "questions": [
+          {
+            "q": "Combien d'oranges veut Marie ?",
+            "choix": ["Quatre", "Trois", "Deux"],
+            "rep": 0
+          },
+          {
+            "q": "Que veut Anna ?",
+            "choix": ["Des carottes, du fromage et du beurre", "Des pommes", "Des oignons"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Produits de base",
+      "mots": [
+        {"no": "et ris", "fr": "le riz", "pron": "RIS", "ex": "Jeg vil ha ris.", "ex_fr": "Je voudrais du riz."},
+        {"no": "en pasta", "fr": "les pâtes", "pron": "PAS-ta", "ex": "Hun lager pasta.", "ex_fr": "Elle prépare des pâtes."},
+        {"no": "et mel", "fr": "la farine", "pron": "MEL", "ex": "Jeg tar mel til en kake.", "ex_fr": "Je prends de la farine pour un gâteau."},
+        {"no": "et sukker", "fr": "le sucre", "pron": "SUK-ker", "ex": "Vil du ha sukker?", "ex_fr": "Veux-tu du sucre ?"},
+        {"no": "et salt", "fr": "le sel", "pron": "SALT", "ex": "Jeg vil ikke ha salt.", "ex_fr": "Je ne veux pas de sel."},
+        {"no": "en pølse", "fr": "la saucisse", "pron": "PEUL-se", "ex": "Barnet liker en pølse.", "ex_fr": "L'enfant aime une saucisse."},
+        {"no": "en skinke", "fr": "le jambon", "pron": "CHING-ke", "ex": "Jeg vil ha en skinke.", "ex_fr": "Je voudrais un jambon."},
+        {"no": "en kylling", "fr": "le poulet", "pron": "CHÜL-ling", "ex": "Hun spiser kylling.", "ex_fr": "Elle mange du poulet."}
+      ],
+      "grammaire": {
+        "titre": "Quantités : litt, mye, mange",
+        "texte": "Pour les choses qu'on ne compte pas, on dit « mye » (beaucoup) ou « litt » (un peu) : mye ris, litt salt.\nPour les choses qu'on compte, on dit « mange » (beaucoup, pluriel) : mange epler, mange butikker.\nPas d'article devant ris, mel, sukker, salt.",
+        "exemples": [
+          {"no": "mye ris", "fr": "beaucoup de riz"},
+          {"no": "litt salt", "fr": "un peu de sel"},
+          {"no": "mange epler", "fr": "beaucoup de pommes"}
+        ]
+      },
+      "texte": {
+        "no": "Marie lager middag. Hun vil ha litt pasta, litt ris og mye kylling. Anna vil ha en pølse og litt skinke. De trenger også salt og sukker til kaken. Marie har ikke mel, så hun kjøper mel i en butikk. Hun tar en pose.",
+        "fr": "Marie prépare le dîner. Elle veut un peu de pâtes, un peu de riz et beaucoup de poulet. Anna veut une saucisse et un peu de jambon. Elles ont aussi besoin de sel et de sucre pour le gâteau. Marie n'a pas de farine, alors elle achète de la farine dans un magasin. Elle prend un sac.",
+        "aide": [
+          {"no": "trenger", "fr": "ont besoin de"},
+          {"no": "til kaken", "fr": "pour le gâteau"},
+          {"no": "kjøper", "fr": "achète"}
+        ],
+        "questions": [
+          {
+            "q": "Que prépare Marie ?",
+            "choix": ["Le dîner", "Le petit-déjeuner", "Seulement un gâteau"],
+            "rep": 0
+          },
+          {
+            "q": "Que achète-t-elle dans un magasin ?",
+            "choix": ["De la farine", "Du riz", "Du jambon"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Acheter et payer",
+      "mots": [
+        {"no": "å kjøpe", "fr": "acheter", "pron": "CHEU-pe", "ex": "Jeg kjøper et brød.", "ex_fr": "J'achète un pain."},
+        {"no": "å selge", "fr": "vendre", "pron": "SEL-ge", "ex": "De selger epler.", "ex_fr": "Ils vendent des pommes."},
+        {"no": "å betale", "fr": "payer", "pron": "be-TAA-le", "ex": "Jeg betaler ved kassen.", "ex_fr": "Je paie à la caisse."},
+        {"no": "å koste", "fr": "coûter", "pron": "KOS-te", "ex": "Hvor mye koster det?", "ex_fr": "Combien ça coûte ?"},
+        {"no": "å trenge", "fr": "avoir besoin de", "pron": "TRENG-e", "ex": "Jeg trenger en pose.", "ex_fr": "J'ai besoin d'un sac."},
+        {"no": "å finne", "fr": "trouver", "pron": "FIN-ne", "ex": "Jeg finner ikke nøkkelen.", "ex_fr": "Je ne trouve pas la clé."},
+        {"no": "å velge", "fr": "choisir", "pron": "VEL-ge", "ex": "Jeg velger en kurv.", "ex_fr": "Je choisis un panier."},
+        {"no": "å handle", "fr": "faire les courses", "pron": "HAN-dle", "ex": "Vi handler på et marked.", "ex_fr": "Nous faisons les courses au marché."}
+      ],
+      "grammaire": {
+        "titre": "Les prix : kroner",
+        "texte": "La monnaie norvégienne est la couronne : en krone, plusieurs kroner (abrégé : kr).\nOn demande le prix avec « Hvor mye koster det ? » et on répond « Det koster tjue kroner. ». Avec plusieurs articles : « De koster tjue kroner ».",
+        "exemples": [
+          {"no": "Hvor mye koster det?", "fr": "Combien ça coûte ?"},
+          {"no": "Det koster tjue kroner.", "fr": "Ça coûte vingt couronnes."},
+          {"no": "Jeg trenger et brød.", "fr": "J'ai besoin d'un pain."}
+        ]
+      },
+      "texte": {
+        "no": "– Hva koster et eple?\n– Det koster ti kroner.\n– Da tar jeg to epler og en banan.\n– Det koster tjuefem kroner.\n– Kan jeg betale her?\n– Ja, vær så god.\n– Selger dere ost?\n– Ja, vi selger ost og smør.\n– Da kjøper jeg en ost, takk.",
+        "fr": "– Combien coûte une pomme ?\n– Ça coûte dix couronnes.\n– Alors je prends deux pommes et une banane.\n– Ça fait vingt-cinq couronnes.\n– Puis-je payer ici ?\n– Oui, je vous en prie.\n– Vendez-vous du fromage ?\n– Oui, nous vendons du fromage et du beurre.\n– Alors j'achète un fromage, merci.",
+        "aide": [
+          {"no": "da", "fr": "alors"},
+          {"no": "her", "fr": "ici"}
+        ],
+        "questions": [
+          {
+            "q": "Combien coûte une pomme ?",
+            "choix": ["Dix couronnes", "Vingt couronnes", "Cinq couronnes"],
+            "rep": 0
+          },
+          {
+            "q": "Que vend aussi le marchand ?",
+            "choix": ["Du fromage et du beurre", "Du riz", "Des pommes de terre"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Pluriels irréguliers et pluriel défini",
+      "mots": [
+        {"no": "en venn", "fr": "l'ami", "pron": "VENN", "ex": "Jeg har to venner.", "ex_fr": "J'ai deux amis."},
+        {"no": "en gjest", "fr": "l'invité", "pron": "YEST", "ex": "Vi har tre gjester.", "ex_fr": "Nous avons trois invités."},
+        {"no": "et menneske", "fr": "l'être humain", "pron": "MEN-ne-ske", "ex": "Det er mange mennesker her.", "ex_fr": "Il y a beaucoup de gens ici."},
+        {"no": "en person", "fr": "la personne", "pron": "per-SOUN", "ex": "Det er fem personer.", "ex_fr": "Il y a cinq personnes."},
+        {"no": "et ord", "fr": "le mot", "pron": "OUR", "ex": "Et ord, to ord.", "ex_fr": "Un mot, deux mots."},
+        {"no": "en kunde", "fr": "le client", "pron": "KUN-de", "ex": "Butikken har mange kunder.", "ex_fr": "Le magasin a beaucoup de clients."},
+        {"no": "en pris", "fr": "le prix", "pron": "PRIS", "ex": "Prisen er fin.", "ex_fr": "Le prix est bien."},
+        {"no": "et tilbud", "fr": "l'offre / la promotion", "pron": "TIL-bud", "ex": "Det er et tilbud i dag.", "ex_fr": "Il y a une promotion aujourd'hui."}
+      ],
+      "grammaire": {
+        "titre": "Le pluriel défini : -ene / -a",
+        "texte": "Pour dire « les pommes », on ajoute -ene aux mots en en/ei (epler → eplene, venner → vennene). Pour les neutres : -a (barn → barna, hus → husa).\nQuelques pluriels irréguliers à connaître : en mann → menn, ei bok → bøker, en bror → brødre, ei søster → søstre, ei datter → døtre.",
+        "exemples": [
+          {"no": "epler → eplene", "fr": "des pommes → les pommes"},
+          {"no": "barn → barna", "fr": "des enfants → les enfants"},
+          {"no": "en mann → menn", "fr": "un homme → des hommes"}
+        ]
+      },
+      "texte": {
+        "no": "Det er tilbud i dag. Mange kunder kommer til butikken. Eplene koster ti kroner, og bananene koster femten. Marie har to venner med seg. De kjøper mange epler og noen bananer. Marie tar en pose. «Prisene er fine», sier en kunde. Alle er glade.",
+        "fr": "Il y a une promotion aujourd'hui. Beaucoup de clients viennent au magasin. Les pommes coûtent dix couronnes et les bananes coûtent quinze. Marie a deux amis avec elle. Ils achètent beaucoup de pommes et quelques bananes. Marie prend un sac. « Les prix sont bien », dit un client. Tout le monde est content.",
+        "aide": [
+          {"no": "noen", "fr": "quelques"},
+          {"no": "alle", "fr": "tout le monde"},
+          {"no": "glade", "fr": "contents"}
+        ],
+        "questions": [
+          {
+            "q": "Combien coûtent les pommes ?",
+            "choix": ["Dix couronnes", "Quinze couronnes", "Vingt couronnes"],
+            "rep": 0
+          },
+          {
+            "q": "Avec qui Marie est-elle ?",
+            "choix": ["Deux amis", "Anna", "Sa famille"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie og Anna skal handle i Geiranger. Marie har en liste og en kurv. De går først til et bakeri og kjøper to brød. Så går de til et marked. Der selger de epler, bananer og tomater. Marie kjøper fem epler og tre bananer. Anna kjøper to løker og seks gulrøtter. De trenger også litt ost, smør og salt. «Hvor mye koster det?» spør Marie. «Det koster hundre kroner», sier en mann. Marie betaler og tar en pose. Eplene er deilige! Så går de hjem.",
+    "fr": "Marie et Anna vont faire les courses à Geiranger. Marie a une liste et un panier. Elles vont d'abord dans une boulangerie et achètent deux pains. Puis elles vont au marché. Là, on vend des pommes, des bananes et des tomates. Marie achète cinq pommes et trois bananes. Anna achète deux oignons et six carottes. Elles ont aussi besoin d'un peu de fromage, de beurre et de sel. « Combien ça coûte ? » demande Marie. « Ça coûte cent couronnes », dit un homme. Marie paie et prend un sac. Les pommes sont délicieuses ! Puis elles rentrent.",
+    "aide": [
+      {"no": "først", "fr": "d'abord"},
+      {"no": "kjøper", "fr": "achète"},
+      {"no": "hjem", "fr": "à la maison"}
+    ],
+    "questions": [
+      {
+        "q": "Que achètent-elles à la boulangerie ?",
+        "choix": ["Deux pains", "Cinq pommes", "Du fromage"],
+        "rep": 0
+      },
+      {
+        "q": "Combien de bananes Marie achète-t-elle ?",
+        "choix": ["Trois", "Cinq", "Six"],
+        "rep": 0
+      },
+      {
+        "q": "Qu'achète Anna ?",
+        "choix": ["Deux oignons et six carottes", "Des pommes", "Du riz"],
+        "rep": 0
+      },
+      {
+        "q": "Combien coûtent les courses ?",
+        "choix": ["Cent couronnes", "Cinquante couronnes", "Vingt couronnes"],
+        "rep": 0
+      }
+    ]
+  }
+}

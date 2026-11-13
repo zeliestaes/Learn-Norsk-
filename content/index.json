@@ -64,25 +64,25 @@
    "id": 11,
    "titre": "Faire les courses",
    "etape": "Geiranger",
-   "fichier": null
+   "fichier": "ch11.json"
   },
   {
    "id": 12,
    "titre": "S'orienter en ville",
    "etape": "Ålesund",
-   "fichier": null
+   "fichier": "ch12.json"
   },
   {
    "id": 13,
    "titre": "Transports et voyage",
    "etape": "Molde",
-   "fichier": null
+   "fichier": "ch13.json"
   },
   {
    "id": 14,
    "titre": "Météo et saisons",
    "etape": "Kristiansund",
-   "fichier": null
+   "fichier": "ch14.json"
   },
   {
    "id": 15,

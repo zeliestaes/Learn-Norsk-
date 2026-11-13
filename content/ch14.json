@@ -1,0 +1,248 @@
+{
+  "id": 14,
+  "titre": "Météo et saisons",
+  "lecons": [
+    {
+      "titre": "Le temps qu'il fait",
+      "mots": [
+        {"no": "et vær", "fr": "le temps (météo)", "pron": "VÈR", "ex": "Det er fint vær.", "ex_fr": "Il fait beau."},
+        {"no": "en sol", "fr": "le soleil", "pron": "SOUL", "ex": "Det er sol i dag.", "ex_fr": "Il y a du soleil aujourd'hui."},
+        {"no": "et regn", "fr": "la pluie", "pron": "RAÏN", "ex": "Det er regn i Bergen.", "ex_fr": "Il y a de la pluie à Bergen."},
+        {"no": "en snø", "fr": "la neige", "pron": "SNEU", "ex": "Det er snø i Lom.", "ex_fr": "Il y a de la neige à Lom."},
+        {"no": "en vind", "fr": "le vent", "pron": "VINN", "ex": "Det er mye vind.", "ex_fr": "Il y a beaucoup de vent."},
+        {"no": "en sky", "fr": "le nuage", "pron": "CHÜ", "ex": "Det er en sky her.", "ex_fr": "Il y a un nuage ici."},
+        {"no": "en tåke", "fr": "le brouillard", "pron": "TOU-ke", "ex": "Det er tåke i dag.", "ex_fr": "Il y a du brouillard aujourd'hui."},
+        {"no": "en storm", "fr": "la tempête", "pron": "STORM", "ex": "Det er en storm i dag.", "ex_fr": "Il y a une tempête aujourd'hui."}
+      ],
+      "grammaire": {
+        "titre": "Parler du temps : « det er … »",
+        "texte": "Pour la météo, on utilise « det er » + nom : Det er sol. Det er regn. Det er tåke. Det er fint vær (il fait beau).\nPour demander : Hvordan er været ? (quel temps fait-il ?)\nLe « det » est un sujet « vide » comme « il » en français : on le met toujours.",
+        "exemples": [
+          {"no": "Hvordan er været?", "fr": "Quel temps fait-il ?"},
+          {"no": "Det er fint vær.", "fr": "Il fait beau."},
+          {"no": "Det er sol og vind.", "fr": "Il y a du soleil et du vent."}
+        ]
+      },
+      "texte": {
+        "no": "I Kristiansund er det ofte mye vind. I dag er det sol, og det er ikke en sky. I morgen er det regn og vind. I Bergen er det ofte regn. I Lom er det snø. På fjellet er det tåke, og noen ganger er det storm. Hvordan er været i Belgia?",
+        "fr": "À Kristiansund, il y a souvent beaucoup de vent. Aujourd'hui, il y a du soleil et pas un nuage. Demain, il y a de la pluie et du vent. À Bergen, il y a souvent de la pluie. À Lom, il y a de la neige. Dans la montagne, il y a du brouillard et parfois une tempête. Quel temps fait-il en Belgique ?",
+        "aide": [
+          {"no": "ofte", "fr": "souvent"},
+          {"no": "fjellet", "fr": "la montagne"},
+          {"no": "noen ganger", "fr": "parfois"}
+        ],
+        "questions": [
+          {
+            "q": "Quel temps fait-il aujourd'hui à Kristiansund ?",
+            "choix": ["Soleil", "Pluie", "Neige"],
+            "rep": 0
+          },
+          {
+            "q": "Quel temps fait-il à Lom ?",
+            "choix": ["Neige", "Brouillard", "Tempête"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Chaud, froid et verbes météo",
+      "mots": [
+        {"no": "varm", "fr": "chaud", "pron": "VARM", "ex": "Det er varmt i dag.", "ex_fr": "Il fait chaud aujourd'hui."},
+        {"no": "kald", "fr": "froid", "pron": "KALL", "ex": "Det er kaldt i Lom.", "ex_fr": "Il fait froid à Lom."},
+        {"no": "våt", "fr": "mouillé", "pron": "VOT", "ex": "Det er vått ute.", "ex_fr": "C'est mouillé dehors."},
+        {"no": "tørr", "fr": "sec", "pron": "TEUR", "ex": "Det er tørt i dag.", "ex_fr": "Il fait sec aujourd'hui."},
+        {"no": "å regne", "fr": "pleuvoir", "pron": "REG-ne", "ex": "Det regner i Bergen.", "ex_fr": "Il pleut à Bergen."},
+        {"no": "å snø", "fr": "neiger", "pron": "SNEU", "ex": "Det snør i Lom.", "ex_fr": "Il neige à Lom."},
+        {"no": "å blåse", "fr": "souffler (vent)", "pron": "BLO-se", "ex": "Det blåser mye.", "ex_fr": "Il y a beaucoup de vent."},
+        {"no": "en grad", "fr": "le degré", "pron": "GRAAD", "ex": "Det er ti grader.", "ex_fr": "Il fait dix degrés."}
+      ],
+      "grammaire": {
+        "titre": "« det » + adjectif au neutre, et les verbes météo",
+        "texte": "Avec « det er », l'adjectif prend -t (neutre) : Det er varmt. Det er kaldt. Det er vått. Det er tørt.\nOn peut aussi utiliser un verbe impersonnel : Det regner (il pleut), Det snør (il neige), Det blåser (il y a du vent).\nLes températures : Det er ti grader ; minus fem grader (−5°).",
+        "exemples": [
+          {"no": "Det er kaldt.", "fr": "Il fait froid."},
+          {"no": "Det regner.", "fr": "Il pleut."},
+          {"no": "Det er minus fem grader.", "fr": "Il fait −5 degrés."}
+        ]
+      },
+      "texte": {
+        "no": "I dag er det kaldt i Kristiansund. Det er fem grader, og det blåser mye. Det regner også. Anna sier: «Det er vått og kaldt!» Marie sier: «I Belgia er det ofte varmt, men her er det kaldt.» I Lom snør det, og det er minus ti grader.",
+        "fr": "Aujourd'hui, il fait froid à Kristiansund. Il fait cinq degrés et il y a beaucoup de vent. Il pleut aussi. Anna dit : « Il fait humide et froid ! » Marie dit : « En Belgique, il fait souvent chaud, mais ici il fait froid. » À Lom, il neige et il fait moins dix degrés.",
+        "aide": [
+          {"no": "ofte", "fr": "souvent"}
+        ],
+        "questions": [
+          {
+            "q": "Combien de degrés fait-il à Kristiansund ?",
+            "choix": ["Cinq", "Dix", "Moins dix"],
+            "rep": 0
+          },
+          {
+            "q": "Que dit Marie de la Belgique ?",
+            "choix": ["Qu'il y fait souvent chaud", "Qu'il y neige", "Qu'il y fait froid"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les saisons",
+      "mots": [
+        {"no": "en vår", "fr": "le printemps", "pron": "VOR", "ex": "Om våren er det litt kaldt.", "ex_fr": "Au printemps, il fait un peu froid."},
+        {"no": "en sommer", "fr": "l'été", "pron": "SOM-mer", "ex": "Om sommeren er det sol.", "ex_fr": "En été, il y a du soleil."},
+        {"no": "en høst", "fr": "l'automne", "pron": "HEUST", "ex": "Om høsten regner det mye.", "ex_fr": "En automne, il pleut beaucoup."},
+        {"no": "en vinter", "fr": "l'hiver", "pron": "VIN-ter", "ex": "Om vinteren snør det.", "ex_fr": "En hiver, il neige."},
+        {"no": "en årstid", "fr": "la saison", "pron": "OR-stiid", "ex": "Det er fire årstider.", "ex_fr": "Il y a quatre saisons."},
+        {"no": "et klima", "fr": "le climat", "pron": "KLI-ma", "ex": "Det er et kaldt klima.", "ex_fr": "C'est un climat froid."},
+        {"no": "en temperatur", "fr": "la température", "pron": "tem-pe-ra-TUR", "ex": "Temperaturen er lav.", "ex_fr": "La température est basse."},
+        {"no": "en himmel", "fr": "le ciel", "pron": "HIM-mel", "ex": "Himmelen er blå.", "ex_fr": "Le ciel est bleu."}
+      ],
+      "grammaire": {
+        "titre": "Les saisons : « om » + défini",
+        "texte": "Pour dire « au printemps, en été… », on utilise « om » + le nom au défini : om våren, om sommeren, om høsten, om vinteren.\nPour « ce printemps / cet été » on dit : i vår, i sommer, i høst, i vinter.\nTrès souvent la phrase commence par ce complément : Om vinteren snør det. (V2)",
+        "exemples": [
+          {"no": "om våren", "fr": "au printemps"},
+          {"no": "om vinteren", "fr": "en hiver"},
+          {"no": "i sommer", "fr": "cet été"}
+        ]
+      },
+      "texte": {
+        "no": "Norge har fire årstider. Om våren er det litt kaldt, men sola kommer. Om sommeren er det lyst hele natten i nord, og det er varmt. Om høsten regner det mye. Om vinteren er det mørkt og kaldt, og det snør. Marie liker høsten, men Anna liker sommeren.",
+        "fr": "La Norvège a quatre saisons. Au printemps, il fait un peu froid mais le soleil revient. En été, il fait clair toute la nuit dans le nord et il fait chaud. En automne, il pleut beaucoup. En hiver, il fait sombre et froid et il neige. Marie aime l'automne mais Anna aime l'été.",
+        "aide": [
+          {"no": "sola", "fr": "le soleil"},
+          {"no": "lyst", "fr": "clair"},
+          {"no": "hele natten", "fr": "toute la nuit"},
+          {"no": "i nord", "fr": "dans le nord"}
+        ],
+        "questions": [
+          {
+            "q": "Combien de saisons y a-t-il ?",
+            "choix": ["Quatre", "Deux", "Trois"],
+            "rep": 0
+          },
+          {
+            "q": "Quelle saison Marie aime-t-elle ?",
+            "choix": ["L'automne", "L'été", "L'hiver"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "S'habiller selon le temps",
+      "mots": [
+        {"no": "å fryse", "fr": "avoir froid", "pron": "FRÜ-se", "ex": "Jeg fryser i dag.", "ex_fr": "J'ai froid aujourd'hui."},
+        {"no": "å skinne", "fr": "briller", "pron": "CHIN-ne", "ex": "Sola skinner i dag.", "ex_fr": "Le soleil brille aujourd'hui."},
+        {"no": "å smelte", "fr": "fondre", "pron": "SMEL-te", "ex": "Snøen smelter nå.", "ex_fr": "La neige fond maintenant."},
+        {"no": "å tørke", "fr": "sécher", "pron": "TEUR-ke", "ex": "Klærne tørker ute.", "ex_fr": "Les vêtements sèchent dehors."},
+        {"no": "en støvel", "fr": "la botte", "pron": "STEU-vel", "ex": "Jeg har en støvel.", "ex_fr": "J'ai une botte."},
+        {"no": "en regnjakke", "fr": "l'imperméable", "pron": "REGN-yak-ke", "ex": "Jeg trenger en regnjakke.", "ex_fr": "J'ai besoin d'un imperméable."},
+        {"no": "en badedrakt", "fr": "le maillot de bain", "pron": "BA-de-drakt", "ex": "Jeg har en badedrakt.", "ex_fr": "J'ai un maillot de bain."},
+        {"no": "en solbrille", "fr": "les lunettes de soleil", "pron": "SOUL-bril-le", "ex": "Jeg har en solbrille.", "ex_fr": "J'ai des lunettes de soleil."}
+      ],
+      "grammaire": {
+        "titre": "Avoir froid, avoir chaud",
+        "texte": "Pour dire qu'on a froid : Jeg fryser. Pour dire qu'on a chaud : Jeg er varm. On utilise « å fryse » (pas « være kald »).\nPour parler de ce qu'on porte, on dit : Jeg har på meg en regnjakke.\nPluriels : en støvel → støvler, en solbrille → solbriller.",
+        "exemples": [
+          {"no": "Jeg fryser.", "fr": "J'ai froid."},
+          {"no": "Jeg er varm.", "fr": "J'ai chaud."},
+          {"no": "Jeg har på meg støvler.", "fr": "Je porte des bottes."}
+        ]
+      },
+      "texte": {
+        "no": "Det regner i Kristiansund. Marie fryser, men hun har på seg en regnjakke og støvler. Anna har en paraply. Etterpå skinner sola, og det blir varmt. Marie er varm nå. Hun tar på seg en solbrille. Klærne tørker fort. På fjellet smelter snøen.",
+        "fr": "Il pleut à Kristiansund. Marie a froid mais elle porte un imperméable et des bottes. Anna a un parapluie. Ensuite, le soleil brille et il fait chaud. Marie a chaud maintenant. Elle met des lunettes de soleil. Les vêtements sèchent vite. Dans la montagne, la neige fond.",
+        "aide": [
+          {"no": "blir", "fr": "devient"},
+          {"no": "fort", "fr": "vite"},
+          {"no": "klærne", "fr": "les vêtements"}
+        ],
+        "questions": [
+          {
+            "q": "Que porte Marie sous la pluie ?",
+            "choix": ["Un imperméable et des bottes", "Un pull", "Un maillot de bain"],
+            "rep": 0
+          },
+          {
+            "q": "Que se passe-t-il après la pluie ?",
+            "choix": ["Le soleil brille", "La tempête arrive", "Il neige"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "La météo et les prévisions",
+      "mots": [
+        {"no": "en værmelding", "fr": "la météo (prévisions)", "pron": "VÈR-mel-ding", "ex": "Værmeldingen er fin.", "ex_fr": "La météo est bonne."},
+        {"no": "kanskje", "fr": "peut-être", "pron": "KAN-che", "ex": "Kanskje regner det i morgen.", "ex_fr": "Peut-être qu'il pleuvra demain."},
+        {"no": "sikkert", "fr": "sûrement", "pron": "SIK-kert", "ex": "Det er sikkert kaldt.", "ex_fr": "Il fait sûrement froid."},
+        {"no": "heldigvis", "fr": "heureusement", "pron": "HEL-di-vis", "ex": "Heldigvis er det sol.", "ex_fr": "Heureusement, il y a du soleil."},
+        {"no": "dessverre", "fr": "malheureusement", "pron": "DES-ver-re", "ex": "Dessverre regner det.", "ex_fr": "Malheureusement, il pleut."},
+        {"no": "sjelden", "fr": "rarement", "pron": "CHEL-den", "ex": "Det snør sjelden i Belgia.", "ex_fr": "Il neige rarement en Belgique."},
+        {"no": "ganske", "fr": "plutôt / assez", "pron": "GAN-ske", "ex": "Det er ganske kaldt.", "ex_fr": "Il fait plutôt froid."},
+        {"no": "veldig", "fr": "très", "pron": "VEL-di", "ex": "Det er veldig varmt.", "ex_fr": "Il fait très chaud."}
+      ],
+      "grammaire": {
+        "titre": "Nuancer : veldig, ganske, kanskje",
+        "texte": "« Veldig » (très) et « ganske » (assez) se placent avant l'adjectif : Det er veldig kaldt. Det er ganske varmt.\n« Kanskje » (peut-être) est souvent en début de phrase : alors le verbe passe devant le sujet (règle V2) : Kanskje regner det i morgen.\n« Heldigvis » et « dessverre » peuvent aussi commencer la phrase : Dessverre regner det.",
+        "exemples": [
+          {"no": "Det er veldig kaldt.", "fr": "Il fait très froid."},
+          {"no": "Kanskje regner det.", "fr": "Peut-être qu'il pleut."},
+          {"no": "Dessverre snør det.", "fr": "Malheureusement, il neige."}
+        ]
+      },
+      "texte": {
+        "no": "– Hva sier værmeldingen i morgen?\n– Dessverre regner det, og det er veldig kaldt.\n– Heldigvis er det sol på søndag.\n– Kanskje blir det ganske varmt!\n– Det snør sjelden her, men sikkert i desember.\n– Da tar jeg en regnjakke og støvler.\n– God idé!",
+        "fr": "– Que dit la météo pour demain ?\n– Malheureusement, il pleut et il fait très froid.\n– Heureusement, il y a du soleil dimanche.\n– Peut-être qu'il fera assez chaud !\n– Il neige rarement ici, mais sûrement en décembre.\n– Alors je prends un imperméable et des bottes.\n– Bonne idée !",
+        "aide": [
+          {"no": "sier", "fr": "dit"},
+          {"no": "blir", "fr": "sera / deviendra"}
+        ],
+        "questions": [
+          {
+            "q": "Quel temps annonce la météo demain ?",
+            "choix": ["Pluie et froid", "Soleil", "Neige"],
+            "rep": 0
+          },
+          {
+            "q": "Quand y a-t-il du soleil ?",
+            "choix": ["Dimanche", "Lundi", "Demain"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Det er høst i Kristiansund. Værmeldingen sier at det regner i dag, og det blåser mye. Det er ti grader, og det er ganske kaldt. Marie fryser, så hun tar på seg en regnjakke og støvler. Anna har en paraply. Om vinteren er det mørkt og kaldt, og det snør. Om våren smelter snøen, og om sommeren skinner sola. Marie liker sommeren, men Anna liker høsten. Dessverre er det ofte tåke og storm her. Det er et kaldt klima, men et fint land. Heldigvis er det sol i morgen!",
+    "fr": "C'est l'automne à Kristiansund. La météo dit qu'il pleut aujourd'hui et qu'il y a beaucoup de vent. Il fait dix degrés et il fait plutôt froid. Marie a froid alors elle met un imperméable et des bottes. Anna a un parapluie. En hiver, il fait sombre et froid et il neige. Au printemps, la neige fond et en été le soleil brille. Marie aime l'été mais Anna aime l'automne. Malheureusement, il y a souvent du brouillard et des tempêtes ici. C'est un climat froid mais un beau pays. Heureusement, il y a du soleil demain !",
+    "aide": [
+      {"no": "sier at", "fr": "dit que"}
+    ],
+    "questions": [
+      {
+        "q": "Quelle est la température ?",
+        "choix": ["Dix degrés", "Cinq degrés", "Vingt degrés"],
+        "rep": 0
+      },
+      {
+        "q": "Que porte Marie ?",
+        "choix": ["Un imperméable et des bottes", "Un maillot", "Un manteau"],
+        "rep": 0
+      },
+      {
+        "q": "Quelle saison Anna préfère-t-elle ?",
+        "choix": ["L'automne", "L'été", "L'hiver"],
+        "rep": 0
+      },
+      {
+        "q": "Quel temps fait-il demain ?",
+        "choix": ["Soleil", "Pluie", "Tempête"],
+        "rep": 0
+      }
+    ]
+  }
+}
