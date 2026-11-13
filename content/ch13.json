@@ -53,7 +53,7 @@
         {"no": "å skulle", "fr": "devoir / aller (prévu)", "pron": "SKUL-le", "ex": "Jeg skal reise i morgen.", "ex_fr": "Je pars demain."},
         {"no": "å burde", "fr": "devoir (conseil)", "pron": "BUR-de", "ex": "Du bør ta bussen.", "ex_fr": "Tu devrais prendre le bus."},
         {"no": "å få", "fr": "avoir le droit / recevoir", "pron": "FOU", "ex": "Kan jeg få en billett?", "ex_fr": "Puis-je avoir un billet ?"},
-        {"no": "å tørre", "fr": "oser", "pron": "TEUR-re", "ex": "Jeg tør ikke å fly.", "ex_fr": "Je n'ose pas prendre l'avion."},
+        {"no": "å tørre", "fr": "oser", "pron": "TEUR-re", "ex": "Jeg tør ikke fly.", "ex_fr": "Je n'ose pas prendre l'avion."},
         {"no": "å pleie", "fr": "avoir l'habitude de", "pron": "PLAÏ-e", "ex": "Jeg pleier å ta toget.", "ex_fr": "J'ai l'habitude de prendre le train."}
       ],
       "grammaire": {

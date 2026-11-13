@@ -24,7 +24,7 @@
         ]
       },
       "texte": {
-        "no": "Hei! Jeg heter Marie. Jeg kommer fra Belgia, og jeg bor i Brussel. Jeg snakker fransk, engelsk og nederlandsk. Nå lærer jeg norsk. Jeg liker norsk. Min bror har en kone, og de bor i Oslo. Jeg vil snakke norsk i Oslo.",
+        "no": "Hei! Jeg heter Marie. Jeg kommer fra Belgia, og jeg bor i Brussel. Jeg snakker fransk, engelsk og nederlandsk. Nå lærer jeg norsk. Jeg liker norsk. Broren min har en kone, og de bor i Oslo. Jeg vil snakke norsk i Oslo.",
         "fr": "Salut ! Je m'appelle Marie. Je viens de Belgique et j'habite à Bruxelles. Je parle français, anglais et néerlandais. Maintenant, j'apprends le norvégien. J'aime le norvégien. Mon frère a une femme et ils habitent à Oslo. Je veux parler norvégien à Oslo.",
         "aide": [
           {"no": "fra", "fr": "de"},

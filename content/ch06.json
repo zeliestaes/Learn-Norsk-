@@ -95,12 +95,12 @@
       "mots": [
         {"no": "seksten", "fr": "seize", "pron": "SAÏ-sten", "ex": "Hun er seksten år gammel.", "ex_fr": "Elle a seize ans."},
         {"no": "sytten", "fr": "dix-sept", "pron": "SUT-ten", "ex": "Han er sytten år gammel.", "ex_fr": "Il a dix-sept ans."},
-        {"no": "atten", "fr": "dix-huit", "pron": "AT-ten", "ex": "Min bror er atten år gammel.", "ex_fr": "Mon frère a dix-huit ans."},
+        {"no": "atten", "fr": "dix-huit", "pron": "AT-ten", "ex": "Broren min er atten år gammel.", "ex_fr": "Mon frère a dix-huit ans."},
         {"no": "nitten", "fr": "dix-neuf", "pron": "NIT-ten", "ex": "Jeg er nitten år gammel.", "ex_fr": "J'ai dix-neuf ans."},
-        {"no": "tjue", "fr": "vingt", "pron": "CHU-e", "ex": "Mi søster er tjue år gammel.", "ex_fr": "Ma sœur a vingt ans."},
+        {"no": "tjue", "fr": "vingt", "pron": "CHU-e", "ex": "Søsteren min er tjue år gammel.", "ex_fr": "Ma sœur a vingt ans."},
         {"no": "tretti", "fr": "trente", "pron": "TRET-ti", "ex": "Vi er tretti her.", "ex_fr": "Nous sommes trente ici."},
-        {"no": "førti", "fr": "quarante", "pron": "FEUR-ti", "ex": "Min far er førti år gammel.", "ex_fr": "Mon père a quarante ans."},
-        {"no": "femti", "fr": "cinquante", "pron": "FEM-ti", "ex": "Min onkel er femti år gammel.", "ex_fr": "Mon oncle a cinquante ans."}
+        {"no": "førti", "fr": "quarante", "pron": "FEUR-ti", "ex": "Faren min er førti år gammel.", "ex_fr": "Mon père a quarante ans."},
+        {"no": "femti", "fr": "cinquante", "pron": "FEM-ti", "ex": "Onkelen min er femti år gammel.", "ex_fr": "Mon oncle a cinquante ans."}
       ],
       "grammaire": {
         "titre": "Les dizaines et les nombres composés",
@@ -112,7 +112,7 @@
         ]
       },
       "texte": {
-        "no": "Min familie er stor. Min far er femtito år gammel, og min mor er femti. Min bror er tretti år gammel, og min søster er tjuefem. Min fetter er sytten, og mi kusine er seksten. Min onkel er førti år gammel. Jeg er tjueseks år gammel.",
+        "no": "Familien min er stor. Faren min er femtito år gammel, og moren min er femti. Broren min er tretti år gammel, og søsteren min er tjuefem. Fetteren min er sytten, og kusinen min er seksten. Onkelen min er førti år gammel. Jeg er tjueseks år gammel.",
         "fr": "Ma famille est grande. Mon père a cinquante-deux ans et ma mère cinquante. Mon frère a trente ans et ma sœur vingt-cinq. Mon cousin a dix-sept ans et ma cousine seize. Mon oncle a quarante ans. J'ai vingt-six ans.",
         "aide": [
           {"no": "år gammel", "fr": "ans (âge)"},
@@ -136,8 +136,8 @@
     {
       "titre": "De 60 à mille",
       "mots": [
-        {"no": "seksti", "fr": "soixante", "pron": "SEK-sti", "ex": "Min bestemor er seksti år gammel.", "ex_fr": "Ma grand-mère a soixante ans."},
-        {"no": "sytti", "fr": "soixante-dix", "pron": "SUT-ti", "ex": "Min bestefar er sytti år gammel.", "ex_fr": "Mon grand-père a soixante-dix ans."},
+        {"no": "seksti", "fr": "soixante", "pron": "SEK-sti", "ex": "Bestemoren min er seksti år gammel.", "ex_fr": "Ma grand-mère a soixante ans."},
+        {"no": "sytti", "fr": "soixante-dix", "pron": "SUT-ti", "ex": "Bestefaren min er sytti år gammel.", "ex_fr": "Mon grand-père a soixante-dix ans."},
         {"no": "åtti", "fr": "quatre-vingts", "pron": "OT-ti", "ex": "Hun er åtti år gammel.", "ex_fr": "Elle a quatre-vingts ans."},
         {"no": "nitti", "fr": "quatre-vingt-dix", "pron": "NIT-ti", "ex": "Han er nitti år gammel.", "ex_fr": "Il a quatre-vingt-dix ans."},
         {"no": "hundre", "fr": "cent", "pron": "HUN-dre", "ex": "Hun er hundre år gammel!", "ex_fr": "Elle a cent ans !"},
@@ -155,7 +155,7 @@
         ]
       },
       "texte": {
-        "no": "– Hvor gammel er du, Marie?\n– Jeg er tjueseks år gammel. Og du, Anna?\n– Jeg er trettiåtte år gammel. Min far er seksti, og min mor er sytti.\n– Min bestefar er nitti år gammel!\n– Nitti! Han er nesten hundre år gammel.\n– Ja! Og han drikker kaffe.",
+        "no": "– Hvor gammel er du, Marie?\n– Jeg er tjueseks år gammel. Og du, Anna?\n– Jeg er trettiåtte år gammel. Faren min er seksti, og moren min er sytti.\n– Bestefaren min er nitti år gammel!\n– Nitti! Han er nesten hundre år gammel.\n– Ja! Og han drikker kaffe.",
         "fr": "– Quel âge as-tu, Marie ?\n– J'ai vingt-six ans. Et toi, Anna ?\n– J'ai trente-huit ans. Mon père a soixante ans et ma mère soixante-dix.\n– Mon grand-père a quatre-vingt-dix ans !\n– Quatre-vingt-dix ! Il a presque cent ans.\n– Oui ! Et il boit du café.",
         "aide": [
           {"no": "trettiåtte", "fr": "trente-huit"},
@@ -181,11 +181,11 @@
         {"no": "hvor", "fr": "où / combien (dans « hvor gammel »)", "pron": "VOUR", "ex": "Hvor bor du?", "ex_fr": "Où habites-tu ?"},
         {"no": "ung", "fr": "jeune", "pron": "UNG", "ex": "Hun er ung.", "ex_fr": "Elle est jeune."},
         {"no": "å fylle", "fr": "avoir (tel âge) à son anniversaire", "pron": "FUL-le", "ex": "Anna fyller tretti år.", "ex_fr": "Anna a trente ans aujourd'hui."},
-        {"no": "en fødselsdag", "fr": "l'anniversaire", "pron": "FEUD-sels-dag", "ex": "Det er min fødselsdag.", "ex_fr": "C'est mon anniversaire."},
+        {"no": "en fødselsdag", "fr": "l'anniversaire", "pron": "FEUD-sels-dag", "ex": "Det er fødselsdagen min.", "ex_fr": "C'est mon anniversaire."},
         {"no": "en alder", "fr": "l'âge", "pron": "AL-der", "ex": "Tretti er en god alder.", "ex_fr": "Trente ans est un bon âge."},
         {"no": "et tall", "fr": "le nombre", "pron": "TALL", "ex": "Ti er et tall.", "ex_fr": "Dix est un nombre."},
         {"no": "å telle", "fr": "compter", "pron": "TEL-le", "ex": "Jeg kan telle til hundre.", "ex_fr": "Je sais compter jusqu'à cent."},
-        {"no": "et nummer", "fr": "le numéro", "pron": "NUM-mer", "ex": "Mitt nummer er tolv.", "ex_fr": "Mon numéro est douze."}
+        {"no": "et nummer", "fr": "le numéro", "pron": "NUM-mer", "ex": "Nummeret mitt er tolv.", "ex_fr": "Mon numéro est douze."}
       ],
       "grammaire": {
         "titre": "Demander et dire l'âge",

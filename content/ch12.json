@@ -8,7 +8,7 @@
         {"no": "en kirke", "fr": "l'église", "pron": "CHIR-ke", "ex": "Det er en kirke her.", "ex_fr": "Il y a une église ici."},
         {"no": "en skole", "fr": "l'école", "pron": "SKOU-le", "ex": "Jeg går til en skole.", "ex_fr": "Je vais dans une école."},
         {"no": "et sykehus", "fr": "l'hôpital", "pron": "SÜ-ke-hus", "ex": "Et sykehus er stort.", "ex_fr": "Un hôpital est grand."},
-        {"no": "en bank", "fr": "la banque", "pron": "BANK", "ex": "Jeg trenger en bank.", "ex_fr": "J'ai besoin d'une banque."},
+        {"no": "en bank", "fr": "la banque", "pron": "BANK", "ex": "Jeg går til banken.", "ex_fr": "Je vais à la banque."},
         {"no": "et postkontor", "fr": "le bureau de poste", "pron": "POST-kon-tour", "ex": "Vi går til et postkontor.", "ex_fr": "Nous allons à un bureau de poste."},
         {"no": "en park", "fr": "le parc", "pron": "PARK", "ex": "Vi går i en park.", "ex_fr": "Nous marchons dans un parc."},
         {"no": "et torg", "fr": "la place (du marché)", "pron": "TORG", "ex": "Det er et torg i byen.", "ex_fr": "Il y a une place dans la ville."},
@@ -51,7 +51,7 @@
         {"no": "høyre", "fr": "droite", "pron": "HEUÏ-re", "ex": "Ta til høyre.", "ex_fr": "Prends à droite."},
         {"no": "rett fram", "fr": "tout droit", "pron": "RETT FRAM", "ex": "Gå rett fram.", "ex_fr": "Va tout droit."},
         {"no": "nær", "fr": "proche", "pron": "NÈR", "ex": "Banken er nær.", "ex_fr": "La banque est proche."},
-        {"no": "borte", "fr": "là-bas / loin", "pron": "BOR-te", "ex": "Torget er borte.", "ex_fr": "La place est là-bas."},
+        {"no": "borte", "fr": "là-bas / loin", "pron": "BOR-te", "ex": "Torget er der borte.", "ex_fr": "La place est là-bas."},
         {"no": "en vei", "fr": "la route / le chemin", "pron": "VAÏ", "ex": "Det er en vei her.", "ex_fr": "Il y a un chemin ici."},
         {"no": "et kryss", "fr": "le carrefour", "pron": "KRÜSS", "ex": "Det er et kryss her.", "ex_fr": "Il y a un carrefour ici."},
         {"no": "et hjørne", "fr": "le coin", "pron": "YEUR-ne", "ex": "Banken er på hjørnet.", "ex_fr": "La banque est au coin."}
@@ -180,7 +180,7 @@
         {"no": "tredje", "fr": "troisième", "pron": "TRED-je", "ex": "Jeg bor i tredje etasje.", "ex_fr": "J'habite au troisième étage."},
         {"no": "fjerde", "fr": "quatrième", "pron": "FYÈ-re", "ex": "Banken er i fjerde gate.", "ex_fr": "La banque est dans la quatrième rue."},
         {"no": "femte", "fr": "cinquième", "pron": "FEM-te", "ex": "Hun bor i femte etasje.", "ex_fr": "Elle habite au cinquième étage."},
-        {"no": "sjette", "fr": "sixième", "pron": "CHET-te", "ex": "Min fødselsdag er sjette mai.", "ex_fr": "Mon anniversaire est le six mai."},
+        {"no": "sjette", "fr": "sixième", "pron": "CHET-te", "ex": "Fødselsdagen min er sjette mai.", "ex_fr": "Mon anniversaire est le six mai."},
         {"no": "sjuende", "fr": "septième", "pron": "CHU-en-de", "ex": "Han bor i sjuende etasje.", "ex_fr": "Il habite au septième étage."},
         {"no": "åttende", "fr": "huitième", "pron": "OT-ten-de", "ex": "Åttende mai er en fin dag.", "ex_fr": "Le huit mai est un beau jour."}
       ],
@@ -194,7 +194,7 @@
         ]
       },
       "texte": {
-        "no": "– Hvor er skolen?\n– Ta første gate til høyre og andre gate til venstre.\n– Og banken?\n– Den er i fjerde gate. Jeg bor i femte etasje over banken.\n– Så hyggelig! Min nabo bor i sjette etasje.\n– Er det langt?\n– Nei, det er nær.\n– Vi ses, hade!",
+        "no": "– Hvor er skolen?\n– Ta første gate til høyre og andre gate til venstre.\n– Og banken?\n– Den er i fjerde gate. Jeg bor i femte etasje over banken.\n– Så hyggelig! Naboen min bor i sjette etasje.\n– Er det langt?\n– Nei, det er nær.\n– Vi ses, hade!",
         "fr": "– Où est l'école ?\n– Prends la première rue à droite et la deuxième rue à gauche.\n– Et la banque ?\n– Elle est dans la quatrième rue. J'habite au cinquième étage au-dessus de la banque.\n– Comme c'est sympa ! Mon voisin habite au sixième étage.\n– C'est loin ?\n– Non, c'est proche.\n– À bientôt, salut !",
         "aide": [
           {"no": "over", "fr": "au-dessus de"}

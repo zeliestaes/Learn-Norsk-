@@ -7,7 +7,7 @@
       "mots": [
         {"no": "et vær", "fr": "le temps (météo)", "pron": "VÈR", "ex": "Det er fint vær.", "ex_fr": "Il fait beau."},
         {"no": "en sol", "fr": "le soleil", "pron": "SOUL", "ex": "Det er sol i dag.", "ex_fr": "Il y a du soleil aujourd'hui."},
-        {"no": "et regn", "fr": "la pluie", "pron": "RAÏN", "ex": "Det er regn i Bergen.", "ex_fr": "Il y a de la pluie à Bergen."},
+        {"no": "et regn", "fr": "la pluie", "pron": "RAÏN", "ex": "Det er mye regn i Bergen.", "ex_fr": "Il y a beaucoup de pluie à Bergen."},
         {"no": "en snø", "fr": "la neige", "pron": "SNEU", "ex": "Det er snø i Lom.", "ex_fr": "Il y a de la neige à Lom."},
         {"no": "en vind", "fr": "le vent", "pron": "VINN", "ex": "Det er mye vind.", "ex_fr": "Il y a beaucoup de vent."},
         {"no": "en sky", "fr": "le nuage", "pron": "CHÜ", "ex": "Det er en sky her.", "ex_fr": "Il y a un nuage ici."},

@@ -49,10 +49,10 @@
         {"no": "en nese", "fr": "le nez", "pron": "NÉ-se", "ex": "Hun har en liten nese.", "ex_fr": "Elle a un petit nez."},
         {"no": "et ansikt", "fr": "le visage", "pron": "AN-sikt", "ex": "Han har et pent ansikt.", "ex_fr": "Il a un joli visage."},
         {"no": "et hår", "fr": "les cheveux", "pron": "HOR", "ex": "Hun har langt hår.", "ex_fr": "Elle a les cheveux longs."},
-        {"no": "en tann", "fr": "la dent", "pron": "TANN", "ex": "Jeg pusser en tann.", "ex_fr": "Je brosse une dent."},
+        {"no": "en tann", "fr": "la dent", "pron": "TANN", "ex": "Jeg pusser tennene.", "ex_fr": "Je me brosse les dents."},
         {"no": "en hals", "fr": "le cou / la gorge", "pron": "HALS", "ex": "Jeg har et skjerf på halsen.", "ex_fr": "J'ai une écharpe autour du cou."},
         {"no": "en rygg", "fr": "le dos", "pron": "RÜGG", "ex": "Han har en veske på ryggen.", "ex_fr": "Il a un sac sur le dos."},
-        {"no": "en mage", "fr": "le ventre", "pron": "MAA-ge", "ex": "Jeg har en kake i magen.", "ex_fr": "J'ai un gâteau dans le ventre."},
+        {"no": "en mage", "fr": "le ventre", "pron": "MAA-ge", "ex": "Jeg har mat i magen.", "ex_fr": "J'ai de la nourriture dans le ventre."},
         {"no": "et hjerte", "fr": "le cœur", "pron": "YÆR-te", "ex": "Jeg har et stort hjerte.", "ex_fr": "J'ai un grand cœur."}
       ],
       "grammaire": {

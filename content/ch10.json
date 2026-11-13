@@ -91,7 +91,7 @@
       "mots": [
         {"no": "en genser", "fr": "le pull", "pron": "GEN-ser", "ex": "Jeg har en rød genser.", "ex_fr": "J'ai un pull rouge."},
         {"no": "en jakke", "fr": "la veste", "pron": "YAK-ke", "ex": "Hun har en blå jakke.", "ex_fr": "Elle a une veste bleue."},
-        {"no": "ei bukse", "fr": "le pantalon", "pron": "BUK-se", "ex": "Jeg har en svart bukse.", "ex_fr": "J'ai un pantalon noir."},
+        {"no": "ei bukse", "fr": "le pantalon", "pron": "BUK-se", "ex": "Jeg har ei svart bukse.", "ex_fr": "J'ai un pantalon noir."},
         {"no": "en kjole", "fr": "la robe", "pron": "CHOU-le", "ex": "Hun har en hvit kjole.", "ex_fr": "Elle a une robe blanche."},
         {"no": "en skjorte", "fr": "la chemise", "pron": "CHOR-te", "ex": "Han har en grønn skjorte.", "ex_fr": "Il a une chemise verte."},
         {"no": "en sko", "fr": "la chaussure", "pron": "SKOU", "ex": "Jeg har en brun sko.", "ex_fr": "J'ai une chaussure marron."},
@@ -108,7 +108,7 @@
         ]
       },
       "texte": {
-        "no": "Marie har på seg en rød genser og en svart bukse. Hun har også en blå jakke og en grå lue. Anna har på seg en hvit kjole og en brun jakke. Jonas har en grønn skjorte og en gul hatt. Marie har brune sko, men Anna har svarte sko.",
+        "no": "Marie har på seg en rød genser og ei svart bukse. Hun har også en blå jakke og en grå lue. Anna har på seg en hvit kjole og en brun jakke. Jonas har en grønn skjorte og en gul hatt. Marie har brune sko, men Anna har svarte sko.",
         "fr": "Marie porte un pull rouge et un pantalon noir. Elle a aussi une veste bleue et un bonnet gris. Anna porte une robe blanche et une veste marron. Jonas a une chemise verte et un chapeau jaune. Marie a des chaussures marron mais Anna a des chaussures noires.",
         "aide": [
           {"no": "har på seg", "fr": "porte"},
@@ -214,7 +214,7 @@
     }
   ],
   "synthese": {
-    "no": "Det er lørdag, og Marie og Anna prøver klær. Marie har på seg en blå jakke og en svart bukse. Hun vil prøve en rød kjole. Kjolen er pen, men den er for stor. Hun prøver en liten, rød kjole. Den er kort, men den passer. Anna liker den røde kjolen, men hun vil ha en grønn kjole. Hun har allerede en hvit kjole og en gul genser. Anna har en grå frakk, et rødt skjerf og en brun veske. Marie sier: «Den røde kjolen er ny, og jeg liker den!»",
+    "no": "Det er lørdag, og Marie og Anna prøver klær. Marie har på seg en blå jakke og ei svart bukse. Hun vil prøve en rød kjole. Kjolen er pen, men den er for stor. Hun prøver en liten, rød kjole. Den er kort, men den passer. Anna liker den røde kjolen, men hun vil ha en grønn kjole. Hun har allerede en hvit kjole og en gul genser. Anna har en grå frakk, et rødt skjerf og en brun veske. Marie sier: «Den røde kjolen er ny, og jeg liker den!»",
     "fr": "C'est samedi et Marie et Anna essaient des vêtements. Marie porte une veste bleue et un pantalon noir. Elle veut essayer une robe rouge. La robe est jolie mais elle est trop grande. Elle essaie une petite robe rouge. Elle est courte mais elle va bien. Anna aime la robe rouge mais elle veut une robe verte. Elle a déjà une robe blanche et un pull jaune. Anna a un manteau gris, une écharpe rouge et un sac marron. Marie dit : « La robe rouge est neuve et je l'aime ! »",
     "aide": [
       {"no": "klær", "fr": "vêtements"},
