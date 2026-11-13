@@ -1,0 +1,255 @@
+{
+  "id": 6,
+  "titre": "Nombres et âge",
+  "lecons": [
+    {
+      "titre": "Les nombres de 0 à 7",
+      "mots": [
+        {"no": "null", "fr": "zéro", "pron": "NULL", "ex": "Vi teller: null, én, to.", "ex_fr": "On compte : zéro, un, deux."},
+        {"no": "én", "fr": "un / une (nombre)", "pron": "ÉN", "ex": "Jeg har én bror.", "ex_fr": "J'ai un seul frère."},
+        {"no": "to", "fr": "deux", "pron": "TOU", "ex": "Jeg vil ha to kaffe.", "ex_fr": "Je voudrais deux cafés."},
+        {"no": "tre", "fr": "trois", "pron": "TRÉ", "ex": "Hun har tre barn.", "ex_fr": "Elle a trois enfants."},
+        {"no": "fire", "fr": "quatre", "pron": "FI-re", "ex": "Vi er fire.", "ex_fr": "Nous sommes quatre."},
+        {"no": "fem", "fr": "cinq", "pron": "FEMM", "ex": "Jeg vil ha fem egg.", "ex_fr": "Je voudrais cinq œufs."},
+        {"no": "seks", "fr": "six", "pron": "SEKS", "ex": "Det er seks barn her.", "ex_fr": "Il y a six enfants ici."},
+        {"no": "sju", "fr": "sept", "pron": "CHU", "ex": "Vi er sju i familien.", "ex_fr": "Nous sommes sept dans la famille."}
+      ],
+      "grammaire": {
+        "titre": "Compter : un, deux, trois…",
+        "texte": "Les nombres sont invariables, sauf « un » qui s'accorde avec le genre : en (masculin), ei (féminin), ett (neutre). On écrit souvent « én / éi / étt » avec un accent pour montrer que c'est le nombre et non l'article.\nAprès un nombre, beaucoup de noms ne changent pas (pluriel : au chapitre 11) : to kaffe, tre barn, fem egg.",
+        "exemples": [
+          {"no": "én bror", "fr": "un seul frère"},
+          {"no": "ett glass", "fr": "un verre (neutre)"},
+          {"no": "to kaffe, takk", "fr": "deux cafés, s'il vous plaît"}
+        ]
+      },
+      "texte": {
+        "no": "Marie er på en kafé med tre venner. De er fire. De vil ha to kaffe, én te og én brus. De vil også ha tre brød og seks egg. En servitør sier: «Vær så god!» De får fire glass vann. Marie sier: «Takk!» Marie teller: én, to, tre, fire.",
+        "fr": "Marie est dans un café avec trois amis. Ils sont quatre. Ils veulent deux cafés, un thé et un soda. Ils veulent aussi trois pains et six œufs. Un serveur dit : « Voilà ! » Ils reçoivent quatre verres d'eau. Marie dit : « Merci ! » Marie compte : un, deux, trois, quatre.",
+        "aide": [
+          {"no": "med", "fr": "avec"},
+          {"no": "venner", "fr": "amis"},
+          {"no": "får", "fr": "reçoivent"},
+          {"no": "teller", "fr": "compte"}
+        ],
+        "questions": [
+          {
+            "q": "Combien de personnes y a-t-il à la table ?",
+            "choix": ["Quatre", "Trois", "Six"],
+            "rep": 0
+          },
+          {
+            "q": "Combien d'œufs commandent-ils ?",
+            "choix": ["Six", "Deux", "Quatre"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les nombres de 8 à 15",
+      "mots": [
+        {"no": "åtte", "fr": "huit", "pron": "OT-te", "ex": "Vi er åtte i familien.", "ex_fr": "Nous sommes huit dans la famille."},
+        {"no": "ni", "fr": "neuf", "pron": "NI", "ex": "Jeg vil ha ni egg.", "ex_fr": "Je voudrais neuf œufs."},
+        {"no": "ti", "fr": "dix", "pron": "TI", "ex": "Hun har ti barn.", "ex_fr": "Elle a dix enfants."},
+        {"no": "elleve", "fr": "onze", "pron": "EL-ve", "ex": "Vi er elleve her.", "ex_fr": "Nous sommes onze ici."},
+        {"no": "tolv", "fr": "douze", "pron": "TOLL", "ex": "Jeg vil ha tolv egg.", "ex_fr": "Je voudrais douze œufs."},
+        {"no": "tretten", "fr": "treize", "pron": "TRET-ten", "ex": "Det er tretten barn.", "ex_fr": "Il y a treize enfants."},
+        {"no": "fjorten", "fr": "quatorze", "pron": "FYOR-ten", "ex": "Jeg har fjorten brød.", "ex_fr": "J'ai quatorze pains."},
+        {"no": "femten", "fr": "quinze", "pron": "FEM-ten", "ex": "Vi er femten.", "ex_fr": "Nous sommes quinze."}
+      ],
+      "grammaire": {
+        "titre": "Les nombres de 8 à 15",
+        "texte": "Ces nombres sont invariables. Retiens la fin des nombres de 13 à 19 : ils finissent tous par -ten, comme « -teen » en anglais : tretten, fjorten, femten.\nOnze et douze sont à part : elleve, tolv.",
+        "exemples": [
+          {"no": "ti egg", "fr": "dix œufs"},
+          {"no": "elleve barn", "fr": "onze enfants"},
+          {"no": "femten", "fr": "quinze"}
+        ]
+      },
+      "texte": {
+        "no": "Marie ser en stor familie på en kafé. Mor og far har ni barn. Med mor og far er de elleve! Far vil ha en kaffe, og mor vil ha en te. De ni barn vil ha brus. Så vil de ha tolv brød og femten egg. Marie teller: åtte, ni, ti, elleve, tolv, tretten, fjorten, femten.",
+        "fr": "Marie voit une grande famille dans un café. La mère et le père ont neuf enfants. Avec la mère et le père, ils sont onze ! Le père veut un café et la mère veut un thé. Les neuf enfants veulent du soda. Puis ils veulent douze pains et quinze œufs. Marie compte : huit, neuf, dix, onze, douze, treize, quatorze, quinze.",
+        "aide": [
+          {"no": "ser", "fr": "voit"},
+          {"no": "stor", "fr": "grande"},
+          {"no": "med", "fr": "avec"},
+          {"no": "så", "fr": "puis"}
+        ],
+        "questions": [
+          {
+            "q": "Combien d'enfants a la famille ?",
+            "choix": ["Neuf", "Onze", "Douze"],
+            "rep": 0
+          },
+          {
+            "q": "Combien de personnes sont-ils en tout ?",
+            "choix": ["Onze", "Neuf", "Quinze"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les dizaines et les nombres jusqu'à 50",
+      "mots": [
+        {"no": "seksten", "fr": "seize", "pron": "SAÏ-sten", "ex": "Hun er seksten år gammel.", "ex_fr": "Elle a seize ans."},
+        {"no": "sytten", "fr": "dix-sept", "pron": "SUT-ten", "ex": "Han er sytten år gammel.", "ex_fr": "Il a dix-sept ans."},
+        {"no": "atten", "fr": "dix-huit", "pron": "AT-ten", "ex": "Min bror er atten år gammel.", "ex_fr": "Mon frère a dix-huit ans."},
+        {"no": "nitten", "fr": "dix-neuf", "pron": "NIT-ten", "ex": "Jeg er nitten år gammel.", "ex_fr": "J'ai dix-neuf ans."},
+        {"no": "tjue", "fr": "vingt", "pron": "CHU-e", "ex": "Mi søster er tjue år gammel.", "ex_fr": "Ma sœur a vingt ans."},
+        {"no": "tretti", "fr": "trente", "pron": "TRET-ti", "ex": "Vi er tretti her.", "ex_fr": "Nous sommes trente ici."},
+        {"no": "førti", "fr": "quarante", "pron": "FEUR-ti", "ex": "Min far er førti år gammel.", "ex_fr": "Mon père a quarante ans."},
+        {"no": "femti", "fr": "cinquante", "pron": "FEM-ti", "ex": "Min onkel er femti år gammel.", "ex_fr": "Mon oncle a cinquante ans."}
+      ],
+      "grammaire": {
+        "titre": "Les dizaines et les nombres composés",
+        "texte": "Pour former 21, 22, 23…, on colle l'unité après la dizaine : tjueen (21), tjueto (22), tjueseks (26). Même principe pour trettifem (35) ou førtiåtte (48).\nDizaines : tjue (20), tretti (30), førti (40), femti (50).",
+        "exemples": [
+          {"no": "tjueseks", "fr": "vingt-six (26)"},
+          {"no": "trettifem", "fr": "trente-cinq (35)"},
+          {"no": "Jeg er tjueseks år gammel.", "fr": "J'ai vingt-six ans."}
+        ]
+      },
+      "texte": {
+        "no": "Min familie er stor. Min far er femtito år gammel, og min mor er femti. Min bror er tretti år gammel, og min søster er tjuefem. Min fetter er sytten, og mi kusine er seksten. Min onkel er førti år gammel. Jeg er tjueseks år gammel.",
+        "fr": "Ma famille est grande. Mon père a cinquante-deux ans et ma mère cinquante. Mon frère a trente ans et ma sœur vingt-cinq. Mon cousin a dix-sept ans et ma cousine seize. Mon oncle a quarante ans. J'ai vingt-six ans.",
+        "aide": [
+          {"no": "år gammel", "fr": "ans (âge)"},
+          {"no": "femtito", "fr": "cinquante-deux"},
+          {"no": "tjuefem", "fr": "vingt-cinq"}
+        ],
+        "questions": [
+          {
+            "q": "Quel âge a le père de Marie ?",
+            "choix": ["52 ans", "50 ans", "40 ans"],
+            "rep": 0
+          },
+          {
+            "q": "Qui a 16 ans ?",
+            "choix": ["La cousine", "Le cousin", "La sœur"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "De 60 à mille",
+      "mots": [
+        {"no": "seksti", "fr": "soixante", "pron": "SEK-sti", "ex": "Min bestemor er seksti år gammel.", "ex_fr": "Ma grand-mère a soixante ans."},
+        {"no": "sytti", "fr": "soixante-dix", "pron": "SUT-ti", "ex": "Min bestefar er sytti år gammel.", "ex_fr": "Mon grand-père a soixante-dix ans."},
+        {"no": "åtti", "fr": "quatre-vingts", "pron": "OT-ti", "ex": "Hun er åtti år gammel.", "ex_fr": "Elle a quatre-vingts ans."},
+        {"no": "nitti", "fr": "quatre-vingt-dix", "pron": "NIT-ti", "ex": "Han er nitti år gammel.", "ex_fr": "Il a quatre-vingt-dix ans."},
+        {"no": "hundre", "fr": "cent", "pron": "HUN-dre", "ex": "Hun er hundre år gammel!", "ex_fr": "Elle a cent ans !"},
+        {"no": "tusen", "fr": "mille", "pron": "TU-sen", "ex": "Tusen takk, Anna!", "ex_fr": "Mille mercis, Anna !"},
+        {"no": "et år", "fr": "l'an / l'année", "pron": "OR", "ex": "Jeg lærer norsk i et år.", "ex_fr": "J'apprends le norvégien pendant un an."},
+        {"no": "gammel", "fr": "âgé / vieux", "pron": "GAM-mel", "ex": "Hvor gammel er du?", "ex_fr": "Quel âge as-tu ?"}
+      ],
+      "grammaire": {
+        "titre": "Les grands nombres et l'âge",
+        "texte": "De 60 à 90, tous les nombres finissent en -ti : seksti, sytti, åtti, nitti. Cent = hundre, mille = tusen.\nAu-delà de cent : hundre og ti (110). Les nombres s'écrivent en un mot jusqu'à 99 : nittini (99).\nPour l'âge : « Jeg er … år gammel ». Le mot « år » ne change pas : et år, to år.",
+        "exemples": [
+          {"no": "nittini", "fr": "quatre-vingt-dix-neuf (99)"},
+          {"no": "hundre og ti", "fr": "cent dix (110)"},
+          {"no": "Hvor gammel er du?", "fr": "Quel âge as-tu ?"}
+        ]
+      },
+      "texte": {
+        "no": "– Hvor gammel er du, Marie?\n– Jeg er tjueseks år gammel. Og du, Anna?\n– Jeg er trettiåtte år gammel. Min far er seksti, og min mor er sytti.\n– Min bestefar er nitti år gammel!\n– Nitti! Han er nesten hundre år gammel.\n– Ja! Og han drikker kaffe.",
+        "fr": "– Quel âge as-tu, Marie ?\n– J'ai vingt-six ans. Et toi, Anna ?\n– J'ai trente-huit ans. Mon père a soixante ans et ma mère soixante-dix.\n– Mon grand-père a quatre-vingt-dix ans !\n– Quatre-vingt-dix ! Il a presque cent ans.\n– Oui ! Et il boit du café.",
+        "aide": [
+          {"no": "trettiåtte", "fr": "trente-huit"},
+          {"no": "nesten", "fr": "presque"}
+        ],
+        "questions": [
+          {
+            "q": "Quel âge a Anna ?",
+            "choix": ["38 ans", "26 ans", "70 ans"],
+            "rep": 0
+          },
+          {
+            "q": "Quel âge a le grand-père de Marie ?",
+            "choix": ["90 ans", "80 ans", "100 ans"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Âge, anniversaire et numéros",
+      "mots": [
+        {"no": "hvor", "fr": "où / combien (dans « hvor gammel »)", "pron": "VOUR", "ex": "Hvor bor du?", "ex_fr": "Où habites-tu ?"},
+        {"no": "ung", "fr": "jeune", "pron": "UNG", "ex": "Hun er ung.", "ex_fr": "Elle est jeune."},
+        {"no": "å fylle", "fr": "avoir (tel âge) à son anniversaire", "pron": "FUL-le", "ex": "Anna fyller tretti år.", "ex_fr": "Anna a trente ans aujourd'hui."},
+        {"no": "en fødselsdag", "fr": "l'anniversaire", "pron": "FEUD-sels-dag", "ex": "Det er min fødselsdag.", "ex_fr": "C'est mon anniversaire."},
+        {"no": "en alder", "fr": "l'âge", "pron": "AL-der", "ex": "Tretti er en god alder.", "ex_fr": "Trente ans est un bon âge."},
+        {"no": "et tall", "fr": "le nombre", "pron": "TALL", "ex": "Ti er et tall.", "ex_fr": "Dix est un nombre."},
+        {"no": "å telle", "fr": "compter", "pron": "TEL-le", "ex": "Jeg kan telle til hundre.", "ex_fr": "Je sais compter jusqu'à cent."},
+        {"no": "et nummer", "fr": "le numéro", "pron": "NUM-mer", "ex": "Mitt nummer er tolv.", "ex_fr": "Mon numéro est douze."}
+      ],
+      "grammaire": {
+        "titre": "Demander et dire l'âge",
+        "texte": "Pour demander l'âge : Hvor gammel er du ? Pour répondre : Jeg er … år gammel.\nPour dire qu'on atteint un âge à son anniversaire : Jeg fyller … år (j'ai … ans aujourd'hui).\nPour souhaiter un joyeux anniversaire : Gratulerer med dagen !",
+        "exemples": [
+          {"no": "Hvor gammel er du?", "fr": "Quel âge as-tu ?"},
+          {"no": "Hun fyller tretti år.", "fr": "Elle a trente ans aujourd'hui."},
+          {"no": "Gratulerer med dagen!", "fr": "Joyeux anniversaire !"}
+        ]
+      },
+      "texte": {
+        "no": "I dag er det fødselsdag. Anna fyller tretti år. Hun er ikke gammel, hun er ung! Marie spør: «Hvor gammel er du nå?» Anna svarer: «Jeg er tjueni år, men i dag fyller jeg tretti.» Marie teller til tretti. Det er et stort tall! Alle sier: «Gratulerer med dagen!»",
+        "fr": "Aujourd'hui, c'est un anniversaire. Anna a trente ans aujourd'hui. Elle n'est pas vieille, elle est jeune ! Marie demande : « Quel âge as-tu maintenant ? » Anna répond : « J'ai vingt-neuf ans, mais aujourd'hui j'ai trente ans. » Marie compte jusqu'à trente. C'est un grand nombre ! Tout le monde dit : « Joyeux anniversaire ! »",
+        "aide": [
+          {"no": "i dag", "fr": "aujourd'hui"},
+          {"no": "spør", "fr": "demande"},
+          {"no": "svarer", "fr": "répond"},
+          {"no": "men", "fr": "mais"},
+          {"no": "alle", "fr": "tout le monde"},
+          {"no": "stort", "fr": "grand"}
+        ],
+        "questions": [
+          {
+            "q": "Quel âge Anna fête-t-elle ?",
+            "choix": ["30 ans", "29 ans", "26 ans"],
+            "rep": 0
+          },
+          {
+            "q": "Que souhaite-t-on à Anna à la fin ?",
+            "choix": ["Joyeux anniversaire", "Bonne nuit", "Bonne chance"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "I dag er det fødselsdag. Anna fyller tretti år. Jeg heter Marie, og jeg er på en kafé i Flåm. Vi er tolv. Anna har en stor familie. Hennes bestefar er nitti år gammel, og hennes bestemor er åtti. Hennes far er seksti år gammel. Anna har én bror, og han er tjueåtte år gammel. Vi bestiller ti kaffe og to te. Vi vil også ha femten egg og tolv brød. Jeg teller: «Én, to, tre … tjue, tretti!» Alle sier: «Gratulerer med dagen!» Det er en fin dag!",
+    "fr": "Aujourd'hui, c'est un anniversaire. Anna a trente ans aujourd'hui. Je m'appelle Marie et je suis dans un café à Flåm. Nous sommes douze. Anna a une grande famille. Son grand-père a quatre-vingt-dix ans et sa grand-mère quatre-vingts. Son père a soixante ans. Anna a un frère et il a vingt-huit ans. Nous commandons dix cafés et deux thés. Nous voulons aussi quinze œufs et douze pains. Je compte : « Un, deux, trois… vingt, trente ! » Tout le monde dit : « Joyeux anniversaire ! » C'est une belle journée !",
+    "aide": [
+      {"no": "hennes", "fr": "son / sa (d'elle)"},
+      {"no": "bestiller", "fr": "commander"}
+    ],
+    "questions": [
+      {
+        "q": "Quel âge Anna fête-t-elle ?",
+        "choix": ["30 ans", "29 ans", "28 ans"],
+        "rep": 0
+      },
+      {
+        "q": "Combien de personnes sont à la fête ?",
+        "choix": ["Douze", "Dix", "Trente"],
+        "rep": 0
+      },
+      {
+        "q": "Quel âge a le grand-père d'Anna ?",
+        "choix": ["90 ans", "80 ans", "60 ans"],
+        "rep": 0
+      },
+      {
+        "q": "Combien de cafés commandent-ils ?",
+        "choix": ["Dix", "Douze", "Deux"],
+        "rep": 0
+      }
+    ]
+  }
+}

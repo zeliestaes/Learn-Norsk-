@@ -1,0 +1,17 @@
+{
+  "name": "Norsk-reisen – apprendre le norvégien",
+  "short_name": "Norsk",
+  "description": "Apprendre le norvégien (bokmål) jusqu'au niveau A2, en voyageant d'Oslo aux Lofoten.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF8F4",
+  "theme_color": "#FBF8F4",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

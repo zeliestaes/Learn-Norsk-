@@ -1,0 +1,208 @@
+{
+ "chapters": [
+  {
+   "id": 1,
+   "titre": "Commander dans un café",
+   "etape": "Oslo",
+   "fichier": "ch01.json"
+  },
+  {
+   "id": 2,
+   "titre": "Décrire la famille",
+   "etape": "Drammen",
+   "fichier": "ch02.json"
+  },
+  {
+   "id": 3,
+   "titre": "Former des phrases basiques",
+   "etape": "Hamar",
+   "fichier": "ch03.json"
+  },
+  {
+   "id": 4,
+   "titre": "Saluer d'autres personnes",
+   "etape": "Lillehammer",
+   "fichier": "ch04.json"
+  },
+  {
+   "id": 5,
+   "titre": "Commander dans un restaurant",
+   "etape": "Rondane",
+   "fichier": "ch05.json"
+  },
+  {
+   "id": 6,
+   "titre": "Nombres et âge",
+   "etape": "Flåm",
+   "fichier": "ch06.json"
+  },
+  {
+   "id": 7,
+   "titre": "Jours, mois, heure",
+   "etape": "Bergen",
+   "fichier": null
+  },
+  {
+   "id": 8,
+   "titre": "Ma maison",
+   "etape": "Voss",
+   "fichier": null
+  },
+  {
+   "id": 9,
+   "titre": "Ma journée",
+   "etape": "Sognefjord",
+   "fichier": null
+  },
+  {
+   "id": 10,
+   "titre": "Couleurs et vêtements",
+   "etape": "Lom",
+   "fichier": null
+  },
+  {
+   "id": 11,
+   "titre": "Faire les courses",
+   "etape": "Geiranger",
+   "fichier": null
+  },
+  {
+   "id": 12,
+   "titre": "S'orienter en ville",
+   "etape": "Ålesund",
+   "fichier": null
+  },
+  {
+   "id": 13,
+   "titre": "Transports et voyage",
+   "etape": "Molde",
+   "fichier": null
+  },
+  {
+   "id": 14,
+   "titre": "Météo et saisons",
+   "etape": "Kristiansund",
+   "fichier": null
+  },
+  {
+   "id": 15,
+   "titre": "Corps et santé",
+   "etape": "Dovrefjell",
+   "fichier": null
+  },
+  {
+   "id": 16,
+   "titre": "Loisirs et sport",
+   "etape": "Røros",
+   "fichier": null
+  },
+  {
+   "id": 17,
+   "titre": "Travail et métiers",
+   "etape": "Trondheim",
+   "fichier": null
+  },
+  {
+   "id": 18,
+   "titre": "Téléphone et messages",
+   "etape": "Steinkjer",
+   "fichier": null
+  },
+  {
+   "id": 19,
+   "titre": "Le passé : prétérit",
+   "etape": "Namsos",
+   "fichier": null
+  },
+  {
+   "id": 20,
+   "titre": "Passé composé",
+   "etape": "Mosjøen",
+   "fichier": null
+  },
+  {
+   "id": 21,
+   "titre": "Verbes forts au passé",
+   "etape": "Mo i Rana",
+   "fichier": null
+  },
+  {
+   "id": 22,
+   "titre": "Nature norvégienne",
+   "etape": "Saltfjellet",
+   "fichier": null
+  },
+  {
+   "id": 23,
+   "titre": "La mer, les bateaux et les orques",
+   "etape": "Bodø",
+   "fichier": null
+  },
+  {
+   "id": 24,
+   "titre": "Projets et futur",
+   "etape": "Narvik",
+   "fichier": null
+  },
+  {
+   "id": 25,
+   "titre": "Comparer",
+   "etape": "Harstad",
+   "fichier": null
+  },
+  {
+   "id": 26,
+   "titre": "Sentiments et personnalité",
+   "etape": "Kabelvåg",
+   "fichier": null
+  },
+  {
+   "id": 27,
+   "titre": "Fêtes et traditions",
+   "etape": "Henningsvær",
+   "fichier": null
+  },
+  {
+   "id": 28,
+   "titre": "Cuisine norvégienne",
+   "etape": "Svolvær",
+   "fichier": null
+  },
+  {
+   "id": 29,
+   "titre": "Chercher un logement",
+   "etape": "Stamsund",
+   "fichier": null
+  },
+  {
+   "id": 30,
+   "titre": "Travailler en Norvège",
+   "etape": "Leknes",
+   "fichier": null
+  },
+  {
+   "id": 31,
+   "titre": "Médias",
+   "etape": "Ballstad",
+   "fichier": null
+  },
+  {
+   "id": 32,
+   "titre": "Raconter une histoire",
+   "etape": "Nusfjord",
+   "fichier": null
+  },
+  {
+   "id": 33,
+   "titre": "Donner son avis",
+   "etape": "Reine",
+   "fichier": null
+  },
+  {
+   "id": 34,
+   "titre": "Bilan A2",
+   "etape": "Å i Lofoten",
+   "fichier": null
+  }
+ ]
+}
