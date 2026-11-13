@@ -22,6 +22,10 @@ scripts/validate-content.js               vérifie les JSON (champs, doublons, l
 scripts/build-sw.js                       régénère la liste de fichiers hors ligne de sw.js
 ```
 
+## Structure d'un chapitre
+
+Chaque chapitre contient **6 leçons + 1 synthèse** (7 étapes). Le programme à rythme quotidien (chapitres 6 à 34) compte donc 29 × 7 = 203 étapes, soit une avance d'environ 25 jours sur l'objectif du 30 juin 2027. Les chapitres 1 à 5 sont ouverts dès le début.
+
 ## Corriger ou ajouter du contenu
 
 1. Modifie `content/chNN.json`. Chaque mot : `no`, `fr`, `pron`, `ex`, `ex_fr`.

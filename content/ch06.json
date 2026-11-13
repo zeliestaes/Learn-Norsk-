@@ -220,6 +220,50 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Calculer et quantités",
+      "mots": [
+        {"no": "pluss", "fr": "plus", "pron": "PLUSS", "ex": "Tre pluss fire er sju.", "ex_fr": "Trois plus quatre font sept."},
+        {"no": "minus", "fr": "moins", "pron": "MI-nus", "ex": "Ti minus tre er sju.", "ex_fr": "Dix moins trois font sept."},
+        {"no": "en prosent", "fr": "le pour cent", "pron": "pro-SENT", "ex": "Det er femti prosent.", "ex_fr": "C'est cinquante pour cent."},
+        {"no": "et par", "fr": "la paire / quelques", "pron": "PAAR", "ex": "Jeg har et par epler.", "ex_fr": "J'ai quelques pommes."},
+        {"no": "begge", "fr": "les deux", "pron": "BEG-ge", "ex": "Begge barna er her.", "ex_fr": "Les deux enfants sont ici."},
+        {"no": "ingen", "fr": "personne / aucun", "pron": "ING-en", "ex": "Ingen er her.", "ex_fr": "Personne n'est ici."},
+        {"no": "mange", "fr": "beaucoup de (pluriel)", "pron": "MAN-ge", "ex": "Jeg har mange venner.", "ex_fr": "J'ai beaucoup d'amis."},
+        {"no": "noen", "fr": "quelques / quelqu'un", "pron": "NOEN", "ex": "Noen barn er her.", "ex_fr": "Quelques enfants sont ici."}
+      ],
+      "grammaire": {
+        "titre": "Calculer et parler de quantités",
+        "texte": "Calcul : Tre pluss fire er sju (3 + 4 = 7), Ti minus tre er sju (10 − 3 = 7).\nQuantités : ingen (aucun, personne), noen (quelques, quelqu'un), mange (beaucoup de, avec des choses qu'on compte), begge (les deux), et par (quelques, une paire).\nPour demander une quantité : Hvor mange ? (combien ?).",
+        "exemples": [
+          {"no": "Tre pluss fire er sju.", "fr": "Trois plus quatre font sept."},
+          {"no": "Ingen er her.", "fr": "Personne n'est ici."},
+          {"no": "Begge barna er her.", "fr": "Les deux enfants sont ici."}
+        ]
+      },
+      "texte": {
+        "no": "Marie og Anna regner i en time. «Tre pluss fire er sju», sier Marie. «Ti minus tre er også sju», sier Anna. Begge har rett. Ingen gjør feil. Noen barn kommer og hjelper dem. Mange tall er lette, men et par er vanskelige. Femti prosent av barna liker å regne.",
+        "fr": "Marie et Anna calculent pendant une heure. « Trois plus quatre font sept », dit Marie. « Dix moins trois font aussi sept », dit Anna. Toutes les deux ont raison. Personne ne fait d'erreur. Quelques enfants viennent et les aident. Beaucoup de nombres sont faciles mais quelques-uns sont difficiles. Cinquante pour cent des enfants aiment calculer.",
+        "aide": [
+          {"no": "regner", "fr": "calculent"},
+          {"no": "har rett", "fr": "ont raison"},
+          {"no": "gjør feil", "fr": "fait une erreur"},
+          {"no": "vanskelige", "fr": "difficiles"}
+        ],
+        "questions": [
+          {
+            "q": "Combien font trois plus quatre ?",
+            "choix": ["Sept", "Six", "Huit"],
+            "rep": 0
+          },
+          {
+            "q": "Qui fait une erreur ?",
+            "choix": ["Personne", "Marie", "Anna"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

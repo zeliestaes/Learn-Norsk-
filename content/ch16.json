@@ -209,6 +209,49 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Culture et arts",
+      "mots": [
+        {"no": "en roman", "fr": "le roman", "pron": "ro-MAAN", "ex": "Jeg leser en roman.", "ex_fr": "Je lis un roman."},
+        {"no": "en sang", "fr": "la chanson", "pron": "SANG", "ex": "Jeg synger en sang.", "ex_fr": "Je chante une chanson."},
+        {"no": "et maleri", "fr": "le tableau", "pron": "ma-le-RI", "ex": "Det er et maleri her.", "ex_fr": "Il y a un tableau ici."},
+        {"no": "en konsert", "fr": "le concert", "pron": "kon-SERT", "ex": "Vi går på en konsert.", "ex_fr": "Nous allons à un concert."},
+        {"no": "en utstilling", "fr": "l'exposition", "pron": "UT-stil-ling", "ex": "Jeg ser en utstilling.", "ex_fr": "Je visite une exposition."},
+        {"no": "et dikt", "fr": "le poème", "pron": "DIKT", "ex": "Jeg liker et dikt.", "ex_fr": "J'aime un poème."},
+        {"no": "en forfatter", "fr": "l'écrivain", "pron": "for-FAT-ter", "ex": "En forfatter skriver en bok.", "ex_fr": "Un écrivain écrit un livre."},
+        {"no": "kunst", "fr": "l'art", "pron": "KUNST", "ex": "Jeg liker kunst.", "ex_fr": "J'aime l'art."}
+      ],
+      "grammaire": {
+        "titre": "Parler de culture",
+        "texte": "Pour sortir : gå på konsert, gå på utstilling, gå på kino, gå på teater. Pour lire ou écouter : lese en roman, høre på en sang.\n« Kunst » (l'art) s'emploie sans article : Jeg liker kunst.",
+        "exemples": [
+          {"no": "Vi går på konsert.", "fr": "Nous allons au concert."},
+          {"no": "Jeg leser en roman.", "fr": "Je lis un roman."},
+          {"no": "Jeg liker kunst.", "fr": "J'aime l'art."}
+        ]
+      },
+      "texte": {
+        "no": "Marie elsker kunst og litteratur. Hun leser en roman av en norsk forfatter, og hun liker et dikt om Norge. På fredag går hun på en konsert med Anna. De hører mange sanger. På lørdag ser de en utstilling. Der er et maleri av et fjell.",
+        "fr": "Marie adore l'art et la littérature. Elle lit un roman d'un écrivain norvégien et elle aime un poème sur la Norvège. Vendredi, elle va à un concert avec Anna. Elles écoutent beaucoup de chansons. Samedi, elles visitent une exposition. Là, il y a un tableau d'une montagne.",
+        "aide": [
+          {"no": "litteratur", "fr": "littérature"},
+          {"no": "fjell", "fr": "montagne"},
+          {"no": "der", "fr": "là"}
+        ],
+        "questions": [
+          {
+            "q": "Que lit Marie ?",
+            "choix": ["Un roman", "Un poème seulement", "Un journal"],
+            "rep": 0
+          },
+          {
+            "q": "Que font-elles vendredi ?",
+            "choix": ["Elles vont à un concert", "Elles vont au cinéma", "Elles font du ski"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

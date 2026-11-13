@@ -44,7 +44,7 @@ for (const c of index.chapters) {
   const ch = readJSON(f);
   if (!ch) continue;
   ready++;
-  const nL = c.id <= 5 ? 2 : 5;
+  const nL = 6;
   console.log(`Chapitre ${c.id} : ${c.titre}`);
   if (ch.id !== c.id) err(`${f} : id ${ch.id} ≠ ${c.id}`);
   if (!Array.isArray(ch.lecons) || ch.lecons.length !== nL) err(`${f} : ${nL} leçons attendues`);

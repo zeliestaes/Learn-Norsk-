@@ -31,7 +31,7 @@ export async function loadContent() {
   }));
   for (const ch of loaded) {
     ch.units = [];
-    const nLessons = ch.id <= 5 ? 2 : 5;
+    const nLessons = ch.data?.lecons?.length || 6;
     for (let l = 1; l <= nLessons; l++) {
       const lesson = ch.data?.lecons?.[l - 1] || null;
       ch.units.push({ id: `${ch.id}-${l}`, ch: ch.id, kind: 'lesson', n: l, lesson, ready: !!lesson, titre: lesson?.titre || `Leçon ${l}` });

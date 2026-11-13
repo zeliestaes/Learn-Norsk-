@@ -214,6 +214,48 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Phénomènes météo",
+      "mots": [
+        {"no": "frost", "fr": "le gel", "pron": "FROST", "ex": "Det er frost i dag.", "ex_fr": "Il y a du gel aujourd'hui."},
+        {"no": "hagl", "fr": "la grêle", "pron": "HAGL", "ex": "Det er hagl i dag.", "ex_fr": "Il y a de la grêle aujourd'hui."},
+        {"no": "torden", "fr": "le tonnerre", "pron": "TOR-den", "ex": "Det er torden i kveld.", "ex_fr": "Il y a du tonnerre ce soir."},
+        {"no": "et lyn", "fr": "l'éclair", "pron": "LÜN", "ex": "Det er et lyn.", "ex_fr": "Il y a un éclair."},
+        {"no": "en regnbue", "fr": "l'arc-en-ciel", "pron": "REGN-bu-e", "ex": "Det er en regnbue.", "ex_fr": "Il y a un arc-en-ciel."},
+        {"no": "en bris", "fr": "la brise", "pron": "BRIS", "ex": "Det er en bris.", "ex_fr": "Il y a une brise."},
+        {"no": "duskregn", "fr": "la bruine", "pron": "DUSK-raïn", "ex": "Det er duskregn.", "ex_fr": "Il y a de la bruine."},
+        {"no": "en kuling", "fr": "le coup de vent", "pron": "KUU-ling", "ex": "Det er kuling i dag.", "ex_fr": "Il y a un coup de vent aujourd'hui."}
+      ],
+      "grammaire": {
+        "titre": "Décrire un phénomène météo",
+        "texte": "On peut dire « Det er + nom » (Det er torden) ou utiliser un verbe impersonnel : Det tordner (il tonne), Det lyner (il y a des éclairs), Det hagler (il grêle), Det regner (il pleut).\n« Det » est toujours là : on ne l'omet jamais.",
+        "exemples": [
+          {"no": "Det tordner.", "fr": "Il tonne."},
+          {"no": "Det lyner.", "fr": "Il y a des éclairs."},
+          {"no": "Det er en regnbue.", "fr": "Il y a un arc-en-ciel."}
+        ]
+      },
+      "texte": {
+        "no": "Det er tidlig vår, og været er rart. Om morgenen er det frost, og om formiddagen er det duskregn. Så kommer en kuling, og det er hagl. Om kvelden tordner det, og det lyner. Marie blir våt. Etterpå skinner sola, og det er en stor regnbue på himmelen!",
+        "fr": "C'est le début du printemps et le temps est étrange. Le matin, il y a du gel et dans la matinée il y a de la bruine. Puis un coup de vent arrive et il y a de la grêle. Le soir, il tonne et il y a des éclairs. Marie est trempée. Ensuite, le soleil brille et il y a un grand arc-en-ciel dans le ciel !",
+        "aide": [
+          {"no": "rart", "fr": "étrange"},
+          {"no": "blir", "fr": "devient"}
+        ],
+        "questions": [
+          {
+            "q": "Quel temps fait-il le matin ?",
+            "choix": ["Du gel", "De la grêle", "De la bruine"],
+            "rep": 0
+          },
+          {
+            "q": "Que voit-on après la pluie ?",
+            "choix": ["Un arc-en-ciel", "Un éclair", "Un nuage"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

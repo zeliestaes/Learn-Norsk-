@@ -211,6 +211,49 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Doigts, articulations et peau",
+      "mots": [
+        {"no": "en finger", "fr": "le doigt", "pron": "FING-er", "ex": "Jeg har ti fingre.", "ex_fr": "J'ai dix doigts."},
+        {"no": "en tå", "fr": "l'orteil", "pron": "TOU", "ex": "Jeg har ti tær.", "ex_fr": "J'ai dix orteils."},
+        {"no": "et kne", "fr": "le genou", "pron": "KNÉ", "ex": "Jeg har vondt i kneet.", "ex_fr": "J'ai mal au genou."},
+        {"no": "en albue", "fr": "le coude", "pron": "AL-bu-e", "ex": "Jeg har vondt i albuen.", "ex_fr": "J'ai mal au coude."},
+        {"no": "en skulder", "fr": "l'épaule", "pron": "SKUL-der", "ex": "Jeg har vondt i skulderen.", "ex_fr": "J'ai mal à l'épaule."},
+        {"no": "en nakke", "fr": "la nuque", "pron": "NAK-ke", "ex": "Jeg har vondt i nakken.", "ex_fr": "J'ai mal à la nuque."},
+        {"no": "en hud", "fr": "la peau", "pron": "HÜD", "ex": "Huden er tørr.", "ex_fr": "La peau est sèche."},
+        {"no": "en tommel", "fr": "le pouce", "pron": "TOM-mel", "ex": "Jeg har en tommel.", "ex_fr": "J'ai un pouce."}
+      ],
+      "grammaire": {
+        "titre": "Pluriels irréguliers du corps",
+        "texte": "Quelques pluriels à connaître : en finger → fingre, en tå → tær, et kne → knær, en skulder → skuldre, en albue → albuer.\nPour dire où l'on a mal : Jeg har vondt i + partie du corps au défini : i kneet, i albuen, i skulderen, i nakken.",
+        "exemples": [
+          {"no": "en finger → fingre", "fr": "un doigt → des doigts"},
+          {"no": "en tå → tær", "fr": "un orteil → des orteils"},
+          {"no": "Jeg har vondt i kneet.", "fr": "J'ai mal au genou."}
+        ]
+      },
+      "texte": {
+        "no": "Etter en lang tur har Marie vondt i kneet og i føttene. Hun har også vondt i nakken og i skulderen. Albuen er blå, og huden er tørr. Anna ser på fingrene hennes. «Du har kalde fingre og kalde tær!» sier hun. Marie tar en varm dusj og hviler seg. Etterpå føler hun seg bedre.",
+        "fr": "Après une longue randonnée, Marie a mal au genou et aux pieds. Elle a aussi mal à la nuque et à l'épaule. Son coude est bleu et sa peau est sèche. Anna regarde ses doigts. « Tu as des doigts froids et des orteils froids ! » dit-elle. Marie prend une douche chaude et se repose. Ensuite, elle se sent mieux.",
+        "aide": [
+          {"no": "føttene", "fr": "les pieds"},
+          {"no": "kalde", "fr": "froids"},
+          {"no": "bedre", "fr": "mieux"}
+        ],
+        "questions": [
+          {
+            "q": "Où Marie a-t-elle mal au début ?",
+            "choix": ["Au genou et aux pieds", "Au ventre", "À la tête"],
+            "rep": 0
+          },
+          {
+            "q": "Que dit Anna de ses doigts ?",
+            "choix": ["Qu'ils sont froids", "Qu'ils sont chauds", "Qu'ils sont longs"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

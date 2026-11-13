@@ -85,6 +85,177 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Boissons au restaurant",
+      "mots": [
+        {"no": "en vin", "fr": "le vin", "pron": "VIN", "ex": "Jeg vil ha et glass vin.", "ex_fr": "Je voudrais un verre de vin."},
+        {"no": "en øl", "fr": "la bière", "pron": "EUL", "ex": "Han drikker øl.", "ex_fr": "Il boit de la bière."},
+        {"no": "mineralvann", "fr": "l'eau gazeuse", "pron": "mi-ne-RAAL-vann", "ex": "Jeg vil ha mineralvann.", "ex_fr": "Je voudrais de l'eau gazeuse."},
+        {"no": "kranvann", "fr": "l'eau du robinet", "pron": "KRAAN-vann", "ex": "Kranvann er gratis.", "ex_fr": "L'eau du robinet est gratuite."},
+        {"no": "en flaske", "fr": "la bouteille", "pron": "FLAS-ke", "ex": "En flaske vann, takk.", "ex_fr": "Une bouteille d'eau, s'il vous plaît."},
+        {"no": "en karaffel", "fr": "la carafe", "pron": "ka-RAF-fel", "ex": "En karaffel kranvann, takk.", "ex_fr": "Une carafe d'eau du robinet, s'il vous plaît."},
+        {"no": "en isbit", "fr": "le glaçon", "pron": "IS-bit", "ex": "En isbit i glasset.", "ex_fr": "Un glaçon dans le verre."},
+        {"no": "en sitron", "fr": "le citron", "pron": "si-TROUN", "ex": "En sitron i vannet.", "ex_fr": "Un citron dans l'eau."}
+      ],
+      "grammaire": {
+        "titre": "Les contenants : pas de « de »",
+        "texte": "Pour un contenant + boisson, on n'utilise pas de petit mot entre les deux : et glass vin (un verre de vin), en flaske vann (une bouteille d'eau), en karaffel kranvann (une carafe d'eau du robinet).\nPour demander : Hva vil dere drikke ? (que voulez-vous boire ?).",
+        "exemples": [
+          {"no": "et glass vin", "fr": "un verre de vin"},
+          {"no": "en flaske vann", "fr": "une bouteille d'eau"},
+          {"no": "en karaffel kranvann", "fr": "une carafe d'eau du robinet"}
+        ]
+      },
+      "texte": {
+        "no": "– God kveld! Hva vil dere drikke?\n– Jeg vil ha et glass vin, takk.\n– Og jeg vil ha mineralvann med en isbit og en sitron.\n– Vil dere ha en flaske eller et glass?\n– En flaske, takk. Og en karaffel kranvann til bordet.\n– Kranvann er gratis. Vær så god!",
+        "fr": "– Bonsoir ! Que voulez-vous boire ?\n– Je voudrais un verre de vin, s'il vous plaît.\n– Et moi, je voudrais de l'eau gazeuse avec un glaçon et un citron.\n– Voulez-vous une bouteille ou un verre ?\n– Une bouteille, s'il vous plaît. Et une carafe d'eau du robinet pour la table.\n– L'eau du robinet est gratuite. Voilà !",
+        "aide": [
+          {"no": "dere", "fr": "vous"},
+          {"no": "til bordet", "fr": "pour la table"}
+        ],
+        "questions": [
+          {
+            "q": "Que boit le premier client ?",
+            "choix": ["Du vin", "De la bière", "De l'eau gazeuse"],
+            "rep": 0
+          },
+          {
+            "q": "Qu'est-ce qui est gratuit ?",
+            "choix": ["L'eau du robinet", "Le vin", "La bouteille"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Plats principaux",
+      "mots": [
+        {"no": "en kjøttkake", "fr": "la boulette de viande (plat norvégien)", "pron": "CHEUTT-kaa-ke", "ex": "Jeg vil ha en kjøttkake.", "ex_fr": "Je voudrais une boulette de viande."},
+        {"no": "en torsk", "fr": "la morue", "pron": "TORSK", "ex": "Torsk er en fisk.", "ex_fr": "La morue est un poisson."},
+        {"no": "en biff", "fr": "le steak", "pron": "BIFF", "ex": "Hun vil ha en biff.", "ex_fr": "Elle veut un steak."},
+        {"no": "en pizza", "fr": "la pizza", "pron": "PIT-sa", "ex": "Barnet vil ha pizza.", "ex_fr": "L'enfant veut de la pizza."},
+        {"no": "en burger", "fr": "le hamburger", "pron": "BER-ger", "ex": "Jeg tar en burger.", "ex_fr": "Je prends un hamburger."},
+        {"no": "en reke", "fr": "la crevette", "pron": "RÉ-ke", "ex": "Jeg vil ha reker.", "ex_fr": "Je voudrais des crevettes."},
+        {"no": "et lam", "fr": "l'agneau", "pron": "LAMM", "ex": "Jeg spiser lam.", "ex_fr": "Je mange de l'agneau."},
+        {"no": "en fiskekake", "fr": "la boulette de poisson", "pron": "FISK-kaa-ke", "ex": "Jeg spiser en fiskekake.", "ex_fr": "Je mange une boulette de poisson."}
+      ],
+      "grammaire": {
+        "titre": "« med » et « uten » dans un plat",
+        "texte": "Pour décrire un plat : med (avec), uten (sans) : en biff med potet (un steak avec des pommes de terre), torsk uten saus (de la morue sans sauce).\nPour commander : Jeg skal ha … / Jeg tar … / Jeg vil ha … (je prends / je voudrais).",
+        "exemples": [
+          {"no": "en biff med potet", "fr": "un steak avec des pommes de terre"},
+          {"no": "laks uten salt", "fr": "du saumon sans sel"},
+          {"no": "Jeg skal ha en burger.", "fr": "Je vais prendre un hamburger."}
+        ]
+      },
+      "texte": {
+        "no": "På menyen er det kjøttkaker, torsk, biff, pizza og burger. Marie vil ha en kjøttkake med potet. Anna spiser ikke kjøtt, så hun skal ha torsk uten saus. Per tar en burger. Barnet vil ha pizza. «Har dere reker?» spør Jonas. «Nei», sier servitøren, «men vi har fiskekaker og lam.»",
+        "fr": "Sur le menu, il y a des boulettes de viande, de la morue, du steak, de la pizza et du hamburger. Marie veut une boulette de viande avec des pommes de terre. Anna ne mange pas de viande donc elle va prendre de la morue sans sauce. Per prend un hamburger. L'enfant veut de la pizza. « Avez-vous des crevettes ? » demande Jonas. « Non », dit le serveur, « mais nous avons des boulettes de poisson et de l'agneau. »",
+        "aide": [
+          {"no": "menyen", "fr": "le menu"},
+          {"no": "saus", "fr": "sauce"},
+          {"no": "servitøren", "fr": "le serveur"}
+        ],
+        "questions": [
+          {
+            "q": "Que prend Anna ?",
+            "choix": ["De la morue sans sauce", "Un steak", "Une pizza"],
+            "rep": 0
+          },
+          {
+            "q": "Que n'a pas le restaurant ?",
+            "choix": ["Des crevettes", "Des boulettes de poisson", "De l'agneau"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Desserts",
+      "mots": [
+        {"no": "en dessert", "fr": "le dessert", "pron": "de-SÆR", "ex": "Jeg vil ha en dessert.", "ex_fr": "Je voudrais un dessert."},
+        {"no": "en pannekake", "fr": "la crêpe", "pron": "PAN-ne-kaa-ke", "ex": "Hun spiser en pannekake.", "ex_fr": "Elle mange une crêpe."},
+        {"no": "en riskrem", "fr": "le riz au lait (crème de riz)", "pron": "RIS-krem", "ex": "Riskrem er en dessert.", "ex_fr": "La crème de riz est un dessert."},
+        {"no": "et jordbær", "fr": "la fraise", "pron": "YOR-bær", "ex": "Jeg liker jordbær.", "ex_fr": "J'aime les fraises."},
+        {"no": "et bringebær", "fr": "la framboise", "pron": "BRING-e-bær", "ex": "Jeg spiser bringebær.", "ex_fr": "Je mange des framboises."},
+        {"no": "en krem", "fr": "la crème", "pron": "KREM", "ex": "Jeg vil ha krem.", "ex_fr": "Je voudrais de la crème."},
+        {"no": "en ostekake", "fr": "le gâteau au fromage", "pron": "OST-e-kaa-ke", "ex": "Jeg tar en ostekake.", "ex_fr": "Je prends un gâteau au fromage."},
+        {"no": "en multe", "fr": "la plaquebière (baie nordique)", "pron": "MUL-te", "ex": "Jeg liker multer.", "ex_fr": "J'aime les plaquebières."}
+      ],
+      "grammaire": {
+        "titre": "« til dessert »",
+        "texte": "Pour dire « comme dessert », on utilise « til » : Hva vil du ha til dessert ? Jeg vil ha en pannekake til dessert.\nLes baies ne changent pas au pluriel : et jordbær → jordbær, et bringebær → bringebær. Une multe devient « multer ».",
+        "exemples": [
+          {"no": "til dessert", "fr": "comme dessert"},
+          {"no": "Hva vil du ha til dessert?", "fr": "Que veux-tu comme dessert ?"},
+          {"no": "en multe → multer", "fr": "une plaquebière → des plaquebières"}
+        ]
+      },
+      "texte": {
+        "no": "Til dessert vil Marie ha en pannekake med jordbær og krem. Anna tar riskrem med bringebær. Per vil ha en ostekake. Jonas spør: «Har dere multer?» Servitøren sier ja og kommer med multer og krem. «Multer er en norsk spesialitet», sier han. Jonas smaker og smiler. Det er deilig!",
+        "fr": "Comme dessert, Marie veut une crêpe avec des fraises et de la crème. Anna prend du riz au lait avec des framboises. Per veut un gâteau au fromage. Jonas demande : « Avez-vous des plaquebières ? » Le serveur dit oui et revient avec des plaquebières et de la crème. « Les plaquebières sont une spécialité norvégienne », dit-il. Jonas goûte et sourit. C'est délicieux !",
+        "aide": [
+          {"no": "spesialitet", "fr": "spécialité"},
+          {"no": "smaker", "fr": "goûte"},
+          {"no": "smiler", "fr": "sourit"}
+        ],
+        "questions": [
+          {
+            "q": "Que veut Marie en dessert ?",
+            "choix": ["Une crêpe avec des fraises et de la crème", "Du riz au lait", "Un gâteau au fromage"],
+            "rep": 0
+          },
+          {
+            "q": "Quelle est la spécialité norvégienne ?",
+            "choix": ["Les plaquebières", "Les fraises", "Les crêpes"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Régimes, avis et réclamations",
+      "mots": [
+        {"no": "mat", "fr": "la nourriture", "pron": "MAAT", "ex": "Jeg liker norsk mat.", "ex_fr": "J'aime la cuisine norvégienne."},
+        {"no": "å smake", "fr": "avoir du goût / goûter", "pron": "SMAA-ke", "ex": "Det smaker godt.", "ex_fr": "C'est bon (au goût)."},
+        {"no": "å anbefale", "fr": "recommander", "pron": "AN-be-faa-le", "ex": "Hva kan du anbefale?", "ex_fr": "Que peux-tu recommander ?"},
+        {"no": "en bestilling", "fr": "la commande", "pron": "be-STIL-ling", "ex": "Jeg har en bestilling.", "ex_fr": "J'ai une commande."},
+        {"no": "en allergi", "fr": "l'allergie", "pron": "al-ler-GI", "ex": "Jeg har en allergi.", "ex_fr": "J'ai une allergie."},
+        {"no": "en vegetarianer", "fr": "le végétarien", "pron": "ve-ge-ta-ri-AA-ner", "ex": "Jeg er vegetarianer.", "ex_fr": "Je suis végétarien."},
+        {"no": "vegetarisk", "fr": "végétarien (plat)", "pron": "ve-ge-TAA-risk", "ex": "Det er vegetarisk.", "ex_fr": "C'est végétarien."},
+        {"no": "å klage", "fr": "se plaindre", "pron": "KLAA-ge", "ex": "Jeg vil ikke klage.", "ex_fr": "Je ne veux pas me plaindre."}
+      ],
+      "grammaire": {
+        "titre": "Donner son avis sur un plat",
+        "texte": "« Å smake » (avoir un goût) s'emploie avec « det » : Det smaker godt (c'est bon), Det smaker dårlig (c'est mauvais). Pour demander : Hvordan smaker det ?\nPour une allergie : Jeg har en allergi mot egg (contre les œufs). Pour recommander : Hva kan du anbefale ?",
+        "exemples": [
+          {"no": "Hvordan smaker det?", "fr": "C'est comment ?"},
+          {"no": "Det smaker deilig.", "fr": "C'est délicieux."},
+          {"no": "Jeg har en allergi mot egg.", "fr": "Je suis allergique aux œufs."}
+        ]
+      },
+      "texte": {
+        "no": "Marie er vegetarianer, så hun spør: «Hva kan du anbefale?» Servitøren sier: «Suppen er vegetarisk.» Hun har også en allergi mot egg. «Det er ingen egg i suppen», sier han. Marie har en bestilling: suppe og salat. Maten kommer. «Hvordan smaker det?» spør Anna. «Det smaker deilig!» Marie vil ikke klage.",
+        "fr": "Marie est végétarienne alors elle demande : « Que pouvez-vous recommander ? » Le serveur dit : « La soupe est végétarienne. » Elle a aussi une allergie aux œufs. « Il n'y a pas d'œuf dans la soupe », dit-il. Marie a une commande : soupe et salade. La nourriture arrive. « C'est comment ? » demande Anna. « C'est délicieux ! » Marie ne veut pas se plaindre.",
+        "aide": [
+          {"no": "suppen", "fr": "la soupe"},
+          {"no": "ingen", "fr": "pas de"},
+          {"no": "maten", "fr": "la nourriture"}
+        ],
+        "questions": [
+          {
+            "q": "Pourquoi Marie ne mange-t-elle pas de viande ?",
+            "choix": ["Elle est végétarienne", "Elle a une allergie", "Elle n'a pas faim"],
+            "rep": 0
+          },
+          {
+            "q": "À quoi est-elle allergique ?",
+            "choix": ["Aux œufs", "Au poisson", "Au lait"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

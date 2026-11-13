@@ -216,6 +216,48 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Mesures et emballages",
+      "mots": [
+        {"no": "en kilo", "fr": "le kilo", "pron": "KI-lo", "ex": "Jeg vil ha en kilo epler.", "ex_fr": "Je voudrais un kilo de pommes."},
+        {"no": "en liter", "fr": "le litre", "pron": "LI-ter", "ex": "Jeg vil ha en liter vann.", "ex_fr": "Je voudrais un litre d'eau."},
+        {"no": "et gram", "fr": "le gramme", "pron": "GRAMM", "ex": "Jeg vil ha hundre gram ost.", "ex_fr": "Je voudrais cent grammes de fromage."},
+        {"no": "en boks", "fr": "la boîte (de conserve)", "pron": "BOKS", "ex": "En boks tomater, takk.", "ex_fr": "Une boîte de tomates, s'il vous plaît."},
+        {"no": "en pakke", "fr": "le paquet", "pron": "PAK-ke", "ex": "En pakke pasta, takk.", "ex_fr": "Un paquet de pâtes, s'il vous plaît."},
+        {"no": "et stykk", "fr": "la pièce (à l'unité)", "pron": "STÜKK", "ex": "Jeg vil ha tre stykker.", "ex_fr": "Je voudrais trois pièces."},
+        {"no": "et dusin", "fr": "la douzaine", "pron": "du-SIN", "ex": "Jeg vil ha et dusin egg.", "ex_fr": "Je voudrais une douzaine d'œufs."},
+        {"no": "en halvliter", "fr": "le demi-litre", "pron": "HALL-li-ter", "ex": "Jeg vil ha en halvliter.", "ex_fr": "Je voudrais un demi-litre."}
+      ],
+      "grammaire": {
+        "titre": "Demander une quantité précise",
+        "texte": "On met la mesure directement devant le produit, sans « de » : en kilo epler, en liter vann, hundre gram ost, en boks tomater, en pakke pasta, et dusin egg.\nPour demander combien : Hvor mange stykker vil du ha ? Pour le prix : Det koster tjue kroner kiloen (20 couronnes le kilo).",
+        "exemples": [
+          {"no": "en kilo epler", "fr": "un kilo de pommes"},
+          {"no": "hundre gram ost", "fr": "cent grammes de fromage"},
+          {"no": "et dusin egg", "fr": "une douzaine d'œufs"}
+        ]
+      },
+      "texte": {
+        "no": "Marie handler på et marked. Hun vil ha en kilo epler, en liter vann og et dusin egg. «Og hundre gram ost, takk!» Så tar hun en boks tomater og en pakke pasta. «Hvor mange stykker vil du ha?» spør selgeren. «Tre stykker, takk», sier Marie. Det koster to hundre kroner. Hun betaler og går hjem.",
+        "fr": "Marie fait ses courses au marché. Elle veut un kilo de pommes, un litre d'eau et une douzaine d'œufs. « Et cent grammes de fromage, s'il vous plaît ! » Puis elle prend une boîte de tomates et un paquet de pâtes. « Combien de pièces voulez-vous ? » demande le vendeur. « Trois pièces, s'il vous plaît », dit Marie. Ça coûte deux cents couronnes. Elle paie et rentre.",
+        "aide": [
+          {"no": "selgeren", "fr": "le vendeur"},
+          {"no": "hjem", "fr": "à la maison"}
+        ],
+        "questions": [
+          {
+            "q": "Combien d'œufs veut Marie ?",
+            "choix": ["Une douzaine", "Six", "Dix"],
+            "rep": 0
+          },
+          {
+            "q": "Combien coûtent les courses ?",
+            "choix": ["Deux cents couronnes", "Cent couronnes", "Vingt couronnes"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

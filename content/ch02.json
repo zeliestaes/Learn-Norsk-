@@ -89,6 +89,179 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Frères, sœurs et ordre de naissance",
+      "mots": [
+        {"no": "en tvilling", "fr": "le jumeau", "pron": "TVIL-ling", "ex": "Jeg har en tvilling.", "ex_fr": "J'ai un jumeau."},
+        {"no": "et søsken", "fr": "le frère ou la sœur", "pron": "SEUS-ken", "ex": "Jeg har to søsken.", "ex_fr": "J'ai deux frères et sœurs."},
+        {"no": "et enebarn", "fr": "l'enfant unique", "pron": "É-ne-barn", "ex": "Hun er et enebarn.", "ex_fr": "Elle est enfant unique."},
+        {"no": "eldre", "fr": "plus âgé", "pron": "EL-dre", "ex": "Broren min er eldre.", "ex_fr": "Mon frère est plus âgé."},
+        {"no": "yngre", "fr": "plus jeune", "pron": "ÜNG-re", "ex": "Søsteren min er yngre.", "ex_fr": "Ma sœur est plus jeune."},
+        {"no": "eldst", "fr": "le plus âgé", "pron": "ELDST", "ex": "Hun er eldst.", "ex_fr": "Elle est l'aînée."},
+        {"no": "yngst", "fr": "le plus jeune", "pron": "ÜNGST", "ex": "Han er yngst.", "ex_fr": "Il est le plus jeune."},
+        {"no": "en slektning", "fr": "le parent (membre de la famille)", "pron": "SLEKT-ning", "ex": "En slektning bor i Oslo.", "ex_fr": "Un parent habite à Oslo."}
+      ],
+      "grammaire": {
+        "titre": "Frères et sœurs : søsken, eldre, yngre",
+        "texte": "« Søsken » désigne les frères et sœurs en général (invariable) : Jeg har to søsken.\n« Eldre » / « yngre » = plus âgé / plus jeune ; « eldst » / « yngst » = le plus âgé / le plus jeune (dans la fratrie).\nOn dit aussi : Hun har ingen søsken (elle n'a pas de frères et sœurs).",
+        "exemples": [
+          {"no": "Jeg har to søsken.", "fr": "J'ai deux frères et sœurs."},
+          {"no": "Broren min er eldre.", "fr": "Mon frère est plus âgé."},
+          {"no": "Hun er yngst.", "fr": "Elle est la plus jeune."}
+        ]
+      },
+      "texte": {
+        "no": "Marie har to søsken. Broren hennes er eldre, og søsteren hennes er yngre. Marie er ikke eldst, og hun er ikke yngst. Anna er et enebarn. Hun har ingen søsken. Jonas har en tvilling. De er like gamle. En slektning av Jonas bor i Oslo.",
+        "fr": "Marie a deux frères et sœurs. Son frère est plus âgé et sa sœur est plus jeune. Marie n'est pas l'aînée et elle n'est pas la plus jeune. Anna est enfant unique. Elle n'a pas de frères et sœurs. Jonas a un jumeau. Ils ont le même âge. Un parent de Jonas habite à Oslo.",
+        "aide": [
+          {"no": "hennes", "fr": "son (à elle)"},
+          {"no": "like gamle", "fr": "du même âge"},
+          {"no": "ingen", "fr": "aucun"}
+        ],
+        "questions": [
+          {
+            "q": "Qui est enfant unique ?",
+            "choix": ["Anna", "Marie", "Jonas"],
+            "rep": 0
+          },
+          {
+            "q": "Qui a un jumeau ?",
+            "choix": ["Jonas", "Anna", "Marie"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les personnes",
+      "mots": [
+        {"no": "en gutt", "fr": "le garçon", "pron": "GUTT", "ex": "En gutt spiser en kake.", "ex_fr": "Un garçon mange un gâteau."},
+        {"no": "ei jente", "fr": "la fille", "pron": "YEN-te", "ex": "Ei jente drikker te.", "ex_fr": "Une fille boit du thé."},
+        {"no": "en voksen", "fr": "l'adulte", "pron": "VOK-sen", "ex": "En voksen drikker kaffe.", "ex_fr": "Un adulte boit du café."},
+        {"no": "en baby", "fr": "le bébé", "pron": "BÉ-bi", "ex": "En baby sover.", "ex_fr": "Un bébé dort."},
+        {"no": "en tenåring", "fr": "l'adolescent", "pron": "TÉ-no-ring", "ex": "En tenåring liker musikk.", "ex_fr": "Un adolescent aime la musique."},
+        {"no": "en dame", "fr": "la dame", "pron": "DAA-me", "ex": "En dame venter her.", "ex_fr": "Une dame attend ici."},
+        {"no": "en herre", "fr": "le monsieur", "pron": "HER-re", "ex": "En herre leser en bok.", "ex_fr": "Un monsieur lit un livre."},
+        {"no": "ei venninne", "fr": "l'amie", "pron": "ven-NIN-ne", "ex": "Venninnen min heter Anna.", "ex_fr": "Mon amie s'appelle Anna."}
+      ],
+      "grammaire": {
+        "titre": "Les personnes au pluriel",
+        "texte": "Quelques pluriels à retenir : en gutt → gutter, ei jente → jenter, en voksen → voksne, en baby → babyer, en tenåring → tenåringer, en dame → damer, en herre → herrer, ei venninne → venninner.\n« Barn » reste « barn » au pluriel. « Venn » (ami) et « venninne » (amie) : on dit « venninnen min », « vennen min ».",
+        "exemples": [
+          {"no": "en gutt → gutter", "fr": "un garçon → des garçons"},
+          {"no": "ei jente → jenter", "fr": "une fille → des filles"},
+          {"no": "en voksen → voksne", "fr": "un adulte → des adultes"}
+        ]
+      },
+      "texte": {
+        "no": "I parken er det mange mennesker. En gutt og ei jente spiller med en ball. En baby sover, og en dame venter. En herre leser en bok. Marie og venninnen hennes sitter ved et bord. De snakker med en tenåring. Alle er glade, og det er sol.",
+        "fr": "Dans le parc, il y a beaucoup de gens. Un garçon et une fille jouent avec un ballon. Un bébé dort et une dame attend. Un monsieur lit un livre. Marie et son amie sont assises à une table. Elles parlent avec un adolescent. Tout le monde est content et il y a du soleil.",
+        "aide": [
+          {"no": "spiller med", "fr": "jouent avec"},
+          {"no": "sitter", "fr": "sont assises"},
+          {"no": "sol", "fr": "soleil"}
+        ],
+        "questions": [
+          {
+            "q": "Qui lit un livre ?",
+            "choix": ["Un monsieur", "Une dame", "Un adolescent"],
+            "rep": 0
+          },
+          {
+            "q": "Que fait le bébé ?",
+            "choix": ["Il dort", "Il joue", "Il mange"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les relations",
+      "mots": [
+        {"no": "gift", "fr": "marié", "pron": "GIFT", "ex": "Hun er gift.", "ex_fr": "Elle est mariée."},
+        {"no": "singel", "fr": "célibataire", "pron": "SING-el", "ex": "Han er singel.", "ex_fr": "Il est célibataire."},
+        {"no": "en kjæreste", "fr": "le petit ami / la petite amie", "pron": "CHÆ-re-ste", "ex": "Kjæresten min heter Eva.", "ex_fr": "Ma petite amie s'appelle Eva."},
+        {"no": "en samboer", "fr": "le conjoint (qui vit avec soi)", "pron": "SAM-bo-er", "ex": "Samboeren min bor i Oslo.", "ex_fr": "Mon conjoint habite à Oslo."},
+        {"no": "et bryllup", "fr": "le mariage", "pron": "BRÜL-lup", "ex": "Det er et bryllup i dag.", "ex_fr": "Il y a un mariage aujourd'hui."},
+        {"no": "å gifte seg", "fr": "se marier", "pron": "YIF-te saï", "ex": "De gifter seg i juni.", "ex_fr": "Ils se marient en juin."},
+        {"no": "en slekt", "fr": "la famille élargie", "pron": "SLEKT", "ex": "Slekten min er stor.", "ex_fr": "Ma famille élargie est grande."},
+        {"no": "ei svigermor", "fr": "la belle-mère", "pron": "SVI-ger-mour", "ex": "Svigermoren min er snill.", "ex_fr": "Ma belle-mère est gentille."}
+      ],
+      "grammaire": {
+        "titre": "Parler de sa vie de couple",
+        "texte": "Pour dire où l'on en est : Jeg er gift (je suis marié), Jeg er singel, Jeg har en kjæreste (j'ai un petit ami), Jeg har en samboer (je vis avec mon conjoint).\n« Å gifte seg » est réfléchi : De gifter seg (ils se marient), Hun gifter seg med Jonas (elle épouse Jonas).",
+        "exemples": [
+          {"no": "Jeg er gift.", "fr": "Je suis marié(e)."},
+          {"no": "Jeg har en kjæreste.", "fr": "J'ai un petit ami / une petite amie."},
+          {"no": "Hun gifter seg med Jonas.", "fr": "Elle épouse Jonas."}
+        ]
+      },
+      "texte": {
+        "no": "Anna er singel, men hun har en venninne som er gift. Marie har en kjæreste. Kjæresten hennes heter Jonas. De bor sammen, så han er samboeren hennes. Neste år gifter de seg. Det blir et stort bryllup, og hele slekten kommer. Svigermoren hennes gleder seg!",
+        "fr": "Anna est célibataire mais elle a une amie qui est mariée. Marie a un petit ami. Son petit ami s'appelle Jonas. Ils habitent ensemble, donc c'est son conjoint. L'année prochaine, ils se marient. Ce sera un grand mariage et toute la famille viendra. Sa belle-mère se réjouit !",
+        "aide": [
+          {"no": "som", "fr": "qui"},
+          {"no": "sammen", "fr": "ensemble"},
+          {"no": "neste år", "fr": "l'année prochaine"},
+          {"no": "blir", "fr": "sera"},
+          {"no": "hele", "fr": "toute la"}
+        ],
+        "questions": [
+          {
+            "q": "Qui est célibataire ?",
+            "choix": ["Anna", "Marie", "Jonas"],
+            "rep": 0
+          },
+          {
+            "q": "Quand Marie et Jonas se marient-ils ?",
+            "choix": ["L'année prochaine", "Aujourd'hui", "Demain"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les animaux de compagnie",
+      "mots": [
+        {"no": "en hund", "fr": "le chien", "pron": "HUNN", "ex": "Jeg har en hund.", "ex_fr": "J'ai un chien."},
+        {"no": "en katt", "fr": "le chat", "pron": "KATT", "ex": "Hun har en katt.", "ex_fr": "Elle a un chat."},
+        {"no": "en fugl", "fr": "l'oiseau", "pron": "FUUL", "ex": "En fugl er i parken.", "ex_fr": "Un oiseau est dans le parc."},
+        {"no": "en hest", "fr": "le cheval", "pron": "HEST", "ex": "En hest spiser.", "ex_fr": "Un cheval mange."},
+        {"no": "ei kanin", "fr": "le lapin", "pron": "ka-NIN", "ex": "Barnet har ei kanin.", "ex_fr": "L'enfant a un lapin."},
+        {"no": "et dyr", "fr": "l'animal", "pron": "DÜR", "ex": "Et dyr sover her.", "ex_fr": "Un animal dort ici."},
+        {"no": "et kjæledyr", "fr": "l'animal de compagnie", "pron": "CHÆ-le-dyr", "ex": "En hund er et kjæledyr.", "ex_fr": "Un chien est un animal de compagnie."},
+        {"no": "en mus", "fr": "la souris", "pron": "MUSS", "ex": "En mus er liten.", "ex_fr": "Une souris est petite."}
+      ],
+      "grammaire": {
+        "titre": "Les animaux : pluriels",
+        "texte": "Pluriels : en hund → hunder, en katt → katter, en fugl → fugler, en hest → hester, ei kanin → kaniner. Pas de changement pour : et dyr → dyr, et kjæledyr → kjæledyr, ei mus → mus.\nPour dire qu'on a un animal : Jeg har en hund. Pour dire qu'on aime : Jeg liker katter.",
+        "exemples": [
+          {"no": "en hund → hunder", "fr": "un chien → des chiens"},
+          {"no": "et dyr → dyr", "fr": "un animal → des animaux"},
+          {"no": "Jeg liker katter.", "fr": "J'aime les chats."}
+        ]
+      },
+      "texte": {
+        "no": "Familien min har mange kjæledyr. Vi har en hund og to katter. Broren min har ei kanin, og søsteren min har en fugl. Naboen har en hest. Katten min liker å sove, og hunden liker å løpe. Jeg elsker dyr! En mus er også et dyr, men jeg liker ikke mus.",
+        "fr": "Ma famille a beaucoup d'animaux de compagnie. Nous avons un chien et deux chats. Mon frère a un lapin et ma sœur a un oiseau. Le voisin a un cheval. Mon chat aime dormir et le chien aime courir. J'adore les animaux ! Une souris est aussi un animal mais je n'aime pas les souris.",
+        "aide": [
+          {"no": "naboen", "fr": "le voisin"},
+          {"no": "å løpe", "fr": "courir"}
+        ],
+        "questions": [
+          {
+            "q": "Quels animaux a la famille ?",
+            "choix": ["Un chien et deux chats", "Un cheval", "Un lapin seulement"],
+            "rep": 0
+          },
+          {
+            "q": "Qui a un cheval ?",
+            "choix": ["Le voisin", "Le frère", "La sœur"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

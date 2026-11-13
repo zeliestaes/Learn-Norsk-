@@ -212,6 +212,48 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Culture et lieux de la ville",
+      "mots": [
+        {"no": "et bibliotek", "fr": "la bibliothèque", "pron": "bi-bli-o-TÉK", "ex": "Det er et bibliotek her.", "ex_fr": "Il y a une bibliothèque ici."},
+        {"no": "et museum", "fr": "le musée", "pron": "mu-SÉ-um", "ex": "Vi går på museet.", "ex_fr": "Nous allons au musée."},
+        {"no": "en kino", "fr": "le cinéma", "pron": "KI-no", "ex": "Jeg går på kino.", "ex_fr": "Je vais au cinéma."},
+        {"no": "et teater", "fr": "le théâtre", "pron": "te-AA-ter", "ex": "Vi er på teatret.", "ex_fr": "Nous sommes au théâtre."},
+        {"no": "et rådhus", "fr": "l'hôtel de ville", "pron": "ROD-hus", "ex": "Rådhuset er nær.", "ex_fr": "L'hôtel de ville est proche."},
+        {"no": "en politistasjon", "fr": "le commissariat", "pron": "po-li-TI-sta-sjon", "ex": "Politistasjonen er nær banken.", "ex_fr": "Le commissariat est près de la banque."},
+        {"no": "en fontene", "fr": "la fontaine", "pron": "fon-TÉ-ne", "ex": "Det er en fontene i parken.", "ex_fr": "Il y a une fontaine dans le parc."},
+        {"no": "en statue", "fr": "la statue", "pron": "STAA-tu-e", "ex": "Det er en statue på torget.", "ex_fr": "Il y a une statue sur la place."}
+      ],
+      "grammaire": {
+        "titre": "« på » pour les lieux publics",
+        "texte": "Pour les lieux de culture et de service, on dit « på » : på museet, på biblioteket, på teatret, på rådhuset. Pour le cinéma, on dit sans article : gå på kino, være på kino.\nPour « à côté de », on dit « ved siden av » : ved siden av rådhuset.",
+        "exemples": [
+          {"no": "Jeg går på kino.", "fr": "Je vais au cinéma."},
+          {"no": "Vi er på museet.", "fr": "Nous sommes au musée."},
+          {"no": "ved siden av rådhuset", "fr": "à côté de l'hôtel de ville"}
+        ]
+      },
+      "texte": {
+        "no": "Byen har mange fine steder. På torget er det en statue og en fontene. Ved siden av rådhuset ligger et bibliotek. Marie går på museet om formiddagen, og om kvelden går hun på kino med Anna. Jonas vil heller gå på teater. Politistasjonen ligger bak banken, men ingen trenger den i dag.",
+        "fr": "La ville a beaucoup de beaux endroits. Sur la place, il y a une statue et une fontaine. À côté de l'hôtel de ville se trouve une bibliothèque. Marie va au musée le matin et le soir elle va au cinéma avec Anna. Jonas préfère aller au théâtre. Le commissariat se trouve derrière la banque mais personne n'en a besoin aujourd'hui.",
+        "aide": [
+          {"no": "steder", "fr": "endroits"},
+          {"no": "trenger", "fr": "a besoin de"}
+        ],
+        "questions": [
+          {
+            "q": "Où se trouve la bibliothèque ?",
+            "choix": ["À côté de l'hôtel de ville", "Derrière la banque", "Sur la place"],
+            "rep": 0
+          },
+          {
+            "q": "Où va Marie le soir ?",
+            "choix": ["Au cinéma", "Au théâtre", "Au musée"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

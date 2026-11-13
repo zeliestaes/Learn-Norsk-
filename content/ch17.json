@@ -210,6 +210,48 @@
           }
         ]
       }
+    },
+    {
+      "titre": "D'autres métiers",
+      "mots": [
+        {"no": "en politimann", "fr": "le policier", "pron": "po-li-ti-MANN", "ex": "Han er politimann.", "ex_fr": "Il est policier."},
+        {"no": "en brannmann", "fr": "le pompier", "pron": "BRANN-mann", "ex": "Faren min er brannmann.", "ex_fr": "Mon père est pompier."},
+        {"no": "en bonde", "fr": "l'agriculteur", "pron": "BON-de", "ex": "Hun er bonde.", "ex_fr": "Elle est agricultrice."},
+        {"no": "en frisør", "fr": "le coiffeur", "pron": "fri-SEUR", "ex": "Jeg er frisør.", "ex_fr": "Je suis coiffeur."},
+        {"no": "en baker", "fr": "le boulanger", "pron": "BAA-ker", "ex": "Han er baker.", "ex_fr": "Il est boulanger."},
+        {"no": "en elektriker", "fr": "l'électricien", "pron": "e-LEK-tri-ker", "ex": "Hun er elektriker.", "ex_fr": "Elle est électricienne."},
+        {"no": "en mekaniker", "fr": "le mécanicien", "pron": "me-KAA-ni-ker", "ex": "Han er mekaniker.", "ex_fr": "Il est mécanicien."},
+        {"no": "en advokat", "fr": "l'avocat", "pron": "ad-vo-KAAT", "ex": "Hun er advokat.", "ex_fr": "Elle est avocate."}
+      ],
+      "grammaire": {
+        "titre": "Métiers : même mot pour les hommes et les femmes",
+        "texte": "Les métiers n'ont en général pas de forme féminine : Han er baker, Hun er baker. On dit aussi sans article : Jeg er frisør.\nCertains métiers en -mann (politimann, brannmann) sont de plus en plus remplacés par des formes neutres, mais ils restent très courants.",
+        "exemples": [
+          {"no": "Han er baker.", "fr": "Il est boulanger."},
+          {"no": "Hun er advokat.", "fr": "Elle est avocate."},
+          {"no": "Jeg er frisør.", "fr": "Je suis coiffeur / coiffeuse."}
+        ]
+      },
+      "texte": {
+        "no": "I Trondheim jobber mange mennesker med fine yrker. Faren min er baker, og han står opp tidlig. Moren min er frisør. Broren min er elektriker, og søsteren min er advokat. Naboen er brannmann, og kusinen min er mekaniker. Onkelen min er bonde. Det er mange fine yrker.",
+        "fr": "À Trondheim, beaucoup de gens ont de beaux métiers. Mon père est boulanger et il se lève tôt. Ma mère est coiffeuse. Mon frère est électricien et ma sœur est avocate. Le voisin est pompier et ma cousine est mécanicienne. Mon oncle est agriculteur. Il y a beaucoup de beaux métiers.",
+        "aide": [
+          {"no": "jobber med", "fr": "ont"},
+          {"no": "står opp", "fr": "se lève"}
+        ],
+        "questions": [
+          {
+            "q": "Quel est le métier du père ?",
+            "choix": ["Boulanger", "Coiffeur", "Pompier"],
+            "rep": 0
+          },
+          {
+            "q": "Qui est avocate ?",
+            "choix": ["La sœur", "La cousine", "La mère"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {
