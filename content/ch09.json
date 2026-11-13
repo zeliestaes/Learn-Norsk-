@@ -1,0 +1,249 @@
+{
+  "id": 9,
+  "titre": "Ma journée",
+  "lecons": [
+    {
+      "titre": "Les repas et les moments de la journée",
+      "mots": [
+        {"no": "en frokost", "fr": "le petit-déjeuner", "pron": "FRO-kost", "ex": "Jeg spiser frokost klokka sju.", "ex_fr": "Je prends mon petit-déjeuner à sept heures."},
+        {"no": "en lunsj", "fr": "le déjeuner", "pron": "LUNCH", "ex": "Vi spiser lunsj klokka tolv.", "ex_fr": "Nous déjeunons à midi."},
+        {"no": "en middag", "fr": "le dîner", "pron": "MID-dag", "ex": "Middag er klokka seks.", "ex_fr": "Le dîner est à six heures."},
+        {"no": "en kveldsmat", "fr": "le repas du soir (léger)", "pron": "KVELDS-maat", "ex": "Hun spiser kveldsmat.", "ex_fr": "Elle prend un repas léger le soir."},
+        {"no": "en morgen", "fr": "le matin", "pron": "MOR-en", "ex": "Om morgenen drikker jeg kaffe.", "ex_fr": "Le matin, je bois du café."},
+        {"no": "en formiddag", "fr": "la matinée", "pron": "FOR-mid-dag", "ex": "Jeg har en time om formiddagen.", "ex_fr": "J'ai cours dans la matinée."},
+        {"no": "en ettermiddag", "fr": "l'après-midi", "pron": "ET-ter-mid-dag", "ex": "Om ettermiddagen drikker vi te.", "ex_fr": "L'après-midi, nous buvons du thé."},
+        {"no": "en kveld", "fr": "le soir", "pron": "KVELL", "ex": "Om kvelden er jeg hjemme.", "ex_fr": "Le soir, je suis à la maison."}
+      ],
+      "grammaire": {
+        "titre": "Les moments de la journée",
+        "texte": "Pour dire « le matin, le soir… », on utilise « om » + le mot au défini : om morgenen, om formiddagen, om ettermiddagen, om kvelden.\nPour les repas, pas d'article : Jeg spiser frokost (je prends le petit-déjeuner), Vi spiser middag.",
+        "exemples": [
+          {"no": "om morgenen", "fr": "le matin"},
+          {"no": "om kvelden", "fr": "le soir"},
+          {"no": "Vi spiser middag.", "fr": "Nous dînons."}
+        ]
+      },
+      "texte": {
+        "no": "Marie spiser frokost klokka sju. Hun drikker kaffe og spiser et brød. På formiddagen har hun en time. Klokka tolv spiser hun lunsj med Anna. Om ettermiddagen drikker de te. Marie spiser middag klokka seks. Om kvelden spiser hun kveldsmat.",
+        "fr": "Marie prend son petit-déjeuner à sept heures. Elle boit du café et mange du pain. Dans la matinée, elle a cours. À midi, elle déjeune avec Anna. L'après-midi, elles boivent du thé. Marie dîne à six heures. Le soir, elle prend un repas léger.",
+        "aide": [
+          {"no": "på formiddagen", "fr": "dans la matinée"},
+          {"no": "med", "fr": "avec"}
+        ],
+        "questions": [
+          {
+            "q": "Quand Marie prend-elle le petit-déjeuner ?",
+            "choix": ["À sept heures", "À huit heures", "À midi"],
+            "rep": 0
+          },
+          {
+            "q": "Avec qui déjeune-t-elle ?",
+            "choix": ["Avec Anna", "Avec Jonas", "Seule"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les verbes réfléchis",
+      "mots": [
+        {"no": "å våkne", "fr": "se réveiller", "pron": "VOK-ne", "ex": "Jeg våkner klokka sju.", "ex_fr": "Je me réveille à sept heures."},
+        {"no": "å stå opp", "fr": "se lever", "pron": "STO opp", "ex": "Hun står opp klokka sju.", "ex_fr": "Elle se lève à sept heures."},
+        {"no": "å dusje", "fr": "se doucher", "pron": "DUS-je", "ex": "Jeg dusjer om morgenen.", "ex_fr": "Je me douche le matin."},
+        {"no": "å kle på seg", "fr": "s'habiller", "pron": "KLÉ pou saï", "ex": "Han kler på seg.", "ex_fr": "Il s'habille."},
+        {"no": "å sette seg", "fr": "s'asseoir", "pron": "SET-te saï", "ex": "Vi setter oss i stuen.", "ex_fr": "Nous nous asseyons dans le salon."},
+        {"no": "å legge seg", "fr": "se coucher", "pron": "LEG-ge saï", "ex": "Barnet legger seg klokka åtte.", "ex_fr": "L'enfant se couche à huit heures."},
+        {"no": "å skynde seg", "fr": "se dépêcher", "pron": "CHUN-de saï", "ex": "Skynd deg, Anna!", "ex_fr": "Dépêche-toi, Anna !"},
+        {"no": "å glede seg", "fr": "se réjouir", "pron": "GLÉ-de saï", "ex": "Jeg gleder meg til fredag.", "ex_fr": "Je me réjouis d'être à vendredi."}
+      ],
+      "grammaire": {
+        "titre": "Les verbes réfléchis",
+        "texte": "Certains verbes sont accompagnés d'un pronom réfléchi placé après le verbe : meg (me), deg (te), seg (se), oss (nous), dere (vous), seg (se).\nJeg kler på meg. Du kler på deg. Hun kler på seg. Vi kler på oss.\nÀ l'impératif : Skynd deg ! (dépêche-toi !)",
+        "exemples": [
+          {"no": "Jeg gleder meg.", "fr": "Je me réjouis."},
+          {"no": "Hun legger seg.", "fr": "Elle se couche."},
+          {"no": "Vi setter oss.", "fr": "Nous nous asseyons."}
+        ]
+      },
+      "texte": {
+        "no": "Marie våkner klokka sju. Hun står opp og dusjer i badet. Så kler hun på seg. Hun gleder seg til frokost. Anna våkner sent, og hun skynder seg. Etterpå setter de seg ved bordet. Om kvelden legger Marie seg klokka ti.",
+        "fr": "Marie se réveille à sept heures. Elle se lève et se douche dans la salle de bain. Puis elle s'habille. Elle se réjouit du petit-déjeuner. Anna se réveille tard et elle se dépêche. Ensuite, elles s'assoient à la table. Le soir, Marie se couche à dix heures.",
+        "aide": [
+          {"no": "ved", "fr": "à / près de"}
+        ],
+        "questions": [
+          {
+            "q": "Que fait Marie juste après s'être levée ?",
+            "choix": ["Elle se douche", "Elle se couche", "Elle mange du saumon"],
+            "rep": 0
+          },
+          {
+            "q": "À quelle heure Marie se couche-t-elle ?",
+            "choix": ["Dix heures", "Sept heures", "Huit heures"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les activités de la journée",
+      "mots": [
+        {"no": "å gå", "fr": "aller / marcher", "pron": "GOU", "ex": "Jeg går på en kafé.", "ex_fr": "Je vais dans un café."},
+        {"no": "å lese", "fr": "lire", "pron": "LÉ-se", "ex": "Hun leser en bok.", "ex_fr": "Elle lit un livre."},
+        {"no": "å skrive", "fr": "écrire", "pron": "SKRI-ve", "ex": "Anna skriver en tekst.", "ex_fr": "Anna écrit un texte."},
+        {"no": "å høre", "fr": "entendre", "pron": "HEU-re", "ex": "Jeg hører deg.", "ex_fr": "Je t'entends."},
+        {"no": "å vente", "fr": "attendre", "pron": "VEN-te", "ex": "Jeg venter på Anna.", "ex_fr": "J'attends Anna."},
+        {"no": "å hjelpe", "fr": "aider", "pron": "YEL-pe", "ex": "Kan du hjelpe meg?", "ex_fr": "Peux-tu m'aider ?"},
+        {"no": "å bruke", "fr": "utiliser", "pron": "BRU-ke", "ex": "Hun bruker nøkkelen.", "ex_fr": "Elle utilise la clé."},
+        {"no": "å ta", "fr": "prendre", "pron": "TAA", "ex": "Jeg tar en kaffe.", "ex_fr": "Je prends un café."}
+      ],
+      "grammaire": {
+        "titre": "Verbes et prépositions",
+        "texte": "Beaucoup de verbes s'emploient avec une petite préposition : vente på (attendre quelqu'un), gå til / gå på (aller à), høre på (écouter).\nLes verbes courts prennent simplement -r au présent : å gå → går, å ta → tar, å se → ser.",
+        "exemples": [
+          {"no": "Jeg venter på Anna.", "fr": "J'attends Anna."},
+          {"no": "Hun går på en kafé.", "fr": "Elle va dans un café."},
+          {"no": "Jeg tar en te.", "fr": "Je prends un thé."}
+        ]
+      },
+      "texte": {
+        "no": "Hver dag går Marie på en kafé. Der tar hun en kaffe og leser en bok. Etterpå skriver hun en tekst på norsk. Jonas kommer også. Han hjelper Marie, og han hører når hun leser. Marie bruker en klokke, for hun vil ikke vente. Klokka fem går de hjem.",
+        "fr": "Chaque jour, Marie va dans un café. Là, elle prend un café et lit un livre. Ensuite, elle écrit un texte en norvégien. Jonas vient aussi. Il aide Marie et il l'écoute quand elle lit. Marie utilise une montre, car elle ne veut pas attendre. À cinq heures, ils rentrent.",
+        "aide": [
+          {"no": "hver dag", "fr": "chaque jour"},
+          {"no": "der", "fr": "là"},
+          {"no": "for", "fr": "car"},
+          {"no": "hjem", "fr": "à la maison (vers)"}
+        ],
+        "questions": [
+          {
+            "q": "Que fait Marie au café ?",
+            "choix": ["Elle prend un café et lit un livre", "Elle dort", "Elle fait la cuisine"],
+            "rep": 0
+          },
+          {
+            "q": "Qui aide Marie ?",
+            "choix": ["Jonas", "Anna", "Per"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Le soir à la maison",
+      "mots": [
+        {"no": "en tv", "fr": "la télé", "pron": "TÉ-VÉ", "ex": "Vi ser på tv.", "ex_fr": "Nous regardons la télé."},
+        {"no": "en film", "fr": "le film", "pron": "FILM", "ex": "Jeg ser en film.", "ex_fr": "Je regarde un film."},
+        {"no": "en musikk", "fr": "la musique", "pron": "mu-SIKK", "ex": "Jeg liker musikk.", "ex_fr": "J'aime la musique."},
+        {"no": "en tur", "fr": "la promenade", "pron": "TUR", "ex": "Vi går en tur.", "ex_fr": "Nous faisons une promenade."},
+        {"no": "å slappe av", "fr": "se détendre", "pron": "SLAP-pe AA", "ex": "Jeg vil slappe av.", "ex_fr": "Je veux me détendre."},
+        {"no": "å lytte", "fr": "écouter", "pron": "LÜT-te", "ex": "Hun lytter til musikk.", "ex_fr": "Elle écoute de la musique."},
+        {"no": "å hvile", "fr": "se reposer", "pron": "VI-le", "ex": "Jeg hviler meg.", "ex_fr": "Je me repose."},
+        {"no": "å drømme", "fr": "rêver", "pron": "DREU-me", "ex": "Jeg drømmer om Norge.", "ex_fr": "Je rêve de la Norvège."}
+      ],
+      "grammaire": {
+        "titre": "Regarder, écouter, rêver : les prépositions",
+        "texte": "Chaque verbe a sa petite préposition : se på (regarder) → Vi ser på tv ; lytte til (écouter) → Hun lytter til musikk ; drømme om (rêver de) → Jeg drømmer om Norge.\nMais on dit sans préposition : Jeg ser en film (je regarde un film) et gå en tur (faire une promenade).",
+        "exemples": [
+          {"no": "Vi ser på tv.", "fr": "Nous regardons la télé."},
+          {"no": "Hun lytter til musikk.", "fr": "Elle écoute de la musique."},
+          {"no": "Jeg drømmer om Norge.", "fr": "Je rêve de la Norvège."}
+        ]
+      },
+      "texte": {
+        "no": "Om kvelden er Marie hjemme. Hun ser på tv, eller hun ser en film. Noen ganger lytter hun til musikk. Hun liker å slappe av. Før hun legger seg, går hun en tur. Så hviler hun seg. Om natten drømmer hun om Norge.",
+        "fr": "Le soir, Marie est à la maison. Elle regarde la télé ou elle regarde un film. Parfois, elle écoute de la musique. Elle aime se détendre. Avant de se coucher, elle fait une promenade. Puis elle se repose. La nuit, elle rêve de la Norvège.",
+        "aide": [
+          {"no": "noen ganger", "fr": "parfois"},
+          {"no": "om natten", "fr": "la nuit"},
+          {"no": "før", "fr": "avant"}
+        ],
+        "questions": [
+          {
+            "q": "Que fait Marie avant de se coucher ?",
+            "choix": ["Elle fait une promenade", "Elle regarde un film", "Elle lit"],
+            "rep": 0
+          },
+          {
+            "q": "De quoi rêve-t-elle ?",
+            "choix": ["De la Norvège", "De sa famille", "Du café"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Poser des questions",
+      "mots": [
+        {"no": "hva", "fr": "quoi / que", "pron": "VAA", "ex": "Hva heter du?", "ex_fr": "Comment t'appelles-tu ?"},
+        {"no": "hvem", "fr": "qui", "pron": "VEM", "ex": "Hvem er han?", "ex_fr": "Qui est-il ?"},
+        {"no": "hvorfor", "fr": "pourquoi", "pron": "VOR-for", "ex": "Hvorfor sover du ikke?", "ex_fr": "Pourquoi ne dors-tu pas ?"},
+        {"no": "når", "fr": "quand", "pron": "NOR", "ex": "Når står du opp?", "ex_fr": "Quand te lèves-tu ?"},
+        {"no": "hvilken", "fr": "quel / lequel", "pron": "VIL-ken", "ex": "Hvilken dag er det?", "ex_fr": "Quel jour est-ce ?"},
+        {"no": "fordi", "fr": "parce que", "pron": "FOR-di", "ex": "Jeg spiser fordi jeg er sulten.", "ex_fr": "Je mange parce que j'ai faim."},
+        {"no": "men", "fr": "mais", "pron": "MENN", "ex": "Jeg vil ha te, men ikke kaffe.", "ex_fr": "Je veux du thé mais pas de café."},
+        {"no": "eller", "fr": "ou", "pron": "EL-ler", "ex": "Vil du ha te eller kaffe?", "ex_fr": "Veux-tu du thé ou du café ?"}
+      ],
+      "grammaire": {
+        "titre": "Les mots interrogatifs",
+        "texte": "Le mot interrogatif se place en premier, puis vient le verbe (règle V2), puis le sujet : Når står du opp ? Hva heter du ?\nPour répondre à « Hvorfor ? », on utilise « fordi » (parce que) : Jeg spiser fordi jeg er sulten.",
+        "exemples": [
+          {"no": "Når står du opp?", "fr": "Quand te lèves-tu ?"},
+          {"no": "Hva heter du?", "fr": "Comment t'appelles-tu ?"},
+          {"no": "Hvorfor spør du?", "fr": "Pourquoi demandes-tu ?"}
+        ]
+      },
+      "texte": {
+        "no": "– Hva gjør du i dag, Marie?\n– Jeg går en tur. Hvorfor spør du?\n– Fordi jeg vil gå med deg. Når står du opp?\n– Jeg står opp klokka sju. Vil du ha te eller kaffe?\n– Kaffe, takk! Men jeg drikker ikke mye.",
+        "fr": "– Que fais-tu aujourd'hui, Marie ?\n– Je fais une promenade. Pourquoi demandes-tu ?\n– Parce que je veux marcher avec toi. Quand te lèves-tu ?\n– Je me lève à sept heures. Veux-tu du thé ou du café ?\n– Du café, merci ! Mais je ne bois pas beaucoup.",
+        "aide": [
+          {"no": "gjør", "fr": "fais"},
+          {"no": "med", "fr": "avec"},
+          {"no": "mye", "fr": "beaucoup"},
+          {"no": "spør", "fr": "demandes"}
+        ],
+        "questions": [
+          {
+            "q": "Que fait Marie aujourd'hui ?",
+            "choix": ["Elle fait une promenade", "Elle dort", "Elle travaille"],
+            "rep": 0
+          },
+          {
+            "q": "Que veut boire la première personne ?",
+            "choix": ["Du café", "Du thé", "Rien"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie våkner klokka sju. Hun står opp, dusjer og kler på seg. Hun spiser frokost klokka åtte. Om formiddagen går hun på en kafé. Der leser hun en bok og skriver en tekst. Klokka tolv spiser hun lunsj med Anna. Om ettermiddagen går de en tur. Middag spiser de klokka seks. Om kvelden ser Marie på en film, eller hun lytter til musikk. Hun hviler seg og slapper av. Klokka ti legger hun seg. Hun gleder seg til i morgen!",
+    "fr": "Marie se réveille à sept heures. Elle se lève, se douche et s'habille. Elle prend son petit-déjeuner à huit heures. Dans la matinée, elle va dans un café. Là, elle lit un livre et écrit un texte. À midi, elle déjeune avec Anna. L'après-midi, elles font une promenade. Elles dînent à six heures. Le soir, Marie regarde un film ou elle écoute de la musique. Elle se repose et se détend. À dix heures, elle se couche. Elle se réjouit de demain !",
+    "aide": [
+      {"no": "slapper av", "fr": "se détend"}
+    ],
+    "questions": [
+      {
+        "q": "À quelle heure Marie prend-elle le petit-déjeuner ?",
+        "choix": ["À huit heures", "À sept heures", "À midi"],
+        "rep": 0
+      },
+      {
+        "q": "Que fait-elle au café ?",
+        "choix": ["Elle lit et écrit", "Elle dort", "Elle cuisine"],
+        "rep": 0
+      },
+      {
+        "q": "Avec qui déjeune-t-elle ?",
+        "choix": ["Avec Anna", "Avec Jonas", "Avec Per"],
+        "rep": 0
+      },
+      {
+        "q": "À quelle heure se couche-t-elle ?",
+        "choix": ["À dix heures", "À onze heures", "À neuf heures"],
+        "rep": 0
+      }
+    ]
+  }
+}

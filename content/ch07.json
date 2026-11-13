@@ -1,0 +1,253 @@
+{
+  "id": 7,
+  "titre": "Jours, mois, heure",
+  "lecons": [
+    {
+      "titre": "Les jours de la semaine",
+      "mots": [
+        {"no": "mandag", "fr": "lundi", "pron": "MAN-dag", "ex": "På mandag spiser vi fisk.", "ex_fr": "Lundi, nous mangeons du poisson."},
+        {"no": "tirsdag", "fr": "mardi", "pron": "TIRS-dag", "ex": "På tirsdag drikker jeg te.", "ex_fr": "Mardi, je bois du thé."},
+        {"no": "onsdag", "fr": "mercredi", "pron": "ONS-dag", "ex": "Onsdag er en fin dag.", "ex_fr": "Mercredi est une belle journée."},
+        {"no": "torsdag", "fr": "jeudi", "pron": "TORS-dag", "ex": "Jeg møter Anna på torsdag.", "ex_fr": "Je rencontre Anna jeudi."},
+        {"no": "fredag", "fr": "vendredi", "pron": "FRÉ-dag", "ex": "Fredag spiser vi laks.", "ex_fr": "Vendredi, nous mangeons du saumon."},
+        {"no": "lørdag", "fr": "samedi", "pron": "LEUR-dag", "ex": "Lørdag er jeg på en kafé.", "ex_fr": "Samedi, je suis dans un café."},
+        {"no": "søndag", "fr": "dimanche", "pron": "SEUN-dag", "ex": "På søndag er familien her.", "ex_fr": "Dimanche, la famille est ici."},
+        {"no": "en dag", "fr": "le jour / la journée", "pron": "DAAG", "ex": "Det er en fin dag.", "ex_fr": "C'est une belle journée."}
+      ],
+      "grammaire": {
+        "titre": "Les jours de la semaine",
+        "texte": "Les jours s'écrivent sans majuscule. « På mandag » veut dire « lundi » (le prochain lundi) ; on peut aussi dire juste « mandag ».\nPour demander le jour : Hvilken dag er det i dag ? Réponse : I dag er det onsdag.",
+        "exemples": [
+          {"no": "Hvilken dag er det i dag?", "fr": "Quel jour sommes-nous ?"},
+          {"no": "I dag er det onsdag.", "fr": "Aujourd'hui, nous sommes mercredi."},
+          {"no": "på fredag", "fr": "vendredi (prochain)"}
+        ]
+      },
+      "texte": {
+        "no": "Marie er i Bergen i en uke. På mandag møter hun Anna. På tirsdag spiser de fisk. Onsdag er Marie på en kafé. På torsdag drikker hun te med Jonas. Fredag spiser hun laks. På lørdag og søndag er hun sammen med familien.",
+        "fr": "Marie est à Bergen pour une semaine. Lundi, elle rencontre Anna. Mardi, elles mangent du poisson. Mercredi, Marie est dans un café. Jeudi, elle boit du thé avec Jonas. Vendredi, elle mange du saumon. Samedi et dimanche, elle est avec sa famille.",
+        "aide": [
+          {"no": "en uke", "fr": "une semaine"},
+          {"no": "med", "fr": "avec"},
+          {"no": "sammen med", "fr": "avec"},
+          {"no": "familien", "fr": "la famille"}
+        ],
+        "questions": [
+          {
+            "q": "Que fait Marie jeudi ?",
+            "choix": ["Elle boit du thé avec Jonas", "Elle mange du saumon", "Elle rencontre Anna"],
+            "rep": 0
+          },
+          {
+            "q": "Quand mangent-elles du poisson ?",
+            "choix": ["Mardi", "Lundi", "Vendredi"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les mois de janvier à juillet",
+      "mots": [
+        {"no": "januar", "fr": "janvier", "pron": "YAN-u-ar", "ex": "Min fødselsdag er i januar.", "ex_fr": "Mon anniversaire est en janvier."},
+        {"no": "februar", "fr": "février", "pron": "FÉ-bru-ar", "ex": "Hun fyller tretti år i februar.", "ex_fr": "Elle a trente ans en février."},
+        {"no": "mars", "fr": "mars", "pron": "MARSS", "ex": "Vi er i Oslo i mars.", "ex_fr": "Nous sommes à Oslo en mars."},
+        {"no": "april", "fr": "avril", "pron": "a-PRIL", "ex": "I april er jeg i Bergen.", "ex_fr": "En avril, je suis à Bergen."},
+        {"no": "mai", "fr": "mai", "pron": "MAÏ", "ex": "Min bror fyller tjue år i mai.", "ex_fr": "Mon frère a vingt ans en mai."},
+        {"no": "juni", "fr": "juin", "pron": "YU-ni", "ex": "Anna kommer i juni.", "ex_fr": "Anna vient en juin."},
+        {"no": "juli", "fr": "juillet", "pron": "YU-li", "ex": "Familien er i Belgia i juli.", "ex_fr": "La famille est en Belgique en juillet."},
+        {"no": "en måned", "fr": "le mois", "pron": "MO-ned", "ex": "Jeg lærer norsk i en måned.", "ex_fr": "J'apprends le norvégien pendant un mois."}
+      ],
+      "grammaire": {
+        "titre": "Les mois de l'année",
+        "texte": "Les mois s'écrivent sans majuscule. On dit « i » + mois pour « en » : i mai (en mai).\nPour une date, on écrit un chiffre suivi d'un point : 17. mai se lit « syttende mai » (le dix-septième mai).",
+        "exemples": [
+          {"no": "i januar", "fr": "en janvier"},
+          {"no": "Min fødselsdag er i mai.", "fr": "Mon anniversaire est en mai."},
+          {"no": "17. mai", "fr": "le 17 mai"}
+        ]
+      },
+      "texte": {
+        "no": "Min bror fyller tretti år i januar. Min søster fyller tjuefem i mars. Min mor har fødselsdag i april, og min far i juni. Min bestemor fyller sytti år i juli. Min fødselsdag er i februar. Jeg fyller tjuesju år. Min fetter fyller atten i mai.",
+        "fr": "Mon frère a trente ans en janvier. Ma sœur a vingt-cinq ans en mars. Ma mère a son anniversaire en avril et mon père en juin. Ma grand-mère a soixante-dix ans en juillet. Mon anniversaire est en février. J'aurai vingt-sept ans. Mon cousin a dix-huit ans en mai.",
+        "aide": [
+          {"no": "har fødselsdag", "fr": "a son anniversaire"}
+        ],
+        "questions": [
+          {
+            "q": "Qui a son anniversaire en juillet ?",
+            "choix": ["La grand-mère", "Le père", "Le cousin"],
+            "rep": 0
+          },
+          {
+            "q": "Quand est l'anniversaire de Marie ?",
+            "choix": ["En février", "En mars", "En mai"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les mois d'août à décembre",
+      "mots": [
+        {"no": "august", "fr": "août", "pron": "au-GUST", "ex": "I august er jeg i Brussel.", "ex_fr": "En août, je suis à Bruxelles."},
+        {"no": "september", "fr": "septembre", "pron": "sep-TEM-ber", "ex": "Hun kommer i september.", "ex_fr": "Elle vient en septembre."},
+        {"no": "oktober", "fr": "octobre", "pron": "ok-TOU-ber", "ex": "I oktober spiser vi suppe.", "ex_fr": "En octobre, nous mangeons de la soupe."},
+        {"no": "november", "fr": "novembre", "pron": "no-VEM-ber", "ex": "Vi drikker te i november.", "ex_fr": "Nous buvons du thé en novembre."},
+        {"no": "desember", "fr": "décembre", "pron": "de-SEM-ber", "ex": "Min far fyller seksti i desember.", "ex_fr": "Mon père a soixante ans en décembre."},
+        {"no": "en uke", "fr": "la semaine", "pron": "U-ke", "ex": "Jeg har en uke i Bergen.", "ex_fr": "J'ai une semaine à Bergen."},
+        {"no": "i dag", "fr": "aujourd'hui", "pron": "i DAAG", "ex": "I dag er det fredag.", "ex_fr": "Aujourd'hui, c'est vendredi."},
+        {"no": "i morgen", "fr": "demain", "pron": "i MOR-en", "ex": "I morgen er det lørdag.", "ex_fr": "Demain, c'est samedi."}
+      ],
+      "grammaire": {
+        "titre": "Aujourd'hui, demain, hier",
+        "texte": "« I dag » = aujourd'hui, « i morgen » = demain, « i går » = hier.\nPour dire le jour : « Det er » + jour : I morgen er det lørdag. On commence souvent la phrase par l'indication de temps : le verbe reste alors en deuxième position (on y revient dans la leçon 5).",
+        "exemples": [
+          {"no": "I dag er det fredag.", "fr": "Aujourd'hui, c'est vendredi."},
+          {"no": "I morgen er det lørdag.", "fr": "Demain, c'est samedi."},
+          {"no": "i går", "fr": "hier"}
+        ]
+      },
+      "texte": {
+        "no": "– Hvilken dag er det i dag?\n– I dag er det fredag.\n– Og i morgen?\n– I morgen er det lørdag. Jeg har en uke i Bergen.\n– Når kommer du igjen?\n– I august, kanskje i september.\n– Jeg er her i oktober, november og desember.",
+        "fr": "– Quel jour sommes-nous aujourd'hui ?\n– Aujourd'hui, c'est vendredi.\n– Et demain ?\n– Demain, c'est samedi. J'ai une semaine à Bergen.\n– Quand reviens-tu ?\n– En août, peut-être en septembre.\n– Je suis ici en octobre, novembre et décembre.",
+        "aide": [
+          {"no": "hvilken", "fr": "quel"},
+          {"no": "når", "fr": "quand"},
+          {"no": "igjen", "fr": "de nouveau"},
+          {"no": "kanskje", "fr": "peut-être"},
+          {"no": "her", "fr": "ici"}
+        ],
+        "questions": [
+          {
+            "q": "Quel jour est-on aujourd'hui ?",
+            "choix": ["Vendredi", "Samedi", "Lundi"],
+            "rep": 0
+          },
+          {
+            "q": "Quand la deuxième personne est-elle ici ?",
+            "choix": ["D'octobre à décembre", "En août", "En juillet"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Dire l'heure",
+      "mots": [
+        {"no": "en klokke", "fr": "l'horloge / la montre", "pron": "KLOK-ke", "ex": "Jeg har en klokke.", "ex_fr": "J'ai une montre."},
+        {"no": "en time", "fr": "l'heure (durée) / le cours", "pron": "TI-me", "ex": "Jeg lærer norsk i en time.", "ex_fr": "J'apprends le norvégien pendant une heure."},
+        {"no": "et minutt", "fr": "la minute", "pron": "mi-NUTT", "ex": "Jeg har et minutt.", "ex_fr": "J'ai une minute."},
+        {"no": "halv", "fr": "demi / et demie", "pron": "HALL", "ex": "Klokka er halv tre.", "ex_fr": "Il est deux heures et demie."},
+        {"no": "en kvart", "fr": "le quart", "pron": "KVART", "ex": "Klokka er kvart over fire.", "ex_fr": "Il est quatre heures et quart."},
+        {"no": "over", "fr": "après (l'heure)", "pron": "O-ver", "ex": "Klokka er ti over fem.", "ex_fr": "Il est cinq heures dix."},
+        {"no": "på", "fr": "moins (l'heure)", "pron": "POU", "ex": "Klokka er fem på tolv.", "ex_fr": "Il est midi moins cinq."},
+        {"no": "presis", "fr": "pile", "pron": "pre-SIS", "ex": "Klokka er seks presis.", "ex_fr": "Il est six heures pile."}
+      ],
+      "grammaire": {
+        "titre": "Dire l'heure",
+        "texte": "« Hva er klokka ? » = quelle heure est-il ? On répond : « Klokka er tre. »\nAttention : « halv fire » veut dire 3 h 30 ! La demie se compte vers l'heure suivante : halv fire = la moitié avant quatre.\nkvart over fire = 4 h 15 · kvart på fire = 3 h 45 · ti over fire = 4 h 10 · ti på fire = 3 h 50.",
+        "exemples": [
+          {"no": "Klokka er halv fire.", "fr": "Il est trois heures et demie."},
+          {"no": "kvart over fire", "fr": "quatre heures et quart"},
+          {"no": "fem på tolv", "fr": "midi moins cinq"}
+        ]
+      },
+      "texte": {
+        "no": "– Unnskyld, hva er klokka?\n– Klokka er halv fire.\n– Takk! Jeg har en time klokka fire.\n– Da har du en halv time.\n– Ja! Jeg vil spise en kake på en kafé klokka fem.\n– God idé! Vi ses klokka fem presis.\n– Ha det bra!",
+        "fr": "– Excuse-moi, quelle heure est-il ?\n– Il est trois heures et demie.\n– Merci ! J'ai cours à quatre heures.\n– Alors tu as une demi-heure.\n– Oui ! Je veux manger un gâteau dans un café à cinq heures.\n– Bonne idée ! On se voit à cinq heures pile.\n– Au revoir !",
+        "aide": [
+          {"no": "hva", "fr": "quoi / quel"},
+          {"no": "da", "fr": "alors"},
+          {"no": "god idé", "fr": "bonne idée"}
+        ],
+        "questions": [
+          {
+            "q": "Quelle heure est-il au début ?",
+            "choix": ["Trois heures et demie", "Quatre heures", "Cinq heures"],
+            "rep": 0
+          },
+          {
+            "q": "À quelle heure ont-ils rendez-vous ?",
+            "choix": ["Cinq heures pile", "Quatre heures", "Trois heures et demie"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "L'ordre des mots (règle V2) et les adverbes de temps",
+      "mots": [
+        {"no": "tidlig", "fr": "tôt", "pron": "TID-li", "ex": "Hun kommer tidlig.", "ex_fr": "Elle arrive tôt."},
+        {"no": "sent", "fr": "tard", "pron": "SENT", "ex": "Han kommer sent.", "ex_fr": "Il arrive tard."},
+        {"no": "alltid", "fr": "toujours", "pron": "AL-ti", "ex": "Jeg drikker alltid kaffe.", "ex_fr": "Je bois toujours du café."},
+        {"no": "ofte", "fr": "souvent", "pron": "OF-te", "ex": "Vi spiser ofte fisk.", "ex_fr": "Nous mangeons souvent du poisson."},
+        {"no": "aldri", "fr": "jamais", "pron": "AL-dri", "ex": "Jeg spiser aldri kjøtt.", "ex_fr": "Je ne mange jamais de viande."},
+        {"no": "nå", "fr": "maintenant", "pron": "NOU", "ex": "Nå bor jeg i Bergen.", "ex_fr": "Maintenant, j'habite à Bergen."},
+        {"no": "så", "fr": "puis / alors", "pron": "SOU", "ex": "Så spiser vi laks.", "ex_fr": "Puis nous mangeons du saumon."},
+        {"no": "etterpå", "fr": "ensuite / après", "pron": "ET-ter-pou", "ex": "Etterpå drikker vi te.", "ex_fr": "Ensuite, nous buvons du thé."}
+      ],
+      "grammaire": {
+        "titre": "La règle V2 : le verbe en deuxième position",
+        "texte": "Dans une phrase normale, le verbe est toujours à la 2e place. Si on commence par autre chose que le sujet (nå, i dag, så…), le sujet passe après le verbe :\nJeg drikker kaffe i dag. → I dag drikker jeg kaffe.\nLes petits mots comme alltid, ofte, aldri et ikke se placent après le verbe : Jeg drikker alltid kaffe.",
+        "exemples": [
+          {"no": "Nå bor jeg i Bergen.", "fr": "Maintenant, j'habite à Bergen."},
+          {"no": "I dag drikker jeg te.", "fr": "Aujourd'hui, je bois du thé."},
+          {"no": "Jeg spiser aldri kjøtt.", "fr": "Je ne mange jamais de viande."}
+        ]
+      },
+      "texte": {
+        "no": "Marie drikker alltid kaffe om morgenen. Nå er hun i Bergen. Hun er ofte tidlig. Hun kommer aldri sent. Etterpå spiser hun et brød. Så møter hun Anna. I dag kommer Anna sent. Da drikker Marie en kaffe til. Etterpå går de sammen.",
+        "fr": "Marie boit toujours du café le matin. Maintenant, elle est à Bergen. Elle est souvent en avance. Elle n'arrive jamais en retard. Ensuite, elle mange du pain. Puis elle rencontre Anna. Aujourd'hui, Anna arrive tard. Alors Marie boit encore un café. Ensuite, elles partent ensemble.",
+        "aide": [
+          {"no": "om morgenen", "fr": "le matin"},
+          {"no": "til", "fr": "de plus / encore"},
+          {"no": "går", "fr": "partent"},
+          {"no": "sammen", "fr": "ensemble"}
+        ],
+        "questions": [
+          {
+            "q": "Quand Marie boit-elle toujours du café ?",
+            "choix": ["Le matin", "Le soir", "Jamais"],
+            "rep": 0
+          },
+          {
+            "q": "Qui arrive tard aujourd'hui ?",
+            "choix": ["Anna", "Marie", "Jonas"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "I dag er det mandag, og Marie er i Bergen i en uke. Klokka er halv åtte. Marie drikker alltid kaffe tidlig, og etterpå spiser hun et brød. På tirsdag møter hun Anna klokka kvart over ti. På onsdag har de en time sammen. På torsdag kommer Anna sent, og Marie drikker en te. På fredag drikker de kaffe klokka fem presis. På lørdag og søndag er Marie sammen med familien. I februar fyller hun tjuesju år. Da kommer hele familien til Bergen!",
+    "fr": "Aujourd'hui, c'est lundi et Marie est à Bergen pour une semaine. Il est sept heures et demie. Marie boit toujours du café tôt et ensuite elle mange du pain. Mardi, elle rencontre Anna à dix heures et quart. Mercredi, elles ont un cours ensemble. Jeudi, Anna arrive tard et Marie boit un thé. Vendredi, elles boivent du café à cinq heures pile. Samedi et dimanche, Marie est avec sa famille. En février, elle aura vingt-sept ans. Alors toute la famille viendra à Bergen !",
+    "aide": [
+      {"no": "hele", "fr": "toute la"},
+      {"no": "til", "fr": "à / vers"}
+    ],
+    "questions": [
+      {
+        "q": "Quelle heure est-il lundi ?",
+        "choix": ["Sept heures et demie", "Huit heures", "Dix heures et quart"],
+        "rep": 0
+      },
+      {
+        "q": "Quand Marie rencontre-t-elle Anna ?",
+        "choix": ["Mardi à dix heures et quart", "Mercredi", "Jeudi"],
+        "rep": 0
+      },
+      {
+        "q": "Que fait Marie jeudi ?",
+        "choix": ["Elle boit un thé car Anna arrive tard", "Elle rencontre Anna à l'heure", "Elle mange du saumon"],
+        "rep": 0
+      },
+      {
+        "q": "Quand Marie fête-t-elle son anniversaire ?",
+        "choix": ["En février", "En mars", "En juillet"],
+        "rep": 0
+      }
+    ]
+  }
+}

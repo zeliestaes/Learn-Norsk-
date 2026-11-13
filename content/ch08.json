@@ -1,0 +1,244 @@
+{
+  "id": 8,
+  "titre": "Ma maison",
+  "lecons": [
+    {
+      "titre": "Les pièces de la maison",
+      "mots": [
+        {"no": "et hus", "fr": "la maison", "pron": "HUS", "ex": "Jeg bor i et hus.", "ex_fr": "J'habite dans une maison."},
+        {"no": "en leilighet", "fr": "l'appartement", "pron": "LAÏ-lig-heet", "ex": "Vi har en leilighet i Bergen.", "ex_fr": "Nous avons un appartement à Bergen."},
+        {"no": "et rom", "fr": "la pièce", "pron": "ROMM", "ex": "Det er et rom her.", "ex_fr": "Il y a une pièce ici."},
+        {"no": "et kjøkken", "fr": "la cuisine", "pron": "CHEUK-ken", "ex": "Det er et kjøkken her.", "ex_fr": "Il y a une cuisine ici."},
+        {"no": "en stue", "fr": "le salon", "pron": "STU-e", "ex": "Vi har en stue og et kjøkken.", "ex_fr": "Nous avons un salon et une cuisine."},
+        {"no": "et soverom", "fr": "la chambre", "pron": "SOU-ve-rom", "ex": "Jeg har et soverom.", "ex_fr": "J'ai une chambre."},
+        {"no": "et bad", "fr": "la salle de bain", "pron": "BAAD", "ex": "Det er et bad her.", "ex_fr": "Il y a une salle de bain ici."},
+        {"no": "en hage", "fr": "le jardin", "pron": "HAA-ge", "ex": "Vi har en hage.", "ex_fr": "Nous avons un jardin."}
+      ],
+      "grammaire": {
+        "titre": "Habiter : « i » + lieu",
+        "texte": "Pour dire où on habite : bo i + lieu. On utilise « i » (dans / à / en) : Jeg bor i et hus, i en leilighet, i Bergen.\n« Det er … » (il y a / c'est) sert à présenter ce qu'on trouve quelque part : Det er et kjøkken her.",
+        "exemples": [
+          {"no": "Jeg bor i en leilighet.", "fr": "J'habite dans un appartement."},
+          {"no": "Vi bor i et hus.", "fr": "Nous habitons dans une maison."},
+          {"no": "Det er et bad her.", "fr": "Il y a une salle de bain ici."}
+        ]
+      },
+      "texte": {
+        "no": "Marie bor i en leilighet i Bergen. Det er et kjøkken, et bad og en stue. Det er også et soverom. Familien min bor i et hus med en hage. Jeg liker en hage, men jeg har ikke en hage i Bergen.",
+        "fr": "Marie habite dans un appartement à Bergen. Il y a une cuisine, une salle de bain et un salon. Il y a aussi une chambre. Ma famille habite dans une maison avec un jardin. J'aime les jardins, mais je n'ai pas de jardin à Bergen.",
+        "aide": [
+          {"no": "med", "fr": "avec"},
+          {"no": "også", "fr": "aussi"},
+          {"no": "familien min", "fr": "ma famille"}
+        ],
+        "questions": [
+          {
+            "q": "Où habite Marie à Bergen ?",
+            "choix": ["Dans un appartement", "Dans une maison", "Chez Anna"],
+            "rep": 0
+          },
+          {
+            "q": "Qu'est-ce qu'elle n'a pas à Bergen ?",
+            "choix": ["Un jardin", "Une cuisine", "Une salle de bain"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les meubles et la forme définie",
+      "mots": [
+        {"no": "ei seng", "fr": "le lit", "pron": "SENG", "ex": "Sengen er i soverommet.", "ex_fr": "Le lit est dans la chambre."},
+        {"no": "en stol", "fr": "la chaise", "pron": "STOUL", "ex": "Stolen er på kjøkkenet.", "ex_fr": "La chaise est dans la cuisine."},
+        {"no": "en sofa", "fr": "le canapé", "pron": "SOU-fa", "ex": "Sofaen er i stuen.", "ex_fr": "Le canapé est dans le salon."},
+        {"no": "et skap", "fr": "l'armoire / le placard", "pron": "SKAAP", "ex": "Skapet er i soverommet.", "ex_fr": "L'armoire est dans la chambre."},
+        {"no": "ei dør", "fr": "la porte", "pron": "DEUR", "ex": "Døra er her.", "ex_fr": "La porte est ici."},
+        {"no": "et vindu", "fr": "la fenêtre", "pron": "VIN-du", "ex": "Vinduet er på kjøkkenet.", "ex_fr": "La fenêtre est dans la cuisine."},
+        {"no": "en lampe", "fr": "la lampe", "pron": "LAM-pe", "ex": "Lampen er på bordet.", "ex_fr": "La lampe est sur la table."},
+        {"no": "ei bok", "fr": "le livre", "pron": "BOUK", "ex": "Boka er på bordet.", "ex_fr": "Le livre est sur la table."}
+      ],
+      "grammaire": {
+        "titre": "La forme définie : « le / la » en fin de mot",
+        "texte": "En norvégien, « le / la » se colle à la fin du nom :\nen stol → stolen · et skap → skapet · ei dør → døra (ou døren) · ei bok → boka\nSi le mot finit par -e : en lampe → lampen, et rom → rommet.\nOn dit « i stuen » (dans le salon), « på bordet » (sur la table).",
+        "exemples": [
+          {"no": "en stol → stolen", "fr": "une chaise → la chaise"},
+          {"no": "et skap → skapet", "fr": "une armoire → l'armoire"},
+          {"no": "ei bok → boka", "fr": "un livre → le livre"}
+        ]
+      },
+      "texte": {
+        "no": "I stuen er det en sofa, en stol og et bord. Sofaen er ved vinduet. Lampen er på bordet, og boka er på bordet også. I soverommet er det en seng og et skap. Døra er i stuen. Det er en fin leilighet!",
+        "fr": "Dans le salon, il y a un canapé, une chaise et une table. Le canapé est près de la fenêtre. La lampe est sur la table et le livre est aussi sur la table. Dans la chambre, il y a un lit et une armoire. La porte est dans le salon. C'est un bel appartement !",
+        "aide": [
+          {"no": "ved", "fr": "près de"},
+          {"no": "fin", "fr": "beau"}
+        ],
+        "questions": [
+          {
+            "q": "Qu'y a-t-il sur la table ?",
+            "choix": ["Une lampe et un livre", "Une chaise", "Un lit"],
+            "rep": 0
+          },
+          {
+            "q": "Où est le lit ?",
+            "choix": ["Dans la chambre", "Au salon", "Dans la cuisine"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Dans la maison d'Anna",
+      "mots": [
+        {"no": "et kjøleskap", "fr": "le réfrigérateur", "pron": "CHEU-le-skaap", "ex": "Kjøleskapet er på kjøkkenet.", "ex_fr": "Le frigo est dans la cuisine."},
+        {"no": "en komfyr", "fr": "la cuisinière", "pron": "kom-FÜR", "ex": "Komfyren er på kjøkkenet.", "ex_fr": "La cuisinière est dans la cuisine."},
+        {"no": "en dusj", "fr": "la douche", "pron": "DUCH", "ex": "Dusjen er i badet.", "ex_fr": "La douche est dans la salle de bain."},
+        {"no": "et speil", "fr": "le miroir", "pron": "SPAÏL", "ex": "Speilet er i badet.", "ex_fr": "Le miroir est dans la salle de bain."},
+        {"no": "et teppe", "fr": "le tapis", "pron": "TEP-pe", "ex": "Teppet er i stuen.", "ex_fr": "Le tapis est dans le salon."},
+        {"no": "et bilde", "fr": "l'image / la photo", "pron": "BIL-de", "ex": "Bildet er på døra.", "ex_fr": "L'image est sur la porte."},
+        {"no": "en nøkkel", "fr": "la clé", "pron": "NEUK-kel", "ex": "Nøkkelen er på bordet.", "ex_fr": "La clé est sur la table."},
+        {"no": "ei trapp", "fr": "l'escalier", "pron": "TRAPP", "ex": "Trappa er i huset.", "ex_fr": "L'escalier est dans la maison."}
+      ],
+      "grammaire": {
+        "titre": "Trouver le genre d'un nom",
+        "texte": "Il n'y a pas de règle sûre, mais quelques indices :\n• les noms en -ing, -het et -else sont presque toujours masculins : en regning, en leilighet.\n• en cas de doute, « en » est le plus fréquent.\nDéfini des mots en -e : un nom neutre en -e prend seulement -t (et teppe → teppet, et bilde → bildet).",
+        "exemples": [
+          {"no": "en leilighet", "fr": "un appartement"},
+          {"no": "et teppe → teppet", "fr": "un tapis → le tapis"},
+          {"no": "ei trapp → trappa", "fr": "un escalier → l'escalier"}
+        ]
+      },
+      "texte": {
+        "no": "Marie er hos Anna i Voss. Anna bor i et hus. Kjøleskapet og komfyren er på kjøkkenet. Dusjen og speilet er i badet. I stuen er det et teppe og et bilde. Nøkkelen er på bordet. Trappa er ved døra. Det er et fint hus!",
+        "fr": "Marie est chez Anna à Voss. Anna habite dans une maison. Le frigo et la cuisinière sont dans la cuisine. La douche et le miroir sont dans la salle de bain. Dans le salon, il y a un tapis et une image. La clé est sur la table. L'escalier est près de la porte. C'est une belle maison !",
+        "aide": [
+          {"no": "hos", "fr": "chez"}
+        ],
+        "questions": [
+          {
+            "q": "Où est la clé ?",
+            "choix": ["Sur la table", "Dans la salle de bain", "Dans la cuisine"],
+            "rep": 0
+          },
+          {
+            "q": "Chez qui est Marie ?",
+            "choix": ["Chez Anna", "Chez Jonas", "Chez sa tante"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Verbes de la maison",
+      "mots": [
+        {"no": "å åpne", "fr": "ouvrir", "pron": "OP-ne", "ex": "Jeg åpner døra.", "ex_fr": "J'ouvre la porte."},
+        {"no": "å stenge", "fr": "fermer", "pron": "STEN-ge", "ex": "Hun stenger vinduet.", "ex_fr": "Elle ferme la fenêtre."},
+        {"no": "å vaske", "fr": "laver / nettoyer", "pron": "VAS-ke", "ex": "Vi vasker kjøkkenet.", "ex_fr": "Nous nettoyons la cuisine."},
+        {"no": "å lage", "fr": "faire / préparer", "pron": "LAA-ge", "ex": "Han lager suppe.", "ex_fr": "Il prépare de la soupe."},
+        {"no": "å sove", "fr": "dormir", "pron": "SOU-ve", "ex": "Barnet sover i sengen.", "ex_fr": "L'enfant dort dans le lit."},
+        {"no": "å leie", "fr": "louer", "pron": "LAÏ-e", "ex": "De leier en leilighet.", "ex_fr": "Ils louent un appartement."},
+        {"no": "å flytte", "fr": "déménager", "pron": "FLÜT-te", "ex": "Vi flytter til Bergen.", "ex_fr": "Nous déménageons à Bergen."},
+        {"no": "å se", "fr": "voir", "pron": "SÉ", "ex": "Jeg ser bildet.", "ex_fr": "Je vois l'image."}
+      ],
+      "grammaire": {
+        "titre": "« i » ou « til » : où et vers où",
+        "texte": "Pour un lieu où l'on est : « i » (bo i Bergen). Pour un lieu où l'on va : « til » (flytte til Bergen).\nLes verbes courts prennent aussi -r : å se → ser, å bo → bor, å sove → sover.",
+        "exemples": [
+          {"no": "Jeg bor i Bergen.", "fr": "J'habite à Bergen."},
+          {"no": "Vi flytter til Bergen.", "fr": "Nous déménageons à Bergen."},
+          {"no": "Hun ser bildet.", "fr": "Elle voit l'image."}
+        ]
+      },
+      "texte": {
+        "no": "Marie og Anna flytter til Bergen. De leier en leilighet. Anna åpner døra, og Marie stenger vinduet. Marie lager suppe, og Anna vasker kjøkkenet. De ser et bilde på bordet. Det er et bilde av familien. Om kvelden sover Marie i soverommet, og Anna sover i stuen.",
+        "fr": "Marie et Anna déménagent à Bergen. Elles louent un appartement. Anna ouvre la porte et Marie ferme la fenêtre. Marie prépare de la soupe et Anna nettoie la cuisine. Elles voient une photo sur la table. C'est une photo de la famille. Le soir, Marie dort dans la chambre et Anna dort dans le salon.",
+        "aide": [
+          {"no": "av", "fr": "de"}
+        ],
+        "questions": [
+          {
+            "q": "Qui prépare la soupe ?",
+            "choix": ["Marie", "Anna", "Jonas"],
+            "rep": 0
+          },
+          {
+            "q": "Où dort Anna ?",
+            "choix": ["Au salon", "Dans la chambre", "Dans la cuisine"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Le quartier",
+      "mots": [
+        {"no": "en nabo", "fr": "le voisin", "pron": "NAA-bo", "ex": "Min nabo heter Per.", "ex_fr": "Mon voisin s'appelle Per."},
+        {"no": "en gate", "fr": "la rue", "pron": "GAA-te", "ex": "Jeg bor i en gate i Bergen.", "ex_fr": "J'habite dans une rue à Bergen."},
+        {"no": "en adresse", "fr": "l'adresse", "pron": "a-DRES-se", "ex": "Min adresse er i Voss.", "ex_fr": "Mon adresse est à Voss."},
+        {"no": "en by", "fr": "la ville", "pron": "BÜ", "ex": "Bergen er en fin by.", "ex_fr": "Bergen est une belle ville."},
+        {"no": "et sted", "fr": "l'endroit", "pron": "STÉ", "ex": "Det er et fint sted.", "ex_fr": "C'est un bel endroit."},
+        {"no": "en etasje", "fr": "l'étage", "pron": "e-TAA-cheu", "ex": "Huset har én etasje.", "ex_fr": "La maison a un étage."},
+        {"no": "en husleie", "fr": "le loyer", "pron": "HUS-laï-e", "ex": "Jeg betaler en husleie.", "ex_fr": "Je paie un loyer."},
+        {"no": "hjemme", "fr": "à la maison", "pron": "YEM-me", "ex": "Er du hjemme?", "ex_fr": "Es-tu à la maison ?"}
+      ],
+      "grammaire": {
+        "titre": "Hjemme ou hjem ?",
+        "texte": "« Hjemme » = à la maison (on y est) ; « hjem » = vers la maison (on y va) : Jeg er hjemme. Jeg går hjem.\nPour demander où l'on habite : Hvor bor du ? On répond : Jeg bor i en gate i Bergen.",
+        "exemples": [
+          {"no": "Jeg er hjemme.", "fr": "Je suis à la maison."},
+          {"no": "Jeg går hjem.", "fr": "Je rentre à la maison."},
+          {"no": "Hvor bor du?", "fr": "Où habites-tu ?"}
+        ]
+      },
+      "texte": {
+        "no": "– Hvor bor du nå, Marie?\n– Jeg bor i en gate i Bergen. Det er en fin by!\n– Har du en nabo?\n– Ja, min nabo heter Per. Han bor i en etasje over meg.\n– Er du hjemme i dag?\n– Ja, jeg er hjemme. Det er et fint sted å bo.",
+        "fr": "– Où habites-tu maintenant, Marie ?\n– J'habite dans une rue à Bergen. C'est une belle ville !\n– As-tu un voisin ?\n– Oui, mon voisin s'appelle Per. Il habite un étage au-dessus de moi.\n– Es-tu à la maison aujourd'hui ?\n– Oui, je suis à la maison. C'est un bel endroit où habiter.",
+        "aide": [
+          {"no": "over meg", "fr": "au-dessus de moi"},
+          {"no": "å bo", "fr": "pour habiter"}
+        ],
+        "questions": [
+          {
+            "q": "Comment s'appelle le voisin ?",
+            "choix": ["Per", "Jonas", "Anna"],
+            "rep": 0
+          },
+          {
+            "q": "Où habite le voisin ?",
+            "choix": ["À l'étage au-dessus", "À l'étage en dessous", "Dans une autre ville"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie og Anna leier en leilighet i en gate i Bergen. Leiligheten har et kjøkken, en stue, et bad og et soverom. På kjøkkenet er det et kjøleskap og en komfyr. I stuen er det en sofa, en stol, et bord og en lampe. Boka er på bordet, og bildet er ved vinduet. I soverommet er det en seng og et skap. Nøkkelen er på bordet. Marie åpner døra, og Anna stenger vinduet. Naboen heter Per. Han bor i en etasje over dem. Det er et fint sted å bo!",
+    "fr": "Marie et Anna louent un appartement dans une rue de Bergen. L'appartement a une cuisine, un salon, une salle de bain et une chambre. Dans la cuisine, il y a un frigo et une cuisinière. Dans le salon, il y a un canapé, une chaise, une table et une lampe. Le livre est sur la table et la photo est près de la fenêtre. Dans la chambre, il y a un lit et une armoire. La clé est sur la table. Marie ouvre la porte et Anna ferme la fenêtre. Le voisin s'appelle Per. Il habite un étage au-dessus d'elles. C'est un bel endroit où habiter !",
+    "aide": [
+      {"no": "over dem", "fr": "au-dessus d'elles"}
+    ],
+    "questions": [
+      {
+        "q": "Qu'y a-t-il dans la cuisine ?",
+        "choix": ["Un frigo et une cuisinière", "Un lit", "Une douche"],
+        "rep": 0
+      },
+      {
+        "q": "Où est le livre ?",
+        "choix": ["Sur la table", "Dans l'armoire", "Près de la porte"],
+        "rep": 0
+      },
+      {
+        "q": "Qui ferme la fenêtre ?",
+        "choix": ["Anna", "Marie", "Per"],
+        "rep": 0
+      },
+      {
+        "q": "Où habite le voisin ?",
+        "choix": ["À l'étage au-dessus", "Dans le salon", "À Voss"],
+        "rep": 0
+      }
+    ]
+  }
+}

@@ -40,25 +40,25 @@
    "id": 7,
    "titre": "Jours, mois, heure",
    "etape": "Bergen",
-   "fichier": null
+   "fichier": "ch07.json"
   },
   {
    "id": 8,
    "titre": "Ma maison",
    "etape": "Voss",
-   "fichier": null
+   "fichier": "ch08.json"
   },
   {
    "id": 9,
    "titre": "Ma journée",
    "etape": "Sognefjord",
-   "fichier": null
+   "fichier": "ch09.json"
   },
   {
    "id": 10,
    "titre": "Couleurs et vêtements",
    "etape": "Lom",
-   "fichier": null
+   "fichier": "ch10.json"
   },
   {
    "id": 11,
