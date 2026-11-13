@@ -1,0 +1,126 @@
+{
+  "id": 1,
+  "titre": "Commander dans un café",
+  "lecons": [
+    {
+      "titre": "Boissons et douceurs",
+      "mots": [
+        {"no": "en kaffe", "fr": "le café (boisson)", "pron": "KAF-fe", "ex": "Jeg vil ha en kaffe.", "ex_fr": "Je voudrais un café."},
+        {"no": "en te", "fr": "le thé", "pron": "TÉ", "ex": "Per vil ha en te.", "ex_fr": "Per veut un thé."},
+        {"no": "en kake", "fr": "le gâteau", "pron": "KAA-ke", "ex": "Anna vil ha en kake.", "ex_fr": "Anna veut un gâteau."},
+        {"no": "et vann", "fr": "l'eau", "pron": "VANN", "ex": "Jeg vil ha vann.", "ex_fr": "Je voudrais de l'eau."},
+        {"no": "en brus", "fr": "le soda", "pron": "BRUSS", "ex": "Han drikker en brus.", "ex_fr": "Il boit un soda."},
+        {"no": "et brød", "fr": "le pain", "pron": "BREU", "ex": "Hun spiser et brød.", "ex_fr": "Elle mange du pain."},
+        {"no": "en sjokolade", "fr": "le chocolat", "pron": "cho-ko-LAA-de", "ex": "Hun vil ha en sjokolade.", "ex_fr": "Elle veut un chocolat."},
+        {"no": "et glass", "fr": "le verre", "pron": "GLASS", "ex": "Et glass vann, takk.", "ex_fr": "Un verre d'eau, s'il vous plaît."}
+      ],
+      "grammaire": {
+        "titre": "Un, une : en et et",
+        "texte": "En norvégien, chaque nom a un genre. On dit « en » pour le masculin et très souvent pour le féminin, et « et » pour le neutre. Il n'y a pas de règle sûre : on apprend donc chaque nom avec son article, comme « le » ou « la » en français.\nIl existe aussi « ei » pour certains féminins (chapitre 2).\nPour commander, on dit : Jeg vil ha … (je voudrais …).",
+        "exemples": [
+          {"no": "en kaffe", "fr": "un café"},
+          {"no": "et brød", "fr": "un pain"},
+          {"no": "Jeg vil ha en te.", "fr": "Je voudrais un thé."}
+        ]
+      },
+      "texte": {
+        "no": "Anna og Per er i Oslo. Anna vil ha en kaffe og en kake. Per vil ha en te og et brød. Han vil også ha et glass vann. Anna vil også ha en sjokolade. Per vil ikke ha en brus.",
+        "fr": "Anna et Per sont à Oslo. Anna veut un café et un gâteau. Per veut un thé et un pain. Il veut aussi un verre d'eau. Anna veut aussi un chocolat. Per ne veut pas de soda.",
+        "aide": [
+          {"no": "i", "fr": "à / en"},
+          {"no": "og", "fr": "et"},
+          {"no": "vil", "fr": "veut"},
+          {"no": "også", "fr": "aussi"},
+          {"no": "ikke", "fr": "ne… pas"}
+        ],
+        "questions": [
+          {
+            "q": "Que veut Per ?",
+            "choix": ["Un thé, un pain et un verre d'eau", "Un café et un gâteau", "Un soda et un chocolat"],
+            "rep": 0
+          },
+          {
+            "q": "Qui veut un chocolat ?",
+            "choix": ["Anna", "Per", "Personne"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Commander poliment",
+      "mots": [
+        {"no": "å drikke", "fr": "boire", "pron": "DRIK-ke", "ex": "Jeg drikker en kaffe.", "ex_fr": "Je bois un café."},
+        {"no": "å spise", "fr": "manger", "pron": "SPI-se", "ex": "Vi spiser et brød.", "ex_fr": "Nous mangeons du pain."},
+        {"no": "å bestille", "fr": "commander", "pron": "be-STIL-le", "ex": "Jeg vil bestille en te.", "ex_fr": "Je voudrais commander un thé."},
+        {"no": "takk", "fr": "merci", "pron": "TAKK", "ex": "En kaffe, takk.", "ex_fr": "Un café, s'il vous plaît."},
+        {"no": "vær så god", "fr": "voilà / je vous en prie", "pron": "vèr-so-GOU", "ex": "Vær så god, en kake.", "ex_fr": "Voilà, un gâteau."},
+        {"no": "en kopp", "fr": "la tasse", "pron": "KOPP", "ex": "Jeg vil ha en kopp te.", "ex_fr": "Je voudrais une tasse de thé."},
+        {"no": "en regning", "fr": "l'addition", "pron": "RAÏ-ning", "ex": "Kan jeg få en regning?", "ex_fr": "Puis-je avoir l'addition ?"},
+        {"no": "en kafé", "fr": "le café (lieu)", "pron": "ka-FÉ", "ex": "Vi er på en kafé.", "ex_fr": "Nous sommes dans un café."}
+      ],
+      "grammaire": {
+        "titre": "Le verbe ne change pas",
+        "texte": "Au présent, le verbe norvégien a la même forme pour toutes les personnes : on prend l'infinitif sans « å » et on ajoute -r ou -er. å drikke → drikker.\nAprès « vil » (veut) ou « kan » (peut), on garde l'infinitif sans « å ».\nPour demander poliment : Kan jeg få …? (puis-je avoir … ?)",
+        "exemples": [
+          {"no": "Jeg drikker te.", "fr": "Je bois du thé."},
+          {"no": "Vi drikker te.", "fr": "Nous buvons du thé."},
+          {"no": "Jeg vil bestille en kake.", "fr": "Je voudrais commander un gâteau."}
+        ]
+      },
+      "texte": {
+        "no": "Vi er på en kafé i Oslo. Jeg vil bestille en kopp te og en kake. Anna vil drikke en kaffe og spise et brød. Vi sier: «Kan vi bestille, takk?» «Vær så god», sier han. Vi drikker og spiser. Så vil vi ha en regning, takk.",
+        "fr": "Nous sommes dans un café à Oslo. Je voudrais commander une tasse de thé et un gâteau. Anna veut boire un café et manger du pain. Nous disons : « Pouvons-nous commander, s'il vous plaît ? » « Voilà », dit-il. Nous buvons et mangeons. Puis nous voulons l'addition, merci.",
+        "aide": [
+          {"no": "sier", "fr": "dit / disent"},
+          {"no": "kan vi", "fr": "pouvons-nous"},
+          {"no": "så", "fr": "puis"},
+          {"no": "han", "fr": "il"}
+        ],
+        "questions": [
+          {
+            "q": "Que veut commander la personne qui parle ?",
+            "choix": ["Une tasse de thé et un gâteau", "Un café et du pain", "Une addition"],
+            "rep": 0
+          },
+          {
+            "q": "Que demandent-ils à la fin ?",
+            "choix": ["L'addition", "Un autre café", "Un verre d'eau"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Anna og Per er på en kafé i Oslo. Anna vil bestille en kaffe og en kake. Per vil ha en kopp te og et brød. Han vil også ha et glass vann. Anna drikker kaffe, og Per drikker te. Anna liker sjokolade, så hun vil ha en sjokolade også. Per vil ikke ha en brus. De drikker og spiser. Så vil Per ha en regning. Han sier: «En regning, takk!» Anna sier: «Takk for kaffen!» Per sier: «Vær så god!»",
+    "fr": "Anna et Per sont dans un café à Oslo. Anna veut commander un café et un gâteau. Per veut une tasse de thé et du pain. Il veut aussi un verre d'eau. Anna boit du café et Per boit du thé. Anna aime le chocolat, alors elle veut aussi un chocolat. Per ne veut pas de soda. Ils boivent et mangent. Puis Per veut l'addition. Il dit : « L'addition, s'il vous plaît ! » Anna dit : « Merci pour le café ! » Per dit : « Je vous en prie ! »",
+    "aide": [
+      {"no": "liker", "fr": "aime"},
+      {"no": "så", "fr": "alors / puis"},
+      {"no": "Takk for kaffen", "fr": "Merci pour le café (formule de politesse)"}
+    ],
+    "questions": [
+      {
+        "q": "Où sont Anna et Per ?",
+        "choix": ["Dans un café à Oslo", "Dans un restaurant", "À Bergen"],
+        "rep": 0
+      },
+      {
+        "q": "Que boit Per ?",
+        "choix": ["Du thé", "Du café", "Un soda"],
+        "rep": 0
+      },
+      {
+        "q": "Qu'est-ce que Per ne veut pas ?",
+        "choix": ["Un soda", "Un gâteau", "Du pain"],
+        "rep": 0
+      },
+      {
+        "q": "Que demande Per à la fin ?",
+        "choix": ["L'addition", "Un autre gâteau", "Un chocolat"],
+        "rep": 0
+      }
+    ]
+  }
+}

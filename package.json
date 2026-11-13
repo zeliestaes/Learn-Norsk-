@@ -1,0 +1,10 @@
+{
+  "name": "norsk-reisen",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "validate": "node scripts/validate-content.js",
+    "build": "node scripts/validate-content.js && node scripts/build-sw.js",
+    "start": "npx serve ."
+  }
+}

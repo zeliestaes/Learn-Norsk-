@@ -1,0 +1,122 @@
+{
+  "id": 5,
+  "titre": "Commander dans un restaurant",
+  "lecons": [
+    {
+      "titre": "Au menu",
+      "mots": [
+        {"no": "en meny", "fr": "le menu", "pron": "me-NÜ", "ex": "Kan jeg få en meny, takk?", "ex_fr": "Puis-je avoir un menu, s'il vous plaît ?"},
+        {"no": "en suppe", "fr": "la soupe", "pron": "SUP-pe", "ex": "Jeg vil ha en suppe.", "ex_fr": "Je voudrais une soupe."},
+        {"no": "en fisk", "fr": "le poisson", "pron": "FISK", "ex": "Hun spiser en fisk.", "ex_fr": "Elle mange un poisson."},
+        {"no": "en laks", "fr": "le saumon", "pron": "LAKS", "ex": "Vi spiser laks.", "ex_fr": "Nous mangeons du saumon."},
+        {"no": "et kjøtt", "fr": "la viande", "pron": "CHEUTT", "ex": "Jeg spiser ikke kjøtt.", "ex_fr": "Je ne mange pas de viande."},
+        {"no": "en salat", "fr": "la salade", "pron": "sa-LAAT", "ex": "Han vil ha en salat.", "ex_fr": "Il veut une salade."},
+        {"no": "ei potet", "fr": "la pomme de terre", "pron": "po-TÉT", "ex": "Hun spiser ei potet.", "ex_fr": "Elle mange une pomme de terre."},
+        {"no": "et egg", "fr": "l'œuf", "pron": "EGG", "ex": "Jeg vil ha et egg.", "ex_fr": "Je voudrais un œuf."}
+      ],
+      "grammaire": {
+        "titre": "Commander : jeg skal ha …",
+        "texte": "Au restaurant, on dit « Jeg skal ha … » (je vais prendre …) ou « Jeg tar … » (je prends …).\nPour une matière ou une quantité non comptée, on ne met pas d'article : Jeg spiser laks (je mange du saumon), Jeg drikker vann (je bois de l'eau).\nPour demander : Kan jeg få en meny ? (puis-je avoir un menu ?)",
+        "exemples": [
+          {"no": "Jeg skal ha laks.", "fr": "Je vais prendre du saumon."},
+          {"no": "Jeg tar en suppe.", "fr": "Je prends une soupe."},
+          {"no": "Hun spiser kjøtt.", "fr": "Elle mange de la viande."}
+        ]
+      },
+      "texte": {
+        "no": "Marie og Anna er på en kafé i Rondane. De får en meny. Marie vil ha en suppe og en salat. Anna spiser ikke kjøtt. Hun skal ha laks og ei potet. Hun vil ikke ha et egg. Marie vil ha en fisk også.",
+        "fr": "Marie et Anna sont dans un café à Rondane. Elles reçoivent un menu. Marie veut une soupe et une salade. Anna ne mange pas de viande. Elle va prendre du saumon et une pomme de terre. Elle ne veut pas d'œuf. Marie veut aussi un poisson.",
+        "aide": [
+          {"no": "får", "fr": "reçoivent"},
+          {"no": "skal ha", "fr": "va prendre"}
+        ],
+        "questions": [
+          {
+            "q": "Que ne mange pas Anna ?",
+            "choix": ["De la viande", "Du poisson", "Des pommes de terre"],
+            "rep": 0
+          },
+          {
+            "q": "Que veut Marie ?",
+            "choix": ["Une soupe, une salade et un poisson", "Du saumon et une pomme de terre", "Un œuf"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "À table",
+      "mots": [
+        {"no": "en servitør", "fr": "le serveur", "pron": "ser-vi-TEUR", "ex": "En servitør kommer.", "ex_fr": "Un serveur arrive."},
+        {"no": "et bord", "fr": "la table", "pron": "BOUR", "ex": "Vi vil ha et bord.", "ex_fr": "Nous voulons une table."},
+        {"no": "en gaffel", "fr": "la fourchette", "pron": "GAF-fel", "ex": "Jeg vil ha en gaffel.", "ex_fr": "Je voudrais une fourchette."},
+        {"no": "en kniv", "fr": "le couteau", "pron": "K-NIV", "ex": "Hun har en kniv.", "ex_fr": "Elle a un couteau."},
+        {"no": "en skje", "fr": "la cuillère", "pron": "CHÉ", "ex": "Jeg vil ha en skje.", "ex_fr": "Je voudrais une cuillère."},
+        {"no": "en tallerken", "fr": "l'assiette", "pron": "tal-LÈR-ken", "ex": "En tallerken, takk.", "ex_fr": "Une assiette, s'il vous plaît."},
+        {"no": "sulten", "fr": "affamé", "pron": "SUL-ten", "ex": "Jeg er sulten.", "ex_fr": "J'ai faim."},
+        {"no": "deilig", "fr": "délicieux", "pron": "DAÏ-li", "ex": "Det er deilig!", "ex_fr": "C'est délicieux !"}
+      ],
+      "grammaire": {
+        "titre": "Décrire avec « være » et « det er »",
+        "texte": "Après « være » (être), on place directement l'adjectif : Jeg er sulten (je suis affamé).\n« Det er … » veut dire « c'est … » ou « il y a … » : Det er deilig ! (c'est délicieux !).\nOn dit « Har dere et bord ? » (avez-vous une table ?) pour entrer dans un restaurant. L'adjectif change avec le genre du nom : on le verra au chapitre 10.",
+        "exemples": [
+          {"no": "Jeg er sulten.", "fr": "J'ai faim."},
+          {"no": "Det er deilig!", "fr": "C'est délicieux !"},
+          {"no": "Har dere et bord?", "fr": "Avez-vous une table ?"}
+        ]
+      },
+      "texte": {
+        "no": "– God kveld! Har dere et bord? sier Marie.\n– Ja, vær så god, sier en servitør. Her er en meny.\n– Takk! Jeg er sulten, sier Anna. Jeg vil ha laks.\n– Og jeg vil ha en suppe, sier Marie. En skje, takk.\n– Og en gaffel og en kniv, takk, sier Anna.\n– Vær så god!\nMarie spiser suppe. Det er deilig!",
+        "fr": "– Bonsoir ! Avez-vous une table ? dit Marie.\n– Oui, je vous en prie, dit un serveur. Voici un menu.\n– Merci ! J'ai faim, dit Anna. Je veux du saumon.\n– Et moi, je veux une soupe, dit Marie. Une cuillère, s'il vous plaît.\n– Et une fourchette et un couteau, s'il vous plaît, dit Anna.\n– Voilà !\nMarie mange de la soupe. C'est délicieux !",
+        "aide": [
+          {"no": "her er", "fr": "voici"},
+          {"no": "sier", "fr": "dit"}
+        ],
+        "questions": [
+          {
+            "q": "Que veut Marie ?",
+            "choix": ["Une soupe", "Du saumon", "Une salade"],
+            "rep": 0
+          },
+          {
+            "q": "Comment est la soupe ?",
+            "choix": ["Délicieuse", "Froide", "Trop salée"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Det er kveld i Rondane. Marie og Anna er sultne. De går på en kafé og sier: «God kveld! Har dere et bord?» En servitør svarer: «Ja, vær så god!» De får en meny. Marie vil ha en suppe og en salat. Hun spiser ikke kjøtt. Anna skal ha laks og ei potet. En servitør kommer med en skje, en gaffel og en kniv. Marie sier: «Takk!» De spiser laks og suppe. Det er deilig! Til slutt vil Anna ha en regning. Hun sier: «Kan jeg få en regning, takk?»",
+    "fr": "C'est le soir à Rondane. Marie et Anna ont faim. Elles vont dans un café et disent : « Bonsoir ! Avez-vous une table ? » Un serveur répond : « Oui, je vous en prie ! » Elles reçoivent un menu. Marie veut une soupe et une salade. Elle ne mange pas de viande. Anna va prendre du saumon et une pomme de terre. Un serveur arrive avec une cuillère, une fourchette et un couteau. Marie dit : « Merci ! » Elles mangent du saumon et de la soupe. C'est délicieux ! À la fin, Anna veut l'addition. Elle dit : « Puis-je avoir l'addition, s'il vous plaît ? »",
+    "aide": [
+      {"no": "sultne", "fr": "affamées (pluriel)"},
+      {"no": "svarer", "fr": "répond"},
+      {"no": "kommer med", "fr": "arrive avec"},
+      {"no": "til slutt", "fr": "à la fin"}
+    ],
+    "questions": [
+      {
+        "q": "Où vont Marie et Anna ?",
+        "choix": ["Dans un café", "Chez Per", "À Bergen"],
+        "rep": 0
+      },
+      {
+        "q": "Que ne mange pas Marie ?",
+        "choix": ["De la viande", "De la soupe", "De la salade"],
+        "rep": 0
+      },
+      {
+        "q": "Que prend Anna ?",
+        "choix": ["Du saumon et une pomme de terre", "Une soupe", "Un œuf"],
+        "rep": 0
+      },
+      {
+        "q": "Que demande Anna à la fin ?",
+        "choix": ["L'addition", "Un autre plat", "Un verre d'eau"],
+        "rep": 0
+      }
+    ]
+  }
+}

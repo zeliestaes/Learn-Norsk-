@@ -1,0 +1,128 @@
+{
+  "id": 3,
+  "titre": "Former des phrases basiques",
+  "lecons": [
+    {
+      "titre": "Les verbes de base",
+      "mots": [
+        {"no": "å være", "fr": "être", "pron": "VÈ-re", "ex": "Hun er i Belgia.", "ex_fr": "Elle est en Belgique."},
+        {"no": "å ha", "fr": "avoir", "pron": "HAA", "ex": "Vi har en kake.", "ex_fr": "Nous avons un gâteau."},
+        {"no": "å bo", "fr": "habiter", "pron": "BOU", "ex": "Jeg bor i Brussel.", "ex_fr": "J'habite à Bruxelles."},
+        {"no": "å komme", "fr": "venir", "pron": "KOM-me", "ex": "Hun kommer fra Belgia.", "ex_fr": "Elle vient de Belgique."},
+        {"no": "å hete", "fr": "s'appeler", "pron": "HÉ-te", "ex": "Han heter Per.", "ex_fr": "Il s'appelle Per."},
+        {"no": "å snakke", "fr": "parler", "pron": "SNAK-ke", "ex": "Jeg snakker fransk.", "ex_fr": "Je parle français."},
+        {"no": "å like", "fr": "aimer (bien)", "pron": "LI-ke", "ex": "Jeg liker kaffe.", "ex_fr": "J'aime le café."},
+        {"no": "å lære", "fr": "apprendre", "pron": "LÈ-re", "ex": "Jeg lærer norsk.", "ex_fr": "J'apprends le norvégien."}
+      ],
+      "grammaire": {
+        "titre": "Le présent et l'ordre des mots",
+        "texte": "Au présent, le verbe a la même forme pour toutes les personnes : infinitif sans « å » + -r (ou -er). å bo → bor, å snakke → snakker, å komme → kommer.\nQuelques verbes sont irréguliers : å være → er, å ha → har.\nL'ordre est simple : sujet + verbe + le reste.",
+        "exemples": [
+          {"no": "Jeg bor i Brussel.", "fr": "J'habite à Bruxelles."},
+          {"no": "Du snakker norsk.", "fr": "Tu parles norvégien."},
+          {"no": "Hun er her.", "fr": "Elle est ici."}
+        ]
+      },
+      "texte": {
+        "no": "Hei! Jeg heter Marie. Jeg kommer fra Belgia, og jeg bor i Brussel. Jeg snakker fransk, engelsk og nederlandsk. Nå lærer jeg norsk. Jeg liker norsk. Min bror har en kone, og de bor i Oslo. Jeg vil snakke norsk i Oslo.",
+        "fr": "Salut ! Je m'appelle Marie. Je viens de Belgique et j'habite à Bruxelles. Je parle français, anglais et néerlandais. Maintenant, j'apprends le norvégien. J'aime le norvégien. Mon frère a une femme et ils habitent à Oslo. Je veux parler norvégien à Oslo.",
+        "aide": [
+          {"no": "fra", "fr": "de"},
+          {"no": "nå", "fr": "maintenant"},
+          {"no": "engelsk", "fr": "anglais"},
+          {"no": "nederlandsk", "fr": "néerlandais"}
+        ],
+        "questions": [
+          {
+            "q": "Quelles langues parle Marie ?",
+            "choix": ["Français, anglais et néerlandais", "Français et norvégien", "Anglais et allemand"],
+            "rep": 0
+          },
+          {
+            "q": "Où habite son frère ?",
+            "choix": ["À Oslo", "À Bruxelles", "À Hamar"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les pronoms et la négation",
+      "mots": [
+        {"no": "jeg", "fr": "je", "pron": "YAÏ", "ex": "Jeg liker te.", "ex_fr": "J'aime le thé."},
+        {"no": "du", "fr": "tu", "pron": "DU", "ex": "Du bor i Belgia.", "ex_fr": "Tu habites en Belgique."},
+        {"no": "han", "fr": "il", "pron": "HANN", "ex": "Han kommer fra Oslo.", "ex_fr": "Il vient d'Oslo."},
+        {"no": "hun", "fr": "elle", "pron": "HUNN", "ex": "Hun heter Anna.", "ex_fr": "Elle s'appelle Anna."},
+        {"no": "vi", "fr": "nous", "pron": "VI", "ex": "Vi er en familie.", "ex_fr": "Nous sommes une famille."},
+        {"no": "dere", "fr": "vous (pluriel)", "pron": "DÉ-re", "ex": "Dere spiser kake.", "ex_fr": "Vous mangez du gâteau."},
+        {"no": "de", "fr": "ils / elles", "pron": "DI", "ex": "De drikker kaffe.", "ex_fr": "Ils boivent du café."},
+        {"no": "ikke", "fr": "ne… pas", "pron": "IK-ke", "ex": "Jeg drikker ikke kaffe.", "ex_fr": "Je ne bois pas de café."}
+      ],
+      "grammaire": {
+        "titre": "Dire non et poser une question",
+        "texte": "La négation « ikke » se place après le verbe : Jeg spiser ikke kake.\nPour poser une question oui/non, on met le verbe en premier : Bor du i Oslo ? (habites-tu à Oslo ?). On n'ajoute pas « est-ce que ».",
+        "exemples": [
+          {"no": "Jeg liker ikke brus.", "fr": "Je n'aime pas le soda."},
+          {"no": "Bor du i Oslo?", "fr": "Habites-tu à Oslo ?"},
+          {"no": "Hun er ikke her.", "fr": "Elle n'est pas ici."}
+        ]
+      },
+      "texte": {
+        "no": "– Heter du Per?\n– Nei, jeg heter ikke Per. Jeg heter Jonas. Hun heter Anna, og han heter Per.\n– Er dere fra Oslo?\n– Nei, vi er ikke fra Oslo. Vi bor i Hamar. De bor i Oslo.\n– Drikker du kaffe?\n– Ja, jeg drikker kaffe, men jeg drikker ikke te.",
+        "fr": "– Tu t'appelles Per ?\n– Non, je ne m'appelle pas Per. Je m'appelle Jonas. Elle s'appelle Anna et lui s'appelle Per.\n– Vous venez d'Oslo ?\n– Non, nous ne venons pas d'Oslo. Nous habitons à Hamar. Eux habitent à Oslo.\n– Tu bois du café ?\n– Oui, je bois du café, mais je ne bois pas de thé.",
+        "aide": [
+          {"no": "nei", "fr": "non"},
+          {"no": "ja", "fr": "oui"},
+          {"no": "men", "fr": "mais"}
+        ],
+        "questions": [
+          {
+            "q": "Comment s'appelle celui qui répond ?",
+            "choix": ["Jonas", "Per", "Anna"],
+            "rep": 0
+          },
+          {
+            "q": "Que ne boit pas Jonas ?",
+            "choix": ["Du thé", "Du café", "De l'eau"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Hei! Jeg heter Marie, og jeg kommer fra Belgia. Jeg bor i Brussel, men nå er jeg i Hamar. Jeg snakker fransk, engelsk og nederlandsk. Jeg snakker ikke norsk så bra, men jeg lærer norsk. Her har jeg en venn. Han heter Jonas, og han kommer fra Hamar. Jonas liker kaffe, men han liker ikke te. Jeg liker både kaffe og te. Han spør: «Bor du i Oslo?» Jeg svarer: «Nei, jeg bor ikke i Oslo. Jeg bor i Brussel.» Vi snakker norsk sammen, og vi er glade!",
+    "fr": "Salut ! Je m'appelle Marie et je viens de Belgique. J'habite à Bruxelles, mais maintenant je suis à Hamar. Je parle français, anglais et néerlandais. Je ne parle pas très bien norvégien, mais j'apprends le norvégien. Ici, j'ai un ami. Il s'appelle Jonas et il vient de Hamar. Jonas aime le café, mais il n'aime pas le thé. J'aime le café et le thé. Il demande : « Tu habites à Oslo ? » Je réponds : « Non, je n'habite pas à Oslo. J'habite à Bruxelles. » Nous parlons norvégien ensemble et nous sommes contents !",
+    "aide": [
+      {"no": "så bra", "fr": "très bien"},
+      {"no": "venn", "fr": "ami"},
+      {"no": "spør", "fr": "demande"},
+      {"no": "svarer", "fr": "répond"},
+      {"no": "sammen", "fr": "ensemble"},
+      {"no": "glade", "fr": "contents"},
+      {"no": "både … og", "fr": "aussi bien … que"}
+    ],
+    "questions": [
+      {
+        "q": "Où habite Marie ?",
+        "choix": ["À Bruxelles", "À Hamar", "À Oslo"],
+        "rep": 0
+      },
+      {
+        "q": "D'où vient Jonas ?",
+        "choix": ["De Hamar", "D'Oslo", "De Belgique"],
+        "rep": 0
+      },
+      {
+        "q": "Que n'aime pas Jonas ?",
+        "choix": ["Le thé", "Le café", "Le norvégien"],
+        "rep": 0
+      },
+      {
+        "q": "Pourquoi Marie dit-elle « Nei » ?",
+        "choix": ["Elle n'habite pas à Oslo", "Elle n'aime pas le café", "Elle ne parle pas français"],
+        "rep": 0
+      }
+    ]
+  }
+}

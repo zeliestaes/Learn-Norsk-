@@ -1,0 +1,125 @@
+{
+  "id": 2,
+  "titre": "Décrire la famille",
+  "lecons": [
+    {
+      "titre": "Les parents et les enfants",
+      "mots": [
+        {"no": "en mor", "fr": "la mère", "pron": "MOUR", "ex": "Min mor bor i Belgia.", "ex_fr": "Ma mère habite en Belgique."},
+        {"no": "en far", "fr": "le père", "pron": "FAAR", "ex": "Min far er i Oslo.", "ex_fr": "Mon père est à Oslo."},
+        {"no": "en bror", "fr": "le frère", "pron": "BROUR", "ex": "Jeg har en bror.", "ex_fr": "J'ai un frère."},
+        {"no": "ei søster", "fr": "la sœur", "pron": "SEUS-ter", "ex": "Mi søster bor i Brussel.", "ex_fr": "Ma sœur habite à Bruxelles."},
+        {"no": "en sønn", "fr": "le fils", "pron": "SEUNN", "ex": "Hun har en sønn.", "ex_fr": "Elle a un fils."},
+        {"no": "ei datter", "fr": "la fille (enfant)", "pron": "DAT-ter", "ex": "Han har ei datter.", "ex_fr": "Il a une fille."},
+        {"no": "et barn", "fr": "l'enfant", "pron": "BAARN", "ex": "Hun har et barn.", "ex_fr": "Elle a un enfant."},
+        {"no": "en familie", "fr": "la famille", "pron": "fa-MI-li-e", "ex": "Det er min familie.", "ex_fr": "C'est ma famille."}
+      ],
+      "grammaire": {
+        "titre": "Trois genres : en, ei, et",
+        "texte": "Il y a trois genres : masculin (en), féminin (ei) et neutre (et). « Mon / ma » change avec le genre : min (en), mi (ei), mitt (et).\nEn bokmål, on peut aussi dire « en søster » à la place de « ei søster » : c'est accepté. Mais on utilise « ei » pour être précis.",
+        "exemples": [
+          {"no": "min far", "fr": "mon père"},
+          {"no": "mi søster", "fr": "ma sœur"},
+          {"no": "mitt barn", "fr": "mon enfant"}
+        ]
+      },
+      "texte": {
+        "no": "Jeg heter Marie. Jeg har en familie i Belgia. Min mor og min far bor i Brussel. Jeg har en bror og ei søster. Min bror har et barn. Det er en sønn. Min søster har ei datter. Det er en stor familie!",
+        "fr": "Je m'appelle Marie. J'ai une famille en Belgique. Ma mère et mon père habitent à Bruxelles. J'ai un frère et une sœur. Mon frère a un enfant. C'est un fils. Ma sœur a une fille. C'est une grande famille !",
+        "aide": [
+          {"no": "heter", "fr": "s'appelle"},
+          {"no": "har", "fr": "a / ai"},
+          {"no": "bor", "fr": "habite"},
+          {"no": "stor", "fr": "grande"},
+          {"no": "Belgia", "fr": "Belgique"}
+        ],
+        "questions": [
+          {
+            "q": "Où habitent les parents de Marie ?",
+            "choix": ["À Bruxelles", "À Oslo", "À Paris"],
+            "rep": 0
+          },
+          {
+            "q": "Qui est le fils ?",
+            "choix": ["L'enfant du frère de Marie", "L'enfant de la sœur de Marie", "Le frère de Marie"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Grands-parents, oncles et cousins",
+      "mots": [
+        {"no": "en bestefar", "fr": "le grand-père", "pron": "BES-te-faar", "ex": "Min bestefar bor i Namur.", "ex_fr": "Mon grand-père habite à Namur."},
+        {"no": "ei bestemor", "fr": "la grand-mère", "pron": "BES-te-mour", "ex": "Mi bestemor drikker te.", "ex_fr": "Ma grand-mère boit du thé."},
+        {"no": "en onkel", "fr": "l'oncle", "pron": "ON-kel", "ex": "Min onkel bor i Oslo.", "ex_fr": "Mon oncle habite à Oslo."},
+        {"no": "ei tante", "fr": "la tante", "pron": "TAN-te", "ex": "Mi tante har en kafé.", "ex_fr": "Ma tante a un café."},
+        {"no": "en fetter", "fr": "le cousin", "pron": "FET-ter", "ex": "Min fetter spiser et brød.", "ex_fr": "Mon cousin mange du pain."},
+        {"no": "ei kusine", "fr": "la cousine", "pron": "ku-SI-ne", "ex": "Mi kusine har et barn.", "ex_fr": "Ma cousine a un enfant."},
+        {"no": "en mann", "fr": "l'homme / le mari", "pron": "MANN", "ex": "En mann drikker kaffe.", "ex_fr": "Un homme boit du café."},
+        {"no": "ei kone", "fr": "la femme (épouse)", "pron": "KOU-ne", "ex": "Ei kone spiser en kake.", "ex_fr": "Une femme mange un gâteau."}
+      ],
+      "grammaire": {
+        "titre": "Avoir et s'appeler",
+        "texte": "Pour dire ce qu'on a : jeg har, du har, han har… Le verbe « å ha » (avoir) fait « har » à toutes les personnes.\nPour dire comment on s'appelle : jeg heter, han heter, hun heter. Il = han, elle = hun.",
+        "exemples": [
+          {"no": "Jeg har en onkel.", "fr": "J'ai un oncle."},
+          {"no": "Han har ei tante.", "fr": "Il a une tante."},
+          {"no": "Hun heter Eva.", "fr": "Elle s'appelle Eva."}
+        ]
+      },
+      "texte": {
+        "no": "Min familie er på en kafé. Min bestefar og mi bestemor drikker te. Min onkel og mi tante spiser en kake. Mi kusine og min fetter drikker en brus. Min mor og min far er der også. Det er en stor familie. Det er en fin dag!",
+        "fr": "Ma famille est dans un café. Mon grand-père et ma grand-mère boivent du thé. Mon oncle et ma tante mangent un gâteau. Ma cousine et mon cousin boivent un soda. Ma mère et mon père sont là aussi. C'est une grande famille. C'est une belle journée !",
+        "aide": [
+          {"no": "der", "fr": "là"},
+          {"no": "fin", "fr": "beau / bien"},
+          {"no": "dag", "fr": "jour"}
+        ],
+        "questions": [
+          {
+            "q": "Que boivent les grands-parents ?",
+            "choix": ["Du thé", "Du café", "Un soda"],
+            "rep": 0
+          },
+          {
+            "q": "Qui boit un soda ?",
+            "choix": ["La cousine et le cousin", "L'oncle et la tante", "Les parents"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Jeg heter Marie, og jeg har en stor familie. Min mor og min far bor i Brussel. Jeg har en bror og ei søster. Min bror har en kone, og de har et barn. Det er en sønn. Min søster har ei datter. Min bestefar og mi bestemor bor i Namur. Min onkel og mi tante bor i Oslo. De har ei datter og en sønn. Mi kusine og min fetter er barn. Hver søndag er hele familien på en kafé. Vi drikker kaffe, te og brus, og vi spiser kake. Det er en fin familie!",
+    "fr": "Je m'appelle Marie et j'ai une grande famille. Ma mère et mon père habitent à Bruxelles. J'ai un frère et une sœur. Mon frère a une femme et ils ont un enfant. C'est un fils. Ma sœur a une fille. Mon grand-père et ma grand-mère habitent à Namur. Mon oncle et ma tante habitent à Oslo. Ils ont une fille et un fils. Ma cousine et mon cousin sont des enfants. Chaque dimanche, toute la famille est dans un café. Nous buvons du café, du thé et du soda, et nous mangeons du gâteau. C'est une belle famille !",
+    "aide": [
+      {"no": "hver søndag", "fr": "chaque dimanche"},
+      {"no": "hele", "fr": "toute la"},
+      {"no": "de", "fr": "ils"}
+    ],
+    "questions": [
+      {
+        "q": "Où habitent les grands-parents ?",
+        "choix": ["À Namur", "À Oslo", "À Bruxelles"],
+        "rep": 0
+      },
+      {
+        "q": "Qui habite à Oslo ?",
+        "choix": ["L'oncle et la tante", "Le frère", "Les parents"],
+        "rep": 0
+      },
+      {
+        "q": "Combien de frères et sœurs Marie a-t-elle ?",
+        "choix": ["Un frère et une sœur", "Deux frères", "Deux sœurs"],
+        "rep": 0
+      },
+      {
+        "q": "Que fait la famille chaque dimanche ?",
+        "choix": ["Elle va au café", "Elle va à Oslo", "Elle mange chez Marie"],
+        "rep": 0
+      }
+    ]
+  }
+}

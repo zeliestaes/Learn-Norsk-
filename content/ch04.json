@@ -1,0 +1,132 @@
+{
+  "id": 4,
+  "titre": "Saluer d'autres personnes",
+  "lecons": [
+    {
+      "titre": "Dire bonjour et au revoir",
+      "mots": [
+        {"no": "hei", "fr": "salut", "pron": "HAÏ", "ex": "Hei, Anna og Per!", "ex_fr": "Salut, Anna et Per !"},
+        {"no": "god morgen", "fr": "bonjour (le matin)", "pron": "gou MOR-en", "ex": "God morgen, Per!", "ex_fr": "Bonjour, Per !"},
+        {"no": "god dag", "fr": "bonjour (la journée)", "pron": "gou DAAG", "ex": "God dag! Jeg heter Marie.", "ex_fr": "Bonjour ! Je m'appelle Marie."},
+        {"no": "god kveld", "fr": "bonsoir", "pron": "gou KVELL", "ex": "God kveld, Anna og Per!", "ex_fr": "Bonsoir, Anna et Per !"},
+        {"no": "god natt", "fr": "bonne nuit", "pron": "gou NATT", "ex": "God natt, mor!", "ex_fr": "Bonne nuit, maman !"},
+        {"no": "hade", "fr": "salut (en partant)", "pron": "HAA-de", "ex": "Hade, Anna og Per!", "ex_fr": "Salut, Anna et Per ! (en partant)"},
+        {"no": "ha det bra", "fr": "au revoir", "pron": "haa dé BRAA", "ex": "Ha det bra, Per!", "ex_fr": "Au revoir, Per !"},
+        {"no": "vi ses", "fr": "à bientôt", "pron": "vi SÉS", "ex": "Vi ses i Oslo!", "ex_fr": "On se voit à Oslo !"}
+      ],
+      "grammaire": {
+        "titre": "Saluer selon le moment",
+        "texte": "« God morgen » se dit le matin, « god dag » dans la journée, « god kveld » le soir, et « god natt » seulement avant d'aller dormir.\n« Hei » convient à tout moment, entre amis comme avec des inconnus.\nPour partir : « hade » (décontracté), « ha det bra » (au revoir) ou « vi ses » (à bientôt).",
+        "exemples": [
+          {"no": "God morgen!", "fr": "Bonjour ! (le matin)"},
+          {"no": "God kveld!", "fr": "Bonsoir !"},
+          {"no": "Ha det bra, vi ses!", "fr": "Au revoir, à bientôt !"}
+        ]
+      },
+      "texte": {
+        "no": "Marie er i Lillehammer. Om morgenen sier hun «God morgen!» Midt på dagen sier hun «God dag!» Om kvelden sier hun «God kveld!» Før hun sover, sier hun «God natt!» Når hun møter Anna, sier hun «Hei!» Når hun går, sier hun «Hade!» eller «Ha det bra, vi ses!»",
+        "fr": "Marie est à Lillehammer. Le matin, elle dit « Bonjour ! ». En milieu de journée, elle dit « Bonjour ! ». Le soir, elle dit « Bonsoir ! ». Avant de dormir, elle dit « Bonne nuit ! ». Quand elle rencontre Anna, elle dit « Salut ! ». Quand elle part, elle dit « Salut ! » ou « Au revoir, à bientôt ! »",
+        "aide": [
+          {"no": "om morgenen", "fr": "le matin"},
+          {"no": "midt på dagen", "fr": "en milieu de journée"},
+          {"no": "om kvelden", "fr": "le soir"},
+          {"no": "før", "fr": "avant"},
+          {"no": "sover", "fr": "dort"},
+          {"no": "når", "fr": "quand"},
+          {"no": "møter", "fr": "rencontre"},
+          {"no": "går", "fr": "part"},
+          {"no": "eller", "fr": "ou"}
+        ],
+        "questions": [
+          {
+            "q": "Que dit Marie le soir ?",
+            "choix": ["God kveld", "God morgen", "God natt"],
+            "rep": 0
+          },
+          {
+            "q": "Que dit-elle avant de dormir ?",
+            "choix": ["God natt", "God dag", "Hade"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Faire connaissance",
+      "mots": [
+        {"no": "å møte", "fr": "rencontrer", "pron": "MEU-te", "ex": "Jeg vil møte Anna.", "ex_fr": "Je voudrais rencontrer Anna."},
+        {"no": "hyggelig", "fr": "sympa / agréable", "pron": "HUG-ge-li", "ex": "Hyggelig å møte deg!", "ex_fr": "Enchanté(e) de te rencontrer !"},
+        {"no": "unnskyld", "fr": "excuse-moi / pardon", "pron": "UNN-chul", "ex": "Unnskyld, er du Per?", "ex_fr": "Excuse-moi, es-tu Per ?"},
+        {"no": "velkommen", "fr": "bienvenue", "pron": "vel-KOM-men", "ex": "Velkommen til Lillehammer!", "ex_fr": "Bienvenue à Lillehammer !"},
+        {"no": "ja", "fr": "oui", "pron": "YAA", "ex": "Ja, jeg heter Anna.", "ex_fr": "Oui, je m'appelle Anna."},
+        {"no": "nei", "fr": "non", "pron": "NAÏ", "ex": "Nei, jeg heter ikke Per.", "ex_fr": "Non, je ne m'appelle pas Per."},
+        {"no": "hvordan", "fr": "comment", "pron": "VOR-dan", "ex": "Hvordan har du det?", "ex_fr": "Comment vas-tu ?"},
+        {"no": "og", "fr": "et", "pron": "O", "ex": "Anna og Per er her.", "ex_fr": "Anna et Per sont ici."}
+      ],
+      "grammaire": {
+        "titre": "Demander des nouvelles",
+        "texte": "« Hvordan har du det? » (comment vas-tu ?) se répond par « Jeg har det bra, takk. Og du? ».\nEn norvégien, on dit presque toujours « du » (tu), même à un inconnu ou à un adulte : il n'y a pas de vouvoiement courant.\nPour se présenter : « Jeg heter … » puis « Hyggelig å møte deg ! ».",
+        "exemples": [
+          {"no": "Hvordan har du det?", "fr": "Comment vas-tu ?"},
+          {"no": "Jeg har det bra, takk.", "fr": "Je vais bien, merci."},
+          {"no": "Hyggelig å møte deg!", "fr": "Enchanté(e) !"}
+        ]
+      },
+      "texte": {
+        "no": "– Hei! Unnskyld, heter du Anna?\n– Ja, jeg heter Anna. Og du?\n– Jeg heter Marie. Hyggelig å møte deg! Jeg kommer fra Belgia.\n– Hyggelig å møte deg også. Velkommen til Lillehammer!\n– Takk! Hvordan har du det?\n– Jeg har det bra, takk. Og du?\n– Bra, takk!",
+        "fr": "– Salut ! Excuse-moi, tu t'appelles Anna ?\n– Oui, je m'appelle Anna. Et toi ?\n– Je m'appelle Marie. Enchantée ! Je viens de Belgique.\n– Enchantée aussi. Bienvenue à Lillehammer !\n– Merci ! Comment vas-tu ?\n– Je vais bien, merci. Et toi ?\n– Bien, merci !",
+        "aide": [
+          {"no": "også", "fr": "aussi"},
+          {"no": "bra", "fr": "bien"},
+          {"no": "til", "fr": "à"}
+        ],
+        "questions": [
+          {
+            "q": "Comment s'appelle la deuxième personne ?",
+            "choix": ["Anna", "Marie", "Per"],
+            "rep": 0
+          },
+          {
+            "q": "D'où vient Marie ?",
+            "choix": ["De Belgique", "D'Oslo", "De Lillehammer"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Det er morgen i Lillehammer. Det er en fin dag. Marie går på en kafé. Der møter hun Anna. «God morgen! Unnskyld, heter du Anna?» sier Marie. «Ja, jeg heter Anna. Og du?» «Jeg heter Marie. Hyggelig å møte deg!» «Hyggelig å møte deg også», sier Anna. «Velkommen til Lillehammer! Hvordan har du det?» «Jeg har det bra, takk. Og du?» «Bra, takk!» Vi drikker kaffe og snakker norsk. Så sier Marie: «Nå går jeg, hade! Vi ses i morgen!» Anna svarer: «Ha det bra, Marie!»",
+    "fr": "C'est le matin à Lillehammer. C'est une belle journée. Marie va dans un café. Là, elle rencontre Anna. « Bonjour ! Excuse-moi, tu t'appelles Anna ? » dit Marie. « Oui, je m'appelle Anna. Et toi ? » « Je m'appelle Marie. Enchantée ! » « Enchantée aussi », dit Anna. « Bienvenue à Lillehammer ! Comment vas-tu ? » « Je vais bien, merci. Et toi ? » « Bien, merci ! » Elles boivent du café et parlent norvégien. Puis Marie dit : « Maintenant, je pars, salut ! À demain ! » Anna répond : « Au revoir, Marie ! »",
+    "aide": [
+      {"no": "morgen", "fr": "matin"},
+      {"no": "går på", "fr": "va dans"},
+      {"no": "der", "fr": "là"},
+      {"no": "nå", "fr": "maintenant"},
+      {"no": "i morgen", "fr": "demain"},
+      {"no": "svarer", "fr": "répond"}
+    ],
+    "questions": [
+      {
+        "q": "Où se rencontrent Marie et Anna ?",
+        "choix": ["Dans un café à Lillehammer", "À Oslo", "À Hamar"],
+        "rep": 0
+      },
+      {
+        "q": "Que dit Marie en partant ?",
+        "choix": ["Hade ! Vi ses i morgen !", "God natt !", "God kveld !"],
+        "rep": 0
+      },
+      {
+        "q": "Comment va Marie ?",
+        "choix": ["Bien", "Mal", "Elle est fatiguée"],
+        "rep": 0
+      },
+      {
+        "q": "Que boivent-elles ?",
+        "choix": ["Du café", "Du thé", "Un soda"],
+        "rep": 0
+      }
+    ]
+  }
+}

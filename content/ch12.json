@@ -1,0 +1,246 @@
+{
+  "id": 12,
+  "titre": "S'orienter en ville",
+  "lecons": [
+    {
+      "titre": "Les lieux de la ville",
+      "mots": [
+        {"no": "en kirke", "fr": "l'église", "pron": "CHIR-ke", "ex": "Det er en kirke her.", "ex_fr": "Il y a une église ici."},
+        {"no": "en skole", "fr": "l'école", "pron": "SKOU-le", "ex": "Jeg går til en skole.", "ex_fr": "Je vais dans une école."},
+        {"no": "et sykehus", "fr": "l'hôpital", "pron": "SÜ-ke-hus", "ex": "Et sykehus er stort.", "ex_fr": "Un hôpital est grand."},
+        {"no": "en bank", "fr": "la banque", "pron": "BANK", "ex": "Jeg trenger en bank.", "ex_fr": "J'ai besoin d'une banque."},
+        {"no": "et postkontor", "fr": "le bureau de poste", "pron": "POST-kon-tour", "ex": "Vi går til et postkontor.", "ex_fr": "Nous allons à un bureau de poste."},
+        {"no": "en park", "fr": "le parc", "pron": "PARK", "ex": "Vi går i en park.", "ex_fr": "Nous marchons dans un parc."},
+        {"no": "et torg", "fr": "la place (du marché)", "pron": "TORG", "ex": "Det er et torg i byen.", "ex_fr": "Il y a une place dans la ville."},
+        {"no": "en bro", "fr": "le pont", "pron": "BROU", "ex": "Det er en bro her.", "ex_fr": "Il y a un pont ici."}
+      ],
+      "grammaire": {
+        "titre": "« i », « på » et « til » avec les lieux",
+        "texte": "« Hvor er … ? » = où est… ? Pour aller quelque part, on dit « til » : Jeg går til banken.\nPour dire où l'on est : på torget, på skolen, på banken, på postkontoret, på kafeen ; mais i parken, i kirken, i byen, i huset.\nIl n'y a pas de règle simple : on apprend l'expression avec le lieu.",
+        "exemples": [
+          {"no": "Hvor er banken?", "fr": "Où est la banque ?"},
+          {"no": "Jeg er på banken.", "fr": "Je suis à la banque."},
+          {"no": "Jeg er i parken.", "fr": "Je suis dans le parc."}
+        ]
+      },
+      "texte": {
+        "no": "Marie er i Ålesund. Det er en fin by. Det er en kirke og en skole i byen. Det er også et sykehus og en bank. Ved torget er det et postkontor. Marie går i en park og ser en bro. Hun liker byen.",
+        "fr": "Marie est à Ålesund. C'est une belle ville. Il y a une église et une école dans la ville. Il y a aussi un hôpital et une banque. Près de la place, il y a un bureau de poste. Marie marche dans un parc et voit un pont. Elle aime la ville.",
+        "aide": [
+          {"no": "ved", "fr": "près de"},
+          {"no": "byen", "fr": "la ville"}
+        ],
+        "questions": [
+          {
+            "q": "Qu'y a-t-il près de la place ?",
+            "choix": ["Un bureau de poste", "Une église", "Une école"],
+            "rep": 0
+          },
+          {
+            "q": "Que voit Marie dans le parc ?",
+            "choix": ["Un pont", "Une banque", "Un hôpital"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Gauche, droite, tout droit",
+      "mots": [
+        {"no": "venstre", "fr": "gauche", "pron": "VEN-stre", "ex": "Gå til venstre.", "ex_fr": "Va à gauche."},
+        {"no": "høyre", "fr": "droite", "pron": "HEUÏ-re", "ex": "Ta til høyre.", "ex_fr": "Prends à droite."},
+        {"no": "rett fram", "fr": "tout droit", "pron": "RETT FRAM", "ex": "Gå rett fram.", "ex_fr": "Va tout droit."},
+        {"no": "nær", "fr": "proche", "pron": "NÈR", "ex": "Banken er nær.", "ex_fr": "La banque est proche."},
+        {"no": "borte", "fr": "là-bas / loin", "pron": "BOR-te", "ex": "Torget er borte.", "ex_fr": "La place est là-bas."},
+        {"no": "en vei", "fr": "la route / le chemin", "pron": "VAÏ", "ex": "Det er en vei her.", "ex_fr": "Il y a un chemin ici."},
+        {"no": "et kryss", "fr": "le carrefour", "pron": "KRÜSS", "ex": "Det er et kryss her.", "ex_fr": "Il y a un carrefour ici."},
+        {"no": "et hjørne", "fr": "le coin", "pron": "YEUR-ne", "ex": "Banken er på hjørnet.", "ex_fr": "La banque est au coin."}
+      ],
+      "grammaire": {
+        "titre": "L'impératif : donner un itinéraire",
+        "texte": "L'impératif se forme avec l'infinitif sans « å » : å gå → Gå ! ; å ta → Ta ! ; å svinge → Sving !\nOn ajoute souvent « til venstre » / « til høyre » / « rett fram » : Gå rett fram. Ta til venstre.\nPour être plus poli : « Kan du … ? ».",
+        "exemples": [
+          {"no": "Gå rett fram.", "fr": "Va tout droit."},
+          {"no": "Ta til venstre.", "fr": "Prends à gauche."},
+          {"no": "Banken er nær.", "fr": "La banque est proche."}
+        ]
+      },
+      "texte": {
+        "no": "– Unnskyld, hvor er banken?\n– Gå rett fram. Ved krysset tar du til høyre.\n– Er det langt?\n– Nei, den er nær. Den er på hjørnet.\n– Og postkontoret?\n– Det er til venstre, borte ved torget. Det er ikke langt.\n– Tusen takk!\n– Vær så god!",
+        "fr": "– Excuse-moi, où est la banque ?\n– Va tout droit. Au carrefour, tu prends à droite.\n– C'est loin ?\n– Non, elle est proche. Elle est au coin.\n– Et la poste ?\n– Elle est à gauche, là-bas près de la place. Ce n'est pas loin.\n– Mille mercis !\n– Je vous en prie !",
+        "aide": [
+          {"no": "langt", "fr": "loin"},
+          {"no": "den", "fr": "elle"},
+          {"no": "det", "fr": "elle (la poste)"}
+        ],
+        "questions": [
+          {
+            "q": "Où est la banque ?",
+            "choix": ["Au coin de la rue", "À gauche", "Près de l'école"],
+            "rep": 0
+          },
+          {
+            "q": "Où est le bureau de poste ?",
+            "choix": ["À gauche, vers la place", "À droite", "Tout droit"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Prépositions de lieu",
+      "mots": [
+        {"no": "foran", "fr": "devant", "pron": "FOR-ran", "ex": "Banken er foran kirken.", "ex_fr": "La banque est devant l'église."},
+        {"no": "bak", "fr": "derrière", "pron": "BAAK", "ex": "Parken er bak skolen.", "ex_fr": "Le parc est derrière l'école."},
+        {"no": "mellom", "fr": "entre", "pron": "MEL-lom", "ex": "Torget er mellom banken og kirken.", "ex_fr": "La place est entre la banque et l'église."},
+        {"no": "under", "fr": "sous", "pron": "UN-der", "ex": "Nøkkelen er under bordet.", "ex_fr": "La clé est sous la table."},
+        {"no": "ved", "fr": "près de / à côté de", "pron": "VÉ", "ex": "Jeg bor ved parken.", "ex_fr": "J'habite près du parc."},
+        {"no": "utenfor", "fr": "devant (dehors) / à l'extérieur de", "pron": "UT-en-for", "ex": "Vi er utenfor kafeen.", "ex_fr": "Nous sommes devant le café."},
+        {"no": "inne", "fr": "à l'intérieur", "pron": "IN-ne", "ex": "Marie er inne.", "ex_fr": "Marie est à l'intérieur."},
+        {"no": "ute", "fr": "dehors", "pron": "U-te", "ex": "Anna er ute.", "ex_fr": "Anna est dehors."}
+      ],
+      "grammaire": {
+        "titre": "Où se trouve… ?",
+        "texte": "Les prépositions de lieu sont suivies du nom au défini : foran kirken (devant l'église), bak skolen (derrière l'école), mellom banken og kirken (entre la banque et l'église).\n« inne » (à l'intérieur) et « ute » (dehors) indiquent où on est ; ils ne sont pas suivis d'un nom.",
+        "exemples": [
+          {"no": "foran kirken", "fr": "devant l'église"},
+          {"no": "under bordet", "fr": "sous la table"},
+          {"no": "Anna er ute.", "fr": "Anna est dehors."}
+        ]
+      },
+      "texte": {
+        "no": "Torget er mellom banken og kirken. Foran kirken er det en park. Bak skolen er det en bro. Marie venter på torget. Anna er utenfor banken, og Jonas er inne. Postkontoret er ved banken. Under en stol er det en nøkkel.",
+        "fr": "La place est entre la banque et l'église. Devant l'église, il y a un parc. Derrière l'école, il y a un pont. Marie attend sur la place. Anna est devant la banque et Jonas est à l'intérieur. Le bureau de poste est près de la banque. Sous une chaise, il y a une clé.",
+        "aide": [
+          {"no": "venter", "fr": "attend"}
+        ],
+        "questions": [
+          {
+            "q": "Où est la place ?",
+            "choix": ["Entre la banque et l'église", "Derrière l'école", "Près du pont"],
+            "rep": 0
+          },
+          {
+            "q": "Où est Jonas ?",
+            "choix": ["À l'intérieur de la banque", "Devant la banque", "Sur la place"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Demander son chemin",
+      "mots": [
+        {"no": "å svinge", "fr": "tourner", "pron": "SVING-e", "ex": "Sving til venstre.", "ex_fr": "Tourne à gauche."},
+        {"no": "å krysse", "fr": "traverser", "pron": "KRÜS-se", "ex": "Kryss gata her.", "ex_fr": "Traverse la rue ici."},
+        {"no": "å spørre", "fr": "demander", "pron": "SPEU-re", "ex": "Jeg vil spørre om veien.", "ex_fr": "Je veux demander mon chemin."},
+        {"no": "å vise", "fr": "montrer", "pron": "VI-se", "ex": "Kan du vise meg veien?", "ex_fr": "Peux-tu me montrer le chemin ?"},
+        {"no": "å følge", "fr": "suivre", "pron": "FEUL-ge", "ex": "Følg veien rett fram.", "ex_fr": "Suis la route tout droit."},
+        {"no": "å stoppe", "fr": "s'arrêter", "pron": "STOP-pe", "ex": "Stopp ved banken!", "ex_fr": "Arrête-toi à la banque !"},
+        {"no": "å ligge", "fr": "se trouver / être situé", "pron": "LIG-ge", "ex": "Banken ligger ved torget.", "ex_fr": "La banque se trouve près de la place."},
+        {"no": "å løpe", "fr": "courir", "pron": "LEU-pe", "ex": "Barnet løper i parken.", "ex_fr": "L'enfant court dans le parc."}
+      ],
+      "grammaire": {
+        "titre": "L'impératif (2)",
+        "texte": "L'impératif, c'est le verbe sans la terminaison -e : å svinge → sving ; å følge → følg ; å stoppe → stopp ; å krysse → kryss ; å vise → vis.\nPour demander poliment : « Kan du vise meg veien ? » (peux-tu me montrer le chemin ?).\n« Å ligge » est très utilisé pour dire où se trouve un lieu : Banken ligger ved torget.",
+        "exemples": [
+          {"no": "Følg veien.", "fr": "Suis la route."},
+          {"no": "Sving til høyre.", "fr": "Tourne à droite."},
+          {"no": "Banken ligger ved torget.", "fr": "La banque se trouve près de la place."}
+        ]
+      },
+      "texte": {
+        "no": "Marie vil gå til kirken. Hun spør en dame: «Unnskyld, kan du vise meg veien?» «Ja, selvfølgelig. Følg gata rett fram. Kryss broen og sving til høyre. Kirken ligger ved parken.» «Takk!» Marie følger veien og stopper ved kirken. Hun ser at kirken er veldig fin.",
+        "fr": "Marie veut aller à l'église. Elle demande à une dame : « Excusez-moi, pouvez-vous me montrer le chemin ? » « Oui, bien sûr. Suivez la rue tout droit. Traversez le pont et tournez à droite. L'église se trouve près du parc. » « Merci ! » Marie suit la route et s'arrête devant l'église. Elle voit que l'église est très belle.",
+        "aide": [
+          {"no": "dame", "fr": "dame"},
+          {"no": "selvfølgelig", "fr": "bien sûr"},
+          {"no": "at", "fr": "que"},
+          {"no": "veldig", "fr": "très"}
+        ],
+        "questions": [
+          {
+            "q": "Où Marie veut-elle aller ?",
+            "choix": ["À l'église", "À la banque", "À l'école"],
+            "rep": 0
+          },
+          {
+            "q": "Que doit-elle traverser ?",
+            "choix": ["Le pont", "La place", "Le parc"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les nombres ordinaux",
+      "mots": [
+        {"no": "første", "fr": "premier", "pron": "FEUCH-te", "ex": "Ta første gate til venstre.", "ex_fr": "Prends la première rue à gauche."},
+        {"no": "andre", "fr": "deuxième", "pron": "AN-dre", "ex": "Ta andre gate til høyre.", "ex_fr": "Prends la deuxième rue à droite."},
+        {"no": "tredje", "fr": "troisième", "pron": "TRED-je", "ex": "Jeg bor i tredje etasje.", "ex_fr": "J'habite au troisième étage."},
+        {"no": "fjerde", "fr": "quatrième", "pron": "FYÈ-re", "ex": "Banken er i fjerde gate.", "ex_fr": "La banque est dans la quatrième rue."},
+        {"no": "femte", "fr": "cinquième", "pron": "FEM-te", "ex": "Hun bor i femte etasje.", "ex_fr": "Elle habite au cinquième étage."},
+        {"no": "sjette", "fr": "sixième", "pron": "CHET-te", "ex": "Min fødselsdag er sjette mai.", "ex_fr": "Mon anniversaire est le six mai."},
+        {"no": "sjuende", "fr": "septième", "pron": "CHU-en-de", "ex": "Han bor i sjuende etasje.", "ex_fr": "Il habite au septième étage."},
+        {"no": "åttende", "fr": "huitième", "pron": "OT-ten-de", "ex": "Åttende mai er en fin dag.", "ex_fr": "Le huit mai est un beau jour."}
+      ],
+      "grammaire": {
+        "titre": "Les nombres ordinaux",
+        "texte": "Pour les ordinaux, on utilise -de ou -te : første, andre, tredje, fjerde, femte, sjette, sjuende, åttende. Plus loin : niende, tiende, … tjuende.\nOn les utilise pour les rues, les étages et les dates : i tredje etasje (au troisième étage), første mai (le 1er mai). Dans une date : 17. mai = syttende mai.",
+        "exemples": [
+          {"no": "første gate", "fr": "la première rue"},
+          {"no": "i femte etasje", "fr": "au cinquième étage"},
+          {"no": "åttende mai", "fr": "le 8 mai"}
+        ]
+      },
+      "texte": {
+        "no": "– Hvor er skolen?\n– Ta første gate til høyre og andre gate til venstre.\n– Og banken?\n– Den er i fjerde gate. Jeg bor i femte etasje over banken.\n– Så hyggelig! Min nabo bor i sjette etasje.\n– Er det langt?\n– Nei, det er nær.\n– Vi ses, hade!",
+        "fr": "– Où est l'école ?\n– Prends la première rue à droite et la deuxième rue à gauche.\n– Et la banque ?\n– Elle est dans la quatrième rue. J'habite au cinquième étage au-dessus de la banque.\n– Comme c'est sympa ! Mon voisin habite au sixième étage.\n– C'est loin ?\n– Non, c'est proche.\n– À bientôt, salut !",
+        "aide": [
+          {"no": "over", "fr": "au-dessus de"}
+        ],
+        "questions": [
+          {
+            "q": "Où est la banque ?",
+            "choix": ["Dans la quatrième rue", "Dans la première rue", "Dans la deuxième rue"],
+            "rep": 0
+          },
+          {
+            "q": "À quel étage habite la personne qui répond ?",
+            "choix": ["Au cinquième", "Au sixième", "Au troisième"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie er i Ålesund. Hun vil finne banken. Hun spør en mann: «Unnskyld, hvor er banken?» «Gå rett fram og ta første gate til høyre. Banken ligger mellom kirken og postkontoret, ved torget.» «Er det langt?» «Nei, det er nær.» Marie krysser en bro og følger veien. Foran skolen svinger hun til venstre. Så ser hun torget. Banken er der, og Anna venter utenfor. «Hei, Anna!» sier Marie. Etterpå går de sammen til et bakeri. Der kjøper de to brød og en kake.",
+    "fr": "Marie est à Ålesund. Elle veut trouver la banque. Elle demande à un homme : « Excusez-moi, où est la banque ? » « Allez tout droit et prenez la première rue à droite. La banque se trouve entre l'église et la poste, près de la place. » « C'est loin ? » « Non, c'est proche. » Marie traverse un pont et suit la route. Devant l'école, elle tourne à gauche. Puis elle voit la place. La banque est là et Anna attend devant. « Salut, Anna ! » dit Marie. Ensuite, elles vont ensemble dans une boulangerie. Là, elles achètent deux pains et un gâteau.",
+    "aide": [
+      {"no": "der", "fr": "là"}
+    ],
+    "questions": [
+      {
+        "q": "Que veut trouver Marie ?",
+        "choix": ["La banque", "L'école", "La poste"],
+        "rep": 0
+      },
+      {
+        "q": "Où se trouve la banque ?",
+        "choix": ["Entre l'église et la poste", "Derrière l'école", "Près du pont"],
+        "rep": 0
+      },
+      {
+        "q": "Où tourne-t-elle à gauche ?",
+        "choix": ["Devant l'école", "Au pont", "Sur la place"],
+        "rep": 0
+      },
+      {
+        "q": "Que font-elles ensuite ?",
+        "choix": ["Elles vont à la boulangerie", "Elles rentrent", "Elles vont au parc"],
+        "rep": 0
+      }
+    ]
+  }
+}

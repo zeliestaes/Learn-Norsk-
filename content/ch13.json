@@ -1,0 +1,244 @@
+{
+  "id": 13,
+  "titre": "Transports et voyage",
+  "lecons": [
+    {
+      "titre": "Les moyens de transport",
+      "mots": [
+        {"no": "en buss", "fr": "le bus", "pron": "BUSS", "ex": "Jeg tar en buss.", "ex_fr": "Je prends un bus."},
+        {"no": "et tog", "fr": "le train", "pron": "TOUG", "ex": "Toget går klokka åtte.", "ex_fr": "Le train part à huit heures."},
+        {"no": "en bil", "fr": "la voiture", "pron": "BIIL", "ex": "Vi har en bil.", "ex_fr": "Nous avons une voiture."},
+        {"no": "en båt", "fr": "le bateau", "pron": "BOUT", "ex": "En båt går til Molde.", "ex_fr": "Un bateau va à Molde."},
+        {"no": "et fly", "fr": "l'avion", "pron": "FLÜ", "ex": "Flyet kommer klokka ti.", "ex_fr": "L'avion arrive à dix heures."},
+        {"no": "en sykkel", "fr": "le vélo", "pron": "SÜ-kel", "ex": "Jeg har en sykkel.", "ex_fr": "J'ai un vélo."},
+        {"no": "en drosje", "fr": "le taxi", "pron": "DROCH-eu", "ex": "Vi tar en drosje.", "ex_fr": "Nous prenons un taxi."},
+        {"no": "en ferje", "fr": "le ferry", "pron": "FER-je", "ex": "Ferja går i morgen.", "ex_fr": "Le ferry part demain."}
+      ],
+      "grammaire": {
+        "titre": "Voyager « med » + moyen de transport",
+        "texte": "Pour dire comment on voyage, on utilise « med » : Jeg reiser med tog, med buss, med fly, med bil.\nSans article quand on parle du moyen en général (med tog) ; avec l'article quand c'est précis (med bussen).\n« Toget går » veut dire « le train part ».",
+        "exemples": [
+          {"no": "Jeg reiser med tog.", "fr": "Je voyage en train."},
+          {"no": "Vi reiser med bil.", "fr": "Nous voyageons en voiture."},
+          {"no": "Toget går klokka åtte.", "fr": "Le train part à huit heures."}
+        ]
+      },
+      "texte": {
+        "no": "Marie skal reise til Molde. Hun reiser med buss. Anna tar et tog. Jonas har en bil, men han vil ta en ferje. Per kommer med en sykkel. Familien kommer med fly, og så tar de en drosje. Alle møtes i Molde.",
+        "fr": "Marie va partir pour Molde. Elle voyage en bus. Anna prend un train. Jonas a une voiture mais il veut prendre un ferry. Per vient avec un vélo. La famille vient en avion et ensuite elle prend un taxi. Tout le monde se retrouve à Molde.",
+        "aide": [
+          {"no": "skal reise", "fr": "va partir"},
+          {"no": "møtes", "fr": "se retrouvent"}
+        ],
+        "questions": [
+          {
+            "q": "Comment Marie voyage-t-elle ?",
+            "choix": ["En bus", "En train", "En avion"],
+            "rep": 0
+          },
+          {
+            "q": "Que veut prendre Jonas ?",
+            "choix": ["Un ferry", "Sa voiture", "Un vélo"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les verbes modaux",
+      "mots": [
+        {"no": "å kunne", "fr": "pouvoir / savoir", "pron": "KUN-ne", "ex": "Jeg kan snakke norsk.", "ex_fr": "Je sais parler norvégien."},
+        {"no": "å måtte", "fr": "devoir (obligation)", "pron": "MOT-te", "ex": "Jeg må gå nå.", "ex_fr": "Je dois partir maintenant."},
+        {"no": "å ville", "fr": "vouloir", "pron": "VIL-le", "ex": "Jeg vil reise til Molde.", "ex_fr": "Je veux partir pour Molde."},
+        {"no": "å skulle", "fr": "devoir / aller (prévu)", "pron": "SKUL-le", "ex": "Jeg skal reise i morgen.", "ex_fr": "Je pars demain."},
+        {"no": "å burde", "fr": "devoir (conseil)", "pron": "BUR-de", "ex": "Du bør ta bussen.", "ex_fr": "Tu devrais prendre le bus."},
+        {"no": "å få", "fr": "avoir le droit / recevoir", "pron": "FOU", "ex": "Kan jeg få en billett?", "ex_fr": "Puis-je avoir un billet ?"},
+        {"no": "å tørre", "fr": "oser", "pron": "TEUR-re", "ex": "Jeg tør ikke å fly.", "ex_fr": "Je n'ose pas prendre l'avion."},
+        {"no": "å pleie", "fr": "avoir l'habitude de", "pron": "PLAÏ-e", "ex": "Jeg pleier å ta toget.", "ex_fr": "J'ai l'habitude de prendre le train."}
+      ],
+      "grammaire": {
+        "titre": "Les verbes modaux",
+        "texte": "Les verbes modaux se conjuguent ainsi au présent : kan, må, vil, skal, bør, får, tør. Ils sont suivis de l'infinitif sans « å » : Jeg kan komme. Jeg må gå.\nLa négation « ikke » se place après le modal : Jeg kan ikke komme.\nExceptions : pleier est suivi de « å » : Jeg pleier å reise.\nSkal = c'est prévu ; vil = on le désire ; må = c'est obligatoire.",
+        "exemples": [
+          {"no": "Jeg kan ikke komme.", "fr": "Je ne peux pas venir."},
+          {"no": "Jeg må gå.", "fr": "Je dois partir."},
+          {"no": "Jeg skal reise i morgen.", "fr": "Je pars demain."}
+        ]
+      },
+      "texte": {
+        "no": "Marie vil reise til Molde i morgen. Hun skal ta toget klokka åtte. Hun må stå opp tidlig. Anna kan ikke komme, for hun må vente på en venn. Jonas tør ikke fly, så han vil ta en buss. Han pleier å reise med bil.",
+        "fr": "Marie veut partir pour Molde demain. Elle va prendre le train à huit heures. Elle doit se lever tôt. Anna ne peut pas venir car elle doit attendre un ami. Jonas n'ose pas prendre l'avion alors il veut prendre un bus. Il a l'habitude de voyager en voiture.",
+        "aide": [
+          {"no": "for", "fr": "car"}
+        ],
+        "questions": [
+          {
+            "q": "À quelle heure part le train ?",
+            "choix": ["À huit heures", "À sept heures", "À dix heures"],
+            "rep": 0
+          },
+          {
+            "q": "Pourquoi Jonas prend-il le bus ?",
+            "choix": ["Il a peur de l'avion", "Il n'a pas de voiture", "Il n'aime pas le train"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "À la gare",
+      "mots": [
+        {"no": "en billett", "fr": "le billet", "pron": "bil-LETT", "ex": "Jeg vil kjøpe en billett.", "ex_fr": "Je veux acheter un billet."},
+        {"no": "en stasjon", "fr": "la gare / la station", "pron": "sta-SJON", "ex": "Stasjonen er nær.", "ex_fr": "La gare est proche."},
+        {"no": "en holdeplass", "fr": "l'arrêt", "pron": "HOL-de-plass", "ex": "Bussen stopper ved holdeplassen.", "ex_fr": "Le bus s'arrête à l'arrêt."},
+        {"no": "en avgang", "fr": "le départ", "pron": "AV-gang", "ex": "Avgang er klokka åtte.", "ex_fr": "Le départ est à huit heures."},
+        {"no": "en ankomst", "fr": "l'arrivée", "pron": "AN-komst", "ex": "Ankomst er klokka ti.", "ex_fr": "L'arrivée est à dix heures."},
+        {"no": "et spor", "fr": "le quai / la voie", "pron": "SPOUR", "ex": "Toget går fra spor tre.", "ex_fr": "Le train part du quai trois."},
+        {"no": "en reise", "fr": "le voyage", "pron": "RAÏ-se", "ex": "Jeg liker en lang reise.", "ex_fr": "J'aime un long voyage."},
+        {"no": "en rute", "fr": "l'itinéraire / la ligne", "pron": "RU-te", "ex": "Hvilken rute tar du?", "ex_fr": "Quel itinéraire prends-tu ?"}
+      ],
+      "grammaire": {
+        "titre": "Poser des questions de voyage",
+        "texte": "Pour poser les questions utiles : Når går toget ? (quand part le train ?), Hvor mye koster en billett ? (combien coûte un billet ?), Hvilket spor ? (quel quai ?).\nOn dit « fra … til … » : fra Oslo til Molde.\nUn aller simple se dit « en enkel billett », un aller-retour « tur-retur ».",
+        "exemples": [
+          {"no": "Når går toget?", "fr": "Quand part le train ?"},
+          {"no": "fra Oslo til Molde", "fr": "d'Oslo à Molde"},
+          {"no": "en enkel billett", "fr": "un aller simple"}
+        ]
+      },
+      "texte": {
+        "no": "– Hei! Jeg vil ha en billett til Molde, takk.\n– Vil du ha en enkel billett eller en tur-retur?\n– En enkel billett, takk. Når er avgang?\n– Toget går klokka åtte fra spor tre.\n– Og når er ankomst?\n– Ankomst er klokka ti.\n– Hvor mye koster det?\n– Det koster to hundre kroner.",
+        "fr": "– Bonjour ! Je voudrais un billet pour Molde, s'il vous plaît.\n– Voulez-vous un aller simple ou un aller-retour ?\n– Un aller simple, s'il vous plaît. Quand est le départ ?\n– Le train part à huit heures du quai trois.\n– Et quand est l'arrivée ?\n– L'arrivée est à dix heures.\n– Combien ça coûte ?\n– Ça coûte deux cents couronnes.",
+        "aide": [
+          {"no": "enkel", "fr": "simple"},
+          {"no": "tur-retur", "fr": "aller-retour"}
+        ],
+        "questions": [
+          {
+            "q": "Quel billet achète-t-elle ?",
+            "choix": ["Un aller simple", "Un aller-retour", "Un billet de bus"],
+            "rep": 0
+          },
+          {
+            "q": "De quel quai part le train ?",
+            "choix": ["Quai trois", "Quai deux", "Quai huit"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Voyager",
+      "mots": [
+        {"no": "å reise", "fr": "voyager / partir", "pron": "RAÏ-se", "ex": "Jeg reiser til Molde.", "ex_fr": "Je pars pour Molde."},
+        {"no": "å kjøre", "fr": "conduire", "pron": "CHEU-re", "ex": "Han kjører en bil.", "ex_fr": "Il conduit une voiture."},
+        {"no": "å sykle", "fr": "faire du vélo", "pron": "SÜK-le", "ex": "Vi sykler i parken.", "ex_fr": "Nous faisons du vélo dans le parc."},
+        {"no": "å fly", "fr": "prendre l'avion / voler", "pron": "FLÜ", "ex": "Jeg flyr til Oslo.", "ex_fr": "Je prends l'avion pour Oslo."},
+        {"no": "å bytte", "fr": "changer", "pron": "BÜT-te", "ex": "Jeg må bytte tog i Oslo.", "ex_fr": "Je dois changer de train à Oslo."},
+        {"no": "å pakke", "fr": "faire sa valise", "pron": "PAK-ke", "ex": "Jeg pakker en veske.", "ex_fr": "Je prépare un sac."},
+        {"no": "å glemme", "fr": "oublier", "pron": "GLEM-me", "ex": "Jeg glemmer billetten.", "ex_fr": "J'oublie le billet."},
+        {"no": "å savne", "fr": "manquer à / regretter l'absence de", "pron": "SAV-ne", "ex": "Jeg savner familien.", "ex_fr": "Ma famille me manque."}
+      ],
+      "grammaire": {
+        "titre": "« skal » ou « vil » pour parler d'un voyage",
+        "texte": "« Jeg skal reise » = je vais partir (c'est prévu). « Jeg vil reise » = je veux partir (désir).\n« Å savne » veut dire que quelqu'un nous manque : Jeg savner deg (tu me manques).\nOn utilise le modal + infinitif : Jeg må bytte tog.",
+        "exemples": [
+          {"no": "Jeg skal reise i morgen.", "fr": "Je pars demain."},
+          {"no": "Jeg vil reise.", "fr": "Je veux partir."},
+          {"no": "Jeg savner familien.", "fr": "Ma famille me manque."}
+        ]
+      },
+      "texte": {
+        "no": "Marie pakker en veske. Hun glemmer ikke billetten. Hun skal reise med tog, men hun må bytte tog en gang. Anna vil sykle, og Jonas kjører en bil. Per flyr. Marie savner familien allerede. Hun gleder seg til Molde. Det blir en fin reise!",
+        "fr": "Marie prépare un sac. Elle n'oublie pas le billet. Elle va voyager en train mais elle doit changer de train une fois. Anna veut faire du vélo et Jonas conduit une voiture. Per prend l'avion. Marie a déjà la nostalgie de sa famille. Elle se réjouit d'aller à Molde. Ce sera un beau voyage !",
+        "aide": [
+          {"no": "allerede", "fr": "déjà"},
+          {"no": "blir", "fr": "sera"}
+        ],
+        "questions": [
+          {
+            "q": "Que ne doit pas oublier Marie ?",
+            "choix": ["Son billet", "Sa montre", "Son sac"],
+            "rep": 0
+          },
+          {
+            "q": "Comment voyage Per ?",
+            "choix": ["En avion", "À vélo", "En voiture"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "À l'hôtel",
+      "mots": [
+        {"no": "et hotell", "fr": "l'hôtel", "pron": "ho-TELL", "ex": "Vi bor på et hotell.", "ex_fr": "Nous logeons dans un hôtel."},
+        {"no": "en reservasjon", "fr": "la réservation", "pron": "re-ser-va-SJON", "ex": "Jeg har en reservasjon.", "ex_fr": "J'ai une réservation."},
+        {"no": "en koffert", "fr": "la valise", "pron": "KOF-fert", "ex": "Jeg har en stor koffert.", "ex_fr": "J'ai une grande valise."},
+        {"no": "en bagasje", "fr": "les bagages", "pron": "ba-GAA-sje", "ex": "Bagasjen er i bilen.", "ex_fr": "Les bagages sont dans la voiture."},
+        {"no": "et kart", "fr": "la carte (géographique)", "pron": "KART", "ex": "Jeg trenger et kart.", "ex_fr": "J'ai besoin d'une carte."},
+        {"no": "en turist", "fr": "le touriste", "pron": "tu-RIST", "ex": "En turist trenger et kart.", "ex_fr": "Un touriste a besoin d'une carte."},
+        {"no": "et pass", "fr": "le passeport", "pron": "PASS", "ex": "Jeg har et pass.", "ex_fr": "J'ai un passeport."},
+        {"no": "et land", "fr": "le pays", "pron": "LANN", "ex": "Norge er et land.", "ex_fr": "La Norvège est un pays."}
+      ],
+      "grammaire": {
+        "titre": "Demander poliment",
+        "texte": "Pour être poli, on utilise souvent « ville » et « skulle » (formes du passé des modaux) : Jeg ville gjerne ha et rom. (je voudrais bien une chambre) / Jeg skulle gjerne ha et kart.\n« Gjerne » veut dire « volontiers ». On peut aussi dire simplement : Kan jeg få … ? ou Har dere … ?",
+        "exemples": [
+          {"no": "Jeg ville gjerne ha et rom.", "fr": "Je voudrais bien une chambre."},
+          {"no": "Kan jeg få et kart?", "fr": "Puis-je avoir une carte ?"},
+          {"no": "Har dere en reservasjon?", "fr": "Avez-vous une réservation ?"}
+        ]
+      },
+      "texte": {
+        "no": "– God dag! Jeg har en reservasjon. Jeg heter Marie.\n– Velkommen! Kan jeg se passet ditt?\n– Ja, vær så god. Jeg har en koffert og litt bagasje.\n– Her er nøkkelen. Frokost er klokka åtte.\n– Takk! Har dere et kart over byen?\n– Ja, vi har kart for turister.",
+        "fr": "– Bonjour ! J'ai une réservation. Je m'appelle Marie.\n– Bienvenue ! Puis-je voir votre passeport ?\n– Oui, voilà. J'ai une valise et un peu de bagages.\n– Voici la clé. Le petit-déjeuner est à huit heures.\n– Merci ! Avez-vous une carte de la ville ?\n– Oui, nous avons des cartes pour les touristes.",
+        "aide": [
+          {"no": "ditt", "fr": "votre"},
+          {"no": "over", "fr": "de"}
+        ],
+        "questions": [
+          {
+            "q": "Que veut voir la réception ?",
+            "choix": ["Le passeport", "La carte", "La valise"],
+            "rep": 0
+          },
+          {
+            "q": "À quelle heure est le petit-déjeuner ?",
+            "choix": ["À huit heures", "À sept heures", "À neuf heures"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie vil reise til Molde. Hun går til stasjonen og kjøper en billett. «Når er avgang?» spør hun. «Toget går klokka åtte fra spor tre», sier en mann. Hun har en stor koffert og et pass. Hun må bytte tog en gang. På toget leser hun et kart over byen. Jonas kjører bil, og Anna tar bussen. Alle kommer til Molde. Marie har en reservasjon på et hotell. «Kan jeg få en nøkkel?» spør hun. «Vær så god», sier en dame. Hun er veldig fornøyd med reisen!",
+    "fr": "Marie veut partir pour Molde. Elle va à la gare et achète un billet. « Quand est le départ ? » demande-t-elle. « Le train part à huit heures du quai trois », dit un homme. Elle a une grande valise et un passeport. Elle doit changer de train une fois. Dans le train, elle lit une carte de la ville. Jonas conduit et Anna prend le bus. Tout le monde arrive à Molde. Marie a une réservation dans un hôtel. « Puis-je avoir une clé ? » demande-t-elle. « Voilà », dit une dame. Elle est très contente du voyage !",
+    "aide": [
+      {"no": "fornøyd med", "fr": "content de"}
+    ],
+    "questions": [
+      {
+        "q": "À quelle heure part le train ?",
+        "choix": ["Huit heures", "Sept heures", "Dix heures"],
+        "rep": 0
+      },
+      {
+        "q": "Que doit faire Marie ?",
+        "choix": ["Changer de train une fois", "Prendre l'avion", "Prendre un ferry"],
+        "rep": 0
+      },
+      {
+        "q": "Comment voyage Jonas ?",
+        "choix": ["En voiture", "En bus", "En train"],
+        "rep": 0
+      },
+      {
+        "q": "Que demande-t-elle à l'hôtel ?",
+        "choix": ["Une clé", "Une carte", "Un billet"],
+        "rep": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "id": 10,
+  "titre": "Couleurs et vêtements",
+  "lecons": [
+    {
+      "titre": "Les couleurs",
+      "mots": [
+        {"no": "rød", "fr": "rouge", "pron": "REU", "ex": "Sofaen er rød.", "ex_fr": "Le canapé est rouge."},
+        {"no": "blå", "fr": "bleu", "pron": "BLOU", "ex": "Døra er blå.", "ex_fr": "La porte est bleue."},
+        {"no": "grønn", "fr": "vert", "pron": "GREUNN", "ex": "Teppet er grønt.", "ex_fr": "Le tapis est vert."},
+        {"no": "gul", "fr": "jaune", "pron": "GUUL", "ex": "Lampen er gul.", "ex_fr": "La lampe est jaune."},
+        {"no": "hvit", "fr": "blanc", "pron": "VIIT", "ex": "Et bord er hvitt.", "ex_fr": "Une table est blanche."},
+        {"no": "svart", "fr": "noir", "pron": "SVART", "ex": "Kaffe er svart.", "ex_fr": "Le café est noir."},
+        {"no": "brun", "fr": "marron", "pron": "BRUUN", "ex": "Skapet er brunt.", "ex_fr": "L'armoire est marron."},
+        {"no": "grå", "fr": "gris", "pron": "GROU", "ex": "Bildet er grått.", "ex_fr": "L'image est grise."}
+      ],
+      "grammaire": {
+        "titre": "L'accord de l'adjectif : le neutre prend -t",
+        "texte": "L'adjectif s'accorde avec le nom. Avec un nom en ou ei, on garde la forme de base : en rød sofa. Avec un nom neutre (et), on ajoute -t : et rødt teppe.\nRègles : rød → rødt · grønn → grønt · gul → gult · hvit → hvitt · brun → brunt · blå → blått · grå → grått · svart ne change pas.\nAu pluriel, on ajoute -e (chapitre 11).",
+        "exemples": [
+          {"no": "en rød sofa", "fr": "un canapé rouge"},
+          {"no": "et rødt teppe", "fr": "un tapis rouge"},
+          {"no": "et grønt skap", "fr": "une armoire verte"}
+        ]
+      },
+      "texte": {
+        "no": "I stuen er det en rød sofa og et grønt teppe. Lampen er gul, og bordet er hvitt. Døra er blå, og skapet er brunt. Bildet er grått, og kaffen er svart. Marie liker farger. Hun liker ikke et grått rom. Hun vil ha en rød stol.",
+        "fr": "Dans le salon, il y a un canapé rouge et un tapis vert. La lampe est jaune et la table est blanche. La porte est bleue et l'armoire est marron. L'image est grise et le café est noir. Marie aime les couleurs. Elle n'aime pas une pièce grise. Elle veut une chaise rouge.",
+        "aide": [
+          {"no": "farger", "fr": "couleurs"}
+        ],
+        "questions": [
+          {
+            "q": "De quelle couleur est le tapis ?",
+            "choix": ["Vert", "Rouge", "Gris"],
+            "rep": 0
+          },
+          {
+            "q": "Quelle chaise veut Marie ?",
+            "choix": ["Une chaise rouge", "Une chaise grise", "Une chaise marron"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Autres couleurs et nuances",
+      "mots": [
+        {"no": "oransje", "fr": "orange", "pron": "o-RANG-cheu", "ex": "Jeg liker oransje.", "ex_fr": "J'aime l'orange."},
+        {"no": "rosa", "fr": "rose", "pron": "ROU-sa", "ex": "Hun har en rosa lampe.", "ex_fr": "Elle a une lampe rose."},
+        {"no": "lilla", "fr": "violet", "pron": "LIL-la", "ex": "Teppet er lilla.", "ex_fr": "Le tapis est violet."},
+        {"no": "en farge", "fr": "la couleur", "pron": "FAR-ge", "ex": "Rød er en fin farge.", "ex_fr": "Le rouge est une belle couleur."},
+        {"no": "lys", "fr": "clair", "pron": "LÜS", "ex": "Skapet er lyst.", "ex_fr": "L'armoire est claire."},
+        {"no": "mørk", "fr": "foncé / sombre", "pron": "MEURK", "ex": "Rommet er mørkt.", "ex_fr": "La pièce est sombre."},
+        {"no": "pen", "fr": "joli", "pron": "PÉN", "ex": "Bildet er pent.", "ex_fr": "L'image est jolie."},
+        {"no": "stygg", "fr": "laid", "pron": "STÜGG", "ex": "Det er ikke stygt.", "ex_fr": "Ce n'est pas laid."}
+      ],
+      "grammaire": {
+        "titre": "Adjectifs invariables et nuances",
+        "texte": "Certains adjectifs de couleur ne s'accordent jamais : rosa, lilla, oransje. On écrit : en rosa lampe, et rosa teppe.\nPour une nuance, on colle « lys » ou « mørk » : lyseblå (bleu clair), mørkegrønn (vert foncé).\nlys → lyst, mørk → mørkt, pen → pent, stygg → stygt (neutre).",
+        "exemples": [
+          {"no": "et rosa teppe", "fr": "un tapis rose"},
+          {"no": "en mørkegrønn sofa", "fr": "un canapé vert foncé"},
+          {"no": "Rommet er lyst.", "fr": "La pièce est claire."}
+        ]
+      },
+      "texte": {
+        "no": "Anna har en pen, rosa lampe. Marie har en lilla stol og et oransje teppe. Anna sier: «Det er en stygg farge!» Marie sier: «Nei, det er en pen farge!» De ler. Marie liker lyse farger, men Anna liker mørke farger.",
+        "fr": "Anna a une jolie lampe rose. Marie a une chaise violette et un tapis orange. Anna dit : « C'est une vilaine couleur ! » Marie dit : « Non, c'est une jolie couleur ! » Elles rient. Marie aime les couleurs claires mais Anna aime les couleurs foncées.",
+        "aide": [
+          {"no": "ler", "fr": "rient"},
+          {"no": "lyse", "fr": "claires"},
+          {"no": "mørke", "fr": "foncées"}
+        ],
+        "questions": [
+          {
+            "q": "De quelle couleur est la lampe d'Anna ?",
+            "choix": ["Rose", "Orange", "Violet"],
+            "rep": 0
+          },
+          {
+            "q": "Que dit Anna de la couleur orange ?",
+            "choix": ["Qu'elle est vilaine", "Qu'elle est belle", "Qu'elle est sombre"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les vêtements",
+      "mots": [
+        {"no": "en genser", "fr": "le pull", "pron": "GEN-ser", "ex": "Jeg har en rød genser.", "ex_fr": "J'ai un pull rouge."},
+        {"no": "en jakke", "fr": "la veste", "pron": "YAK-ke", "ex": "Hun har en blå jakke.", "ex_fr": "Elle a une veste bleue."},
+        {"no": "ei bukse", "fr": "le pantalon", "pron": "BUK-se", "ex": "Jeg har en svart bukse.", "ex_fr": "J'ai un pantalon noir."},
+        {"no": "en kjole", "fr": "la robe", "pron": "CHOU-le", "ex": "Hun har en hvit kjole.", "ex_fr": "Elle a une robe blanche."},
+        {"no": "en skjorte", "fr": "la chemise", "pron": "CHOR-te", "ex": "Han har en grønn skjorte.", "ex_fr": "Il a une chemise verte."},
+        {"no": "en sko", "fr": "la chaussure", "pron": "SKOU", "ex": "Jeg har en brun sko.", "ex_fr": "J'ai une chaussure marron."},
+        {"no": "en lue", "fr": "le bonnet", "pron": "LU-e", "ex": "Marie har en grå lue.", "ex_fr": "Marie a un bonnet gris."},
+        {"no": "en hatt", "fr": "le chapeau", "pron": "HATT", "ex": "Per har en gul hatt.", "ex_fr": "Per a un chapeau jaune."}
+      ],
+      "grammaire": {
+        "titre": "L'adjectif devant le nom",
+        "texte": "Quand l'adjectif est devant le nom, il s'accorde de la même façon : en rød genser, ei svart bukse, et grønt skjerf.\nPour dire « porter », on utilise « ha på seg » : Jeg har på meg en blå jakke (je porte une veste bleue).",
+        "exemples": [
+          {"no": "en rød genser", "fr": "un pull rouge"},
+          {"no": "ei svart bukse", "fr": "un pantalon noir"},
+          {"no": "Jeg har på meg en jakke.", "fr": "Je porte une veste."}
+        ]
+      },
+      "texte": {
+        "no": "Marie har på seg en rød genser og en svart bukse. Hun har også en blå jakke og en grå lue. Anna har på seg en hvit kjole og en brun jakke. Jonas har en grønn skjorte og en gul hatt. Marie har brune sko, men Anna har svarte sko.",
+        "fr": "Marie porte un pull rouge et un pantalon noir. Elle a aussi une veste bleue et un bonnet gris. Anna porte une robe blanche et une veste marron. Jonas a une chemise verte et un chapeau jaune. Marie a des chaussures marron mais Anna a des chaussures noires.",
+        "aide": [
+          {"no": "har på seg", "fr": "porte"},
+          {"no": "brune", "fr": "marron (pluriel)"},
+          {"no": "svarte", "fr": "noires (pluriel)"}
+        ],
+        "questions": [
+          {
+            "q": "Quel pantalon porte Marie ?",
+            "choix": ["Un pantalon noir", "Un pantalon blanc", "Un pantalon vert"],
+            "rep": 0
+          },
+          {
+            "q": "De quelle couleur est le chapeau de Jonas ?",
+            "choix": ["Jaune", "Vert", "Gris"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Accessoires et forme définie avec adjectif",
+      "mots": [
+        {"no": "en frakk", "fr": "le manteau", "pron": "FRAKK", "ex": "Jeg har en grå frakk.", "ex_fr": "J'ai un manteau gris."},
+        {"no": "et skjerf", "fr": "l'écharpe", "pron": "CHERF", "ex": "Skjerfet er rødt.", "ex_fr": "L'écharpe est rouge."},
+        {"no": "en hanske", "fr": "le gant", "pron": "HAN-ske", "ex": "Jeg har en hanske.", "ex_fr": "J'ai un gant."},
+        {"no": "en sokk", "fr": "la chaussette", "pron": "SOKK", "ex": "En sokk er hvit.", "ex_fr": "Une chaussette est blanche."},
+        {"no": "et belte", "fr": "la ceinture", "pron": "BEL-te", "ex": "Beltet er svart.", "ex_fr": "La ceinture est noire."},
+        {"no": "en lomme", "fr": "la poche", "pron": "LOM-me", "ex": "Nøkkelen er i lommen.", "ex_fr": "La clé est dans la poche."},
+        {"no": "ei veske", "fr": "le sac à main", "pron": "VES-ke", "ex": "Veska er brun.", "ex_fr": "Le sac est marron."},
+        {"no": "en paraply", "fr": "le parapluie", "pron": "pa-ra-PLÜ", "ex": "Jeg har en paraply.", "ex_fr": "J'ai un parapluie."}
+      ],
+      "grammaire": {
+        "titre": "Le défini avec un adjectif : den / det + adjectif + nom",
+        "texte": "Quand on parle de « le / la » + adjectif, on utilise une double marque : un petit mot (den, det) + l'adjectif en -e + le nom au défini.\nden røde frakken (le manteau rouge) · det røde skjerfet (l'écharpe rouge) · den brune veska (le sac marron).\nden = en/ei, det = et.",
+        "exemples": [
+          {"no": "den røde frakken", "fr": "le manteau rouge"},
+          {"no": "det røde skjerfet", "fr": "l'écharpe rouge"},
+          {"no": "den brune veska", "fr": "le sac marron"}
+        ]
+      },
+      "texte": {
+        "no": "Marie har den grå frakken og det røde skjerfet. Nøkkelen er i lommen. Den brune veska er hennes, og det svarte beltet er også hennes. Anna har en gul paraply. Jonas har én hanske i lommen. Han vil ha en hanske til.",
+        "fr": "Marie a le manteau gris et l'écharpe rouge. La clé est dans la poche. Le sac marron est à elle et la ceinture noire est aussi à elle. Anna a un parapluie jaune. Jonas a un seul gant dans la poche. Il veut un gant de plus.",
+        "aide": [
+          {"no": "hennes", "fr": "à elle"},
+          {"no": "til", "fr": "de plus"}
+        ],
+        "questions": [
+          {
+            "q": "De quelle couleur est l'écharpe de Marie ?",
+            "choix": ["Rouge", "Grise", "Noire"],
+            "rep": 0
+          },
+          {
+            "q": "Que cherche Jonas ?",
+            "choix": ["Un deuxième gant", "Une écharpe", "Un parapluie"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Essayer et choisir",
+      "mots": [
+        {"no": "å prøve", "fr": "essayer", "pron": "PREU-ve", "ex": "Jeg vil prøve en kjole.", "ex_fr": "Je voudrais essayer une robe."},
+        {"no": "å passe", "fr": "aller (taille) / convenir", "pron": "PAS-se", "ex": "Jakken passer ikke.", "ex_fr": "La veste ne va pas."},
+        {"no": "en størrelse", "fr": "la taille", "pron": "STEUR-rel-se", "ex": "Hvilken størrelse har du?", "ex_fr": "Quelle taille as-tu ?"},
+        {"no": "stor", "fr": "grand", "pron": "STOUR", "ex": "Genseren er stor.", "ex_fr": "Le pull est grand."},
+        {"no": "liten", "fr": "petit", "pron": "LI-ten", "ex": "Buksa er liten.", "ex_fr": "Le pantalon est petit."},
+        {"no": "kort", "fr": "court", "pron": "KORT", "ex": "Kjolen er kort.", "ex_fr": "La robe est courte."},
+        {"no": "lang", "fr": "long", "pron": "LANG", "ex": "Frakken er lang.", "ex_fr": "Le manteau est long."},
+        {"no": "ny", "fr": "nouveau / neuf", "pron": "NÜ", "ex": "Det er en ny jakke.", "ex_fr": "C'est une veste neuve."}
+      ],
+      "grammaire": {
+        "titre": "Adjectifs irréguliers",
+        "texte": "Quelques adjectifs très courants ont un neutre irrégulier :\nstor → stort (et stort hus) · liten → lite (et lite rom) · ny → nytt (et nytt skjerf) · lang → langt (et langt skjerf) · kort → kort (invariable).\nAu pluriel : store, små, nye, lange, korte.",
+        "exemples": [
+          {"no": "et stort hus", "fr": "une grande maison"},
+          {"no": "et lite rom", "fr": "une petite pièce"},
+          {"no": "et nytt skjerf", "fr": "une nouvelle écharpe"}
+        ]
+      },
+      "texte": {
+        "no": "Marie vil prøve en ny kjole. Den er lang og blå. Størrelsen er stor, og kjolen passer ikke. Hun prøver en liten kjole. Den er kort, men den passer. Anna sier: «Du har en ny, pen kjole!» Marie sier takk. Hun vil ha den.",
+        "fr": "Marie veut essayer une nouvelle robe. Elle est longue et bleue. La taille est grande et la robe ne va pas. Elle essaie une petite robe. Elle est courte mais elle va bien. Anna dit : « Tu as une nouvelle jolie robe ! » Marie dit merci. Elle la veut.",
+        "aide": [
+          {"no": "den", "fr": "elle / celle-ci"}
+        ],
+        "questions": [
+          {
+            "q": "Pourquoi la première robe ne va-t-elle pas ?",
+            "choix": ["Elle est trop grande", "Elle est trop courte", "Elle est verte"],
+            "rep": 0
+          },
+          {
+            "q": "Comment est la deuxième robe ?",
+            "choix": ["Courte mais elle va bien", "Longue et bleue", "Grande"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Det er lørdag, og Marie og Anna prøver klær. Marie har på seg en blå jakke og en svart bukse. Hun vil prøve en rød kjole. Kjolen er pen, men den er for stor. Hun prøver en liten, rød kjole. Den er kort, men den passer. Anna liker den røde kjolen, men hun vil ha en grønn kjole. Hun har allerede en hvit kjole og en gul genser. Anna har en grå frakk, et rødt skjerf og en brun veske. Marie sier: «Den røde kjolen er ny, og jeg liker den!»",
+    "fr": "C'est samedi et Marie et Anna essaient des vêtements. Marie porte une veste bleue et un pantalon noir. Elle veut essayer une robe rouge. La robe est jolie mais elle est trop grande. Elle essaie une petite robe rouge. Elle est courte mais elle va bien. Anna aime la robe rouge mais elle veut une robe verte. Elle a déjà une robe blanche et un pull jaune. Anna a un manteau gris, une écharpe rouge et un sac marron. Marie dit : « La robe rouge est neuve et je l'aime ! »",
+    "aide": [
+      {"no": "klær", "fr": "vêtements"},
+      {"no": "for", "fr": "trop"},
+      {"no": "allerede", "fr": "déjà"}
+    ],
+    "questions": [
+      {
+        "q": "Que porte Marie ?",
+        "choix": ["Une veste bleue et un pantalon noir", "Une robe rouge", "Un pull gris"],
+        "rep": 0
+      },
+      {
+        "q": "Pourquoi la première robe rouge ne va-t-elle pas ?",
+        "choix": ["Elle est trop grande", "Elle est trop longue", "Elle est verte"],
+        "rep": 0
+      },
+      {
+        "q": "Quelle robe veut Anna ?",
+        "choix": ["Une robe verte", "Une robe blanche", "Une robe rouge"],
+        "rep": 0
+      },
+      {
+        "q": "De quelle couleur est l'écharpe d'Anna ?",
+        "choix": ["Rouge", "Verte", "Grise"],
+        "rep": 0
+      }
+    ]
+  }
+}
