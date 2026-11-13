@@ -210,6 +210,48 @@
           }
         ]
       }
+    },
+    {
+      "titre": "À l'aéroport",
+      "mots": [
+        {"no": "en flyplass", "fr": "l'aéroport", "pron": "FLÜ-plass", "ex": "Flyplassen er stor.", "ex_fr": "L'aéroport est grand."},
+        {"no": "en flyvning", "fr": "le vol", "pron": "FLÜ-vning", "ex": "En flyvning tar to timer.", "ex_fr": "Un vol dure deux heures."},
+        {"no": "en innsjekking", "fr": "l'enregistrement", "pron": "IN-sjek-king", "ex": "Innsjekking er klokka åtte.", "ex_fr": "L'enregistrement est à huit heures."},
+        {"no": "en passkontroll", "fr": "le contrôle des passeports", "pron": "PASS-kon-trol", "ex": "Jeg går til passkontrollen.", "ex_fr": "Je vais au contrôle des passeports."},
+        {"no": "en forsinkelse", "fr": "le retard", "pron": "for-SIN-kel-se", "ex": "Det er en forsinkelse.", "ex_fr": "Il y a un retard."},
+        {"no": "en pilot", "fr": "le pilote", "pron": "pi-LOUT", "ex": "Piloten er her.", "ex_fr": "Le pilote est ici."},
+        {"no": "en passasjer", "fr": "le passager", "pron": "pas-sa-SJÆR", "ex": "En passasjer venter.", "ex_fr": "Un passager attend."},
+        {"no": "et boardingkort", "fr": "la carte d'embarquement", "pron": "BOR-ding-kort", "ex": "Jeg har et boardingkort.", "ex_fr": "J'ai une carte d'embarquement."}
+      ],
+      "grammaire": {
+        "titre": "À l'aéroport",
+        "texte": "« Å ta » veut aussi dire « durer » : En flyvning tar to timer (un vol dure deux heures).\n« Det er en forsinkelse » = il y a un retard ; on dit aussi « Flyet er forsinket » (l'avion est en retard).\nPour la suite des étapes : innsjekking → passkontroll → fly.",
+        "exemples": [
+          {"no": "En flyvning tar to timer.", "fr": "Un vol dure deux heures."},
+          {"no": "Det er en forsinkelse.", "fr": "Il y a un retard."},
+          {"no": "Jeg har et boardingkort.", "fr": "J'ai une carte d'embarquement."}
+        ]
+      },
+      "texte": {
+        "no": "Marie er på flyplassen. Innsjekking er klokka åtte, og flyvningen tar to timer. Hun har et boardingkort og et pass. Ved passkontrollen venter mange passasjerer. Det er en forsinkelse, så flyet kommer senere. Piloten sier at alle skal vente litt. Marie leser en bok og drikker en kaffe.",
+        "fr": "Marie est à l'aéroport. L'enregistrement est à huit heures et le vol dure deux heures. Elle a une carte d'embarquement et un passeport. Au contrôle des passeports, beaucoup de passagers attendent. Il y a un retard donc l'avion arrive plus tard. Le pilote dit que tout le monde doit attendre un peu. Marie lit un livre et boit un café.",
+        "aide": [
+          {"no": "flyet", "fr": "l'avion"},
+          {"no": "skal vente", "fr": "doivent attendre"}
+        ],
+        "questions": [
+          {
+            "q": "À quelle heure est l'enregistrement ?",
+            "choix": ["Huit heures", "Dix heures", "Sept heures"],
+            "rep": 0
+          },
+          {
+            "q": "Pourquoi l'avion arrive-t-il plus tard ?",
+            "choix": ["Il y a un retard", "Il y a une tempête", "Il manque un pilote"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

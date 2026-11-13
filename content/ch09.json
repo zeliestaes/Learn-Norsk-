@@ -215,6 +215,50 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Les tâches ménagères",
+      "mots": [
+        {"no": "å rydde", "fr": "ranger", "pron": "RÜD-de", "ex": "Jeg rydder rommet.", "ex_fr": "Je range la chambre."},
+        {"no": "å støvsuge", "fr": "passer l'aspirateur", "pron": "STEUV-su-ge", "ex": "Hun støvsuger stuen.", "ex_fr": "Elle passe l'aspirateur au salon."},
+        {"no": "å stryke", "fr": "repasser", "pron": "STRÜ-ke", "ex": "Han stryker en skjorte.", "ex_fr": "Il repasse une chemise."},
+        {"no": "å tømme", "fr": "vider", "pron": "TEUM-me", "ex": "Jeg tømmer kurven.", "ex_fr": "Je vide le panier."},
+        {"no": "å kaste", "fr": "jeter", "pron": "KAS-te", "ex": "Jeg kaster en pose.", "ex_fr": "Je jette un sac."},
+        {"no": "å hente", "fr": "aller chercher", "pron": "HEN-te", "ex": "Jeg henter barnet.", "ex_fr": "Je vais chercher l'enfant."},
+        {"no": "å levere", "fr": "livrer / rendre", "pron": "le-VÉ-re", "ex": "Jeg leverer en bok.", "ex_fr": "Je rends un livre."},
+        {"no": "å ordne", "fr": "arranger / s'occuper de", "pron": "ORD-ne", "ex": "Jeg ordner det.", "ex_fr": "Je m'en occupe."}
+      ],
+      "grammaire": {
+        "titre": "Les tâches de la maison",
+        "texte": "Au présent, ces verbes prennent -er : rydde → rydder, støvsuge → støvsuger, stryke → stryker, tømme → tømmer, kaste → kaster, hente → henter, levere → leverer, ordne → ordner.\nPour répartir le travail : Jeg rydder, og du støvsuger. Pour proposer son aide : Jeg ordner det !",
+        "exemples": [
+          {"no": "Jeg rydder rommet.", "fr": "Je range la chambre."},
+          {"no": "Hun støvsuger stuen.", "fr": "Elle passe l'aspirateur au salon."},
+          {"no": "Jeg henter barnet.", "fr": "Je vais chercher l'enfant."}
+        ]
+      },
+      "texte": {
+        "no": "Lørdag er en dag for husarbeid. Marie rydder soverommet, og Anna støvsuger stuen. Jonas stryker skjortene og tømmer kurven. Så kaster de en pose på kjøkkenet. Etterpå henter Anna barnet, og Marie leverer en pakke til naboen. «Jeg ordner resten!» sier Marie. Det er mye å gjøre, men de er raske.",
+        "fr": "Le samedi est un jour de ménage. Marie range la chambre et Anna passe l'aspirateur au salon. Jonas repasse les chemises et vide le panier. Puis ils jettent un sac à la cuisine. Ensuite, Anna va chercher l'enfant et Marie livre un colis au voisin. « Je m'occupe du reste ! » dit Marie. Il y a beaucoup à faire mais ils sont rapides.",
+        "aide": [
+          {"no": "husarbeid", "fr": "le ménage"},
+          {"no": "pakke", "fr": "colis / paquet"},
+          {"no": "resten", "fr": "le reste"},
+          {"no": "raske", "fr": "rapides"}
+        ],
+        "questions": [
+          {
+            "q": "Qui passe l'aspirateur ?",
+            "choix": ["Anna", "Marie", "Jonas"],
+            "rep": 0
+          },
+          {
+            "q": "Que fait Marie pour le voisin ?",
+            "choix": ["Elle lui livre un colis", "Elle le range", "Elle lui prépare un repas"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {

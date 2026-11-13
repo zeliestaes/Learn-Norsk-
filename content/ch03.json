@@ -88,6 +88,176 @@
           }
         ]
       }
+    },
+    {
+      "titre": "Plus de verbes utiles",
+      "mots": [
+        {"no": "å forstå", "fr": "comprendre", "pron": "for-STOU", "ex": "Jeg forstår norsk.", "ex_fr": "Je comprends le norvégien."},
+        {"no": "å si", "fr": "dire", "pron": "SI", "ex": "Hva sier du?", "ex_fr": "Que dis-tu ?"},
+        {"no": "å vite", "fr": "savoir", "pron": "VI-te", "ex": "Jeg vet det.", "ex_fr": "Je le sais."},
+        {"no": "å kjenne", "fr": "connaître", "pron": "CHEN-ne", "ex": "Jeg kjenner Anna.", "ex_fr": "Je connais Anna."},
+        {"no": "å tenke", "fr": "penser", "pron": "TEN-ke", "ex": "Jeg tenker på Norge.", "ex_fr": "Je pense à la Norvège."},
+        {"no": "å tro", "fr": "croire", "pron": "TROU", "ex": "Jeg tror det.", "ex_fr": "Je le crois."},
+        {"no": "å gi", "fr": "donner", "pron": "YI", "ex": "Jeg gir deg en kake.", "ex_fr": "Je te donne un gâteau."},
+        {"no": "å bety", "fr": "signifier", "pron": "be-TÉ", "ex": "Hva betyr det?", "ex_fr": "Qu'est-ce que ça veut dire ?"}
+      ],
+      "grammaire": {
+        "titre": "Savoir ou connaître ?",
+        "texte": "Le norvégien a deux verbes : « å vite » pour un fait (Jeg vet det : je le sais) et « å kjenne » pour une personne ou un lieu (Jeg kjenner Anna : je connais Anna).\nÀ noter : å tenke på (penser à), å tro (croire), å gi (donner) : Jeg gir deg en kake.",
+        "exemples": [
+          {"no": "Jeg vet det.", "fr": "Je le sais."},
+          {"no": "Jeg kjenner Anna.", "fr": "Je connais Anna."},
+          {"no": "Jeg forstår ikke.", "fr": "Je ne comprends pas."}
+        ]
+      },
+      "texte": {
+        "no": "– Hva sier du? Jeg forstår ikke.\n– Jeg sier: Hei! Hva heter du?\n– Jeg heter Marie. Kjenner du Anna?\n– Nei, jeg kjenner ikke Anna. Men jeg tror hun bor her.\n– Jeg vet det! Hun bor i Oslo.\n– Hva betyr «velkommen»?\n– Det betyr «bienvenue». Jeg gir deg en bok.",
+        "fr": "– Que dis-tu ? Je ne comprends pas.\n– Je dis : Salut ! Comment t'appelles-tu ?\n– Je m'appelle Marie. Connais-tu Anna ?\n– Non, je ne connais pas Anna. Mais je crois qu'elle habite ici.\n– Je le sais ! Elle habite à Oslo.\n– Que veut dire « velkommen » ?\n– Ça veut dire « bienvenue ». Je te donne un livre.",
+        "aide": [
+          {"no": "men", "fr": "mais"}
+        ],
+        "questions": [
+          {
+            "q": "Où habite Anna ?",
+            "choix": ["À Oslo", "Ici", "À Bergen"],
+            "rep": 0
+          },
+          {
+            "q": "Que donne la deuxième personne à Marie ?",
+            "choix": ["Un livre", "Une clé", "Un gâteau"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Adjectifs de base",
+      "mots": [
+        {"no": "god", "fr": "bon", "pron": "GOU", "ex": "Det er godt.", "ex_fr": "C'est bon."},
+        {"no": "dårlig", "fr": "mauvais", "pron": "DOR-li", "ex": "Det er dårlig.", "ex_fr": "C'est mauvais."},
+        {"no": "vanskelig", "fr": "difficile", "pron": "VAN-ske-li", "ex": "Norsk er vanskelig.", "ex_fr": "Le norvégien est difficile."},
+        {"no": "lett", "fr": "facile / léger", "pron": "LETT", "ex": "Det er lett.", "ex_fr": "C'est facile."},
+        {"no": "viktig", "fr": "important", "pron": "VIK-ti", "ex": "Det er viktig.", "ex_fr": "C'est important."},
+        {"no": "ren", "fr": "propre", "pron": "RÉN", "ex": "Rommet er rent.", "ex_fr": "La pièce est propre."},
+        {"no": "skitten", "fr": "sale", "pron": "SKIT-ten", "ex": "Bordet er skittent.", "ex_fr": "La table est sale."},
+        {"no": "full", "fr": "plein", "pron": "FULL", "ex": "Glasset er fullt.", "ex_fr": "Le verre est plein."}
+      ],
+      "grammaire": {
+        "titre": "Les adjectifs en -ig ne prennent pas -t",
+        "texte": "Après « det er » ou avec un nom neutre, la plupart des adjectifs prennent -t : godt, rent, skittent, fullt.\nMais les adjectifs en -ig ne changent pas : Det er viktig, Det er vanskelig, Det er dårlig. « Lett » ne change pas non plus : Det er lett.",
+        "exemples": [
+          {"no": "Det er godt.", "fr": "C'est bon."},
+          {"no": "Det er viktig.", "fr": "C'est important."},
+          {"no": "Rommet er rent.", "fr": "La pièce est propre."}
+        ]
+      },
+      "texte": {
+        "no": "Marie lærer norsk. Det er vanskelig, men det er ikke dårlig. Ordene er lette. Grammatikk er viktig. Rommet hennes er rent, og bordet er ikke skittent. Glasset er fullt av vann. Hun drikker, og det er godt. Nå er glasset tomt.",
+        "fr": "Marie apprend le norvégien. C'est difficile mais ce n'est pas mauvais. Les mots sont faciles. La grammaire est importante. Sa chambre est propre et la table n'est pas sale. Le verre est plein d'eau. Elle boit et c'est bon. Maintenant, le verre est vide.",
+        "aide": [
+          {"no": "ordene", "fr": "les mots"},
+          {"no": "lette", "fr": "faciles (pluriel)"},
+          {"no": "grammatikk", "fr": "grammaire"},
+          {"no": "fullt av", "fr": "plein de"}
+        ],
+        "questions": [
+          {
+            "q": "Comment Marie trouve-t-elle le norvégien ?",
+            "choix": ["Difficile", "Facile", "Mauvais"],
+            "rep": 0
+          },
+          {
+            "q": "Comment est la table ?",
+            "choix": ["Pas sale", "Sale", "Pleine"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les petits mots de liaison",
+      "mots": [
+        {"no": "med", "fr": "avec", "pron": "MÉ", "ex": "Jeg drikker kaffe med sukker.", "ex_fr": "Je bois du café avec du sucre."},
+        {"no": "uten", "fr": "sans", "pron": "UT-en", "ex": "Jeg vil ha te uten sukker.", "ex_fr": "Je voudrais du thé sans sucre."},
+        {"no": "fra", "fr": "de (origine)", "pron": "FRAA", "ex": "Jeg kommer fra Belgia.", "ex_fr": "Je viens de Belgique."},
+        {"no": "til", "fr": "à / vers", "pron": "TIL", "ex": "Jeg går til Oslo.", "ex_fr": "Je vais à Oslo."},
+        {"no": "hos", "fr": "chez", "pron": "HOUS", "ex": "Jeg bor hos Anna.", "ex_fr": "J'habite chez Anna."},
+        {"no": "om", "fr": "de / à propos de", "pron": "OM", "ex": "Jeg snakker om Norge.", "ex_fr": "Je parle de la Norvège."},
+        {"no": "av", "fr": "de / par", "pron": "AA", "ex": "Det er en bok av Anna.", "ex_fr": "C'est un livre d'Anna."},
+        {"no": "etter", "fr": "après", "pron": "ET-ter", "ex": "Etter frokost drikker jeg kaffe.", "ex_fr": "Après le petit-déjeuner, je bois du café."}
+      ],
+      "grammaire": {
+        "titre": "Les prépositions de base",
+        "texte": "med (avec) · uten (sans) · fra (de) · til (à, vers) · hos (chez) · om (au sujet de) · av (de, par) · etter (après).\nCombinaisons utiles : fra Brussel til Oslo (de Bruxelles à Oslo), hos Anna (chez Anna), snakke om Norge (parler de la Norvège).\nAprès « etter », le verbe reste en deuxième position : Etter frokost drikker jeg kaffe.",
+        "exemples": [
+          {"no": "fra Brussel til Oslo", "fr": "de Bruxelles à Oslo"},
+          {"no": "hos Anna", "fr": "chez Anna"},
+          {"no": "te uten sukker", "fr": "du thé sans sucre"}
+        ]
+      },
+      "texte": {
+        "no": "Jeg heter Marie og kommer fra Belgia. Nå bor jeg hos Anna i Oslo. Vi snakker om Norge og om familien. Jeg drikker kaffe med sukker, men Anna drikker te uten sukker. Etter frokost går vi til en kafé. Anna har en bok av en norsk forfatter, og hun gir den til meg.",
+        "fr": "Je m'appelle Marie et je viens de Belgique. Maintenant, j'habite chez Anna à Oslo. Nous parlons de la Norvège et de la famille. Je bois du café avec du sucre mais Anna boit du thé sans sucre. Après le petit-déjeuner, nous allons dans un café. Anna a un livre d'un écrivain norvégien et elle me le donne.",
+        "aide": [
+          {"no": "forfatter", "fr": "écrivain"},
+          {"no": "den", "fr": "le (le livre)"}
+        ],
+        "questions": [
+          {
+            "q": "Chez qui Marie habite-t-elle ?",
+            "choix": ["Chez Anna", "Chez Per", "À l'hôtel"],
+            "rep": 0
+          },
+          {
+            "q": "Comment Anna boit-elle son thé ?",
+            "choix": ["Sans sucre", "Avec du sucre", "Avec du lait"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Langues et nationalités",
+      "mots": [
+        {"no": "norsk", "fr": "norvégien", "pron": "NORSK", "ex": "Jeg snakker norsk.", "ex_fr": "Je parle norvégien."},
+        {"no": "fransk", "fr": "français", "pron": "FRANSK", "ex": "Hun snakker fransk.", "ex_fr": "Elle parle français."},
+        {"no": "engelsk", "fr": "anglais", "pron": "ENG-elsk", "ex": "Han snakker engelsk.", "ex_fr": "Il parle anglais."},
+        {"no": "nederlandsk", "fr": "néerlandais", "pron": "NÉ-der-landsk", "ex": "Vi snakker nederlandsk.", "ex_fr": "Nous parlons néerlandais."},
+        {"no": "tysk", "fr": "allemand", "pron": "TÜSK", "ex": "Du snakker tysk.", "ex_fr": "Tu parles allemand."},
+        {"no": "spansk", "fr": "espagnol", "pron": "SPANSK", "ex": "Hun snakker spansk.", "ex_fr": "Elle parle espagnol."},
+        {"no": "et språk", "fr": "la langue", "pron": "SPROUK", "ex": "Norsk er et språk.", "ex_fr": "Le norvégien est une langue."},
+        {"no": "en nordmann", "fr": "le Norvégien", "pron": "NOR-mann", "ex": "En nordmann bor i Oslo.", "ex_fr": "Un Norvégien habite à Oslo."}
+      ],
+      "grammaire": {
+        "titre": "Langues et nationalités",
+        "texte": "Les noms de langues et de nationalités s'écrivent sans majuscule : norsk, fransk, engelsk.\nPour une personne : en nordmann (un Norvégien), en franskmann (un Français), en belgier (un Belge). Pour dire sa nationalité, pas d'article : Jeg er belgier.\nPour dire d'où l'on vient : Jeg er fra Belgia / Jeg kommer fra Belgia.",
+        "exemples": [
+          {"no": "Jeg snakker norsk.", "fr": "Je parle norvégien."},
+          {"no": "Jeg er belgier.", "fr": "Je suis belge."},
+          {"no": "en franskmann", "fr": "un Français"}
+        ]
+      },
+      "texte": {
+        "no": "Marie snakker fransk, engelsk og nederlandsk. Nå lærer hun norsk. Anna snakker norsk, engelsk og litt tysk. Jonas er en nordmann, men moren hans snakker spansk. Norsk er et lite språk, men det er et fint språk. Marie er belgier, og hun elsker språk.",
+        "fr": "Marie parle français, anglais et néerlandais. Maintenant, elle apprend le norvégien. Anna parle norvégien, anglais et un peu allemand. Jonas est norvégien mais sa mère parle espagnol. Le norvégien est une petite langue mais c'est une belle langue. Marie est belge et elle adore les langues.",
+        "aide": [
+          {"no": "litt", "fr": "un peu"},
+          {"no": "hans", "fr": "sa (à lui)"},
+          {"no": "elsker", "fr": "adore"}
+        ],
+        "questions": [
+          {
+            "q": "Quelle langue Anna parle-t-elle en plus ?",
+            "choix": ["L'allemand", "L'espagnol", "Le néerlandais"],
+            "rep": 0
+          },
+          {
+            "q": "Quelle langue parle la mère de Jonas ?",
+            "choix": ["L'espagnol", "L'allemand", "Le français"],
+            "rep": 0
+          }
+        ]
+      }
     }
   ],
   "synthese": {
