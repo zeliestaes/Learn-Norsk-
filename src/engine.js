@@ -138,7 +138,8 @@ export function runSession(app, opts) {
     let bonusXp = 0, bonusCoins = 0, chest = null;
     const firstTime = opts.unit && !state.units[opts.unit.id]?.done;
 
-    if (opts.kind !== 'review') {
+    const reviewLike = opts.kind === 'review' || (opts.kind === 'drill' && !opts.unit);
+    if (!reviewLike) {
       if (passed) {
         bonusCoins += 10;
         if (perfect) { bonusXp += 30; bonusCoins += 15; state.stats.perfect++; bump('perfect'); }
@@ -187,8 +188,8 @@ export function runSession(app, opts) {
       }, 120);
     }
 
-    const title = !passed ? 'Presque !' : perfect ? 'Parfait ! 🎉' : opts.kind === 'review' ? 'Révision terminée' : isSynth ? 'Chapitre validé ! 🏔️' : 'Leçon terminée !';
-    const msg = !passed
+    const title = !passed ? 'Presque !' : perfect ? 'Parfait ! 🎉' : opts.kind === 'review' ? 'Révision terminée' : opts.kind === 'drill' ? 'Entraînement terminé !' : isSynth ? 'Chapitre validé ! 🏔️' : 'Leçon terminée !';
+    const msg = opts.kind === 'drill' ? 'Plus tu répètes, mieux tu retiens. Bravo !' : !passed
       ? `Il faut 70 % pour valider la synthèse. Tu as fait ${pct} %. Retente-la, tu y es presque !`
       : isSynth ? `Bravo, tu continues vers le nord !` : perfect ? 'Aucune erreur, impressionnant.' : 'Chaque leçon te rapproche du A2.';
 

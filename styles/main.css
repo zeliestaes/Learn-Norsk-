@@ -250,6 +250,7 @@ details summary { font-weight: 800; color: var(--blue-d); cursor: pointer; }
 .ends { display: flex; justify-content: space-between; margin: 0 6px; font-size: .8rem; font-weight: 800; color: var(--ink-soft); padding: 0 2px; }
 
 /* ---------- Stats / misc ---------- */
+.grid2 > .btn { margin-top: 0; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .stat { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px; }
 .stat b { font-size: 1.5rem; display: block; line-height: 1.1; }

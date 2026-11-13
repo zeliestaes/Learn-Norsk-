@@ -136,6 +136,68 @@ export function buildReview(words) {
   return noRepeat(ex);
 }
 
+// Séances d'entraînement : beaucoup d'exercices sur des mots déjà vus.
+// focus : 'vocab' | 'write' | 'listen' | 'sentences' | 'mix'
+export function buildDrill(words, focus = 'mix') {
+  const W = words.filter((w) => w.ex && w.ex.split(' ').length >= 3);
+  const base = words.length ? words : W;
+  const audio = audioOk();
+  // Les mots les moins bien connus reviennent en premier.
+  const ranked = shuffle(base).sort((a, b) => level5(a.id) - level5(b.id));
+  let i = 0;
+  const nx = () => ranked[i++ % ranked.length];
+  const nxS = () => { // mot avec une phrase utilisable
+    const pool = W.length ? W : ranked;
+    return pool[(i++) % pool.length];
+  };
+  const rep = (n, f) => Array.from({ length: n }, f);
+  const pairsOk = base.length >= 5;
+  const fallbackListen = () => mk.mcq(nx(), base, 'fr-no');
+  const L = () => (audio ? mk.listen(nx(), base) : fallbackListen());
+  const DW = () => (audio ? mk.dictWord(nx()) : mk.translateWord(nx()));
+  const DS = () => (audio ? mk.dictSent(nxS()) : mk.translateSent(nxS()));
+  let ex = [];
+  if (focus === 'vocab') {
+    ex = [
+      ...rep(8, () => mk.mcq(nx(), base, 'no-fr')),
+      ...rep(8, () => mk.mcq(nx(), base, 'fr-no')),
+      ...rep(5, L),
+      ...(pairsOk ? rep(3, () => mk.pairs(sample(base, 5))) : rep(2, () => mk.translateWord(nx()))),
+    ];
+  } else if (focus === 'write') {
+    ex = [
+      ...rep(10, () => mk.translateWord(nx())),
+      ...rep(6, () => mk.translateSent(nxS())),
+      ...rep(5, () => mk.order(nxS(), base)),
+      ...rep(3, DW),
+    ];
+  } else if (focus === 'listen') {
+    ex = audio
+      ? [...rep(8, L), ...rep(6, DW), ...rep(6, DS), ...rep(4, () => mk.speak(nxS()))]
+      : [...rep(8, () => mk.mcq(nx(), base, 'no-fr')), ...rep(8, () => mk.translateWord(nx())), ...rep(6, () => mk.speak(nxS()))];
+  } else if (focus === 'sentences') {
+    ex = [
+      ...rep(8, () => mk.translateSent(nxS())),
+      ...rep(8, () => mk.order(nxS(), base)),
+      ...rep(4, DS),
+      ...rep(4, () => mk.speak(nxS())),
+    ];
+  } else { // mix
+    ex = [
+      ...rep(5, () => mk.mcq(nx(), base, 'no-fr')),
+      ...rep(4, () => mk.mcq(nx(), base, 'fr-no')),
+      ...rep(4, () => mk.translateWord(nx())),
+      ...rep(3, L),
+      ...rep(2, DW),
+      ...rep(3, () => mk.translateSent(nxS())),
+      ...rep(3, () => mk.order(nxS(), base)),
+      ...(pairsOk ? [mk.pairs(sample(base, 5))] : []),
+      ...rep(2, () => mk.speak(nxS())),
+    ];
+  }
+  return noRepeat(ex);
+}
+
 // ======================================================================
 // RENDERERS
 // ======================================================================

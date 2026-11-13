@@ -24,7 +24,11 @@ scripts/build-sw.js                       régénère la liste de fichiers hors 
 
 ## Structure d'un chapitre
 
-Chaque chapitre contient **6 leçons + 1 synthèse** (7 étapes). Le programme à rythme quotidien (chapitres 6 à 34) compte donc 29 × 7 = 203 étapes, soit une avance d'environ 25 jours sur l'objectif du 30 juin 2027. Les chapitres 1 à 5 sont ouverts dès le début.
+- Chapitres 1 à 5 : 2 leçons (16 mots) + **4 entraînements** (vocabulaire, écrire, écouter, phrases) + synthèse = 7 étapes.
+- Chapitres 6 et suivants : 5 leçons (40 mots) + **1 entraînement mixte** + synthèse = 7 étapes.
+- Les entraînements ne contiennent **aucun mot nouveau** : ils génèrent des exercices sur les mots déjà vus (les moins bien connus d'abord). Ils s'ouvrent quand toutes les leçons du chapitre sont terminées.
+- Sur la page de chaque chapitre, l'**entraînement libre** (4 thèmes) est répétable à volonté ; l'écran Réviser propose aussi un entraînement ciblé sur tous les mots appris.
+- Le programme à rythme quotidien (chapitres 6 à 34) compte 29 × 7 = 203 étapes, soit environ 25 jours d'avance sur le 30 juin 2027. Les chapitres 1 à 5 sont ouverts dès le début.
 
 ## Corriger ou ajouter du contenu
 
