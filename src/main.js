@@ -68,6 +68,15 @@ async function boot() {
 }
 
 if ('serviceWorker' in navigator) {
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  // Quand une nouvelle version prend le relais, on recharge (sauf pendant une leçon).
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloading) return;
+    if (/^#\/(jouer|revision\/(go|free))/.test(location.hash)) return;
+    reloading = true;
+    location.reload();
+  });
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }
 boot();
