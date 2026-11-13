@@ -180,7 +180,7 @@
         {"no": "tredje", "fr": "troisième", "pron": "TRED-je", "ex": "Jeg bor i tredje etasje.", "ex_fr": "J'habite au troisième étage."},
         {"no": "fjerde", "fr": "quatrième", "pron": "FYÈ-re", "ex": "Banken er i fjerde gate.", "ex_fr": "La banque est dans la quatrième rue."},
         {"no": "femte", "fr": "cinquième", "pron": "FEM-te", "ex": "Hun bor i femte etasje.", "ex_fr": "Elle habite au cinquième étage."},
-        {"no": "sjette", "fr": "sixième", "pron": "CHET-te", "ex": "Min fødselsdag er sjette mai.", "ex_fr": "Mon anniversaire est le six mai."},
+        {"no": "sjette", "fr": "sixième", "pron": "CHET-te", "ex": "Fødselsdagen min er sjette mai.", "ex_fr": "Mon anniversaire est le six mai."},
         {"no": "sjuende", "fr": "septième", "pron": "CHU-en-de", "ex": "Han bor i sjuende etasje.", "ex_fr": "Il habite au septième étage."},
         {"no": "åttende", "fr": "huitième", "pron": "OT-ten-de", "ex": "Åttende mai er en fin dag.", "ex_fr": "Le huit mai est un beau jour."}
       ],
@@ -194,7 +194,7 @@
         ]
       },
       "texte": {
-        "no": "– Hvor er skolen?\n– Ta første gate til høyre og andre gate til venstre.\n– Og banken?\n– Den er i fjerde gate. Jeg bor i femte etasje over banken.\n– Så hyggelig! Min nabo bor i sjette etasje.\n– Er det langt?\n– Nei, det er nær.\n– Vi ses, hade!",
+        "no": "– Hvor er skolen?\n– Ta første gate til høyre og andre gate til venstre.\n– Og banken?\n– Den er i fjerde gate. Jeg bor i femte etasje over banken.\n– Så hyggelig! Naboen min bor i sjette etasje.\n– Er det langt?\n– Nei, det er nær.\n– Vi ses, hade!",
         "fr": "– Où est l'école ?\n– Prends la première rue à droite et la deuxième rue à gauche.\n– Et la banque ?\n– Elle est dans la quatrième rue. J'habite au cinquième étage au-dessus de la banque.\n– Comme c'est sympa ! Mon voisin habite au sixième étage.\n– C'est loin ?\n– Non, c'est proche.\n– À bientôt, salut !",
         "aide": [
           {"no": "over", "fr": "au-dessus de"}

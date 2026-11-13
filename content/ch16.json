@@ -88,7 +88,7 @@
     {
       "titre": "Les hobbies",
       "mots": [
-        {"no": "en hobby", "fr": "le passe-temps", "pron": "HOB-bi", "ex": "Min hobby er å lese.", "ex_fr": "Mon passe-temps est de lire."},
+        {"no": "en hobby", "fr": "le passe-temps", "pron": "HOB-bi", "ex": "Hobbyen min er å lese.", "ex_fr": "Mon passe-temps est de lire."},
         {"no": "å male", "fr": "peindre", "pron": "MAA-le", "ex": "Jeg maler et bilde.", "ex_fr": "Je peins un tableau."},
         {"no": "å tegne", "fr": "dessiner", "pron": "TAÏ-ne", "ex": "Hun tegner et hus.", "ex_fr": "Elle dessine une maison."},
         {"no": "å synge", "fr": "chanter", "pron": "SÜNG-e", "ex": "Jeg synger på kjøkkenet.", "ex_fr": "Je chante dans la cuisine."},
@@ -99,15 +99,15 @@
       ],
       "grammaire": {
         "titre": "Parler de ses loisirs",
-        "texte": "Pour demander : Hva er hobbyen din ? (quel est ton passe-temps ?). On répond : Min hobby er å + infinitif : Min hobby er å male.\nÀ la place de « jouer de » + instrument, on dit « spille » + instrument sans article : Han spiller gitar.\n« Å samle på » = collectionner.",
+        "texte": "Pour demander : Hva er hobbyen din ? (quel est ton passe-temps ?). On répond : Hobbyen min er å + infinitif : Hobbyen min er å male.\nÀ la place de « jouer de » + instrument, on dit « spille » + instrument sans article : Han spiller gitar.\n« Å samle på » = collectionner.",
         "exemples": [
           {"no": "Hva er hobbyen din?", "fr": "Quel est ton passe-temps ?"},
-          {"no": "Min hobby er å male.", "fr": "Mon passe-temps est de peindre."},
+          {"no": "Hobbyen min er å male.", "fr": "Mon passe-temps est de peindre."},
           {"no": "Jeg samler på bøker.", "fr": "Je collectionne les livres."}
         ]
       },
       "texte": {
-        "no": "– Hva er hobbyen din, Marie?\n– Min hobby er å male. Jeg maler bilder av fjell.\n– Jeg liker å tegne og å synge. Jonas spiller gitar.\n– Per liker å fiske, og jeg baker en kake hver søndag.\n– Jeg samler også på bøker.",
+        "no": "– Hva er hobbyen din, Marie?\n– Hobbyen min er å male. Jeg maler bilder av fjell.\n– Jeg liker å tegne og å synge. Jonas spiller gitar.\n– Per liker å fiske, og jeg baker en kake hver søndag.\n– Jeg samler også på bøker.",
         "fr": "– Quel est ton passe-temps, Marie ?\n– Mon passe-temps est de peindre. Je peins des tableaux de montagnes.\n– J'aime dessiner et chanter. Jonas joue de la guitare.\n– Per aime pêcher et je fais un gâteau chaque dimanche.\n– Je collectionne aussi les livres.",
         "aide": [
           {"no": "av", "fr": "de"},
@@ -173,7 +173,7 @@
       "mots": [
         {"no": "å elske", "fr": "adorer", "pron": "EL-ske", "ex": "Jeg elsker sport.", "ex_fr": "J'adore le sport."},
         {"no": "å foretrekke", "fr": "préférer", "pron": "FOR-e-trek-ke", "ex": "Jeg foretrekker te.", "ex_fr": "Je préfère le thé."},
-        {"no": "en interesse", "fr": "l'intérêt / le centre d'intérêt", "pron": "in-te-RES-se", "ex": "Min interesse er musikk.", "ex_fr": "Mon centre d'intérêt est la musique."},
+        {"no": "en interesse", "fr": "l'intérêt / le centre d'intérêt", "pron": "in-te-RES-se", "ex": "Interessen min er musikk.", "ex_fr": "Mon centre d'intérêt est la musique."},
         {"no": "gjerne", "fr": "volontiers", "pron": "YER-ne", "ex": "Jeg spiller gjerne tennis.", "ex_fr": "Je joue volontiers au tennis."},
         {"no": "heller", "fr": "plutôt", "pron": "HEL-ler", "ex": "Jeg vil heller sove.", "ex_fr": "Je préfère dormir."},
         {"no": "best", "fr": "le mieux", "pron": "BEST", "ex": "Jeg liker ski best.", "ex_fr": "J'aime le ski le mieux."},

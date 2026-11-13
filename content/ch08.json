@@ -172,9 +172,9 @@
     {
       "titre": "Le quartier",
       "mots": [
-        {"no": "en nabo", "fr": "le voisin", "pron": "NAA-bo", "ex": "Min nabo heter Per.", "ex_fr": "Mon voisin s'appelle Per."},
+        {"no": "en nabo", "fr": "le voisin", "pron": "NAA-bo", "ex": "Naboen min heter Per.", "ex_fr": "Mon voisin s'appelle Per."},
         {"no": "en gate", "fr": "la rue", "pron": "GAA-te", "ex": "Jeg bor i en gate i Bergen.", "ex_fr": "J'habite dans une rue à Bergen."},
-        {"no": "en adresse", "fr": "l'adresse", "pron": "a-DRES-se", "ex": "Min adresse er i Voss.", "ex_fr": "Mon adresse est à Voss."},
+        {"no": "en adresse", "fr": "l'adresse", "pron": "a-DRES-se", "ex": "Adressen min er i Voss.", "ex_fr": "Mon adresse est à Voss."},
         {"no": "en by", "fr": "la ville", "pron": "BÜ", "ex": "Bergen er en fin by.", "ex_fr": "Bergen est une belle ville."},
         {"no": "et sted", "fr": "l'endroit", "pron": "STÉ", "ex": "Det er et fint sted.", "ex_fr": "C'est un bel endroit."},
         {"no": "en etasje", "fr": "l'étage", "pron": "e-TAA-cheu", "ex": "Huset har én etasje.", "ex_fr": "La maison a un étage."},
@@ -191,7 +191,7 @@
         ]
       },
       "texte": {
-        "no": "– Hvor bor du nå, Marie?\n– Jeg bor i en gate i Bergen. Det er en fin by!\n– Har du en nabo?\n– Ja, min nabo heter Per. Han bor i en etasje over meg.\n– Er du hjemme i dag?\n– Ja, jeg er hjemme. Det er et fint sted å bo.",
+        "no": "– Hvor bor du nå, Marie?\n– Jeg bor i en gate i Bergen. Det er en fin by!\n– Har du en nabo?\n– Ja, naboen min heter Per. Han bor i en etasje over meg.\n– Er du hjemme i dag?\n– Ja, jeg er hjemme. Det er et fint sted å bo.",
         "fr": "– Où habites-tu maintenant, Marie ?\n– J'habite dans une rue à Bergen. C'est une belle ville !\n– As-tu un voisin ?\n– Oui, mon voisin s'appelle Per. Il habite un étage au-dessus de moi.\n– Es-tu à la maison aujourd'hui ?\n– Oui, je suis à la maison. C'est un bel endroit où habiter.",
         "aide": [
           {"no": "over meg", "fr": "au-dessus de moi"},

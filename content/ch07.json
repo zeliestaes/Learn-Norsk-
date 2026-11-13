@@ -49,11 +49,11 @@
     {
       "titre": "Les mois de janvier à juillet",
       "mots": [
-        {"no": "januar", "fr": "janvier", "pron": "YAN-u-ar", "ex": "Min fødselsdag er i januar.", "ex_fr": "Mon anniversaire est en janvier."},
+        {"no": "januar", "fr": "janvier", "pron": "YAN-u-ar", "ex": "Fødselsdagen min er i januar.", "ex_fr": "Mon anniversaire est en janvier."},
         {"no": "februar", "fr": "février", "pron": "FÉ-bru-ar", "ex": "Hun fyller tretti år i februar.", "ex_fr": "Elle a trente ans en février."},
         {"no": "mars", "fr": "mars", "pron": "MARSS", "ex": "Vi er i Oslo i mars.", "ex_fr": "Nous sommes à Oslo en mars."},
         {"no": "april", "fr": "avril", "pron": "a-PRIL", "ex": "I april er jeg i Bergen.", "ex_fr": "En avril, je suis à Bergen."},
-        {"no": "mai", "fr": "mai", "pron": "MAÏ", "ex": "Min bror fyller tjue år i mai.", "ex_fr": "Mon frère a vingt ans en mai."},
+        {"no": "mai", "fr": "mai", "pron": "MAÏ", "ex": "Broren min fyller tjue år i mai.", "ex_fr": "Mon frère a vingt ans en mai."},
         {"no": "juni", "fr": "juin", "pron": "YU-ni", "ex": "Anna kommer i juni.", "ex_fr": "Anna vient en juin."},
         {"no": "juli", "fr": "juillet", "pron": "YU-li", "ex": "Familien er i Belgia i juli.", "ex_fr": "La famille est en Belgique en juillet."},
         {"no": "en måned", "fr": "le mois", "pron": "MO-ned", "ex": "Jeg lærer norsk i en måned.", "ex_fr": "J'apprends le norvégien pendant un mois."}
@@ -63,12 +63,12 @@
         "texte": "Les mois s'écrivent sans majuscule. On dit « i » + mois pour « en » : i mai (en mai).\nPour une date, on écrit un chiffre suivi d'un point : 17. mai se lit « syttende mai » (le dix-septième mai).",
         "exemples": [
           {"no": "i januar", "fr": "en janvier"},
-          {"no": "Min fødselsdag er i mai.", "fr": "Mon anniversaire est en mai."},
+          {"no": "Fødselsdagen min er i mai.", "fr": "Mon anniversaire est en mai."},
           {"no": "17. mai", "fr": "le 17 mai"}
         ]
       },
       "texte": {
-        "no": "Min bror fyller tretti år i januar. Min søster fyller tjuefem i mars. Min mor har fødselsdag i april, og min far i juni. Min bestemor fyller sytti år i juli. Min fødselsdag er i februar. Jeg fyller tjuesju år. Min fetter fyller atten i mai.",
+        "no": "Broren min fyller tretti år i januar. Søsteren min fyller tjuefem i mars. Moren min har fødselsdag i april, og faren min i juni. Bestemoren min fyller sytti år i juli. Fødselsdagen min er i februar. Jeg fyller tjuesju år. Fetteren min fyller atten i mai.",
         "fr": "Mon frère a trente ans en janvier. Ma sœur a vingt-cinq ans en mars. Ma mère a son anniversaire en avril et mon père en juin. Ma grand-mère a soixante-dix ans en juillet. Mon anniversaire est en février. J'aurai vingt-sept ans. Mon cousin a dix-huit ans en mai.",
         "aide": [
           {"no": "har fødselsdag", "fr": "a son anniversaire"}
@@ -94,7 +94,7 @@
         {"no": "september", "fr": "septembre", "pron": "sep-TEM-ber", "ex": "Hun kommer i september.", "ex_fr": "Elle vient en septembre."},
         {"no": "oktober", "fr": "octobre", "pron": "ok-TOU-ber", "ex": "I oktober spiser vi suppe.", "ex_fr": "En octobre, nous mangeons de la soupe."},
         {"no": "november", "fr": "novembre", "pron": "no-VEM-ber", "ex": "Vi drikker te i november.", "ex_fr": "Nous buvons du thé en novembre."},
-        {"no": "desember", "fr": "décembre", "pron": "de-SEM-ber", "ex": "Min far fyller seksti i desember.", "ex_fr": "Mon père a soixante ans en décembre."},
+        {"no": "desember", "fr": "décembre", "pron": "de-SEM-ber", "ex": "Faren min fyller seksti i desember.", "ex_fr": "Mon père a soixante ans en décembre."},
         {"no": "en uke", "fr": "la semaine", "pron": "U-ke", "ex": "Jeg har en uke i Bergen.", "ex_fr": "J'ai une semaine à Bergen."},
         {"no": "i dag", "fr": "aujourd'hui", "pron": "i DAAG", "ex": "I dag er det fredag.", "ex_fr": "Aujourd'hui, c'est vendredi."},
         {"no": "i morgen", "fr": "demain", "pron": "i MOR-en", "ex": "I morgen er det lørdag.", "ex_fr": "Demain, c'est samedi."}

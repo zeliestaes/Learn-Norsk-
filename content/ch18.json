@@ -6,7 +6,7 @@
       "titre": "Le téléphone",
       "mots": [
         {"no": "en telefon", "fr": "le téléphone", "pron": "te-le-FOUN", "ex": "Jeg har en telefon.", "ex_fr": "J'ai un téléphone."},
-        {"no": "en mobil", "fr": "le portable", "pron": "mo-BIL", "ex": "Min mobil er ny.", "ex_fr": "Mon portable est neuf."},
+        {"no": "en mobil", "fr": "le portable", "pron": "mo-BIL", "ex": "Mobilen min er ny.", "ex_fr": "Mon portable est neuf."},
         {"no": "en melding", "fr": "le message", "pron": "MEL-ding", "ex": "Jeg skriver en melding.", "ex_fr": "J'écris un message."},
         {"no": "en e-post", "fr": "le courriel", "pron": "É-post", "ex": "Jeg har en e-post.", "ex_fr": "J'ai un courriel."},
         {"no": "en app", "fr": "l'application", "pron": "APP", "ex": "Jeg har en app.", "ex_fr": "J'ai une application."},
@@ -108,7 +108,7 @@
         ]
       },
       "texte": {
-        "no": "– Er det din mobil, Marie?\n– Nei, det er Annas mobil. Min mobil er på kjøkkenet.\n– Her er hennes telefon, og her er hans.\n– Takk! Vår familie ringer oss ofte. Deres familie ringer hver dag, ikke sant?\n– Ja, vi ringer hverandre hver kveld. Jeg gjør det selv.",
+        "no": "– Er det din mobil, Marie?\n– Nei, det er Annas mobil. Mobilen min er på kjøkkenet.\n– Her er hennes telefon, og her er hans.\n– Takk! Vår familie ringer oss ofte. Deres familie ringer hver dag, ikke sant?\n– Ja, vi ringer hverandre hver kveld. Jeg gjør det selv.",
         "fr": "– Est-ce ton portable, Marie ?\n– Non, c'est le portable d'Anna. Mon portable est dans la cuisine.\n– Voici son téléphone à elle et voici le sien à lui.\n– Merci ! Notre famille nous appelle souvent. Votre famille appelle chaque jour, n'est-ce pas ?\n– Oui, nous nous appelons chaque soir. Je le fais moi-même.",
         "aide": [
           {"no": "Annas", "fr": "d'Anna"},
