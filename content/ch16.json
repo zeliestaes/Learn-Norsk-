@@ -1,0 +1,243 @@
+{
+  "id": 16,
+  "titre": "Loisirs et sport",
+  "lecons": [
+    {
+      "titre": "Les sports",
+      "mots": [
+        {"no": "en sport", "fr": "le sport", "pron": "SPORT", "ex": "Jeg liker sport.", "ex_fr": "J'aime le sport."},
+        {"no": "fotball", "fr": "le football", "pron": "FOT-ball", "ex": "Vi spiller fotball.", "ex_fr": "Nous jouons au football."},
+        {"no": "ski", "fr": "le ski", "pron": "SHI", "ex": "Vi går på ski.", "ex_fr": "Nous faisons du ski."},
+        {"no": "tennis", "fr": "le tennis", "pron": "TEN-nis", "ex": "Hun spiller tennis.", "ex_fr": "Elle joue au tennis."},
+        {"no": "en ball", "fr": "le ballon", "pron": "BALL", "ex": "Jeg har en ball.", "ex_fr": "J'ai un ballon."},
+        {"no": "et lag", "fr": "l'équipe", "pron": "LAAG", "ex": "Vi har et lag.", "ex_fr": "Nous avons une équipe."},
+        {"no": "en kamp", "fr": "le match", "pron": "KAMP", "ex": "Det er en kamp i dag.", "ex_fr": "Il y a un match aujourd'hui."},
+        {"no": "en trener", "fr": "l'entraîneur", "pron": "TRÉ-ner", "ex": "Han er en god trener.", "ex_fr": "C'est un bon entraîneur."}
+      ],
+      "grammaire": {
+        "titre": "Jouer à un sport",
+        "texte": "On dit « spille » + sport : spille fotball, spille tennis. Pour le ski : gå på ski (littéralement « marcher sur des skis »).\nPour dire qu'on aime faire quelque chose : Jeg liker å + infinitif : Jeg liker å spille tennis.",
+        "exemples": [
+          {"no": "Jeg spiller tennis.", "fr": "Je joue au tennis."},
+          {"no": "Vi går på ski.", "fr": "Nous faisons du ski."},
+          {"no": "Jeg liker å spille fotball.", "fr": "J'aime jouer au football."}
+        ]
+      },
+      "texte": {
+        "no": "Marie liker sport. Hun spiller tennis og går på ski. Jonas spiller fotball i et lag. Laget har en god trener. I dag er det en kamp i Røros. Marie og Anna ser på kampen. De liker sport, men de liker ikke fotball.",
+        "fr": "Marie aime le sport. Elle joue au tennis et fait du ski. Jonas joue au football dans une équipe. L'équipe a un bon entraîneur. Aujourd'hui, il y a un match à Røros. Marie et Anna regardent le match. Elles aiment le sport mais elles n'aiment pas le football.",
+        "aide": [
+          {"no": "laget", "fr": "l'équipe"},
+          {"no": "kampen", "fr": "le match"}
+        ],
+        "questions": [
+          {
+            "q": "À quel sport joue Jonas ?",
+            "choix": ["Football", "Tennis", "Ski"],
+            "rep": 0
+          },
+          {
+            "q": "Où est le match ?",
+            "choix": ["À Røros", "À Oslo", "À Bergen"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Bouger et s'entraîner",
+      "mots": [
+        {"no": "å spille", "fr": "jouer", "pron": "SPIL-le", "ex": "Jeg spiller i et lag.", "ex_fr": "Je joue dans une équipe."},
+        {"no": "å svømme", "fr": "nager", "pron": "SVEM-me", "ex": "Vi svømmer i juli.", "ex_fr": "Nous nageons en juillet."},
+        {"no": "å trene", "fr": "s'entraîner", "pron": "TRÉ-ne", "ex": "Jeg trener tre ganger i uka.", "ex_fr": "Je m'entraîne trois fois par semaine."},
+        {"no": "å vinne", "fr": "gagner", "pron": "VIN-ne", "ex": "Laget vinner i dag.", "ex_fr": "L'équipe gagne aujourd'hui."},
+        {"no": "å tape", "fr": "perdre", "pron": "TAA-pe", "ex": "Vi taper ofte.", "ex_fr": "Nous perdons souvent."},
+        {"no": "å hoppe", "fr": "sauter", "pron": "HOP-pe", "ex": "Barnet hopper i parken.", "ex_fr": "L'enfant saute dans le parc."},
+        {"no": "å danse", "fr": "danser", "pron": "DAN-se", "ex": "Vi danser på lørdag.", "ex_fr": "Nous dansons samedi."},
+        {"no": "å klatre", "fr": "grimper", "pron": "KLAT-re", "ex": "Han klatrer på fjellet.", "ex_fr": "Il grimpe sur la montagne."}
+      ],
+      "grammaire": {
+        "titre": "Dire combien de fois",
+        "texte": "Pour la fréquence : en gang (une fois), to ganger (deux fois), tre ganger (trois fois) + i uka (par semaine), i måneden (par mois), om dagen (par jour).\nJeg trener tre ganger i uka. Jeg svømmer en gang i måneden.\nAussi : hver dag (chaque jour), hver uke (chaque semaine).",
+        "exemples": [
+          {"no": "tre ganger i uka", "fr": "trois fois par semaine"},
+          {"no": "en gang i måneden", "fr": "une fois par mois"},
+          {"no": "hver dag", "fr": "chaque jour"}
+        ]
+      },
+      "texte": {
+        "no": "Marie trener tre ganger i uka. Hun svømmer på mandag, og hun danser på torsdag. På søndag klatrer hun på fjellet. Jonas spiller fotball, og laget vinner ofte. I dag taper de, men de hopper og danser etterpå! Han er glad.",
+        "fr": "Marie s'entraîne trois fois par semaine. Elle nage le lundi et elle danse le jeudi. Le dimanche, elle grimpe sur la montagne. Jonas joue au football et l'équipe gagne souvent. Aujourd'hui, ils perdent mais ils sautent et dansent ensuite ! Il est content.",
+        "aide": [
+          {"no": "glad", "fr": "content"}
+        ],
+        "questions": [
+          {
+            "q": "Combien de fois par semaine Marie s'entraîne-t-elle ?",
+            "choix": ["Trois fois", "Deux fois", "Une fois"],
+            "rep": 0
+          },
+          {
+            "q": "Que fait-elle le dimanche ?",
+            "choix": ["De l'escalade", "De la natation", "De la danse"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les hobbies",
+      "mots": [
+        {"no": "en hobby", "fr": "le passe-temps", "pron": "HOB-bi", "ex": "Min hobby er å lese.", "ex_fr": "Mon passe-temps est de lire."},
+        {"no": "å male", "fr": "peindre", "pron": "MAA-le", "ex": "Jeg maler et bilde.", "ex_fr": "Je peins un tableau."},
+        {"no": "å tegne", "fr": "dessiner", "pron": "TAÏ-ne", "ex": "Hun tegner et hus.", "ex_fr": "Elle dessine une maison."},
+        {"no": "å synge", "fr": "chanter", "pron": "SÜNG-e", "ex": "Jeg synger på kjøkkenet.", "ex_fr": "Je chante dans la cuisine."},
+        {"no": "å bake", "fr": "faire de la pâtisserie", "pron": "BAA-ke", "ex": "Jeg baker en kake.", "ex_fr": "Je fais un gâteau."},
+        {"no": "å fiske", "fr": "pêcher", "pron": "FIS-ke", "ex": "Han fisker i juli.", "ex_fr": "Il pêche en juillet."},
+        {"no": "å samle", "fr": "collectionner", "pron": "SAM-le", "ex": "Jeg samler på bøker.", "ex_fr": "Je collectionne les livres."},
+        {"no": "en gitar", "fr": "la guitare", "pron": "gi-TAAR", "ex": "Han spiller gitar.", "ex_fr": "Il joue de la guitare."}
+      ],
+      "grammaire": {
+        "titre": "Parler de ses loisirs",
+        "texte": "Pour demander : Hva er hobbyen din ? (quel est ton passe-temps ?). On répond : Min hobby er å + infinitif : Min hobby er å male.\nÀ la place de « jouer de » + instrument, on dit « spille » + instrument sans article : Han spiller gitar.\n« Å samle på » = collectionner.",
+        "exemples": [
+          {"no": "Hva er hobbyen din?", "fr": "Quel est ton passe-temps ?"},
+          {"no": "Min hobby er å male.", "fr": "Mon passe-temps est de peindre."},
+          {"no": "Jeg samler på bøker.", "fr": "Je collectionne les livres."}
+        ]
+      },
+      "texte": {
+        "no": "– Hva er hobbyen din, Marie?\n– Min hobby er å male. Jeg maler bilder av fjell.\n– Jeg liker å tegne og å synge. Jonas spiller gitar.\n– Per liker å fiske, og jeg baker en kake hver søndag.\n– Jeg samler også på bøker.",
+        "fr": "– Quel est ton passe-temps, Marie ?\n– Mon passe-temps est de peindre. Je peins des tableaux de montagnes.\n– J'aime dessiner et chanter. Jonas joue de la guitare.\n– Per aime pêcher et je fais un gâteau chaque dimanche.\n– Je collectionne aussi les livres.",
+        "aide": [
+          {"no": "av", "fr": "de"},
+          {"no": "fjell", "fr": "montagnes"}
+        ],
+        "questions": [
+          {
+            "q": "Quel est le passe-temps de Marie ?",
+            "choix": ["Peindre", "Dessiner", "Chanter"],
+            "rep": 0
+          },
+          {
+            "q": "Qui pêche ?",
+            "choix": ["Per", "Jonas", "Anna"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Randonnée et nature",
+      "mots": [
+        {"no": "å vandre", "fr": "faire de la randonnée", "pron": "VAN-dre", "ex": "Vi vandrer i fjellet.", "ex_fr": "Nous faisons de la randonnée en montagne."},
+        {"no": "et telt", "fr": "la tente", "pron": "TELT", "ex": "Jeg har et telt.", "ex_fr": "J'ai une tente."},
+        {"no": "en sekk", "fr": "le sac à dos", "pron": "SEKK", "ex": "Jeg har en sekk.", "ex_fr": "J'ai un sac à dos."},
+        {"no": "en sti", "fr": "le sentier", "pron": "STI", "ex": "Stien er lang.", "ex_fr": "Le sentier est long."},
+        {"no": "en kikkert", "fr": "les jumelles", "pron": "CHIK-kert", "ex": "Han har en kikkert.", "ex_fr": "Il a des jumelles."},
+        {"no": "et kompass", "fr": "la boussole", "pron": "kom-PASS", "ex": "Vi har et kompass.", "ex_fr": "Nous avons une boussole."},
+        {"no": "en niste", "fr": "le casse-croûte / le repas emporté", "pron": "NIS-te", "ex": "Jeg har niste i sekken.", "ex_fr": "J'ai un repas dans le sac."},
+        {"no": "en hytte", "fr": "la cabane / le chalet", "pron": "HÜT-te", "ex": "Familien har en hytte.", "ex_fr": "La famille a une cabane."}
+      ],
+      "grammaire": {
+        "titre": "« på tur » et « på hytta »",
+        "texte": "Pour dire qu'on est en balade : Vi er på tur. Pour dire qu'on est à la cabane : Vi er på hytta. Pour aller faire du ski : gå på ski.\nPour « en montagne », on dit i fjellet (au sens de « dans la montagne ») ou på fjellet (sur la montagne).",
+        "exemples": [
+          {"no": "Vi er på tur.", "fr": "Nous sommes en balade."},
+          {"no": "Vi er på hytta.", "fr": "Nous sommes à la cabane."},
+          {"no": "Vi vandrer i fjellet.", "fr": "Nous randonnons en montagne."}
+        ]
+      },
+      "texte": {
+        "no": "Familien til Anna har en hytte i fjellet. Vi vandrer en lang tur på søndag. Jeg har en sekk med niste og et kompass. Jonas har en kikkert. Stien er smal, men den er fin. Om natten sover vi i et telt.",
+        "fr": "La famille d'Anna a une cabane en montagne. Nous faisons une longue randonnée dimanche. J'ai un sac à dos avec un repas et une boussole. Jonas a des jumelles. Le sentier est étroit mais il est beau. La nuit, nous dormons dans une tente.",
+        "aide": [
+          {"no": "smal", "fr": "étroit"}
+        ],
+        "questions": [
+          {
+            "q": "Qui a une cabane ?",
+            "choix": ["La famille d'Anna", "Jonas", "Marie"],
+            "rep": 0
+          },
+          {
+            "q": "Où dorment-ils la nuit ?",
+            "choix": ["Dans une tente", "Dans la cabane", "À l'hôtel"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Préférences",
+      "mots": [
+        {"no": "å elske", "fr": "adorer", "pron": "EL-ske", "ex": "Jeg elsker sport.", "ex_fr": "J'adore le sport."},
+        {"no": "å foretrekke", "fr": "préférer", "pron": "FOR-e-trek-ke", "ex": "Jeg foretrekker te.", "ex_fr": "Je préfère le thé."},
+        {"no": "en interesse", "fr": "l'intérêt / le centre d'intérêt", "pron": "in-te-RES-se", "ex": "Min interesse er musikk.", "ex_fr": "Mon centre d'intérêt est la musique."},
+        {"no": "gjerne", "fr": "volontiers", "pron": "YER-ne", "ex": "Jeg spiller gjerne tennis.", "ex_fr": "Je joue volontiers au tennis."},
+        {"no": "heller", "fr": "plutôt", "pron": "HEL-ler", "ex": "Jeg vil heller sove.", "ex_fr": "Je préfère dormir."},
+        {"no": "best", "fr": "le mieux", "pron": "BEST", "ex": "Jeg liker ski best.", "ex_fr": "J'aime le ski le mieux."},
+        {"no": "moro", "fr": "amusant", "pron": "MO-ro", "ex": "Det er moro å danse.", "ex_fr": "C'est amusant de danser."},
+        {"no": "kjedelig", "fr": "ennuyeux", "pron": "CHÉ-de-li", "ex": "Fotball er kjedelig.", "ex_fr": "Le football est ennuyeux."}
+      ],
+      "grammaire": {
+        "titre": "Préférer : gjerne – heller – best",
+        "texte": "Pour exprimer une préférence : « gjerne » (volontiers), « heller » (plutôt), « best » (le mieux) : Jeg liker te. Jeg liker kaffe best. Jeg vil heller ha vann.\nOn dit aussi « Det er moro å … » (c'est amusant de …) et « Det er kjedelig å … » (c'est ennuyeux de …).",
+        "exemples": [
+          {"no": "Jeg liker ski best.", "fr": "J'aime le ski le mieux."},
+          {"no": "Jeg vil heller sove.", "fr": "Je préfère dormir."},
+          {"no": "Det er moro å danse.", "fr": "C'est amusant de danser."}
+        ]
+      },
+      "texte": {
+        "no": "– Hva liker du best, Marie?\n– Jeg liker ski best, men jeg liker også å svømme.\n– Jeg foretrekker tennis. Det er moro!\n– Fotball er litt kjedelig, synes jeg.\n– Jeg elsker å gå tur og vil heller være ute i fjellet.\n– Jeg også! Vil du gjerne gå en tur i morgen?\n– Ja, gjerne!",
+        "fr": "– Qu'est-ce que tu aimes le mieux, Marie ?\n– J'aime le ski le mieux mais j'aime aussi nager.\n– Je préfère le tennis. C'est amusant !\n– Le football est un peu ennuyeux, je trouve.\n– J'adore marcher et je préfère être dehors en montagne.\n– Moi aussi ! Veux-tu volontiers faire une balade demain ?\n– Oui, volontiers !",
+        "aide": [
+          {"no": "litt", "fr": "un peu"},
+          {"no": "synes jeg", "fr": "je trouve"}
+        ],
+        "questions": [
+          {
+            "q": "Que préfère Marie ?",
+            "choix": ["Le ski", "Le tennis", "Le football"],
+            "rep": 0
+          },
+          {
+            "q": "Que propose la deuxième personne ?",
+            "choix": ["Une randonnée demain", "Un match", "Un cours"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie liker sport, og hun trener tre ganger i uka. Hun går på ski og spiller tennis. Jonas spiller fotball i et lag, og laget har en god trener. I dag er det en kamp i Røros, men de taper. Anna liker å tegne og synge, og hun har en gitar. På søndag vandrer de i fjellet. De har en sekk med niste, et kompass og en kikkert. Stien er fin, og det er moro! Om natten sover de i et telt. Marie sier: «Jeg liker å gå tur best!»",
+    "fr": "Marie aime le sport et elle s'entraîne trois fois par semaine. Elle fait du ski et joue au tennis. Jonas joue au football dans une équipe et l'équipe a un bon entraîneur. Aujourd'hui, il y a un match à Røros mais ils perdent. Anna aime dessiner et chanter et elle a une guitare. Dimanche, ils font une randonnée en montagne. Ils ont un sac à dos avec un repas, une boussole et des jumelles. Le sentier est beau et c'est amusant ! La nuit, ils dorment dans une tente. Marie dit : « J'aime marcher le mieux ! »",
+    "aide": [
+      {"no": "de", "fr": "ils"}
+    ],
+    "questions": [
+      {
+        "q": "Combien de fois par semaine Marie s'entraîne-t-elle ?",
+        "choix": ["Trois fois", "Deux fois", "Cinq fois"],
+        "rep": 0
+      },
+      {
+        "q": "Que font Jonas et son équipe aujourd'hui ?",
+        "choix": ["Ils perdent le match", "Ils gagnent", "Ils s'entraînent"],
+        "rep": 0
+      },
+      {
+        "q": "Qu'emportent-ils en randonnée ?",
+        "choix": ["Un sac avec un repas, une boussole et des jumelles", "Une voiture", "Un parapluie"],
+        "rep": 0
+      },
+      {
+        "q": "Où dorment-ils ?",
+        "choix": ["Dans une tente", "À l'hôtel", "Dans la cabane"],
+        "rep": 0
+      }
+    ]
+  }
+}

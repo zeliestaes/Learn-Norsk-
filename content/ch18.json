@@ -1,0 +1,247 @@
+{
+  "id": 18,
+  "titre": "Téléphone et messages",
+  "lecons": [
+    {
+      "titre": "Le téléphone",
+      "mots": [
+        {"no": "en telefon", "fr": "le téléphone", "pron": "te-le-FOUN", "ex": "Jeg har en telefon.", "ex_fr": "J'ai un téléphone."},
+        {"no": "en mobil", "fr": "le portable", "pron": "mo-BIL", "ex": "Min mobil er ny.", "ex_fr": "Mon portable est neuf."},
+        {"no": "en melding", "fr": "le message", "pron": "MEL-ding", "ex": "Jeg skriver en melding.", "ex_fr": "J'écris un message."},
+        {"no": "en e-post", "fr": "le courriel", "pron": "É-post", "ex": "Jeg har en e-post.", "ex_fr": "J'ai un courriel."},
+        {"no": "en app", "fr": "l'application", "pron": "APP", "ex": "Jeg har en app.", "ex_fr": "J'ai une application."},
+        {"no": "en skjerm", "fr": "l'écran", "pron": "SHERM", "ex": "Skjermen er stor.", "ex_fr": "L'écran est grand."},
+        {"no": "en lader", "fr": "le chargeur", "pron": "LAA-der", "ex": "Jeg trenger en lader.", "ex_fr": "J'ai besoin d'un chargeur."},
+        {"no": "et batteri", "fr": "la batterie", "pron": "ba-te-RI", "ex": "Batteriet er ikke bra.", "ex_fr": "La batterie n'est pas bonne."}
+      ],
+      "grammaire": {
+        "titre": "Les pronoms objets (1)",
+        "texte": "Après un verbe ou une préposition, les pronoms changent : jeg → meg, du → deg, han → ham, hun → henne, vi → oss, dere → dere, de → dem.\nHan ser meg. Jeg ser deg. Hun hjelper ham. Jeg skriver til henne.\nPour les choses : den (en/ei), det (et).",
+        "exemples": [
+          {"no": "Han ser meg.", "fr": "Il me voit."},
+          {"no": "Jeg skriver til henne.", "fr": "Je lui écris."},
+          {"no": "Hun hjelper dem.", "fr": "Elle les aide."}
+        ]
+      },
+      "texte": {
+        "no": "Marie har en ny mobil. Skjermen er stor, og batteriet er bra. Hun har en app og en e-post. Hver dag skriver hun en melding til Anna. Anna skriver til henne også. Marie trenger en lader, for hun glemmer den hjemme.",
+        "fr": "Marie a un nouveau portable. L'écran est grand et la batterie est bonne. Elle a une application et un courriel. Chaque jour, elle écrit un message à Anna. Anna lui écrit aussi. Marie a besoin d'un chargeur car elle l'oublie à la maison.",
+        "aide": [
+          {"no": "trenger", "fr": "a besoin de"},
+          {"no": "den", "fr": "le / la (chose)"}
+        ],
+        "questions": [
+          {
+            "q": "À qui Marie écrit-elle chaque jour ?",
+            "choix": ["À Anna", "À Jonas", "À sa mère"],
+            "rep": 0
+          },
+          {
+            "q": "Qu'a-t-elle oublié ?",
+            "choix": ["Le chargeur", "Le téléphone", "La batterie"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Appeler et envoyer",
+      "mots": [
+        {"no": "å ringe", "fr": "appeler", "pron": "RING-e", "ex": "Jeg ringer deg i morgen.", "ex_fr": "Je t'appelle demain."},
+        {"no": "å svare", "fr": "répondre", "pron": "SVAA-re", "ex": "Han svarer meg ikke.", "ex_fr": "Il ne me répond pas."},
+        {"no": "å sende", "fr": "envoyer", "pron": "SEN-de", "ex": "Jeg sender deg en melding.", "ex_fr": "Je t'envoie un message."},
+        {"no": "å lade", "fr": "charger", "pron": "LAA-de", "ex": "Jeg lader mobilen.", "ex_fr": "Je charge le portable."},
+        {"no": "å trykke", "fr": "appuyer", "pron": "TRÜK-ke", "ex": "Trykk her, takk.", "ex_fr": "Appuie ici, s'il te plaît."},
+        {"no": "å dele", "fr": "partager", "pron": "DÉ-le", "ex": "Jeg deler bildet med deg.", "ex_fr": "Je partage la photo avec toi."},
+        {"no": "å laste ned", "fr": "télécharger", "pron": "LAS-te NÉ", "ex": "Jeg laster ned en app.", "ex_fr": "Je télécharge une application."},
+        {"no": "å slette", "fr": "supprimer", "pron": "SLET-te", "ex": "Jeg sletter en melding.", "ex_fr": "Je supprime un message."}
+      ],
+      "grammaire": {
+        "titre": "Les pronoms objets (2)",
+        "texte": "Avec « envoyer / écrire », on peut mettre d'abord la personne : Jeg sender henne en melding (je lui envoie un message). Le pronom reste à la forme objet : meg, deg, ham, henne, oss, dem.\nÀ l'impératif : Ring meg ! (appelle-moi !), Svar meg ! (réponds-moi !)",
+        "exemples": [
+          {"no": "Ring meg i kveld!", "fr": "Appelle-moi ce soir !"},
+          {"no": "Jeg sender henne en melding.", "fr": "Je lui envoie un message."},
+          {"no": "Jeg lader den.", "fr": "Je la charge."}
+        ]
+      },
+      "texte": {
+        "no": "Marie ringer Anna, men Anna svarer ikke. Da sender Marie henne en melding: «Ring meg i kveld!» Anna lader mobilen sin, og så ringer hun Marie. De snakker i en time. Marie deler et bilde med henne. Anna sletter en gammel melding og laster ned en ny app.",
+        "fr": "Marie appelle Anna mais Anna ne répond pas. Alors Marie lui envoie un message : « Appelle-moi ce soir ! » Anna charge son portable et ensuite elle appelle Marie. Elles parlent pendant une heure. Marie partage une photo avec elle. Anna supprime un ancien message et télécharge une nouvelle application.",
+        "aide": [
+          {"no": "sin", "fr": "son (d'elle)"},
+          {"no": "gammel", "fr": "ancien"}
+        ],
+        "questions": [
+          {
+            "q": "Que écrit Marie à Anna ?",
+            "choix": ["Appelle-moi ce soir", "Viens demain", "Je suis malade"],
+            "rep": 0
+          },
+          {
+            "q": "Combien de temps parlent-elles ?",
+            "choix": ["Une heure", "Une minute", "Deux heures"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les possessifs",
+      "mots": [
+        {"no": "din", "fr": "ton / ta (masc.)", "pron": "DIN", "ex": "Er det din mobil?", "ex_fr": "Est-ce ton portable ?"},
+        {"no": "hans", "fr": "son (à lui)", "pron": "HANS", "ex": "Det er hans telefon.", "ex_fr": "C'est son téléphone (à lui)."},
+        {"no": "hennes", "fr": "son (à elle)", "pron": "HEN-nes", "ex": "Det er hennes melding.", "ex_fr": "C'est son message (à elle)."},
+        {"no": "vår", "fr": "notre", "pron": "VOR", "ex": "Vår familie er stor.", "ex_fr": "Notre famille est grande."},
+        {"no": "deres", "fr": "leur / votre (pluriel)", "pron": "DÉ-res", "ex": "Det er deres hus.", "ex_fr": "C'est leur maison."},
+        {"no": "sin", "fr": "son (propre)", "pron": "SIN", "ex": "Han leser sin bok.", "ex_fr": "Il lit son propre livre."},
+        {"no": "selv", "fr": "soi-même", "pron": "SELV", "ex": "Jeg gjør det selv.", "ex_fr": "Je le fais moi-même."},
+        {"no": "hverandre", "fr": "l'un l'autre", "pron": "ver-AN-dre", "ex": "De ringer hverandre.", "ex_fr": "Ils s'appellent."}
+      ],
+      "grammaire": {
+        "titre": "Les possessifs",
+        "texte": "min / mi / mitt (mon) ; din / di / ditt (ton) ; hans (son, à lui) ; hennes (son, à elle) ; vår / vår / vårt (notre) ; deres (leur ou votre).\n« Sin » s'emploie quand le possesseur est le sujet : Han leser sin bok (son propre livre). Han leser hans bok = le livre d'un autre.\nEn langage courant, on place souvent le possessif après le nom : familien min, mobilen din.",
+        "exemples": [
+          {"no": "din mobil", "fr": "ton portable"},
+          {"no": "Han leser sin bok.", "fr": "Il lit son (propre) livre."},
+          {"no": "De ringer hverandre.", "fr": "Ils s'appellent l'un l'autre."}
+        ]
+      },
+      "texte": {
+        "no": "– Er det din mobil, Marie?\n– Nei, det er Annas mobil. Min mobil er på kjøkkenet.\n– Her er hennes telefon, og her er hans.\n– Takk! Vår familie ringer oss ofte. Deres familie ringer hver dag, ikke sant?\n– Ja, vi ringer hverandre hver kveld. Jeg gjør det selv.",
+        "fr": "– Est-ce ton portable, Marie ?\n– Non, c'est le portable d'Anna. Mon portable est dans la cuisine.\n– Voici son téléphone à elle et voici le sien à lui.\n– Merci ! Notre famille nous appelle souvent. Votre famille appelle chaque jour, n'est-ce pas ?\n– Oui, nous nous appelons chaque soir. Je le fais moi-même.",
+        "aide": [
+          {"no": "Annas", "fr": "d'Anna"},
+          {"no": "ikke sant", "fr": "n'est-ce pas"}
+        ],
+        "questions": [
+          {
+            "q": "À qui est le portable ?",
+            "choix": ["À Anna", "À Marie", "À Jonas"],
+            "rep": 0
+          },
+          {
+            "q": "Que font-ils chaque soir ?",
+            "choix": ["Ils s'appellent", "Ils s'écrivent", "Ils se rencontrent"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Internet",
+      "mots": [
+        {"no": "internett", "fr": "internet", "pron": "IN-ter-nett", "ex": "Jeg har internett.", "ex_fr": "J'ai internet."},
+        {"no": "et nettsted", "fr": "le site web", "pron": "NETT-sted", "ex": "Jeg har et nettsted.", "ex_fr": "J'ai un site web."},
+        {"no": "et passord", "fr": "le mot de passe", "pron": "PAS-sord", "ex": "Jeg glemmer passordet.", "ex_fr": "J'oublie le mot de passe."},
+        {"no": "en konto", "fr": "le compte", "pron": "KON-to", "ex": "Jeg har en konto.", "ex_fr": "J'ai un compte."},
+        {"no": "en lenke", "fr": "le lien", "pron": "LENK-e", "ex": "Jeg sender en lenke.", "ex_fr": "J'envoie un lien."},
+        {"no": "en video", "fr": "la vidéo", "pron": "VI-de-o", "ex": "Jeg ser en video.", "ex_fr": "Je regarde une vidéo."},
+        {"no": "et kamera", "fr": "l'appareil photo", "pron": "KA-me-ra", "ex": "Kameraet er på mobilen.", "ex_fr": "L'appareil photo est sur le portable."},
+        {"no": "en chat", "fr": "le chat (discussion en ligne)", "pron": "TJATT", "ex": "Vi har en chat.", "ex_fr": "Nous avons une discussion en ligne."}
+      ],
+      "grammaire": {
+        "titre": "Communiquer : prépositions",
+        "texte": "Avec les verbes de communication : snakke med (parler avec), skrive til (écrire à), ringe til ou ringe (appeler), chatte med (discuter avec), spørre om (demander à propos de).\nOrdre des pronoms : Jeg sender den til deg (je te l'envoie) ou Jeg sender deg den.",
+        "exemples": [
+          {"no": "snakke med Anna", "fr": "parler avec Anna"},
+          {"no": "skrive til Anna", "fr": "écrire à Anna"},
+          {"no": "spørre om hjelp", "fr": "demander de l'aide"}
+        ]
+      },
+      "texte": {
+        "no": "Marie har internett på mobilen. Hun har en konto på et nettsted, men hun glemmer passordet. Hun spør Anna om hjelp. Anna sender henne en lenke. Marie ser en video og tar et bilde med kameraet. De snakker i en chat.",
+        "fr": "Marie a internet sur son portable. Elle a un compte sur un site web mais elle oublie le mot de passe. Elle demande de l'aide à Anna. Anna lui envoie un lien. Marie regarde une vidéo et prend une photo avec l'appareil. Elles discutent dans un chat.",
+        "aide": [
+          {"no": "hjelp", "fr": "aide"},
+          {"no": "tar", "fr": "prend"}
+        ],
+        "questions": [
+          {
+            "q": "Qu'oublie Marie ?",
+            "choix": ["Son mot de passe", "Son téléphone", "Son compte"],
+            "rep": 0
+          },
+          {
+            "q": "Qu'envoie Anna ?",
+            "choix": ["Un lien", "Une photo", "Un chargeur"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Au téléphone",
+      "mots": [
+        {"no": "hallo", "fr": "allô", "pron": "hal-LO", "ex": "Hallo, det er Marie.", "ex_fr": "Allô, c'est Marie."},
+        {"no": "et øyeblikk", "fr": "le moment", "pron": "EU-ye-blik", "ex": "Et øyeblikk, takk.", "ex_fr": "Un instant, s'il vous plaît."},
+        {"no": "opptatt", "fr": "occupé", "pron": "OP-tatt", "ex": "Han er opptatt nå.", "ex_fr": "Il est occupé maintenant."},
+        {"no": "ledig", "fr": "libre (disponible)", "pron": "LÉ-di", "ex": "Hun er ledig i morgen.", "ex_fr": "Elle est libre demain."},
+        {"no": "en beskjed", "fr": "le message (oral)", "pron": "be-CHED", "ex": "Har du en beskjed?", "ex_fr": "As-tu un message ?"},
+        {"no": "tilbake", "fr": "en retour", "pron": "til-BAA-ke", "ex": "Jeg ringer tilbake.", "ex_fr": "Je rappelle."},
+        {"no": "å legge på", "fr": "raccrocher", "pron": "LEG-ge POU", "ex": "Hun legger på.", "ex_fr": "Elle raccroche."},
+        {"no": "snart", "fr": "bientôt", "pron": "SNART", "ex": "Vi ses snart!", "ex_fr": "À bientôt !"}
+      ],
+      "grammaire": {
+        "titre": "Phrases utiles au téléphone",
+        "texte": "Hallo, det er … (allô, c'est …) · Kan jeg snakke med …? (puis-je parler à … ?) · Et øyeblikk, takk (un instant) · Jeg ringer tilbake (je rappelle) · Kan du ringe meg tilbake ? (peux-tu me rappeler ?).\nOn ne dit pas « C'est qui ? » mais Hvem er det ? (qui est-ce ?).",
+        "exemples": [
+          {"no": "Hallo, det er Marie.", "fr": "Allô, c'est Marie."},
+          {"no": "Kan jeg snakke med Anna?", "fr": "Puis-je parler à Anna ?"},
+          {"no": "Jeg ringer tilbake.", "fr": "Je rappelle."}
+        ]
+      },
+      "texte": {
+        "no": "– Hallo, det er Marie. Kan jeg snakke med Anna?\n– Et øyeblikk. Hun er opptatt nå. Vil du legge igjen en beskjed?\n– Ja, kan du be henne ringe meg tilbake? Jeg er ledig i kveld.\n– Det skal jeg gjøre.\n– Takk! Vi snakkes snart.\n– Hade!",
+        "fr": "– Allô, c'est Marie. Puis-je parler à Anna ?\n– Un instant. Elle est occupée maintenant. Voulez-vous laisser un message ?\n– Oui, pouvez-vous lui demander de me rappeler ? Je suis libre ce soir.\n– Je le ferai.\n– Merci ! À bientôt.\n– Salut !",
+        "aide": [
+          {"no": "legge igjen", "fr": "laisser"},
+          {"no": "be", "fr": "demander à"},
+          {"no": "vi snakkes", "fr": "on se parle"}
+        ],
+        "questions": [
+          {
+            "q": "Qui Marie veut-elle joindre ?",
+            "choix": ["Anna", "Jonas", "Per"],
+            "rep": 0
+          },
+          {
+            "q": "Quand est-elle libre ?",
+            "choix": ["Ce soir", "Demain", "Ce matin"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie har en ny mobil, og hun bruker den hver dag. Hun skriver en melding til Anna, og Anna svarer henne. Hun ringer Jonas, men han er opptatt. Da sender hun ham en melding: «Ring meg tilbake!» Jonas ringer henne i kveld. De snakker i en time. Marie glemmer passordet til kontoen sin, og hun spør Anna om hjelp. Anna sender henne en lenke og en video. Marie lader mobilen, for batteriet er tomt. Før hun legger seg, sender hun et bilde til familien. De svarer henne: «God natt, vi savner deg!»",
+    "fr": "Marie a un nouveau portable et elle l'utilise chaque jour. Elle écrit un message à Anna et Anna lui répond. Elle appelle Jonas mais il est occupé. Alors elle lui envoie un message : « Rappelle-moi ! » Jonas l'appelle ce soir. Ils parlent pendant une heure. Marie oublie le mot de passe de son compte et elle demande de l'aide à Anna. Anna lui envoie un lien et une vidéo. Marie charge le portable car la batterie est vide. Avant de se coucher, elle envoie une photo à sa famille. Ils lui répondent : « Bonne nuit, tu nous manques ! »",
+    "aide": [
+      {"no": "tomt", "fr": "vide"},
+      {"no": "før", "fr": "avant"}
+    ],
+    "questions": [
+      {
+        "q": "Pourquoi Marie ne parle-t-elle pas à Jonas tout de suite ?",
+        "choix": ["Il est occupé", "Il dort", "Son téléphone est éteint"],
+        "rep": 0
+      },
+      {
+        "q": "Qu'oublie Marie ?",
+        "choix": ["Un mot de passe", "Son téléphone", "Sa clé"],
+        "rep": 0
+      },
+      {
+        "q": "Que fait Anna pour l'aider ?",
+        "choix": ["Elle envoie un lien et une vidéo", "Elle l'appelle", "Elle vient"],
+        "rep": 0
+      },
+      {
+        "q": "Qu'envoie Marie à sa famille ?",
+        "choix": ["Une photo", "Une vidéo", "Un message vocal"],
+        "rep": 0
+      }
+    ]
+  }
+}

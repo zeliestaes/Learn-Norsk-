@@ -1,0 +1,246 @@
+{
+  "id": 15,
+  "titre": "Corps et santé",
+  "lecons": [
+    {
+      "titre": "Le corps",
+      "mots": [
+        {"no": "et hode", "fr": "la tête", "pron": "HOU-de", "ex": "Hun har en hatt på hodet.", "ex_fr": "Elle a un chapeau sur la tête."},
+        {"no": "en arm", "fr": "le bras", "pron": "ARM", "ex": "Jeg har en veske på armen.", "ex_fr": "J'ai un sac sur le bras."},
+        {"no": "et ben", "fr": "la jambe", "pron": "BÉN", "ex": "Barnet har to ben.", "ex_fr": "L'enfant a deux jambes."},
+        {"no": "ei hånd", "fr": "la main", "pron": "HONN", "ex": "Jeg har en hanske på hånda.", "ex_fr": "J'ai un gant sur la main."},
+        {"no": "en fot", "fr": "le pied", "pron": "FOUT", "ex": "Jeg har en sko på foten.", "ex_fr": "J'ai une chaussure au pied."},
+        {"no": "et øye", "fr": "l'œil", "pron": "EU-ye", "ex": "Hun har to øyne.", "ex_fr": "Elle a deux yeux."},
+        {"no": "et øre", "fr": "l'oreille", "pron": "EU-re", "ex": "Han har to ører.", "ex_fr": "Il a deux oreilles."},
+        {"no": "en munn", "fr": "la bouche", "pron": "MUNN", "ex": "Jeg har en kake i munnen.", "ex_fr": "J'ai un gâteau dans la bouche."}
+      ],
+      "grammaire": {
+        "titre": "Les parties du corps : défini et pluriels irréguliers",
+        "texte": "Pour les parties du corps, le norvégien utilise l'article défini à la place de « mon, ma » : på hodet (sur ma tête), i munnen (dans ma bouche).\nPluriels irréguliers : en fot → føtter, ei hånd → hender, et øye → øyne, et øre → ører, et ben → ben, en arm → armer.",
+        "exemples": [
+          {"no": "på hodet", "fr": "sur la tête"},
+          {"no": "en fot → føtter", "fr": "un pied → des pieds"},
+          {"no": "et øye → øyne", "fr": "un œil → des yeux"}
+        ]
+      },
+      "texte": {
+        "no": "Marie har et hode med to øyne, to ører og en munn. Hun har to armer og to hender. Hun har også to ben og to føtter. På hodet har hun en lue. På føttene har hun brune sko. Hun har en veske i hånda.",
+        "fr": "Marie a une tête avec deux yeux, deux oreilles et une bouche. Elle a deux bras et deux mains. Elle a aussi deux jambes et deux pieds. Sur la tête, elle a un bonnet. Aux pieds, elle a des chaussures marron. Elle a un sac dans la main.",
+        "aide": [
+          {"no": "føttene", "fr": "les pieds"}
+        ],
+        "questions": [
+          {
+            "q": "Qu'a Marie sur la tête ?",
+            "choix": ["Un bonnet", "Un chapeau", "Une écharpe"],
+            "rep": 0
+          },
+          {
+            "q": "Qu'a-t-elle dans la main ?",
+            "choix": ["Un sac", "Un livre", "Une clé"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Le visage et la description",
+      "mots": [
+        {"no": "en nese", "fr": "le nez", "pron": "NÉ-se", "ex": "Hun har en liten nese.", "ex_fr": "Elle a un petit nez."},
+        {"no": "et ansikt", "fr": "le visage", "pron": "AN-sikt", "ex": "Han har et pent ansikt.", "ex_fr": "Il a un joli visage."},
+        {"no": "et hår", "fr": "les cheveux", "pron": "HOR", "ex": "Hun har langt hår.", "ex_fr": "Elle a les cheveux longs."},
+        {"no": "en tann", "fr": "la dent", "pron": "TANN", "ex": "Jeg pusser en tann.", "ex_fr": "Je brosse une dent."},
+        {"no": "en hals", "fr": "le cou / la gorge", "pron": "HALS", "ex": "Jeg har et skjerf på halsen.", "ex_fr": "J'ai une écharpe autour du cou."},
+        {"no": "en rygg", "fr": "le dos", "pron": "RÜGG", "ex": "Han har en veske på ryggen.", "ex_fr": "Il a un sac sur le dos."},
+        {"no": "en mage", "fr": "le ventre", "pron": "MAA-ge", "ex": "Jeg har en kake i magen.", "ex_fr": "J'ai un gâteau dans le ventre."},
+        {"no": "et hjerte", "fr": "le cœur", "pron": "YÆR-te", "ex": "Jeg har et stort hjerte.", "ex_fr": "J'ai un grand cœur."}
+      ],
+      "grammaire": {
+        "titre": "Décrire quelqu'un",
+        "texte": "On décrit avec « har » + adjectif + nom : Hun har langt hår, Han har blå øyne.\nAttention à l'accord : et hår → langt hår (neutre, -t) ; plusieurs yeux → blå øyne (l'adjectif de couleur « blå » reste inchangé).\nCouleurs de cheveux : brunt hår, svart hår, rødt hår, lyst hår (blond).",
+        "exemples": [
+          {"no": "Hun har langt hår.", "fr": "Elle a les cheveux longs."},
+          {"no": "Han har blå øyne.", "fr": "Il a les yeux bleus."},
+          {"no": "Jeg har brunt hår.", "fr": "J'ai les cheveux bruns."}
+        ]
+      },
+      "texte": {
+        "no": "Anna er tretti år gammel. Hun har langt, brunt hår og blå øyne. Hun har en liten nese og et pent ansikt. Jonas har kort, svart hår og grønne øyne. Han har en stor munn og et stort hjerte. Marie har rødt hår, men hun har også en hatt på hodet.",
+        "fr": "Anna a trente ans. Elle a les cheveux longs et bruns et les yeux bleus. Elle a un petit nez et un joli visage. Jonas a les cheveux courts et noirs et les yeux verts. Il a une grande bouche et un grand cœur. Marie a les cheveux roux mais elle a aussi un chapeau sur la tête.",
+        "aide": [
+          {"no": "grønne", "fr": "verts (pluriel)"}
+        ],
+        "questions": [
+          {
+            "q": "Quels cheveux a Anna ?",
+            "choix": ["Longs et bruns", "Courts et noirs", "Roux"],
+            "rep": 0
+          },
+          {
+            "q": "De quelle couleur sont les yeux de Jonas ?",
+            "choix": ["Verts", "Bleus", "Marron"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Être malade",
+      "mots": [
+        {"no": "syk", "fr": "malade", "pron": "SÜK", "ex": "Jeg er syk i dag.", "ex_fr": "Je suis malade aujourd'hui."},
+        {"no": "frisk", "fr": "en bonne santé / guéri", "pron": "FRISK", "ex": "Han er frisk nå.", "ex_fr": "Il est guéri maintenant."},
+        {"no": "trøtt", "fr": "fatigué", "pron": "TREUTT", "ex": "Jeg er veldig trøtt.", "ex_fr": "Je suis très fatigué."},
+        {"no": "vondt", "fr": "mal / douleur", "pron": "VONNT", "ex": "Jeg har vondt i hodet.", "ex_fr": "J'ai mal à la tête."},
+        {"no": "en feber", "fr": "la fièvre", "pron": "FÉ-ber", "ex": "Hun har feber.", "ex_fr": "Elle a de la fièvre."},
+        {"no": "en forkjølelse", "fr": "le rhume", "pron": "for-CHEU-lel-se", "ex": "Jeg har en forkjølelse.", "ex_fr": "J'ai un rhume."},
+        {"no": "en hoste", "fr": "la toux", "pron": "HOS-te", "ex": "Jeg har en hoste.", "ex_fr": "J'ai une toux."},
+        {"no": "en smerte", "fr": "la douleur", "pron": "SMÈR-te", "ex": "Jeg har en smerte i ryggen.", "ex_fr": "J'ai une douleur dans le dos."}
+      ],
+      "grammaire": {
+        "titre": "Avoir mal : « ha vondt i »",
+        "texte": "Pour dire où on a mal, on dit « Jeg har vondt i » + partie du corps au défini : Jeg har vondt i hodet, i magen, i halsen.\nPour la fièvre, pas d'article : Jeg har feber.\nÀ l'adjectif neutre : Barnet er sykt (syk → sykt).",
+        "exemples": [
+          {"no": "Jeg har vondt i magen.", "fr": "J'ai mal au ventre."},
+          {"no": "Hun har feber.", "fr": "Elle a de la fièvre."},
+          {"no": "Jeg er syk.", "fr": "Je suis malade."}
+        ]
+      },
+      "texte": {
+        "no": "– Hei, Anna. Jeg er syk i dag.\n– Å nei! Hva er det?\n– Jeg har vondt i hodet og i halsen. Jeg har også feber og en hoste.\n– Det er sikkert en forkjølelse. Du er veldig trøtt, ikke sant?\n– Ja, jeg er så trøtt. Jeg vil bare sove.\n– Hvil deg! Snart er du frisk igjen.",
+        "fr": "– Salut, Anna. Je suis malade aujourd'hui.\n– Oh non ! Qu'est-ce que tu as ?\n– J'ai mal à la tête et à la gorge. J'ai aussi de la fièvre et de la toux.\n– C'est sûrement un rhume. Tu es très fatiguée, n'est-ce pas ?\n– Oui, je suis tellement fatiguée. Je veux juste dormir.\n– Repose-toi ! Bientôt, tu seras de nouveau guérie.",
+        "aide": [
+          {"no": "å nei", "fr": "oh non"},
+          {"no": "ikke sant", "fr": "n'est-ce pas"},
+          {"no": "bare", "fr": "seulement"},
+          {"no": "snart", "fr": "bientôt"},
+          {"no": "igjen", "fr": "de nouveau"}
+        ],
+        "questions": [
+          {
+            "q": "Où Marie a-t-elle mal ?",
+            "choix": ["À la tête et à la gorge", "Au dos", "Au ventre"],
+            "rep": 0
+          },
+          {
+            "q": "Que conseille Anna ?",
+            "choix": ["Se reposer", "Prendre l'avion", "Aller à l'école"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Chez le médecin",
+      "mots": [
+        {"no": "en lege", "fr": "le médecin", "pron": "LÉ-ge", "ex": "Jeg har en lege i Oslo.", "ex_fr": "J'ai un médecin à Oslo."},
+        {"no": "et apotek", "fr": "la pharmacie", "pron": "a-po-TÉK", "ex": "Apoteket er nær.", "ex_fr": "La pharmacie est proche."},
+        {"no": "en medisin", "fr": "le médicament", "pron": "me-di-SIN", "ex": "Jeg trenger medisin.", "ex_fr": "J'ai besoin de médicaments."},
+        {"no": "en tablett", "fr": "le comprimé", "pron": "ta-BLETT", "ex": "Jeg tar en tablett.", "ex_fr": "Je prends un comprimé."},
+        {"no": "en resept", "fr": "l'ordonnance", "pron": "re-SEPT", "ex": "Jeg har en resept.", "ex_fr": "J'ai une ordonnance."},
+        {"no": "en avtale", "fr": "le rendez-vous", "pron": "AV-ta-le", "ex": "Jeg har en avtale i dag.", "ex_fr": "J'ai un rendez-vous aujourd'hui."},
+        {"no": "en pasient", "fr": "le patient", "pron": "pa-si-ENT", "ex": "En pasient venter.", "ex_fr": "Un patient attend."},
+        {"no": "en tannlege", "fr": "le dentiste", "pron": "TANN-lé-ge", "ex": "Jeg må til tannlegen.", "ex_fr": "Je dois aller chez le dentiste."}
+      ],
+      "grammaire": {
+        "titre": "Aller chez le médecin : « til » + profession",
+        "texte": "Pour aller chez quelqu'un, on dit « til » : Jeg går til legen, til tannlegen. Pour un lieu : på apoteket.\nAvec un modal, on peut omettre « gå » : Jeg må til legen (je dois aller chez le médecin).\nPour prendre un médicament : Jeg tar en tablett (deux fois par jour = to ganger om dagen).",
+        "exemples": [
+          {"no": "Jeg må til legen.", "fr": "Je dois aller chez le médecin."},
+          {"no": "Jeg er på apoteket.", "fr": "Je suis à la pharmacie."},
+          {"no": "to ganger om dagen", "fr": "deux fois par jour"}
+        ]
+      },
+      "texte": {
+        "no": "Marie har en avtale hos legen klokka ti. Hun må til legen fordi hun er syk. Legen sier: «Du har en forkjølelse.» Han skriver en resept. Marie går til apoteket og kjøper medisin. Hun må ta en tablett to ganger om dagen. Hun hviler seg hjemme.",
+        "fr": "Marie a un rendez-vous chez le médecin à dix heures. Elle doit aller chez le médecin parce qu'elle est malade. Le médecin dit : « Vous avez un rhume. » Il écrit une ordonnance. Marie va à la pharmacie et achète des médicaments. Elle doit prendre un comprimé deux fois par jour. Elle se repose à la maison.",
+        "aide": [
+          {"no": "hos", "fr": "chez"},
+          {"no": "legen", "fr": "le médecin"}
+        ],
+        "questions": [
+          {
+            "q": "À quelle heure est le rendez-vous ?",
+            "choix": ["Dix heures", "Huit heures", "Midi"],
+            "rep": 0
+          },
+          {
+            "q": "Que doit-elle prendre ?",
+            "choix": ["Un comprimé deux fois par jour", "Un sirop", "Rien"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Se sentir mieux",
+      "mots": [
+        {"no": "å hoste", "fr": "tousser", "pron": "HOS-te", "ex": "Jeg hoster mye.", "ex_fr": "Je tousse beaucoup."},
+        {"no": "å nyse", "fr": "éternuer", "pron": "NÜ-se", "ex": "Hun nyser ofte.", "ex_fr": "Elle éternue souvent."},
+        {"no": "å puste", "fr": "respirer", "pron": "PUS-te", "ex": "Jeg puster rolig.", "ex_fr": "Je respire calmement."},
+        {"no": "å føle seg", "fr": "se sentir", "pron": "FEU-le saï", "ex": "Jeg føler meg syk.", "ex_fr": "Je me sens malade."},
+        {"no": "å bli", "fr": "devenir", "pron": "BLI", "ex": "Du blir snart frisk.", "ex_fr": "Tu seras bientôt guéri."},
+        {"no": "å se ut", "fr": "avoir l'air", "pron": "SÉ UT", "ex": "Du ser trøtt ut.", "ex_fr": "Tu as l'air fatigué."},
+        {"no": "å gjøre", "fr": "faire", "pron": "YEU-re", "ex": "Hva gjør du?", "ex_fr": "Que fais-tu ?"},
+        {"no": "å smile", "fr": "sourire", "pron": "SMI-le", "ex": "Marie smiler i dag.", "ex_fr": "Marie sourit aujourd'hui."}
+      ],
+      "grammaire": {
+        "titre": "« å føle seg », « å bli » et « se … ut »",
+        "texte": "« Å føle seg » (se sentir) est réfléchi et suivi d'un adjectif : Jeg føler meg syk, Du føler deg bra.\n« Å bli » veut dire « devenir » ou « sera » : Du blir frisk (tu seras guéri).\n« Se … ut » (avoir l'air) coupe le verbe : Du ser trøtt ut. Hun ser frisk ut.",
+        "exemples": [
+          {"no": "Jeg føler meg bra.", "fr": "Je me sens bien."},
+          {"no": "Du blir snart frisk.", "fr": "Tu seras bientôt guéri."},
+          {"no": "Du ser trøtt ut.", "fr": "Tu as l'air fatigué."}
+        ]
+      },
+      "texte": {
+        "no": "Marie hoster og nyser, og hun føler seg syk. Hun ser trøtt ut, men hun smiler. Anna sier: «Du blir snart frisk!» Hva gjør Marie? Hun hviler og drikker te. Etter to dager blir hun frisk, og nå føler hun seg bra!",
+        "fr": "Marie tousse et éternue et elle se sent malade. Elle a l'air fatiguée mais elle sourit. Anna dit : « Tu seras bientôt guérie ! » Que fait Marie ? Elle se repose et boit du thé. Au bout de deux jours, elle est guérie et maintenant elle se sent bien !",
+        "aide": [
+          {"no": "etter", "fr": "après"}
+        ],
+        "questions": [
+          {
+            "q": "Comment Marie se sent-elle au début ?",
+            "choix": ["Malade", "Bien", "Triste"],
+            "rep": 0
+          },
+          {
+            "q": "Au bout de combien de jours est-elle guérie ?",
+            "choix": ["Deux jours", "Une semaine", "Un jour"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie er syk. Hun har vondt i hodet og i halsen, og hun har feber og en hoste. Hun ser trøtt ut. Hun har en avtale hos legen klokka ti. Legen sier: «Du har en forkjølelse.» Han skriver en resept, og Marie går til apoteket. Hun kjøper medisin og tar en tablett. Anna kommer hjem til Marie. Hun har blå øyne og langt, brunt hår. Hun smiler og sier: «Hvil deg! Du blir snart frisk.» To dager senere er Marie frisk igjen, og hun føler seg bra!",
+    "fr": "Marie est malade. Elle a mal à la tête et à la gorge et elle a de la fièvre et de la toux. Elle a l'air fatiguée. Elle a rendez-vous chez le médecin à dix heures. Le médecin dit : « Vous avez un rhume. » Il écrit une ordonnance et Marie va à la pharmacie. Elle achète des médicaments et prend un comprimé. Anna vient chez Marie. Elle a les yeux bleus et les cheveux longs et bruns. Elle sourit et dit : « Repose-toi ! Tu seras bientôt guérie. » Deux jours plus tard, Marie est de nouveau guérie et elle se sent bien !",
+    "aide": [
+      {"no": "hjem til", "fr": "chez"},
+      {"no": "senere", "fr": "plus tard"}
+    ],
+    "questions": [
+      {
+        "q": "Où Marie a-t-elle mal ?",
+        "choix": ["À la tête et à la gorge", "Au dos", "Aux pieds"],
+        "rep": 0
+      },
+      {
+        "q": "Que dit le médecin ?",
+        "choix": ["Qu'elle a un rhume", "Qu'elle a une fracture", "Qu'elle est en bonne santé"],
+        "rep": 0
+      },
+      {
+        "q": "Où achète-t-elle les médicaments ?",
+        "choix": ["À la pharmacie", "Au supermarché", "À la banque"],
+        "rep": 0
+      },
+      {
+        "q": "Au bout de combien de temps est-elle guérie ?",
+        "choix": ["Deux jours", "Une semaine", "Un mois"],
+        "rep": 0
+      }
+    ]
+  }
+}

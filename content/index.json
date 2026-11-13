@@ -88,25 +88,25 @@
    "id": 15,
    "titre": "Corps et santé",
    "etape": "Dovrefjell",
-   "fichier": null
+   "fichier": "ch15.json"
   },
   {
    "id": 16,
    "titre": "Loisirs et sport",
    "etape": "Røros",
-   "fichier": null
+   "fichier": "ch16.json"
   },
   {
    "id": 17,
    "titre": "Travail et métiers",
    "etape": "Trondheim",
-   "fichier": null
+   "fichier": "ch17.json"
   },
   {
    "id": 18,
    "titre": "Téléphone et messages",
    "etape": "Steinkjer",
-   "fichier": null
+   "fichier": "ch18.json"
   },
   {
    "id": 19,

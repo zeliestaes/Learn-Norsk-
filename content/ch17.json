@@ -1,0 +1,244 @@
+{
+  "id": 17,
+  "titre": "Travail et métiers",
+  "lecons": [
+    {
+      "titre": "Les métiers",
+      "mots": [
+        {"no": "en lærer", "fr": "l'enseignant", "pron": "LÈ-rer", "ex": "Jeg er lærer.", "ex_fr": "Je suis enseignant."},
+        {"no": "en sykepleier", "fr": "l'infirmier", "pron": "SÜ-ke-plaï-er", "ex": "Hun er sykepleier.", "ex_fr": "Elle est infirmière."},
+        {"no": "en kokk", "fr": "le cuisinier", "pron": "KOKK", "ex": "Han er kokk.", "ex_fr": "Il est cuisinier."},
+        {"no": "en ingeniør", "fr": "l'ingénieur", "pron": "in-sje-NYEUR", "ex": "Min far er ingeniør.", "ex_fr": "Mon père est ingénieur."},
+        {"no": "en student", "fr": "l'étudiant", "pron": "stu-DENT", "ex": "Jeg er student.", "ex_fr": "Je suis étudiant."},
+        {"no": "en selger", "fr": "le vendeur", "pron": "SEL-ger", "ex": "Hun er selger i en butikk.", "ex_fr": "Elle est vendeuse dans un magasin."},
+        {"no": "en sjåfør", "fr": "le chauffeur", "pron": "cho-FEUR", "ex": "Han er sjåfør.", "ex_fr": "Il est chauffeur."},
+        {"no": "en kunstner", "fr": "l'artiste", "pron": "KUNST-ner", "ex": "Min mor er kunstner.", "ex_fr": "Ma mère est artiste."}
+      ],
+      "grammaire": {
+        "titre": "Dire son métier : pas d'article",
+        "texte": "Pour dire son métier, on n'utilise pas d'article : Jeg er lærer (je suis enseignant), Hun er sykepleier. Le même mot sert pour le masculin et le féminin.\nPour demander : Hva er du ? ou Hva jobber du som ? (qu'est-ce que tu fais comme travail ?).",
+        "exemples": [
+          {"no": "Jeg er lærer.", "fr": "Je suis enseignant(e)."},
+          {"no": "Hun er sykepleier.", "fr": "Elle est infirmière."},
+          {"no": "Hva jobber du som?", "fr": "Quel est ton métier ?"}
+        ]
+      },
+      "texte": {
+        "no": "Marie møter mange mennesker i Trondheim. Anna er sykepleier, og Jonas er ingeniør. Per er kokk på en kafé. Pers søster er lærer, og hans bror er sjåfør. Hans mor er kunstner, og hans far er selger. Marie er student. Hun liker å lære.",
+        "fr": "Marie rencontre beaucoup de gens à Trondheim. Anna est infirmière et Jonas est ingénieur. Per est cuisinier dans un café. La sœur de Per est enseignante et son frère est chauffeur. Sa mère est artiste et son père est vendeur. Marie est étudiante. Elle aime apprendre.",
+        "aide": [
+          {"no": "Pers", "fr": "de Per"},
+          {"no": "hans", "fr": "son (à lui)"}
+        ],
+        "questions": [
+          {
+            "q": "Quel est le métier d'Anna ?",
+            "choix": ["Infirmière", "Ingénieure", "Cuisinière"],
+            "rep": 0
+          },
+          {
+            "q": "Que fait le père de Per ?",
+            "choix": ["Vendeur", "Chauffeur", "Artiste"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Au bureau",
+      "mots": [
+        {"no": "en jobb", "fr": "le travail / l'emploi", "pron": "YOBB", "ex": "Jeg har en jobb.", "ex_fr": "J'ai un emploi."},
+        {"no": "et kontor", "fr": "le bureau (pièce)", "pron": "kon-TOR", "ex": "Kontoret er stort.", "ex_fr": "Le bureau est grand."},
+        {"no": "en sjef", "fr": "le chef", "pron": "CHEF", "ex": "Min sjef er snill.", "ex_fr": "Mon chef est gentil."},
+        {"no": "en kollega", "fr": "le collègue", "pron": "kol-LÉ-ga", "ex": "Jeg har en kollega.", "ex_fr": "J'ai un collègue."},
+        {"no": "en lønn", "fr": "le salaire", "pron": "LEUNN", "ex": "Jeg har en god lønn.", "ex_fr": "J'ai un bon salaire."},
+        {"no": "et firma", "fr": "l'entreprise", "pron": "FIR-ma", "ex": "Firmaet er i Trondheim.", "ex_fr": "L'entreprise est à Trondheim."},
+        {"no": "en bedrift", "fr": "l'entreprise (structure)", "pron": "be-DRIFT", "ex": "Det er en stor bedrift.", "ex_fr": "C'est une grande entreprise."},
+        {"no": "et møte", "fr": "la réunion", "pron": "MEU-te", "ex": "Jeg har et møte klokka ti.", "ex_fr": "J'ai une réunion à dix heures."}
+      ],
+      "grammaire": {
+        "titre": "Travailler : jobbe i, på, hos, som",
+        "texte": "« Å jobbe » se construit avec : som + métier (jobbe som lærer) ; på + lieu (jobbe på et kontor, på en skole) ; i + entreprise ou ville (jobbe i et firma, i Trondheim) ; hos + personne (jobbe hos en lege).",
+        "exemples": [
+          {"no": "Jeg jobber som lærer.", "fr": "Je travaille comme enseignant."},
+          {"no": "Jeg jobber på et kontor.", "fr": "Je travaille dans un bureau."},
+          {"no": "Jeg jobber i et firma.", "fr": "Je travaille dans une entreprise."}
+        ]
+      },
+      "texte": {
+        "no": "Marie har en ny jobb på et kontor i Trondheim. Firmaet er stort. Hun har en sjef og mange kollegaer. Sjefen er snill. Hun har et møte klokka ti. Lønnen er god, men det er mye arbeid. Marie jobber fra klokka åtte til klokka fire.",
+        "fr": "Marie a un nouvel emploi dans un bureau à Trondheim. L'entreprise est grande. Elle a un chef et beaucoup de collègues. Le chef est gentil. Elle a une réunion à dix heures. Le salaire est bon mais il y a beaucoup de travail. Marie travaille de huit heures à seize heures.",
+        "aide": [
+          {"no": "snill", "fr": "gentil"},
+          {"no": "arbeid", "fr": "travail"},
+          {"no": "fra … til", "fr": "de … à"}
+        ],
+        "questions": [
+          {
+            "q": "À quelle heure Marie a-t-elle une réunion ?",
+            "choix": ["Dix heures", "Huit heures", "Quatre heures"],
+            "rep": 0
+          },
+          {
+            "q": "Comment est le chef ?",
+            "choix": ["Gentil", "Strict", "Absent"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les verbes du travail",
+      "mots": [
+        {"no": "å jobbe", "fr": "travailler", "pron": "YOB-be", "ex": "Jeg jobber på et kontor.", "ex_fr": "Je travaille dans un bureau."},
+        {"no": "å arbeide", "fr": "travailler (plus formel)", "pron": "AR-baï-de", "ex": "Han arbeider i en bank.", "ex_fr": "Il travaille dans une banque."},
+        {"no": "å tjene", "fr": "gagner (de l'argent)", "pron": "TCHÉ-ne", "ex": "Hun tjener godt.", "ex_fr": "Elle gagne bien sa vie."},
+        {"no": "å søke", "fr": "postuler / chercher", "pron": "SEU-ke", "ex": "Jeg søker en jobb.", "ex_fr": "Je cherche un emploi."},
+        {"no": "å begynne", "fr": "commencer", "pron": "be-YIN-ne", "ex": "Vi begynner klokka åtte.", "ex_fr": "Nous commençons à huit heures."},
+        {"no": "å slutte", "fr": "finir / arrêter", "pron": "SLUT-te", "ex": "Vi slutter klokka fire.", "ex_fr": "Nous finissons à quatre heures."},
+        {"no": "å studere", "fr": "étudier", "pron": "stu-DÉ-re", "ex": "Jeg studerer norsk.", "ex_fr": "J'étudie le norvégien."},
+        {"no": "å lede", "fr": "diriger", "pron": "LÉ-de", "ex": "Hun leder et møte.", "ex_fr": "Elle dirige une réunion."}
+      ],
+      "grammaire": {
+        "titre": "Commencer et finir",
+        "texte": "« Å begynne » et « å slutte » sont suivis de « å » + infinitif : Jeg begynner å jobbe klokka åtte. Jeg slutter å jobbe klokka fire.\nPour les horaires : fra klokka åtte til klokka fire (de huit à seize heures).",
+        "exemples": [
+          {"no": "Jeg begynner å jobbe.", "fr": "Je commence à travailler."},
+          {"no": "Vi slutter klokka fire.", "fr": "Nous finissons à quatre heures."},
+          {"no": "fra åtte til fire", "fr": "de huit à seize heures"}
+        ]
+      },
+      "texte": {
+        "no": "Jeg jobber på et kontor i Trondheim. Jeg begynner å jobbe klokka åtte, og jeg slutter klokka fire. Min kollega arbeider i et firma ved siden av. Hun tjener godt, og hun leder møtene. Jeg studerer norsk om kvelden. Nå søker jeg en ny jobb i Oslo.",
+        "fr": "Je travaille dans un bureau à Trondheim. Je commence à travailler à huit heures et je finis à seize heures. Ma collègue travaille dans une entreprise juste à côté. Elle gagne bien sa vie et elle dirige les réunions. J'étudie le norvégien le soir. Maintenant, je cherche un nouvel emploi à Oslo.",
+        "aide": [
+          {"no": "ved siden av", "fr": "juste à côté"},
+          {"no": "møtene", "fr": "les réunions"}
+        ],
+        "questions": [
+          {
+            "q": "À quelle heure commence-t-il le travail ?",
+            "choix": ["Huit heures", "Neuf heures", "Quatre heures"],
+            "rep": 0
+          },
+          {
+            "q": "Que fait-il le soir ?",
+            "choix": ["Il étudie le norvégien", "Il fait du sport", "Il dort"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Horaires et congés",
+      "mots": [
+        {"no": "en ferie", "fr": "les vacances", "pron": "FÉ-ri-e", "ex": "Jeg har ferie i juli.", "ex_fr": "J'ai des vacances en juillet."},
+        {"no": "en fridag", "fr": "le jour de congé", "pron": "FRI-daag", "ex": "Mandag er en fridag.", "ex_fr": "Lundi est un jour de congé."},
+        {"no": "en pause", "fr": "la pause", "pron": "PAU-se", "ex": "Jeg tar en pause.", "ex_fr": "Je prends une pause."},
+        {"no": "en arbeidsdag", "fr": "la journée de travail", "pron": "AR-baïds-daag", "ex": "En arbeidsdag er åtte timer.", "ex_fr": "Une journée de travail dure huit heures."},
+        {"no": "en helg", "fr": "le week-end", "pron": "HELG", "ex": "Jeg har fri i helgen.", "ex_fr": "Je suis libre ce week-end."},
+        {"no": "en vakt", "fr": "la garde / le service", "pron": "VAKT", "ex": "Jeg har en vakt i kveld.", "ex_fr": "J'ai un service ce soir."},
+        {"no": "en tid", "fr": "le temps", "pron": "TIID", "ex": "Jeg har ikke tid.", "ex_fr": "Je n'ai pas le temps."},
+        {"no": "deltid", "fr": "à temps partiel", "pron": "DEL-tiid", "ex": "Hun jobber deltid.", "ex_fr": "Elle travaille à temps partiel."}
+      ],
+      "grammaire": {
+        "titre": "Les durées au pluriel",
+        "texte": "Quelques pluriels utiles : en time → timer, en dag → dager, en uke → uker, en måned → måneder.\nÅtte timer (huit heures), fem dager (cinq jours), to uker ferie (deux semaines de vacances).\n« I helgen » = ce week-end ; « fri » = libre (de travail).",
+        "exemples": [
+          {"no": "åtte timer", "fr": "huit heures"},
+          {"no": "to uker ferie", "fr": "deux semaines de vacances"},
+          {"no": "i helgen", "fr": "ce week-end"}
+        ]
+      },
+      "texte": {
+        "no": "Marie har en lang arbeidsdag: åtte timer. Klokka ti tar hun en pause, og klokka tolv spiser hun lunsj. På fredag har hun en vakt, men i helgen har hun fri. Mandag er en fridag. I juli har hun to uker ferie. Hun vil reise til Belgia. Hun har ikke mye tid, men hun gleder seg.",
+        "fr": "Marie a une longue journée de travail : huit heures. À dix heures, elle prend une pause et à midi, elle déjeune. Vendredi, elle a un service mais ce week-end elle est libre. Lundi est un jour de congé. En juillet, elle a deux semaines de vacances. Elle veut aller en Belgique. Elle n'a pas beaucoup de temps mais elle se réjouit.",
+        "aide": [
+          {"no": "fri", "fr": "libre"}
+        ],
+        "questions": [
+          {
+            "q": "Combien d'heures dure sa journée ?",
+            "choix": ["Huit", "Six", "Dix"],
+            "rep": 0
+          },
+          {
+            "q": "Combien de semaines de vacances en juillet ?",
+            "choix": ["Deux", "Une", "Trois"],
+            "rep": 0
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Parler de son travail",
+      "mots": [
+        {"no": "et yrke", "fr": "le métier", "pron": "ÜR-ke", "ex": "Hva er yrket ditt?", "ex_fr": "Quel est ton métier ?"},
+        {"no": "en arbeidsgiver", "fr": "l'employeur", "pron": "AR-baïds-yé-ver", "ex": "Min arbeidsgiver er et firma.", "ex_fr": "Mon employeur est une entreprise."},
+        {"no": "en ansatt", "fr": "l'employé", "pron": "AN-satt", "ex": "Hun er ansatt i en bank.", "ex_fr": "Elle est employée dans une banque."},
+        {"no": "et prosjekt", "fr": "le projet", "pron": "pro-SJEKT", "ex": "Vi har et prosjekt.", "ex_fr": "Nous avons un projet."},
+        {"no": "en oppgave", "fr": "la tâche", "pron": "OP-gave", "ex": "Jeg har mange oppgaver.", "ex_fr": "J'ai beaucoup de tâches."},
+        {"no": "en erfaring", "fr": "l'expérience", "pron": "er-FA-ring", "ex": "Jeg har lang erfaring.", "ex_fr": "J'ai une longue expérience."},
+        {"no": "en utdanning", "fr": "la formation", "pron": "UT-dan-ning", "ex": "Jeg har en utdanning.", "ex_fr": "J'ai une formation."},
+        {"no": "en plan", "fr": "le projet / le plan", "pron": "PLAAN", "ex": "Jeg har en plan.", "ex_fr": "J'ai un plan."}
+      ],
+      "grammaire": {
+        "titre": "« jobbe med » et « som »",
+        "texte": "« Å jobbe med » + chose = travailler sur : Jeg jobber med et prosjekt. « Å jobbe som » + métier = travailler comme : Jeg jobber som ingeniør.\nPour demander : Hva jobber du med ? (sur quoi travailles-tu ?) ; Hva er yrket ditt ? (quel est ton métier ?).",
+        "exemples": [
+          {"no": "Jeg jobber med et prosjekt.", "fr": "Je travaille sur un projet."},
+          {"no": "Jeg jobber som ingeniør.", "fr": "Je travaille comme ingénieur."},
+          {"no": "Hva er yrket ditt?", "fr": "Quel est ton métier ?"}
+        ]
+      },
+      "texte": {
+        "no": "– Hva er yrket ditt?\n– Jeg er ingeniør. Jeg er ansatt i et firma i Trondheim.\n– Hva jobber du med?\n– Jeg jobber med et stort prosjekt. Jeg har mange oppgaver.\n– Har du lang erfaring?\n– Ja, og en god utdanning. Nå har jeg en plan: jeg vil bli sjef!",
+        "fr": "– Quel est ton métier ?\n– Je suis ingénieur. Je suis employé dans une entreprise à Trondheim.\n– Sur quoi travailles-tu ?\n– Je travaille sur un grand projet. J'ai beaucoup de tâches.\n– As-tu une longue expérience ?\n– Oui, et une bonne formation. Maintenant, j'ai un plan : je veux devenir chef !",
+        "aide": [
+          {"no": "bli", "fr": "devenir"}
+        ],
+        "questions": [
+          {
+            "q": "Quel est son métier ?",
+            "choix": ["Ingénieur", "Enseignant", "Cuisinier"],
+            "rep": 0
+          },
+          {
+            "q": "Quel est son projet ?",
+            "choix": ["Devenir chef", "Voyager", "Changer de ville"],
+            "rep": 0
+          }
+        ]
+      }
+    }
+  ],
+  "synthese": {
+    "no": "Marie er student, men nå har hun en ny jobb på et kontor i Trondheim. Firmaet er stort. Hun har en sjef og mange kollegaer. Anna er sykepleier, og Jonas er ingeniør. Marie begynner å jobbe klokka åtte, og hun slutter klokka fire. Klokka ti har hun et møte, og klokka tolv tar hun en pause. Lønnen er god. I juli har hun to uker ferie. I helgen har hun fri. Hun har en plan: hun vil bli sjef i et firma!",
+    "fr": "Marie est étudiante mais maintenant elle a un nouvel emploi dans un bureau à Trondheim. L'entreprise est grande. Elle a un chef et beaucoup de collègues. Anna est infirmière et Jonas est ingénieur. Marie commence à travailler à huit heures et elle finit à seize heures. À dix heures, elle a une réunion et à midi, elle prend une pause. Le salaire est bon. En juillet, elle a deux semaines de vacances. Ce week-end, elle est libre. Elle a un projet : elle veut devenir chef dans une entreprise !",
+    "aide": [
+      {"no": "men nå", "fr": "mais maintenant"}
+    ],
+    "questions": [
+      {
+        "q": "Que fait Marie avant son nouvel emploi ?",
+        "choix": ["Elle est étudiante", "Elle est infirmière", "Elle est chef"],
+        "rep": 0
+      },
+      {
+        "q": "À quelle heure finit-elle ?",
+        "choix": ["Seize heures", "Quinze heures", "Dix-huit heures"],
+        "rep": 0
+      },
+      {
+        "q": "Quand a-t-elle sa pause ?",
+        "choix": ["À midi", "À dix heures", "À quatre heures"],
+        "rep": 0
+      },
+      {
+        "q": "Quel est son projet ?",
+        "choix": ["Devenir chef d'une entreprise", "Devenir infirmière", "Étudier"],
+        "rep": 0
+      }
+    ]
+  }
+}
