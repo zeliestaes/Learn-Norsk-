@@ -349,8 +349,8 @@ export function Lexicon(app) {
 // ======================================================================
 export function Profile(app) {
   const li = levelInfo();
-  const hours = state.stats.seconds / 3600;
-  const timeTxt = hours < 1 ? `${Math.round(state.stats.seconds / 60)} min` : `${hours.toFixed(1).replace('.', ',')} h`;
+  const totalMin = Math.round(state.stats.seconds / 60);
+  const timeTxt = totalMin < 60 ? `${totalMin} min` : `${Math.floor(totalMin / 60)} h ${String(totalMin % 60).padStart(2, '0')}`;
   const a2 = a2Progress();
   const skill = (label, k) => {
     const r = skillRate(k);
