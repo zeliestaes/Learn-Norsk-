@@ -244,5 +244,62 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "En uke i Kristiansund",
+      "titre_fr": "Une semaine à Kristiansund",
+      "no": "Det er en uke i Kristiansund. På mandag er det sol, og det er ti grader. På tirsdag regner det, og det blåser mye. På onsdag er det tåke, og Marie går ikke ut. På torsdag snør det litt, men det er ikke så kaldt. På fredag skinner sola igjen, og himmelen er blå. Marie tar på seg en jakke og går en tur. «Været er fint i dag!» sier hun. Hun elsker Norge, selv når været er rart.",
+      "fr": "C'est une semaine à Kristiansund. Lundi, il y a du soleil et il fait dix degrés. Mardi, il pleut et il y a beaucoup de vent. Mercredi, il y a du brouillard et Marie ne sort pas. Jeudi, il neige un peu mais il ne fait pas si froid. Vendredi, le soleil brille de nouveau et le ciel est bleu. Marie met une veste et fait une promenade. « Il fait beau aujourd'hui ! » dit-elle. Elle adore la Norvège, même quand le temps est étrange.",
+      "aide": [
+        {"no": "igjen", "fr": "de nouveau"},
+        {"no": "selv når", "fr": "même quand"},
+        {"no": "rart", "fr": "étrange"}
+      ],
+      "questions": [
+        {
+          "q": "Quel jour y a-t-il du brouillard ?",
+          "choix": ["Mercredi", "Lundi", "Jeudi"],
+          "rep": 0
+        },
+        {
+          "q": "Quel temps fait-il mardi ?",
+          "choix": ["Il pleut et il y a du vent", "Il y a du soleil", "Il neige"],
+          "rep": 0
+        },
+        {
+          "q": "Que fait Marie vendredi ?",
+          "choix": ["Elle met une veste et fait une promenade", "Elle reste à la maison", "Elle fait du ski"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Værmeldingen",
+      "titre_fr": "La météo",
+      "no": "God morgen! Her er værmeldingen. I dag er det sol i sør, men i nord regner det. Det blåser litt, og temperaturen er åtte grader. I morgen er det tåke om morgenen, og så kommer sola. På lørdag snør det i fjellet, og det er kaldt: minus tre grader. Ha en fin helg!",
+      "fr": "Bonjour ! Voici la météo. Aujourd'hui, il y a du soleil dans le sud mais il pleut dans le nord. Il y a un peu de vent et la température est de huit degrés. Demain, il y a du brouillard le matin, puis le soleil arrive. Samedi, il neige en montagne et il fait froid : moins trois degrés. Bon week-end !",
+      "aide": [
+        {"no": "i sør", "fr": "dans le sud"},
+        {"no": "i nord", "fr": "dans le nord"}
+      ],
+      "questions": [
+        {
+          "q": "Quelle est la température aujourd'hui ?",
+          "choix": ["Huit degrés", "Trois degrés", "Dix degrés"],
+          "rep": 0
+        },
+        {
+          "q": "Quel temps fait-il demain matin ?",
+          "choix": ["Du brouillard", "De la pluie", "De la neige"],
+          "rep": 0
+        },
+        {
+          "q": "Que se passe-t-il samedi en montagne ?",
+          "choix": ["Il neige et il fait −3 degrés", "Il y a du soleil", "Il y a de la tempête"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

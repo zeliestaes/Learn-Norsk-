@@ -248,5 +248,61 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "På markedet",
+      "titre_fr": "Au marché",
+      "no": "Marie går på markedet i Geiranger. Hun har en liste: epler, bananer, ost, smør og et brød. Først kjøper hun fem epler og tre bananer. Så går hun til en mann som selger ost. «Jeg vil ha litt ost og litt smør», sier hun. Mannen tar osten og smiler. «Det koster seksti kroner.» Marie betaler og får en pose. Hun glemmer brødet! Hun går tilbake til bakeriet og kjøper det. Nå er alt på listen.",
+      "fr": "Marie va au marché de Geiranger. Elle a une liste : pommes, bananes, fromage, beurre et du pain. D'abord, elle achète cinq pommes et trois bananes. Puis elle va chez un homme qui vend du fromage. « Je voudrais un peu de fromage et un peu de beurre », dit-elle. L'homme prend le fromage et sourit. « Ça coûte soixante couronnes. » Marie paie et reçoit un sac. Elle oublie le pain ! Elle retourne à la boulangerie et l'achète. Maintenant, tout est sur la liste.",
+      "aide": [
+        {"no": "tilbake", "fr": "en retour"},
+        {"no": "får", "fr": "reçoit"}
+      ],
+      "questions": [
+        {
+          "q": "Que achète Marie d'abord ?",
+          "choix": ["Cinq pommes et trois bananes", "Du fromage", "Du pain"],
+          "rep": 0
+        },
+        {
+          "q": "Combien coûtent le fromage et le beurre ?",
+          "choix": ["Soixante couronnes", "Quarante couronnes", "Cent couronnes"],
+          "rep": 0
+        },
+        {
+          "q": "Qu'oublie-t-elle ?",
+          "choix": ["Le pain", "Le fromage", "La liste"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "I butikken",
+      "titre_fr": "Au magasin",
+      "no": "– Hva koster eplene?\n– De koster ti kroner kiloen.\n– Jeg tar to kilo. Og hva koster tomatene?\n– De koster tjue kroner kiloen.\n– Da tar jeg en kilo tomater og en pose.\n– Det blir førti kroner. Vær så god!\n– Selger dere også ost?\n– Ja, vi har ost og smør.\n– Jeg tar ost i morgen.\n– Takk, ha det bra!\n– Ha det bra, vi ses!",
+      "fr": "– Combien coûtent les pommes ?\n– Elles coûtent dix couronnes le kilo.\n– J'en prends deux kilos. Et combien coûtent les tomates ?\n– Elles coûtent vingt couronnes le kilo.\n– Alors je prends un kilo de tomates et un sac.\n– Ça fait quarante couronnes. Voilà !\n– Vendez-vous aussi du fromage ?\n– Oui, nous avons du fromage et du beurre.\n– J'en prendrai demain.\n– Merci, au revoir !\n– Au revoir, à bientôt !",
+      "aide": [
+        {"no": "kiloen", "fr": "le kilo"},
+        {"no": "det blir", "fr": "ça fait"}
+      ],
+      "questions": [
+        {
+          "q": "Combien coûte un kilo de pommes ?",
+          "choix": ["Dix couronnes", "Vingt couronnes", "Quarante couronnes"],
+          "rep": 0
+        },
+        {
+          "q": "Combien paie le client en tout ?",
+          "choix": ["Quarante couronnes", "Cinquante couronnes", "Vingt couronnes"],
+          "rep": 0
+        },
+        {
+          "q": "Que vend aussi le marchand ?",
+          "choix": ["Du fromage et du beurre", "Du pain", "Des œufs"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

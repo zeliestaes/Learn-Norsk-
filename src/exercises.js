@@ -292,8 +292,10 @@ R.question = (ex, el, api) => {
     h('span', { class: 'tag' }, 'Compréhension'),
     h('p', { class: 'prompt' }, ex.q.q),
     cl.el,
-    h('details', { class: 'review-text' }, h('summary', null, 'Relire le texte'),
-      t.no.split('\n').map((p) => h('p', null, p))),
+    ex.listenText
+      ? h('div', { style: { marginTop: '4px' } }, h('small', { class: 'muted' }, 'Réécouter l\'histoire :'), hearRow(ex.listenText))
+      : h('details', { class: 'review-text' }, h('summary', null, 'Relire le texte'),
+        t.no.split('\n').map((p) => h('p', null, p))),
   );
   api.setCheck(() => {
     const ok = order[cl.sel].i === ex.q.rep;

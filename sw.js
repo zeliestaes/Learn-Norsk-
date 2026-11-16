@@ -1,6 +1,6 @@
 /* Service worker : application utilisable hors ligne.
    La liste PRECACHE est générée par `node scripts/build-sw.js`. */
-const VERSION = '9d5dfc830f';
+const VERSION = 'dd4972ba9d';
 const CACHE = 'norsk-reisen-' + VERSION;
 const PRECACHE = ['./'];
 // -- PRECACHE-START

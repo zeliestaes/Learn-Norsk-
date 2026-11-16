@@ -35,6 +35,7 @@ function route() {
   try {
     if (a === 'jouer') S.Play(app, b);
     else if (a === 'entrainement') S.Practice(app, b, hash.split('/')[3]);
+    else if (a === 'histoire') S.Story(app, b, hash.split('/')[3]);
     else if (a === 'revision' && b) S.Review(app, b);
     else if (a === 'chapitre') { S.Chapter(app, b); tab = '#/'; }
     else if (a === 'revision') { S.Review(app); tab = '#/revision'; }
@@ -48,7 +49,7 @@ function route() {
     app.replaceChildren(h('div', { class: 'screen' }, h('div', { class: 'card' }, h('h2', null, 'Oups'), h('p', null, 'Une erreur est survenue : ' + e.message), h('a', { class: 'btn', href: '#/' }, 'Retour à l\'accueil'))));
   }
   renderNav(tab);
-  if (!(a === 'jouer' || a === 'entrainement' || a === 'revision' && b)) window.scrollTo(0, a ? 0 : window.scrollY);
+  if (!(a === 'jouer' || a === 'entrainement' || a === 'histoire' || a === 'revision' && b)) window.scrollTo(0, a ? 0 : window.scrollY);
 }
 
 async function boot() {

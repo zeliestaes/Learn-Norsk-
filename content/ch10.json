@@ -243,5 +243,60 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Den blå jakken",
+      "titre_fr": "La veste bleue",
+      "no": "Marie er i en butikk og vil ha en ny jakke. Hun ser på en rød jakke, men den er for stor. Så prøver hun en grønn jakke. Den er pen, men den er ikke varm. «Har dere en blå jakke?» spør hun. Selgeren kommer med en blå jakke av ull. Den passer! «Hvor mye koster den?» spør Marie. «Den koster åtte hundre kroner», sier selgeren. Det er mye, men jakken er så pen. Marie tar den og betaler.",
+      "fr": "Marie est dans un magasin et veut une nouvelle veste. Elle regarde une veste rouge mais elle est trop grande. Puis elle essaie une veste verte. Elle est jolie mais elle n'est pas chaude. « Avez-vous une veste bleue ? » demande-t-elle. Le vendeur arrive avec une veste bleue en laine. Elle va bien ! « Combien coûte-t-elle ? » demande Marie. « Elle coûte huit cents couronnes », dit le vendeur. C'est cher mais la veste est si jolie. Marie la prend et paie.",
+      "aide": [
+        {"no": "for", "fr": "trop"},
+        {"no": "selgeren", "fr": "le vendeur"}
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Marie ne prend-elle pas la veste rouge ?",
+          "choix": ["Elle est trop grande", "Elle est trop chère", "Elle est trop longue"],
+          "rep": 0
+        },
+        {
+          "q": "En quelle matière est la veste bleue ?",
+          "choix": ["En laine", "En cuir", "En coton"],
+          "rep": 0
+        },
+        {
+          "q": "Combien coûte la veste bleue ?",
+          "choix": ["Huit cents couronnes", "Cent couronnes", "Mille couronnes"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Hvem er det?",
+      "titre_fr": "Qui est-ce ?",
+      "no": "– Hvem er det der?\n– Det er Anna. Hun har en grønn kjole og svarte sko.\n– Og hvem er han?\n– Det er Jonas. Han har en hvit skjorte, ei grå bukse og en rød lue.\n– Har han en jakke?\n– Ja, en brun jakke. Den er ny.\n– Og hvem har en gul paraply?\n– Det er Marie. Hun liker gult.",
+      "fr": "– Qui est-ce, là-bas ?\n– C'est Anna. Elle a une robe verte et des chaussures noires.\n– Et qui est-il ?\n– C'est Jonas. Il a une chemise blanche, un pantalon gris et un bonnet rouge.\n– A-t-il une veste ?\n– Oui, une veste marron. Elle est neuve.\n– Et qui a un parapluie jaune ?\n– C'est Marie. Elle aime le jaune.",
+      "aide": [
+        {"no": "gult", "fr": "le jaune"}
+      ],
+      "questions": [
+        {
+          "q": "De quelle couleur est la robe d'Anna ?",
+          "choix": ["Verte", "Rouge", "Bleue"],
+          "rep": 0
+        },
+        {
+          "q": "De quelle couleur est le bonnet de Jonas ?",
+          "choix": ["Rouge", "Gris", "Blanc"],
+          "rep": 0
+        },
+        {
+          "q": "Qui a un parapluie jaune ?",
+          "choix": ["Marie", "Anna", "Jonas"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

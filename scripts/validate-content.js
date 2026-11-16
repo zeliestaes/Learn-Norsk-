@@ -78,6 +78,16 @@ for (const c of index.chapters) {
     checkText(`${where} texte`, l.texte, 40, 70, 2);
   });
   checkText(`${f} synthèse`, ch.synthese, 80, 120, 4);
+  // Histoires (obligatoires à partir du chapitre 6) : une à lire, une audio avec transcription.
+  if (c.id >= 6 && !ch.histoires) err(`${f} : histoires manquantes (lire + ecouter)`);
+  if (ch.histoires) {
+    [['lire', 60, 130], ['ecouter', 50, 130]].forEach(([k, min, max]) => {
+      const h = ch.histoires[k];
+      if (!h) return err(`${f} histoire « ${k} » manquante`);
+      if (!isStr(h.titre) || !isStr(h.titre_fr)) err(`${f} histoire ${k} : titre / titre_fr manquant`);
+      checkText(`${f} histoire ${k}`, h, min, max, 3);
+    });
+  }
 }
 
 console.log(`\n${ready} chapitre(s) écrit(s) · ${totalLessons} leçons · ${totalWords} mots · ${errors} erreur(s) · ${warnings} avertissement(s)`);

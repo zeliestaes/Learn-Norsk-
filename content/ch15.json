@@ -242,5 +242,63 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Hos legen",
+      "titre_fr": "Chez le médecin",
+      "no": "Jonas er syk. Han har vondt i halsen og i hodet, og han har feber. Han ringer legen og får en avtale klokka tre. Legen ser på halsen hans og spør: «Hoster du?» «Ja, litt», sier Jonas. «Du har en forkjølelse», sier legen. Han skriver en resept. Jonas går til apoteket og kjøper medisin. Hjemme tar han en tablett og legger seg tidlig. Dagen etter føler han seg bedre.",
+      "fr": "Jonas est malade. Il a mal à la gorge et à la tête et il a de la fièvre. Il appelle le médecin et obtient un rendez-vous à trois heures. Le médecin regarde sa gorge et demande : « Toussez-vous ? » « Oui, un peu », dit Jonas. « Vous avez un rhume », dit le médecin. Il écrit une ordonnance. Jonas va à la pharmacie et achète des médicaments. À la maison, il prend un comprimé et se couche tôt. Le lendemain, il se sent mieux.",
+      "aide": [
+        {"no": "får", "fr": "obtient"},
+        {"no": "dagen etter", "fr": "le lendemain"},
+        {"no": "bedre", "fr": "mieux"}
+      ],
+      "questions": [
+        {
+          "q": "Où Jonas a-t-il mal ?",
+          "choix": ["À la gorge et à la tête", "Au dos", "Au ventre"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure est le rendez-vous ?",
+          "choix": ["À trois heures", "À dix heures", "À midi"],
+          "rep": 0
+        },
+        {
+          "q": "Comment se sent-il le lendemain ?",
+          "choix": ["Mieux", "Plus mal", "Pareil"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "På apoteket",
+      "titre_fr": "À la pharmacie",
+      "no": "– God dag! Kan jeg hjelpe deg?\n– Ja, jeg har vondt i magen. Har dere medisin?\n– Har du en resept?\n– Nei, jeg har ikke en resept.\n– Da anbefaler jeg disse tablettene. Ta en tablett to ganger om dagen.\n– Må jeg ta dem før maten?\n– Nei, etter maten.\n– Takk! Hva koster de?\n– De koster femti kroner. God bedring!",
+      "fr": "– Bonjour ! Puis-je vous aider ?\n– Oui, j'ai mal au ventre. Avez-vous un médicament ?\n– Avez-vous une ordonnance ?\n– Non, je n'ai pas d'ordonnance.\n– Alors je vous recommande ces comprimés. Prenez un comprimé deux fois par jour.\n– Dois-je les prendre avant le repas ?\n– Non, après le repas.\n– Merci ! Combien coûtent-ils ?\n– Ils coûtent cinquante couronnes. Bon rétablissement !",
+      "aide": [
+        {"no": "disse", "fr": "ces"},
+        {"no": "maten", "fr": "le repas"},
+        {"no": "god bedring", "fr": "bon rétablissement"}
+      ],
+      "questions": [
+        {
+          "q": "Où le client a-t-il mal ?",
+          "choix": ["Au ventre", "À la tête", "Au dos"],
+          "rep": 0
+        },
+        {
+          "q": "Combien de comprimés doit-il prendre par jour ?",
+          "choix": ["Deux", "Un", "Trois"],
+          "rep": 0
+        },
+        {
+          "q": "Combien coûtent-ils ?",
+          "choix": ["Cinquante couronnes", "Vingt couronnes", "Cent couronnes"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

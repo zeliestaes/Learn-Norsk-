@@ -249,5 +249,62 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Toget klokka åtte",
+      "titre_fr": "Le train de huit heures",
+      "no": "Det er mandag morgen. Marie står opp klokka halv sju. Først drikker hun kaffe, og deretter spiser hun et brød. Toget går klokka åtte, så hun må skynde seg. På stasjonen er klokka kvart på åtte, og Marie venter. Toget kommer presis klokka åtte. Klokka ti er hun i Bergen. Der møter hun Anna på en kafé. De drikker te og snakker om uka. På fredag vil de reise til Voss.",
+      "fr": "C'est lundi matin. Marie se lève à six heures et demie. D'abord, elle boit du café, puis elle mange du pain. Le train part à huit heures donc elle doit se dépêcher. À la gare, il est huit heures moins le quart et Marie attend. Le train arrive à huit heures pile. À dix heures, elle est à Bergen. Là, elle retrouve Anna dans un café. Elles boivent du thé et parlent de la semaine. Vendredi, elles veulent aller à Voss.",
+      "aide": [
+        {"no": "morgen", "fr": "matin"},
+        {"no": "stasjonen", "fr": "la gare"},
+        {"no": "må", "fr": "doit"},
+        {"no": "reise", "fr": "voyager"}
+      ],
+      "questions": [
+        {
+          "q": "À quelle heure Marie se lève-t-elle ?",
+          "choix": ["À six heures et demie", "À sept heures", "À huit heures"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure le train part-il ?",
+          "choix": ["À huit heures", "À dix heures", "À sept heures et quart"],
+          "rep": 0
+        },
+        {
+          "q": "Quand veulent-elles aller à Voss ?",
+          "choix": ["Vendredi", "Lundi", "Dimanche"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Hva er klokka?",
+      "titre_fr": "Quelle heure est-il ?",
+      "no": "– Unnskyld, hva er klokka?\n– Den er fem på halv ti.\n– Takk! Hvilken dag er det i dag?\n– Det er torsdag. I morgen er det fredag.\n– Og når er fødselsdagen din?\n– Den er i mai. Og din?\n– Min er i november.\n– Hva gjør du i dag?\n– Jeg har en time klokka ti og lunsj klokka tolv.\n– Da ses vi klokka kvart over tolv!",
+      "fr": "– Excuse-moi, quelle heure est-il ?\n– Il est neuf heures vingt-cinq.\n– Merci ! Quel jour sommes-nous ?\n– Nous sommes jeudi. Demain, c'est vendredi.\n– Et quand est ton anniversaire ?\n– En mai. Et le tien ?\n– Le mien est en novembre.\n– Que fais-tu aujourd'hui ?\n– J'ai cours à dix heures et je déjeune à midi.\n– Alors on se voit à midi et quart !",
+      "aide": [
+        {"no": "fem på halv ti", "fr": "9 h 25 (cinq minutes avant 9 h 30)"}
+      ],
+      "questions": [
+        {
+          "q": "Quelle heure est-il au début ?",
+          "choix": ["Neuf heures vingt-cinq", "Dix heures et demie", "Neuf heures et demie"],
+          "rep": 0
+        },
+        {
+          "q": "Quel jour sommes-nous ?",
+          "choix": ["Jeudi", "Vendredi", "Mercredi"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure se retrouvent-ils ?",
+          "choix": ["À midi et quart", "À dix heures", "À midi"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

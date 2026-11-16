@@ -141,6 +141,8 @@ export const BADGES = [
   { id: 'streak7', e: '🔥', name: '7 jours de suite', test: () => state.bestStreak >= 7 },
   { id: 'streak30', e: '🌋', name: '30 jours de suite', test: () => state.bestStreak >= 30 },
   { id: 'perfect', e: '💯', name: 'Leçon parfaite', test: () => state.stats.perfect >= 1 },
+  { id: 'story1', e: '📖', name: 'Première histoire', test: () => (state.stats.stories || 0) >= 1 },
+  { id: 'story10', e: '🎧', name: '10 histoires', test: () => (state.stats.stories || 0) >= 10 },
   { id: 'dictee', e: '✍️', name: 'Première dictée parfaite', test: () => state.stats.perfectDictation >= 1 },
   { id: 'chest', e: '🎁', name: 'Premier coffre', test: () => state.stats.chests >= 1 },
   { id: 'ch5', e: '🗺️', name: '5 chapitres validés', test: () => Object.values(state.chapters).filter((c) => c.validated).length >= 5 },

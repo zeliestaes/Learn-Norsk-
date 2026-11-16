@@ -243,5 +243,63 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Meldingen",
+      "titre_fr": "Le message",
+      "no": "Marie får en melding fra Anna: «Hei! Skal vi møtes i kveld?» Marie svarer: «Ja, gjerne! Hvor?» Anna sender en lenke til en kafé. Marie ringer henne, men Anna svarer ikke. Da sender hun en ny melding: «Ring meg når du kan!» Etter ti minutter ringer Anna tilbake. «Beklager, batteriet i mobilen min er ikke bra», sier hun. Nå lader hun den, og de avtaler klokka sju.",
+      "fr": "Marie reçoit un message d'Anna : « Salut ! On se retrouve ce soir ? » Marie répond : « Oui, volontiers ! Où ? » Anna envoie un lien vers un café. Marie l'appelle mais Anna ne répond pas. Alors elle envoie un nouveau message : « Appelle-moi quand tu peux ! » Au bout de dix minutes, Anna rappelle. « Désolée, la batterie de mon portable n'est pas bonne », dit-elle. Maintenant, elle le charge et elles fixent rendez-vous à sept heures.",
+      "aide": [
+        {"no": "får", "fr": "reçoit"},
+        {"no": "når du kan", "fr": "quand tu peux"},
+        {"no": "avtaler", "fr": "fixent rendez-vous"},
+        {"no": "møtes", "fr": "se retrouver"}
+      ],
+      "questions": [
+        {
+          "q": "Que propose Anna ?",
+          "choix": ["Se retrouver ce soir", "Aller au cinéma", "Voyager"],
+          "rep": 0
+        },
+        {
+          "q": "Qu'envoie Anna à Marie ?",
+          "choix": ["Un lien vers un café", "Une photo", "Un courriel"],
+          "rep": 0
+        },
+        {
+          "q": "Pourquoi Anna ne répond-elle pas ?",
+          "choix": ["La batterie de son portable est faible", "Elle dort", "Elle est occupée"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Telefonsvareren",
+      "titre_fr": "Le répondeur",
+      "no": "Hallo! Dette er Marie. Jeg er ikke hjemme nå. Legg igjen en beskjed, så ringer jeg tilbake.\nHei Marie, det er Jonas. Kan du ringe meg i kveld? Jeg er ledig etter klokka seks. Eller send meg en melding. Jeg vil gjerne snakke med deg om fredag. Det er viktig. Takk, vi ses snart!",
+      "fr": "Allô ! C'est Marie. Je ne suis pas à la maison maintenant. Laissez un message et je rappelle.\nSalut Marie, c'est Jonas. Peux-tu m'appeler ce soir ? Je suis libre après six heures. Ou envoie-moi un message. Je voudrais te parler de vendredi. C'est important. Merci, à bientôt !",
+      "aide": [
+        {"no": "legg igjen", "fr": "laissez"},
+        {"no": "om fredag", "fr": "de vendredi"}
+      ],
+      "questions": [
+        {
+          "q": "Qui appelle Marie ?",
+          "choix": ["Jonas", "Anna", "Per"],
+          "rep": 0
+        },
+        {
+          "q": "Quand Jonas est-il libre ?",
+          "choix": ["Après six heures", "Avant midi", "Toute la journée"],
+          "rep": 0
+        },
+        {
+          "q": "Que propose Jonas à la place d'un appel ?",
+          "choix": ["Envoyer un message", "Venir chez elle", "Écrire un courriel"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

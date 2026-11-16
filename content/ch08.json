@@ -240,5 +240,61 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Den nye leiligheten",
+      "titre_fr": "Le nouvel appartement",
+      "no": "Marie og Anna vil leie en leilighet i Bergen. De ser på en leilighet i tredje etasje. Den har to soverom, en stue og et kjøkken. Veggene er hvite, og gulvet er brunt. «Det er en balkong!» sier Anna. «Og det er en kjeller», sier Marie. Kjøkkenet er lite, men badet er fint. På badet er det en dusj og et stort speil. De ser på hverandre og smiler. «Her vil jeg bo!» sier Marie. På mandag flytter de inn.",
+      "fr": "Marie et Anna veulent louer un appartement à Bergen. Elles visitent un appartement au troisième étage. Il a deux chambres, un salon et une cuisine. Les murs sont blancs et le sol est marron. « Il y a un balcon ! » dit Anna. « Et il y a une cave », dit Marie. La cuisine est petite mais la salle de bain est belle. Dans la salle de bain, il y a une douche et un grand miroir. Elles se regardent et sourient. « Je veux habiter ici ! » dit Marie. Lundi, elles emménagent.",
+      "aide": [
+        {"no": "ser på", "fr": "regardent / visitent"},
+        {"no": "flytter inn", "fr": "emménagent"}
+      ],
+      "questions": [
+        {
+          "q": "À quel étage est l'appartement ?",
+          "choix": ["Au troisième", "Au premier", "Au cinquième"],
+          "rep": 0
+        },
+        {
+          "q": "Qu'y a-t-il en plus des pièces ?",
+          "choix": ["Un balcon et une cave", "Un garage", "Un jardin"],
+          "rep": 0
+        },
+        {
+          "q": "Quand emménagent-elles ?",
+          "choix": ["Lundi", "Vendredi", "Demain"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Hvor er nøkkelen?",
+      "titre_fr": "Où est la clé ?",
+      "no": "– Hvor er nøkkelen?\n– Den er på kjøkkenet, på bordet.\n– Nei, der er den ikke. Er den i stuen?\n– Se under sofaen! Eller er den på soverommet?\n– Jeg finner den ikke. Åh, her er den! Den er i lommen min.\n– Ha ha! Du er veldig trøtt i dag. Kom, vi går inn.",
+      "fr": "– Où est la clé ?\n– Elle est dans la cuisine, sur la table.\n– Non, elle n'y est pas. Est-elle dans le salon ?\n– Regarde sous le canapé ! Ou est-elle dans la chambre ?\n– Je ne la trouve pas. Ah, la voilà ! Elle est dans ma poche.\n– Ha ha ! Tu es très fatigué aujourd'hui. Viens, on entre.",
+      "aide": [
+        {"no": "åh", "fr": "ah"},
+        {"no": "kom", "fr": "viens"}
+      ],
+      "questions": [
+        {
+          "q": "Où est la clé finalement ?",
+          "choix": ["Dans sa poche", "Sur la table", "Sous le canapé"],
+          "rep": 0
+        },
+        {
+          "q": "Où la deuxième personne la cherche-t-elle d'abord ?",
+          "choix": ["Dans la cuisine, sur la table", "Dans le salon", "Dans la chambre"],
+          "rep": 0
+        },
+        {
+          "q": "Comment est la première personne aujourd'hui ?",
+          "choix": ["Très fatiguée", "Très contente", "Malade"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }
