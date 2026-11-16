@@ -239,5 +239,64 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Søndag i fjellet",
+      "titre_fr": "Dimanche en montagne",
+      "no": "På søndag vandrer Marie og Anna i fjellet. De har sekker med niste, og Jonas har en kikkert. Stien er lang, men veien er fin. Først går de gjennom en skog, og så kommer de til en topp. Der ser de mange fjell og en blå himmel. De spiser niste og drikker te. «Det er moro å vandre!» sier Marie. Om kvelden er de trøtte, men glade.",
+      "fr": "Dimanche, Marie et Anna font une randonnée en montagne. Elles ont des sacs à dos avec un repas et Jonas a des jumelles. Le sentier est long mais le chemin est beau. D'abord, elles traversent une forêt puis elles arrivent à un sommet. Là, elles voient beaucoup de montagnes et un ciel bleu. Elles mangent leur repas et boivent du thé. « C'est amusant de faire de la randonnée ! » dit Marie. Le soir, elles sont fatiguées mais contentes.",
+      "aide": [
+        {"no": "sekker", "fr": "sacs à dos"},
+        {"no": "gjennom", "fr": "à travers"},
+        {"no": "skog", "fr": "forêt"},
+        {"no": "topp", "fr": "sommet"},
+        {"no": "trøtte", "fr": "fatiguées"}
+      ],
+      "questions": [
+        {
+          "q": "Qui a des jumelles ?",
+          "choix": ["Jonas", "Marie", "Anna"],
+          "rep": 0
+        },
+        {
+          "q": "Que voient-elles au sommet ?",
+          "choix": ["Beaucoup de montagnes et un ciel bleu", "Une ville", "La mer"],
+          "rep": 0
+        },
+        {
+          "q": "Comment sont-elles le soir ?",
+          "choix": ["Fatiguées mais contentes", "Tristes", "Malades"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Hva liker du?",
+      "titre_fr": "Qu'aimes-tu ?",
+      "no": "– Hva liker du å gjøre på fritiden?\n– Jeg liker å male og å lese. Jeg samler også på bøker. Og du?\n– Jeg spiller gitar og synger. På lørdag går jeg på konsert.\n– Hva med sport?\n– Jeg trener tre ganger i uka, men jeg liker ikke fotball. Jeg vil heller svømme.\n– Det høres moro ut!",
+      "fr": "– Qu'aimes-tu faire pendant ton temps libre ?\n– J'aime peindre et lire. Je collectionne aussi les livres. Et toi ?\n– Je joue de la guitare et je chante. Samedi, je vais à un concert.\n– Et le sport ?\n– Je m'entraîne trois fois par semaine mais je n'aime pas le football. Je préfère nager.\n– Ça a l'air amusant !",
+      "aide": [
+        {"no": "fritiden", "fr": "le temps libre"},
+        {"no": "høres moro ut", "fr": "a l'air amusant"}
+      ],
+      "questions": [
+        {
+          "q": "Quels sont les loisirs de la première personne ?",
+          "choix": ["Peindre et lire", "Danser", "Faire du ski"],
+          "rep": 0
+        },
+        {
+          "q": "Que fait la deuxième personne samedi ?",
+          "choix": ["Elle va à un concert", "Elle fait du sport", "Elle voyage"],
+          "rep": 0
+        },
+        {
+          "q": "Que préfère la première personne comme sport ?",
+          "choix": ["La natation", "Le football", "Le tennis"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

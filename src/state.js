@@ -13,6 +13,7 @@ const fresh = () => ({
   equipped: { hat: null, top: null, acc: null, decor: 'plaine' },
   owned: [],
   badges: {},
+  stories: {},       // "6-lire" -> { done, best, date }
   daily: { date: null, c: {}, done: [] },
   stats: {
     seconds: 0, lessons: 0, perfect: 0, exercises: 0, chests: 0, reviewWords: 0,

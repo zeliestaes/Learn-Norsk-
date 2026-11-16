@@ -240,5 +240,62 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Første dag på kontoret",
+      "titre_fr": "Premier jour au bureau",
+      "no": "Det er Maries første dag på kontoret. Hun begynner klokka åtte. Sjefen viser henne rommet og presenterer kollegaene. De er veldig snille. Klokka ti har hun et møte, og hun forstår ikke alt. Klokka tolv tar hun en pause og spiser lunsj med en kollega. Etterpå får hun en oppgave: hun skal skrive en e-post. Klokka fire slutter hun. «Det er en lang, men fin dag!» sier hun.",
+      "fr": "C'est le premier jour de Marie au bureau. Elle commence à huit heures. Le chef lui montre la pièce et lui présente les collègues. Ils sont très gentils. À dix heures, elle a une réunion et elle ne comprend pas tout. À midi, elle fait une pause et déjeune avec une collègue. Ensuite, elle reçoit une tâche : elle doit écrire un courriel. À seize heures, elle finit. « C'est une longue mais belle journée ! » dit-elle.",
+      "aide": [
+        {"no": "viser", "fr": "montre"},
+        {"no": "snille", "fr": "gentils"},
+        {"no": "får", "fr": "reçoit"},
+        {"no": "skal", "fr": "doit"}
+      ],
+      "questions": [
+        {
+          "q": "À quelle heure Marie commence-t-elle ?",
+          "choix": ["À huit heures", "À neuf heures", "À dix heures"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure a-t-elle sa réunion ?",
+          "choix": ["À dix heures", "À midi", "À quatre heures"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure finit-elle ?",
+          "choix": ["À seize heures", "À quinze heures", "À dix-sept heures"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Hva jobber du som?",
+      "titre_fr": "Quel est ton métier ?",
+      "no": "– Hva jobber du som?\n– Jeg er sykepleier. Og du?\n– Jeg er ingeniør. Jeg jobber i et stort firma i Trondheim.\n– Liker du jobben?\n– Ja, kollegaene er snille, og lønnen er god. Men jeg har mange oppgaver.\n– Jeg har ferie i juli. Og du?\n– Jeg har to uker ferie i august.",
+      "fr": "– Quel est ton métier ?\n– Je suis infirmière. Et toi ?\n– Je suis ingénieur. Je travaille dans une grande entreprise à Trondheim.\n– Aimes-tu ton travail ?\n– Oui, les collègues sont gentils et le salaire est bon. Mais j'ai beaucoup de tâches.\n– J'ai des vacances en juillet. Et toi ?\n– J'ai deux semaines de vacances en août.",
+      "aide": [
+        {"no": "jobben", "fr": "le travail"}
+      ],
+      "questions": [
+        {
+          "q": "Quel est le métier de la première personne ?",
+          "choix": ["Infirmière", "Ingénieure", "Enseignante"],
+          "rep": 0
+        },
+        {
+          "q": "Dans quelle ville est l'entreprise ?",
+          "choix": ["Trondheim", "Oslo", "Bergen"],
+          "rep": 0
+        },
+        {
+          "q": "Quelles sont les vacances de la deuxième personne ?",
+          "choix": ["Deux semaines en août", "Une semaine en juillet", "Un mois en juin"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

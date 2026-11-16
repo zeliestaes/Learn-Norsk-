@@ -6,7 +6,7 @@ import { unitStatus, todayInfo, paceIndicator, unlockBonus, currentChapter, chap
 import { dueCount, dueWords, level5, learnedCount } from './leitner.js';
 import { levelInfo, todayQuests, BADGES, SHOP, owns, buy, equip, skillRate, a2Progress, checkBadges } from './game.js';
 import { avatarSVG, DECORS } from './avatar.js';
-import { speak, norwegianVoices, hasVoice, hasSynth } from './audio.js';
+import { speak, norwegianVoices, hasVoice, hasSynth, stop as stopAudio } from './audio.js';
 import { runSession } from './engine.js';
 import { buildLesson, buildSynth, buildReview, buildDrill } from './exercises.js';
 import { fold } from './text.js';
@@ -227,6 +227,7 @@ export function Chapter(app, id) {
       h('small', null, `${p.done}/${p.total} · ${words.length} mots`)),
     h('div', { class: 'list' }, items),
     practiceCard(ch),
+    storiesCard(ch),
     ch.ready ? h('button', {
       class: 'btn secondary', style: { marginTop: '16px' },
       onclick: async (e) => {
@@ -247,6 +248,100 @@ function practiceCard(ch) {
     h('h3', null, '🏋️ Entraînement libre'),
     h('p', { class: 'muted' }, `Autant de fois que tu veux, sur les ${seen} mots déjà vus de ce chapitre.`),
     h('div', { class: 'grid2' }, FOCI.map(([f, label]) => h('button', { class: 'btn ghost small', style: { width: '100%' }, onclick: () => go(`#/entrainement/${ch.id}/${f}`) }, label))));
+}
+
+const STORY_KINDS = [['lire', '📖', 'Histoire à lire'], ['ecouter', '🎧', 'Histoire audio avec transcription']];
+function storiesCard(ch) {
+  const hs = ch.data?.histoires;
+  if (!hs) return null;
+  const open = ch.units.filter((u) => u.kind === 'lesson').every(isDone);
+  return h('div', { class: 'card', style: { marginTop: '16px' } },
+    h('h3', null, 'Histoires du chapitre'),
+    h('p', { class: 'muted' }, 'Des petites histoires avec les mots du chapitre, et des questions pour vérifier que tu as compris.'),
+    h('div', { class: 'list', style: { marginTop: '10px' } }, STORY_KINDS.map(([k, ico, label]) => {
+      const st = hs[k], done = state.stories?.[`${ch.id}-${k}`]?.done;
+      return h('button', {
+        class: 'item' + (open ? '' : ' locked'),
+        onclick: () => (open ? go(`#/histoire/${ch.id}/${k}`) : toast('Termine d\'abord les leçons du chapitre.')),
+      }, h('span', { class: 'badge' }, done ? '✓' : open ? ico : '🔒'),
+        h('span', { class: 't' }, h('b', null, st.titre), h('small', null, done ? `Terminée · ${state.stories[`${ch.id}-${k}`].best} %` : label)));
+    })));
+}
+
+const stripDash = (l) => l.replace(/^[–-]\s*/, '');
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+export function Story(app, chId, kind) {
+  const ch = chapterById(+chId);
+  const st = ch?.data?.histoires?.[kind];
+  if (!st) return go('#/chapitre/' + chId);
+  const isAudio = kind === 'ecouter';
+  const voice = hasVoice();
+  const lines = st.no.split('\n').filter(Boolean);
+  const frLines = st.fr.split('\n').filter(Boolean);
+  const whole = lines.map(stripDash).join(' ');
+  let token = 0;
+
+  const back = () => { token++; stopAudio(); go('#/chapitre/' + ch.id); };
+  const playBtn = h('button', { class: 'btn' }, '▶️ Écouter l\'histoire');
+  const slowBtn = h('button', { class: 'btn ghost' }, '🐢 Écouter lentement');
+  const reset = () => { playBtn.textContent = '▶️ Écouter l\'histoire'; slowBtn.textContent = '🐢 Écouter lentement'; };
+  async function play(slow) {
+    if (playBtn.textContent.startsWith('⏹') || slowBtn.textContent.startsWith('⏹')) { token++; stopAudio(); return reset(); }
+    const my = ++token;
+    (slow ? slowBtn : playBtn).textContent = '⏹ Arrêter';
+    for (const l of lines) {
+      if (my !== token) return;
+      await speak(stripDash(l), { slow });
+      if (my !== token) return;
+      await sleep(slow ? 700 : 450);
+    }
+    if (my === token) reset();
+  }
+  playBtn.onclick = () => play(false);
+  slowBtn.onclick = () => play(true);
+
+  const showTranscript = !isAudio || !voice;
+  const transcript = h('div', { class: 'passage' + (showTranscript ? '' : ' hidden') },
+    lines.map((l) => h('p', null, l, ' ', voice ? h('button', { class: 'link', style: { padding: '0 4px' }, 'aria-label': 'Écouter cette phrase', onclick: () => speak(stripDash(l)) }, '🔊') : null)));
+  const translation = h('div', { class: 'passage hidden' }, frLines.map((l) => h('p', null, l)));
+  const toggle = (el) => el.classList.toggle('hidden');
+
+  const exercises = st.questions.map((q) => ({
+    type: 'question', passage: st, q, skill: isAudio ? 'listen' : 'read', ids: [],
+    listenText: isAudio && voice ? whole : null,
+  }));
+  const startQuiz = () => {
+    token++; stopAudio();
+    runSession(app, {
+      kind: 'story', storyId: `${ch.id}-${kind}`, chapter: ch, exercises,
+      onClose: () => go('#/chapitre/' + ch.id),
+      onRetry: () => Story(app, chId, kind),
+    });
+  };
+
+  app.replaceChildren(h('div', { class: 'screen no-nav' },
+    h('button', { class: 'back', onclick: back }, '← ' + ch.titre),
+    h('div', null, h('span', { class: 'tag' }, isAudio ? '🎧 Histoire audio' : '📖 Histoire à lire')),
+    h('h1', { style: { margin: '8px 0 2px' } }, st.titre),
+    h('p', { class: 'muted' }, st.titre_fr),
+    isAudio
+      ? h('div', null,
+        voice
+          ? h('div', { class: 'card tint-blue stack' },
+            h('p', { style: { margin: 0 } }, 'Écoute d\'abord sans lire, autant de fois que tu veux, puis réponds aux questions.'),
+            playBtn, slowBtn)
+          : h('div', { class: 'feedback', style: { background: 'var(--yellow)', marginBottom: '12px' } },
+            h('b', null, 'Pas de voix norvégienne détectée'), h('span', null, 'La transcription est affichée. Installe la voix « Nora » (Réglages) pour entendre l\'histoire.')),
+        h('button', { class: 'link', onclick: () => toggle(transcript) }, '📝 Afficher / cacher la transcription'))
+      : h('div', { class: 'row', style: { marginBottom: '10px' } },
+        voice ? h('button', { class: 'icon-btn', 'aria-label': 'Écouter', onclick: () => play(false) }, '🔊') : null),
+    transcript,
+    h('button', { class: 'link', onclick: () => toggle(translation) }, '🇫🇷 Afficher / cacher la traduction'),
+    translation,
+    st.aide?.length ? h('p', { class: 'gloss' }, 'Aide : ' + st.aide.map((a) => `${a.no} = ${a.fr}`).join(' · ')) : null,
+    h('div', { style: { height: '10px' } }),
+    h('button', { class: 'btn', onclick: startQuiz }, 'Questions de compréhension')));
 }
 
 export function Practice(app, chId, focus) {

@@ -240,5 +240,61 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Reisen til Molde",
+      "titre_fr": "Le voyage vers Molde",
+      "no": "Marie skal reise til Molde. Hun går til stasjonen og kjøper en billett. Toget går klokka åtte fra spor tre. Hun må bytte tog en gang. På toget leser hun en bok og ser ut av vinduet. Etter fem timer er hun i Molde. Anna venter ved holdeplassen med en bil. «Velkommen til Molde!» sier hun. De kjører til hotellet, og Marie har en reservasjon. Hun er trøtt, men veldig glad.",
+      "fr": "Marie va partir pour Molde. Elle va à la gare et achète un billet. Le train part à huit heures du quai trois. Elle doit changer de train une fois. Dans le train, elle lit un livre et regarde par la fenêtre. Au bout de cinq heures, elle est à Molde. Anna attend à l'arrêt avec une voiture. « Bienvenue à Molde ! » dit-elle. Elles vont à l'hôtel et Marie a une réservation. Elle est fatiguée mais très contente.",
+      "aide": [
+        {"no": "ser ut av", "fr": "regarde par"},
+        {"no": "etter", "fr": "après"}
+      ],
+      "questions": [
+        {
+          "q": "Que doit faire Marie pendant le voyage ?",
+          "choix": ["Changer de train une fois", "Prendre l'avion", "Prendre un ferry"],
+          "rep": 0
+        },
+        {
+          "q": "Combien de temps dure le voyage ?",
+          "choix": ["Cinq heures", "Deux heures", "Dix heures"],
+          "rep": 0
+        },
+        {
+          "q": "Comment Anna vient-elle chercher Marie ?",
+          "choix": ["En voiture", "À vélo", "En bus"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Over høyttaleren",
+      "titre_fr": "À la gare (annonce)",
+      "no": "God dag, kjære passasjerer! Toget til Trondheim går fra spor to klokka ti over ni. Toget til Molde går fra spor tre klokka halv ti. Toget til Oslo går fra spor fire klokka elleve. Bussen til flyplassen går fra holdeplassen ved stasjonen. Husk billetten og passet! Vi ønsker dere en god tur.",
+      "fr": "Bonjour, chers passagers ! Le train pour Trondheim part du quai deux à neuf heures dix. Le train pour Molde part du quai trois à neuf heures et demie. Le train pour Oslo part du quai quatre à onze heures. Le bus pour l'aéroport part de l'arrêt près de la gare. N'oubliez pas votre billet et votre passeport ! Nous vous souhaitons un bon voyage.",
+      "aide": [
+        {"no": "kjære", "fr": "chers"},
+        {"no": "husk", "fr": "n'oubliez pas"}
+      ],
+      "questions": [
+        {
+          "q": "De quel quai part le train pour Molde ?",
+          "choix": ["Quai trois", "Quai deux", "Quai quatre"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure part le train pour Molde ?",
+          "choix": ["Neuf heures et demie", "Neuf heures dix", "Onze heures"],
+          "rep": 0
+        },
+        {
+          "q": "D'où part le bus pour l'aéroport ?",
+          "choix": ["De l'arrêt près de la gare", "Du quai trois", "De l'hôtel"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

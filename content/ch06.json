@@ -251,5 +251,63 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Kaken til Anna",
+      "titre_fr": "Le gâteau d'Anna",
+      "no": "I dag er det Annas fødselsdag. Hun fyller tretti år, og Marie vil lage en stor kake. Hun trenger seks egg, to kopper mel og litt sukker. Jonas kjøper tretti lys til kaken. «Tretti lys er mange!» sier han. Marie teller dem: ti, tjue, tretti. Klokka fem kommer Anna. Hun ser kaken og smiler. «Tusen takk!» sier hun. «Jeg er ikke gammel, jeg er bare tretti!» Alle synger for henne.",
+      "fr": "Aujourd'hui, c'est l'anniversaire d'Anna. Elle a trente ans et Marie veut faire un grand gâteau. Elle a besoin de six œufs, de deux tasses de farine et d'un peu de sucre. Jonas achète trente bougies pour le gâteau. « Trente bougies, c'est beaucoup ! » dit-il. Marie les compte : dix, vingt, trente. À cinq heures, Anna arrive. Elle voit le gâteau et sourit. « Mille mercis ! » dit-elle. « Je ne suis pas vieille, j'ai seulement trente ans ! » Tout le monde chante pour elle.",
+      "aide": [
+        {"no": "lys", "fr": "bougies"},
+        {"no": "trenger", "fr": "a besoin de"},
+        {"no": "kjøper", "fr": "achète"},
+        {"no": "bare", "fr": "seulement"},
+        {"no": "synger", "fr": "chantent"}
+      ],
+      "questions": [
+        {
+          "q": "Quel âge Anna fête-t-elle ?",
+          "choix": ["Trente ans", "Vingt-neuf ans", "Vingt-six ans"],
+          "rep": 0
+        },
+        {
+          "q": "De combien d'œufs Marie a-t-elle besoin ?",
+          "choix": ["Six", "Cinq", "Douze"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure Anna arrive-t-elle ?",
+          "choix": ["À cinq heures", "À quatre heures", "À six heures"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Hvor gammel er du?",
+      "titre_fr": "Quel âge as-tu ?",
+      "no": "– Unnskyld, hvor gammel er du?\n– Jeg er trettiåtte år gammel. Og du?\n– Jeg er tjueseks. Jeg har en bror, og han er førti.\n– Min mor er sytti år gammel, og min far er seksti.\n– Bestefaren min er nitti! Han fyller hundre år om ti år.\n– Så mange tall! Jeg kan telle til hundre, men ikke til tusen.",
+      "fr": "– Excuse-moi, quel âge as-tu ?\n– J'ai trente-huit ans. Et toi ?\n– J'ai vingt-six ans. J'ai un frère et il a quarante ans.\n– Ma mère a soixante-dix ans et mon père soixante.\n– Mon grand-père a quatre-vingt-dix ans ! Il aura cent ans dans dix ans.\n– Que de nombres ! Je sais compter jusqu'à cent mais pas jusqu'à mille.",
+      "aide": [
+        {"no": "om ti år", "fr": "dans dix ans"}
+      ],
+      "questions": [
+        {
+          "q": "Quel âge a la première personne ?",
+          "choix": ["Trente-huit ans", "Vingt-six ans", "Quarante ans"],
+          "rep": 0
+        },
+        {
+          "q": "Quel âge a le frère de la deuxième personne ?",
+          "choix": ["Quarante ans", "Soixante ans", "Trente-huit ans"],
+          "rep": 0
+        },
+        {
+          "q": "Dans combien d'années le grand-père aura-t-il cent ans ?",
+          "choix": ["Dans dix ans", "Dans vingt ans", "Dans cinq ans"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

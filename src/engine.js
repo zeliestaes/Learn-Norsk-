@@ -139,7 +139,14 @@ export function runSession(app, opts) {
     const firstTime = opts.unit && !state.units[opts.unit.id]?.done;
 
     const reviewLike = opts.kind === 'review' || (opts.kind === 'drill' && !opts.unit);
-    if (!reviewLike) {
+    const isStory = opts.kind === 'story';
+    if (isStory) {
+      const prev = state.stories[opts.storyId] || {};
+      state.stories[opts.storyId] = { done: true, best: Math.max(prev.best || 0, pct), date: today() };
+      state.stats.stories = (state.stats.stories || 0) + 1;
+      if (!prev.done) bonusCoins += 10;
+      if (perfect) bonusXp += 20;
+    } else if (!reviewLike) {
       if (passed) {
         bonusCoins += 10;
         if (perfect) { bonusXp += 30; bonusCoins += 15; state.stats.perfect++; bump('perfect'); }
@@ -188,8 +195,8 @@ export function runSession(app, opts) {
       }, 120);
     }
 
-    const title = !passed ? 'Presque !' : perfect ? 'Parfait ! 🎉' : opts.kind === 'review' ? 'Révision terminée' : opts.kind === 'drill' ? 'Entraînement terminé !' : isSynth ? 'Chapitre validé ! 🏔️' : 'Leçon terminée !';
-    const msg = opts.kind === 'drill' ? 'Plus tu répètes, mieux tu retiens. Bravo !' : !passed
+    const title = !passed ? 'Presque !' : perfect ? 'Parfait ! 🎉' : opts.kind === 'review' ? 'Révision terminée' : opts.kind === 'drill' ? 'Entraînement terminé !' : isStory ? 'Histoire terminée !' : isSynth ? 'Chapitre validé ! 🏔️' : 'Leçon terminée !';
+    const msg = isStory ? 'Tu comprends de mieux en mieux le norvégien !' : opts.kind === 'drill' ? 'Plus tu répètes, mieux tu retiens. Bravo !' : !passed
       ? `Il faut 70 % pour valider la synthèse. Tu as fait ${pct} %. Retente-la, tu y es presque !`
       : isSynth ? `Bravo, tu continues vers le nord !` : perfect ? 'Aucune erreur, impressionnant.' : 'Chaque leçon te rapproche du A2.';
 

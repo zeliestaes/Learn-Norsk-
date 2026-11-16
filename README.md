@@ -30,9 +30,13 @@ scripts/build-sw.js                       régénère la liste de fichiers hors 
 - Sur la page de chaque chapitre, l'**entraînement libre** (4 thèmes) est répétable à volonté ; l'écran Réviser propose aussi un entraînement ciblé sur tous les mots appris.
 - Le programme à rythme quotidien (chapitres 6 à 34) compte 29 × 7 = 203 étapes, soit environ 25 jours d'avance sur le 30 juin 2027. Les chapitres 1 à 5 sont ouverts dès le début.
 
+## Histoires (chapitres 6 et suivants)
+
+Chaque chapitre à partir du 6 contient une **histoire à lire** et une **histoire audio** (lue par la voix norvégienne, avec transcription et traduction masquables), avec 3 questions de compréhension chacune. Elles réutilisent les mots du chapitre et s'ouvrent quand les leçons sont terminées. Dans le JSON : champ `histoires` → `lire` et `ecouter` (`titre`, `titre_fr`, `no`, `fr`, `aide`, `questions`). Pour l'audio, une réplique de dialogue = une ligne (`\n`). Les PDF de chapitre les incluent.
+
 ## Corriger ou ajouter du contenu
 
-1. Modifie `content/chNN.json`. Chaque mot : `no`, `fr`, `pron`, `ex`, `ex_fr`.
+1. Modifie `content/chNN.json` (à partir du chapitre 6, n'oublie pas le champ `histoires`). Chaque mot : `no`, `fr`, `pron`, `ex`, `ex_fr`.
    Noms avec article (`en kaffe`, `ei søster`, `et brød`), verbes avec `å`.
 2. Pour publier un nouveau chapitre, mets son nom de fichier dans `content/index.json` (`"fichier": "ch07.json"`).
 3. Vérifie : `npm run validate`.

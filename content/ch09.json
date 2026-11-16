@@ -245,5 +245,58 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Anna er sent ute",
+      "titre_fr": "Anna est en retard",
+      "no": "Anna våkner klokka åtte. Hun har en time klokka ni, så hun må skynde seg. Hun dusjer, kler på seg og tar ikke frokost. Hun løper til timen og kommer sent. Marie har en plass til henne. Etterpå spiser de lunsj sammen. Anna er sulten og trøtt. «Jeg legger meg tidlig i kveld», sier hun. Om kvelden hviler hun seg og ser på en film. Klokka ti sover hun.",
+      "fr": "Anna se réveille à huit heures. Elle a cours à neuf heures donc elle doit se dépêcher. Elle se douche, s'habille et ne prend pas de petit-déjeuner. Elle court au cours et arrive en retard. Marie lui a gardé une place. Ensuite, elles déjeunent ensemble. Anna a faim et elle est fatiguée. « Je me couche tôt ce soir », dit-elle. Le soir, elle se repose et regarde un film. À dix heures, elle dort.",
+      "aide": [
+        {"no": "plass", "fr": "place"},
+        {"no": "kommer sent", "fr": "arrive en retard"}
+      ],
+      "questions": [
+        {
+          "q": "À quelle heure Anna se réveille-t-elle ?",
+          "choix": ["À huit heures", "À sept heures", "À neuf heures"],
+          "rep": 0
+        },
+        {
+          "q": "Que ne fait-elle pas le matin ?",
+          "choix": ["Prendre le petit-déjeuner", "Se doucher", "S'habiller"],
+          "rep": 0
+        },
+        {
+          "q": "Que fait-elle le soir ?",
+          "choix": ["Elle se repose et regarde un film", "Elle fait du sport", "Elle va au cinéma"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Min dag",
+      "titre_fr": "Ma journée",
+      "no": "Jeg våkner klokka sju. Jeg står opp og dusjer. Så spiser jeg frokost og drikker kaffe. Klokka åtte går jeg på en kafé. Der leser jeg en bok og skriver en tekst. Klokka tolv spiser jeg lunsj med Anna. Om ettermiddagen går vi en tur. Om kvelden ser jeg en film, og klokka ti legger jeg meg.",
+      "fr": "Je me réveille à sept heures. Je me lève et je me douche. Puis je prends mon petit-déjeuner et je bois du café. À huit heures, je vais dans un café. Là, je lis un livre et j'écris un texte. À midi, je déjeune avec Anna. L'après-midi, nous faisons une promenade. Le soir, je regarde un film et à dix heures je me couche.",
+      "aide": [],
+      "questions": [
+        {
+          "q": "À quelle heure la personne se réveille-t-elle ?",
+          "choix": ["À sept heures", "À huit heures", "À six heures"],
+          "rep": 0
+        },
+        {
+          "q": "Avec qui déjeune-t-elle ?",
+          "choix": ["Avec Anna", "Avec Jonas", "Seule"],
+          "rep": 0
+        },
+        {
+          "q": "À quelle heure se couche-t-elle ?",
+          "choix": ["À dix heures", "À onze heures", "À neuf heures"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

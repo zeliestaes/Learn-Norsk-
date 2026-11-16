@@ -242,5 +242,60 @@
         "rep": 0
       }
     ]
+  },
+  "histoires": {
+    "lire": {
+      "titre": "Veien til torget",
+      "titre_fr": "Le chemin vers la place",
+      "no": "Marie er ny i Ålesund og vil finne torget. Hun spør en dame om veien. «Gå rett fram og ta andre gate til høyre», sier damen. «Så ser du en kirke. Torget ligger bak kirken.» Marie går og svinger til høyre. Hun ser kirken og går forbi den. Bak kirken er torget, og der er det mange mennesker. Anna står foran banken. «Hei!» sier Marie. «Nå vet jeg veien!»",
+      "fr": "Marie est nouvelle à Ålesund et veut trouver la place. Elle demande son chemin à une dame. « Allez tout droit et prenez la deuxième rue à droite », dit la dame. « Ensuite, vous verrez une église. La place se trouve derrière l'église. » Marie marche et tourne à droite. Elle voit l'église et passe devant. Derrière l'église, il y a la place et là il y a beaucoup de monde. Anna est devant la banque. « Salut ! » dit Marie. « Maintenant, je connais le chemin ! »",
+      "aide": [
+        {"no": "ny", "fr": "nouvelle"},
+        {"no": "forbi", "fr": "devant / en passant"}
+      ],
+      "questions": [
+        {
+          "q": "Où se trouve la place ?",
+          "choix": ["Derrière l'église", "Devant la banque", "À côté du pont"],
+          "rep": 0
+        },
+        {
+          "q": "Quelle rue faut-il prendre à droite ?",
+          "choix": ["La deuxième", "La première", "La troisième"],
+          "rep": 0
+        },
+        {
+          "q": "Qui attend devant la banque ?",
+          "choix": ["Anna", "Jonas", "Per"],
+          "rep": 0
+        }
+      ]
+    },
+    "ecouter": {
+      "titre": "Til postkontoret",
+      "titre_fr": "Vers la poste",
+      "no": "– Unnskyld, hvor er postkontoret?\n– Gå rett fram til krysset. Ta til venstre.\n– Til venstre?\n– Ja, og så første gate til høyre. Postkontoret ligger ved siden av banken.\n– Er det langt?\n– Nei, det er nær. Det tar fem minutter.\n– Og torget?\n– Torget er bak kirken.\n– Mange takk!\n– Ingen årsak, ha en fin dag!",
+      "fr": "– Excusez-moi, où est le bureau de poste ?\n– Allez tout droit jusqu'au carrefour. Tournez à gauche.\n– À gauche ?\n– Oui, puis la première rue à droite. Le bureau de poste se trouve à côté de la banque.\n– C'est loin ?\n– Non, c'est proche. Ça prend cinq minutes.\n– Et la place ?\n– La place est derrière l'église.\n– Merci beaucoup !\n– De rien, bonne journée !",
+      "aide": [
+        {"no": "det tar", "fr": "ça prend"}
+      ],
+      "questions": [
+        {
+          "q": "Où faut-il tourner au carrefour ?",
+          "choix": ["À gauche", "À droite", "Tout droit"],
+          "rep": 0
+        },
+        {
+          "q": "Combien de temps faut-il ?",
+          "choix": ["Cinq minutes", "Dix minutes", "Une heure"],
+          "rep": 0
+        },
+        {
+          "q": "À côté de quoi se trouve la poste ?",
+          "choix": ["De la banque", "De l'église", "De la place"],
+          "rep": 0
+        }
+      ]
+    }
   }
 }

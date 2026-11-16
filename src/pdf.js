@@ -113,6 +113,24 @@ function buildDoc(jsPDF, ch) {
     s.fr.split('\n').forEach((p) => block(p, { size: 9.5, style: 'italic', color: SOFT, gap: 0.8 }));
   }
 
+  // --- Histoires ---
+  const hs = ch.data.histoires;
+  if (hs) {
+    [['lire', 'Histoire à lire'], ['ecouter', 'Histoire audio (transcription)']].forEach(([k, label]) => {
+      const t = hs[k];
+      if (!t) return;
+      need(40);
+      doc.setFillColor(249, 211, 225); doc.roundedRect(M, y, CW, 9, 2, 2, 'F');
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(12); doc.setTextColor(...INK);
+      doc.text(clean(`${label} : ${t.titre}`), M + 3, y + 6.2);
+      y += 13;
+      t.no.split('\n').forEach((p) => block(p, { size: 10, style: 'bold', gap: 0.8 }));
+      y += 1;
+      t.fr.split('\n').forEach((p) => block(p, { size: 9.5, style: 'italic', color: SOFT, gap: 0.8 }));
+      y += 6;
+    });
+  }
+
   // --- Pieds de page ---
   const n = doc.getNumberOfPages();
   for (let i = 1; i <= n; i++) {
