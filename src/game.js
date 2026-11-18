@@ -21,19 +21,41 @@ export function levelInfo(xp = state.xp) {
 
 // ---------- Boutique ----------
 export const SHOP = [
+  // Couvre-chefs
   { id: 'hat_bonnet', slot: 'hat', e: '🧶', name: 'Bonnet à pompon', price: 60 },
-  { id: 'hat_viking', slot: 'hat', e: '🪖', name: 'Casque viking', price: 220 },
+  { id: 'hat_nordique', slot: 'hat', e: '❄️', name: 'Bonnet à motifs nordiques', price: 80 },
+  { id: 'hat_couronne', slot: 'hat', e: '🌸', name: 'Couronne de fleurs (fête de l\'été)', price: 90 },
   { id: 'hat_chapeau', slot: 'hat', e: '👒', name: 'Chapeau de randonnée', price: 120 },
+  { id: 'hat_viking', slot: 'hat', e: '🪖', name: 'Casque viking', price: 220 },
+  // Tenues
+  { id: 'top_echarpe', slot: 'top', e: '🧣', name: 'Écharpe rouge', price: 70 },
   { id: 'top_pull', slot: 'top', e: '🧥', name: 'Pull norvégien', price: 90 },
   { id: 'top_cire', slot: 'top', e: '🌧️', name: 'Ciré jaune', price: 140 },
-  { id: 'top_echarpe', slot: 'top', e: '🧣', name: 'Écharpe rouge', price: 70 },
-  { id: 'acc_jumelles', slot: 'acc', e: '🔭', name: 'Jumelles', price: 110 },
+  { id: 'top_ski', slot: 'top', e: '⛷️', name: 'Tenue de ski', price: 150 },
+  { id: 'top_lusekofte', slot: 'top', e: '🖤', name: 'Lusekofte (pull de Setesdal)', price: 170 },
+  { id: 'top_viking', slot: 'top', e: '🛡️', name: 'Tunique viking', price: 220 },
+  { id: 'top_bunad', slot: 'top', e: '👑', name: 'Bunad (costume traditionnel)', price: 320 },
+  // Visage
+  { id: 'face_lunettes', slot: 'face', e: '👓', name: 'Lunettes rondes', price: 50 },
+  { id: 'face_soleil', slot: 'face', e: '🕶️', name: 'Lunettes de soleil', price: 60 },
+  { id: 'face_barbe', slot: 'face', e: '🧔', name: 'Barbe de viking', price: 100 },
+  // Accessoires
+  { id: 'acc_cafe', slot: 'acc', e: '☕', name: 'Tasse de café fumante', price: 40 },
+  { id: 'acc_drapeau', slot: 'acc', e: '🇳🇴', name: 'Drapeau norvégien', price: 60 },
   { id: 'acc_sac', slot: 'acc', e: '🎒', name: 'Sac à dos', price: 80 },
+  { id: 'acc_jumelles', slot: 'acc', e: '🔭', name: 'Jumelles', price: 110 },
+  { id: 'acc_skis', slot: 'acc', e: '🎿', name: 'Skis', price: 120 },
   { id: 'acc_appareil', slot: 'acc', e: '📷', name: 'Appareil photo', price: 130 },
-  { id: 'decor_plaine', slot: 'decor', e: '🌿', name: 'Décor : prairie', price: 0 },
-  { id: 'decor_aurore', slot: 'decor', e: '🌌', name: 'Décor : aurore boréale', price: 180 },
-  { id: 'decor_fjord', slot: 'decor', e: '🌊', name: 'Décor : fjord', price: 150 },
-  { id: 'decor_neige', slot: 'decor', e: '❄️', name: 'Décor : montagne enneigée', price: 160 },
+  { id: 'acc_orque', slot: 'acc', e: '🐋', name: 'Peluche d\'orque', price: 140 },
+  // Décors
+  { id: 'decor_plaine', slot: 'decor', e: '🌿', name: 'Prairie et maison rouge', price: 0 },
+  { id: 'decor_foret', slot: 'decor', e: '🌲', name: 'Forêt de sapins', price: 150 },
+  { id: 'decor_fjord', slot: 'decor', e: '🌊', name: 'Fjord', price: 150 },
+  { id: 'decor_neige', slot: 'decor', e: '❄️', name: 'Montagne enneigée', price: 160 },
+  { id: 'decor_coucher', slot: 'decor', e: '🌅', name: 'Coucher de soleil', price: 170 },
+  { id: 'decor_aurore', slot: 'decor', e: '🌌', name: 'Aurore boréale', price: 180 },
+  { id: 'decor_mer', slot: 'decor', e: '🐳', name: 'La mer et les orques', price: 200 },
+  { id: 'decor_lofoten', slot: 'decor', e: '🏘️', name: 'Port des Lofoten', price: 220 },
 ];
 export const owns = (id) => id.endsWith('plaine') || state.owned.includes(id);
 export function buy(id) {

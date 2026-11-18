@@ -5,7 +5,7 @@ import { C, chapterById, unitById, chapterWords, FOCUS_LABEL } from './content.j
 import { unitStatus, todayInfo, paceIndicator, unlockBonus, currentChapter, chapterProgress, isDone, doneCourse, totalCourse, daysSince } from './schedule.js';
 import { dueCount, dueWords, level5, learnedCount } from './leitner.js';
 import { levelInfo, todayQuests, BADGES, SHOP, owns, buy, equip, skillRate, a2Progress, checkBadges } from './game.js';
-import { avatarSVG, DECORS } from './avatar.js';
+import { avatarSVG, decorSVG, sceneHTML, GENDERS, SKINS, HAIR_COLORS, EYE_COLORS, HAIR_STYLES } from './avatar.js';
 import { speak, norwegianVoices, hasVoice, hasSynth, stop as stopAudio } from './audio.js';
 import { runSession } from './engine.js';
 import { buildLesson, buildSynth, buildReview, buildDrill, buildRecap, buildBilan } from './exercises.js';
@@ -456,11 +456,14 @@ export function Profile(app) {
   };
   const nBadges = Object.keys(state.badges).length;
   app.replaceChildren(h('div', { class: 'screen' },
-    h('div', { class: 'card', style: { background: DECORS[state.equipped.decor] || DECORS.plaine, textAlign: 'center', border: 0 } },
-      h('div', { html: avatarSVG(state.equipped, 110) }),
-      h('h1', { style: { color: state.equipped.decor === 'aurore' ? '#fff' : 'inherit' } }, `${li.emoji} ${li.name}`),
-      h('div', { style: { margin: '8px 20px 0' } }, h('div', { class: 'bar' }, h('i', { style: { width: Math.round(li.pct * 100) + '%' } }))),
-      h('small', { style: { color: state.equipped.decor === 'aurore' ? '#fff' : undefined } }, li.next ? `${state.xp} XP · encore ${li.toNext} XP pour ${li.next.name}` : `${state.xp} XP`)),
+    h('div', { html: sceneHTML(state.equipped, state.look, 150) }),
+    h('div', { style: { textAlign: 'center', margin: '-4px 0 14px' } },
+      h('h1', null, `${li.emoji} ${li.name}`),
+      h('div', { style: { margin: '8px 24px 2px' } }, h('div', { class: 'bar' }, h('i', { style: { width: Math.round(li.pct * 100) + '%' } }))),
+      h('small', null, li.next ? `${state.xp} XP · encore ${li.toNext} XP pour ${li.next.name}` : `${state.xp} XP`),
+      h('div', { class: 'row', style: { marginTop: '12px' } },
+        h('button', { class: 'btn secondary small', style: { flex: 1 }, onclick: () => go('#/personnage') }, '🎨 Mon personnage'),
+        h('button', { class: 'btn secondary small', style: { flex: 1 }, onclick: () => go('#/boutique') }, '🛍️ Boutique'))),
     h('div', { class: 'card' },
       h('div', { class: 'statusline' }, h('h3', null, 'Vers le niveau A2'), h('b', null, a2 + ' %')),
       h('div', { class: 'bar', style: { margin: '8px 0' } }, h('i', { style: { width: a2 + '%' } })),
@@ -478,26 +481,60 @@ export function Profile(app) {
 }
 
 // ======================================================================
+// MON PERSONNAGE (créateur gratuit)
+// ======================================================================
+export function Character(app) {
+  const L = state.look;
+  const set = (k, v) => { L[k] = v; save(); draw(); };
+  const draw = () => {
+    const sw = (colors, key, label) => h('div', { class: 'swatches' }, colors.map((c, i) => {
+      const hex = Array.isArray(c) ? c[0] : c;
+      return h('button', { class: 'sw' + (L[key] === i ? ' on' : ''), style: { background: hex }, 'aria-label': Array.isArray(c) ? c[1] : label, onclick: () => set(key, i) });
+    }));
+    app.replaceChildren(h('div', { class: 'screen' },
+      h('button', { class: 'back', onclick: () => go('#/profil') }, '← Profil'),
+      h('div', { html: sceneHTML(state.equipped, state.look, 170) }),
+      h('div', { class: 'card' }, h('h3', { style: { marginBottom: '8px' } }, 'Genre'),
+        h('div', { class: 'chips' }, GENDERS.map(([g, label]) => h('button', { class: 'chip' + (L.gender === g ? ' on' : ''), onclick: () => set('gender', g) }, label)))),
+      h('div', { class: 'card' }, h('h3', { style: { marginBottom: '8px' } }, 'Peau'), sw(SKINS, 'skin', 'Teint')),
+      h('div', { class: 'card' }, h('h3', { style: { marginBottom: '8px' } }, 'Coiffure'),
+        h('div', { class: 'hairgrid' }, HAIR_STYLES.map(([k, label]) => h('button', { class: 'chip' + (L.hair === k ? ' on' : ''), onclick: () => set('hair', k) },
+          h('span', { html: avatarSVG({}, 54, { ...L, hair: k }, true) }), label)))),
+      h('div', { class: 'card' }, h('h3', { style: { marginBottom: '8px' } }, 'Couleur des cheveux'), sw(HAIR_COLORS, 'hairColor', 'Cheveux')),
+      h('div', { class: 'card' }, h('h3', { style: { marginBottom: '8px' } }, 'Yeux'), sw(EYE_COLORS, 'eyes', 'Yeux')),
+      h('p', { class: 'muted', style: { textAlign: 'center' } }, 'Tout est gratuit ici. Les tenues, accessoires et décors s\'achètent dans la boutique.'),
+      h('button', { class: 'btn', onclick: () => go('#/boutique') }, '🛍️ Aller à la boutique')));
+  };
+  draw();
+}
+
+
+
+// ======================================================================
 // BOUTIQUE
 // ======================================================================
 export function Shop(app) {
   const draw = () => {
-    const slots = { hat: 'Couvre-chefs', top: 'Tenues', acc: 'Accessoires', decor: 'Décors' };
+    const slots = { top: 'Tenues', hat: 'Couvre-chefs', face: 'Visage', acc: 'Accessoires', decor: 'Décors' };
     const isOn = (it) => (it.slot === 'decor' ? state.equipped.decor === it.id.replace('decor_', '') : state.equipped[it.slot] === it.id);
+    const thumb = (it) => (it.slot === 'decor'
+      ? h('div', { class: 'thumb', html: decorSVG(it.id.replace('decor_', '')) })
+      : h('div', { class: 'thumb', html: avatarSVG({ [it.slot]: it.id }, 52, state.look, it.slot === 'hat' || it.slot === 'face') }));
     app.replaceChildren(h('div', { class: 'screen' },
       h('button', { class: 'back', onclick: () => go('#/profil') }, '← Mon voyage'),
-      h('div', { class: 'card', style: { background: DECORS[state.equipped.decor] || DECORS.plaine, textAlign: 'center', border: 0 } },
-        h('div', { html: avatarSVG(state.equipped, 120) }),
-        h('span', { class: 'pill' }, '🪙 ' + state.coins + ' kr')),
+      h('div', { html: sceneHTML(state.equipped, state.look, 150) }),
+      h('div', { class: 'row', style: { justifyContent: 'space-between', margin: '-4px 0 14px' } },
+        h('span', { class: 'pill' }, '🪙 ' + state.coins + ' kr'),
+        h('button', { class: 'btn secondary small', onclick: () => go('#/personnage') }, '🎨 Mon personnage')),
       ...Object.entries(slots).map(([slot, name]) => h('div', { style: { marginBottom: '16px' } },
         h('h3', { style: { margin: '6px 0 8px' } }, name),
         h('div', { class: 'list' }, SHOP.filter((s) => s.slot === slot).map((it) => {
           const have = owns(it.id);
           return h('div', { class: 'shop-item' },
-            h('span', { class: 'e' }, it.e),
+            thumb(it),
             h('div', { class: 't' }, h('b', null, it.name), h('small', null, have ? (isOn(it) ? 'Porté' : 'Possédé') : `${it.price} kr`)),
             have
-              ? h('button', { class: 'btn small ' + (isOn(it) ? 'ghost' : 'secondary'), onclick: () => { equip(it.id); draw(); } }, isOn(it) ? (it.slot === 'decor' ? 'Actif' : 'Retirer') : 'Porter')
+              ? h('button', { class: 'btn small ' + (isOn(it) ? 'ghost' : 'secondary'), onclick: () => { equip(it.id); draw(); } }, isOn(it) ? (it.slot === 'decor' ? 'Actif' : 'Retirer') : (it.slot === 'decor' ? 'Choisir' : 'Porter'))
               : h('button', { class: 'btn small', disabled: state.coins < it.price, onclick: () => { if (buy(it.id)) { toast(`${it.name} acheté !`); checkBadges(); draw(); } } }, 'Acheter'));
         }))))));
   };

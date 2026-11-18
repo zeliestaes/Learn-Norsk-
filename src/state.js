@@ -10,7 +10,8 @@ const fresh = () => ({
   chapters: {},   // id -> { validated, best, date }
   xp: 0, coins: 0,
   streak: 0, bestStreak: 0, lastActive: null, freezes: 0,
-  equipped: { hat: null, top: null, acc: null, decor: 'plaine' },
+  equipped: { hat: null, top: null, face: null, acc: null, decor: 'plaine' },
+  look: { gender: 'm', skin: 1, hair: 'court', hairColor: 2, eyes: 0 },
   owned: [],
   badges: {},
   stories: {},       // "6-lire" -> { done, best, date }
