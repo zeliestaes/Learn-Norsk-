@@ -62,6 +62,10 @@ Voix norvégienne : Réglages iPhone → Accessibilité → Contenu énoncé →
 
 Sur la page de chaque chapitre, le bouton **Télécharger le PDF** génère (dans l'appli, y compris hors ligne) un PDF avec le vocabulaire, les phrases d'exemple, la grammaire et les textes. Il se met à jour tout seul quand le contenu change. Bibliothèque : jsPDF (`assets/vendor/`).
 
+## Personnage et boutique
+
+L'écran **Mon personnage** (gratuit) permet de choisir le genre, la peau, la coiffure (8), la couleur des cheveux (9) et des yeux (5). La **boutique** propose des tenues (dont le bunad, le pull de Setesdal, la tenue de ski, la tunique viking), des couvre-chefs, des accessoires de visage et 8 décors illustrés. Tout est dessiné en SVG dans `src/avatar.js` (aucune image externe).
+
 ## Sauvegarde
 
 La progression est dans IndexedDB (sur l'appareil). Utilise **Réglages → Exporter** de temps en temps :

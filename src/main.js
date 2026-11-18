@@ -42,6 +42,7 @@ function route() {
     else if (a === 'lexique') { S.Lexicon(app); tab = '#/lexique'; }
     else if (a === 'profil') { S.Profile(app); tab = '#/profil'; }
     else if (a === 'boutique') { S.Shop(app); tab = '#/profil'; }
+    else if (a === 'personnage') { S.Character(app); tab = '#/profil'; }
     else if (a === 'reglages') { S.Settings(app); tab = '#/reglages'; }
     else { S.Home(app); tab = '#/'; }
   } catch (e) {
