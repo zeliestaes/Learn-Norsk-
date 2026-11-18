@@ -38,6 +38,11 @@ function checkText(where, t, minW, maxW, nQ) {
 }
 
 for (const c of index.chapters) {
+  if (c.revision) {
+    const ok = Array.isArray(c.couvre) && c.couvre.length === 5 && c.couvre.every((id) => index.chapters.some((x) => x.id === id && !x.revision));
+    if (!ok) err(`Révision ${c.id} : « couvre » doit lister 5 chapitres existants`);
+    continue;
+  }
   if (!c.fichier) { console.log(`Chapitre ${c.id} : ${c.titre} — pas encore écrit`); continue; }
   const f = c.fichier;
   if (!fs.existsSync(path.join(dir, f))) { err(`${f} introuvable`); continue; }

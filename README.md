@@ -28,7 +28,8 @@ scripts/build-sw.js                       régénère la liste de fichiers hors 
 - Chapitres 6 et suivants : 5 leçons (40 mots) + **1 entraînement mixte** + synthèse = 7 étapes.
 - Les entraînements ne contiennent **aucun mot nouveau** : ils génèrent des exercices sur les mots déjà vus (les moins bien connus d'abord). Ils s'ouvrent quand toutes les leçons du chapitre sont terminées.
 - Sur la page de chaque chapitre, l'**entraînement libre** (4 thèmes) est répétable à volonté ; l'écran Réviser propose aussi un entraînement ciblé sur tous les mots appris.
-- Le programme à rythme quotidien (chapitres 6 à 34) compte 29 × 7 = 203 étapes, soit environ 25 jours d'avance sur le 30 juin 2027. Les chapitres 1 à 5 sont ouverts dès le début.
+- **Chapitres de révision** (★ sur la carte) après les chapitres 5, 10, 15, 20, 25 et 30 : un résumé des 5 chapitres précédents suivi d'un entraînement sur les mots les plus fragiles, puis un bilan à réussir à 70 % (coffre-surprise). Ils sont définis dans `content/index.json` (`revision`, `couvre`) et générés automatiquement à partir du contenu des chapitres.
+- Le programme à rythme quotidien (chapitres 6 à 34 + 5 révisions) compte 29 × 7 + 5 × 2 = 213 étapes, soit environ 16 jours d'avance sur le 30 juin 2027. Les chapitres 1 à 5 et la première révision sont ouverts à la demande.
 
 ## Histoires (chapitres 6 et suivants)
 

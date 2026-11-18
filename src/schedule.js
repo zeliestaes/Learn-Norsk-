@@ -13,6 +13,13 @@ export function availableCount() { return daysSince() + 1 + (state.bonus || 0); 
 export function unitStatus(u) {
   const done = isDone(u);
   if (!u.ready) return { open: false, done, reason: 'soon' };
+  if (!done && (u.kind === 'recap' || (u.kind === 'synth' && C.chapters.find((c) => c.id === u.ch)?.revision))) {
+    const rc = C.chapters.find((c) => c.id === u.ch);
+    const covered = rc.couvre.map((id) => C.chapters.find((c) => c.id === id));
+    const allDone = covered.every((c) => c.units.filter((x) => x.kind === 'lesson' || x.kind === 'synth').every(isDone));
+    if (!allDone) return { open: false, done, reason: 'coverage', from: rc.couvre[0], to: rc.couvre[rc.couvre.length - 1] };
+    if (u.kind === 'synth' && !isDone(rc.units[0])) return { open: false, done, reason: 'order' };
+  }
   if (u.kind === 'drill' && !done) {
     const ch = C.chapters.find((c) => c.id === u.ch);
     if (!ch.units.filter((x) => x.kind === 'lesson').every(isDone)) return { open: false, done, reason: 'lessons' };
