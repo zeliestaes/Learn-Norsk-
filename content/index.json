@@ -31,6 +31,20 @@
    "fichier": "ch05.json"
   },
   {
+   "id": 105,
+   "titre": "Bilan : chapitres 1 à 5",
+   "etape": "Mjøsa",
+   "fichier": null,
+   "revision": true,
+   "couvre": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
    "id": 6,
    "titre": "Nombres et âge",
    "etape": "Flåm",
@@ -59,6 +73,20 @@
    "titre": "Couleurs et vêtements",
    "etape": "Lom",
    "fichier": "ch10.json"
+  },
+  {
+   "id": 110,
+   "titre": "Bilan : chapitres 6 à 10",
+   "etape": "Jotunheimen",
+   "fichier": null,
+   "revision": true,
+   "couvre": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
   },
   {
    "id": 11,
@@ -91,6 +119,20 @@
    "fichier": "ch15.json"
   },
   {
+   "id": 115,
+   "titre": "Bilan : chapitres 11 à 15",
+   "etape": "Atlanterhavsveien",
+   "fichier": null,
+   "revision": true,
+   "couvre": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
    "id": 16,
    "titre": "Loisirs et sport",
    "etape": "Røros",
@@ -119,6 +161,20 @@
    "titre": "Passé composé",
    "etape": "Mosjøen",
    "fichier": null
+  },
+  {
+   "id": 120,
+   "titre": "Bilan : chapitres 16 à 20",
+   "etape": "Helgeland",
+   "fichier": null,
+   "revision": true,
+   "couvre": [
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
   },
   {
    "id": 21,
@@ -151,6 +207,20 @@
    "fichier": null
   },
   {
+   "id": 125,
+   "titre": "Bilan : chapitres 21 à 25",
+   "etape": "Saltstraumen",
+   "fichier": null,
+   "revision": true,
+   "couvre": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ]
+  },
+  {
    "id": 26,
    "titre": "Sentiments et personnalité",
    "etape": "Kabelvåg",
@@ -179,6 +249,20 @@
    "titre": "Travailler en Norvège",
    "etape": "Leknes",
    "fichier": null
+  },
+  {
+   "id": 130,
+   "titre": "Bilan : chapitres 26 à 30",
+   "etape": "Polarsirkelen",
+   "fichier": null,
+   "revision": true,
+   "couvre": [
+    26,
+    27,
+    28,
+    29,
+    30
+   ]
   },
   {
    "id": 31,

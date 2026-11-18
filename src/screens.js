@@ -8,7 +8,7 @@ import { levelInfo, todayQuests, BADGES, SHOP, owns, buy, equip, skillRate, a2Pr
 import { avatarSVG, DECORS } from './avatar.js';
 import { speak, norwegianVoices, hasVoice, hasSynth, stop as stopAudio } from './audio.js';
 import { runSession } from './engine.js';
-import { buildLesson, buildSynth, buildReview, buildDrill } from './exercises.js';
+import { buildLesson, buildSynth, buildReview, buildDrill, buildRecap, buildBilan } from './exercises.js';
 import { fold } from './text.js';
 import { canRecognize } from './speech.js';
 import { downloadChapterPdf } from './pdf.js';
@@ -39,7 +39,7 @@ const bez = (a, b, t) => {
 
 export function heroPosition(pts) {
   const cur = currentChapter();
-  const a = pts[cur.id - 1], b = pts[cur.id];
+  const a = pts[cur.pos - 1], b = pts[cur.pos];
   const allDone = C.chapters.every((c) => state.chapters[c.id]?.validated);
   if (allDone) return pts[pts.length - 1];
   return bez(a, b, Math.max(0.04, chapterProgress(cur).t));
@@ -72,28 +72,30 @@ function mapSVG() {
     if (k % 3 === 1) deco.push(`<text x="${Math.min(W - 30, p.x + 62)}" y="${p.y - 22}" font-size="20" opacity=".8">🌲</text>`);
     if (k % 4 === 2) deco.push(`<text x="${Math.max(4, p.x - 125)}" y="${p.y + 8}" font-size="22" opacity=".8">⛵</text>`);
   }
-  const whale = pts[23] ? `<text x="${Math.max(6, pts[23].x - 130)}" y="${pts[23].y + 40}" font-size="30">🐋</text>` : '';
+  const p23 = chapterById(23) ? pts[chapterById(23).pos] : null;
+  const whale = p23 ? `<text x="${Math.max(6, p23.x - 130)}" y="${p23.y + 40}" font-size="30">🐋</text>` : '';
   const nodes = C.chapters.map((ch, i) => {
     const p = pts[i + 1];
     const done = !!state.chapters[ch.id]?.validated;
     const isCur = ch.id === cur.id;
-    const known = ch.id <= cur.id + 1;
-    const fill = done ? '#c6ebd9' : isCur ? '#ffdcc4' : known ? '#ffffff' : '#e8e4dd';
-    const stroke = done ? '#3f8f6b' : isCur ? '#c9783f' : '#c9c2b7';
+    const known = ch.pos <= cur.pos + 1;
+    const rev = !!ch.revision;
+    const fill = done ? '#c6ebd9' : isCur ? '#ffdcc4' : known ? (rev ? '#e2d8f6' : '#ffffff') : '#e8e4dd';
+    const stroke = done ? '#3f8f6b' : isCur ? '#c9783f' : rev && known ? '#8a73c9' : '#c9c2b7';
     const left = p.x > 200;
     const lx = left ? p.x - 30 : p.x + 30, anchor = left ? 'end' : 'start';
     const label = known ? ch.etape : '???';
     const sub = known ? ch.titre : '';
     return `<g class="node" data-ch="${ch.id}" role="button" aria-label="Étape ${ch.id}">
       ${isCur ? `<circle class="pulse" cx="${p.x}" cy="${p.y}" r="26" fill="#ffdcc4"/>` : ''}
-      <circle class="base" cx="${p.x}" cy="${p.y}" r="21" fill="${fill}" stroke="${stroke}" stroke-width="3"/>
-      <text x="${p.x}" y="${p.y + 6}" text-anchor="middle" font-size="16" font-weight="800" fill="#2f3a4a">${done ? '✓' : ch.id}</text>
+      <circle class="base" cx="${p.x}" cy="${p.y}" r="${rev ? 18 : 21}" fill="${fill}" stroke="${stroke}" stroke-width="3"/>
+      <text x="${p.x}" y="${p.y + 6}" text-anchor="middle" font-size="${rev ? 15 : 16}" font-weight="800" fill="#2f3a4a">${done ? '✓' : rev ? '★' : ch.id}</text>
       <text class="lbl" x="${lx}" y="${p.y - 1}" text-anchor="${anchor}">${label}</text>
       ${sub ? `<text class="lbl sub" x="${lx}" y="${p.y + 14}" text-anchor="${anchor}">${sub.length > 26 ? sub.slice(0, 25) + '…' : sub}</text>` : ''}
     </g>`;
   }).join('');
   const hp = heroPosition(pts);
-  const foggyFrom = pts[Math.min(n, cur.id + 1)].y - 40;
+  const foggyFrom = pts[Math.min(n, cur.pos + 1)].y - 40;
   return `<svg class="map" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carte de la Norvège, d'Oslo aux Lofoten">
     <defs>
       <linearGradient id="sea" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d7ecf8"/><stop offset="1" stop-color="#b9dcf0"/></linearGradient>
@@ -135,8 +137,8 @@ export function Home(app) {
     const u = info.unit, ch = chapterById(u.ch);
     todayCard = h('div', { class: 'card tint-mint today' },
       h('small', null, 'Leçon du jour'),
-      h('h2', null, `${ch.etape} · ${u.kind === 'synth' ? 'Synthèse' : u.kind === 'drill' ? 'Entraînement' : 'Leçon ' + u.n}`),
-      h('p', { class: 'muted' }, `Chapitre ${ch.id} : ${ch.titre}`),
+      h('h2', null, `${ch.etape} · ${u.kind === 'synth' ? (ch.revision ? 'Bilan' : 'Synthèse') : u.kind === 'drill' ? 'Entraînement' : u.kind === 'recap' ? 'Résumé' : 'Leçon ' + u.n}`),
+      h('p', { class: 'muted' }, ch.revision ? ch.titre : `Chapitre ${ch.id} : ${ch.titre}`),
       h('button', { class: 'btn', onclick: () => go('#/jouer/' + u.id) }, 'Commencer'));
   } else if (info.kind === 'rest') {
     todayCard = h('div', { class: 'card tint-mint today' },
@@ -177,7 +179,7 @@ export function Home(app) {
     const g = e.target.closest('.node');
     if (!g) return;
     const id = +g.dataset.ch, cur = currentChapter();
-    if (id > cur.id + 1) return toast('Cette étape est encore dans le brouillard… 🌫️');
+    if (chapterById(id).pos > cur.pos + 1) return toast('Cette étape est encore dans le brouillard… 🌫️');
     go('#/chapitre/' + id);
   });
   requestAnimationFrame(() => {
@@ -206,29 +208,30 @@ export function Chapter(app, id) {
     else if (st.reason === 'date') sub = `Disponible le ${frDate(st.date)}`;
     else if (st.reason === 'order') sub = 'Termine d\'abord la leçon précédente';
     else if (st.reason === 'lessons') sub = 'Termine d\'abord les leçons du chapitre';
-    else sub = u.kind === 'synth' ? 'Il faut 70 % pour valider' : u.kind === 'drill' ? 'Révision active des mots du chapitre' : '8 nouveaux mots';
-    const title = u.kind === 'synth' ? 'Synthèse' : u.kind === 'drill' ? u.titre : `Leçon ${u.n}${u.lesson ? ' · ' + u.lesson.titre : ''}`;
+    else if (st.reason === 'coverage') sub = `Termine d'abord les chapitres ${st.from} à ${st.to}`;
+    else sub = u.kind === 'synth' ? 'Il faut 70 % pour valider' : u.kind === 'drill' ? 'Révision active des mots du chapitre' : u.kind === 'recap' ? `Résumé des chapitres ${ch.couvre[0]} à ${ch.couvre[ch.couvre.length - 1]} puis entraînement` : '8 nouveaux mots';
+    const title = u.kind === 'synth' ? (ch.revision ? 'Bilan' : 'Synthèse') : u.kind === 'drill' || u.kind === 'recap' ? u.titre : `Leçon ${u.n}${u.lesson ? ' · ' + u.lesson.titre : ''}`;
     return h('button', {
       class: 'item' + (st.open ? '' : ' locked') + (next ? ' now' : ''),
       onclick: () => {
         if (st.open) return go('#/jouer/' + u.id);
         toast(st.reason === 'date' ? `Cette leçon se débloque le ${frDate(st.date)}.` : sub);
       },
-    }, h('span', { class: 'badge' }, done ? '✓' : st.open ? (u.kind === 'synth' ? '🏁' : u.kind === 'drill' ? '🏋️' : u.n) : '🔒'),
+    }, h('span', { class: 'badge' }, done ? '✓' : st.open ? (u.kind === 'synth' ? '🏁' : u.kind === 'drill' ? '🏋️' : u.kind === 'recap' ? '🔁' : u.n) : '🔒'),
       h('span', { class: 't' }, h('b', null, title), h('small', null, sub)));
   });
   const words = [...C.words.values()].filter((w) => w.ch === ch.id);
   app.replaceChildren(h('div', { class: 'screen' },
     h('button', { class: 'back', onclick: () => go('#/') }, '← Carte'),
     h('div', { class: 'card tint-blue' },
-      h('small', null, `Étape ${ch.id} · ${ch.etape}`),
+      h('small', null, ch.revision ? `Halte de révision · ${ch.etape}` : `Étape ${ch.id} · ${ch.etape}`),
       h('h1', null, ch.titre),
       h('div', { class: 'bar', style: { marginTop: '10px' } }, h('i', { style: { width: Math.round(p.t * 100) + '%' } })),
-      h('small', null, `${p.done}/${p.total} · ${words.length} mots`)),
+      h('small', null, ch.revision ? `${p.done}/${p.total} · revois les chapitres ${ch.couvre[0]} à ${ch.couvre[ch.couvre.length - 1]}` : `${p.done}/${p.total} · ${words.length} mots`)),
     h('div', { class: 'list' }, items),
     practiceCard(ch),
     storiesCard(ch),
-    ch.ready ? h('button', {
+    ch.data ? h('button', {
       class: 'btn secondary', style: { marginTop: '16px' },
       onclick: async (e) => {
         const b = e.currentTarget; b.disabled = true;
@@ -371,9 +374,9 @@ export function Play(app, id) {
   const st = unitStatus(unit);
   if (!st.open) { toast('Cette leçon n\'est pas disponible.'); return go('#/chapitre/' + unit.ch); }
   const ch = chapterById(unit.ch);
-  const exercises = unit.kind === 'synth' ? buildSynth(ch) : unit.kind === 'drill' ? buildDrill(chapterWords(ch.id), unit.focus) : buildLesson(unit);
+  const exercises = unit.kind === 'recap' ? buildRecap(ch) : unit.kind === 'synth' ? (ch.revision ? buildBilan(ch) : buildSynth(ch)) : unit.kind === 'drill' ? buildDrill(chapterWords(ch.id), unit.focus) : buildLesson(unit);
   runSession(app, {
-    kind: unit.kind, unit, chapter: ch, exercises,
+    kind: unit.kind === 'recap' ? 'drill' : unit.kind, unit, chapter: ch, exercises,
     onClose: () => go('#/'),
     onRetry: () => Play(app, id),
   });
@@ -419,7 +422,7 @@ export function Lexicon(app) {
   const list = h('div', { class: 'list' });
   const q = h('input', { class: 'search', type: 'search', placeholder: 'Chercher (norvégien ou français)', autocapitalize: 'off' });
   const sel = h('select', { class: 'search' }, h('option', { value: '' }, 'Tous les chapitres'),
-    C.chapters.filter((c) => c.ready).map((c) => h('option', { value: c.id }, `${c.id}. ${c.titre}`)));
+    C.chapters.filter((c) => c.ready && !c.revision).map((c) => h('option', { value: c.id }, `${c.id}. ${c.titre}`)));
   const count = h('small', { class: 'muted' });
   let limit = 60;
   const draw = () => {

@@ -198,6 +198,39 @@ export function buildDrill(words, focus = 'mix') {
   return noRepeat(ex);
 }
 
+// Chapitres de révision : résumé des 5 chapitres précédents + entraînement, puis bilan.
+const coveredChapters = (rc) => rc.couvre.map((id) => C.chapters.find((c) => c.id === id)).filter((c) => c?.data);
+
+export function buildRecap(rc) {
+  const chs = coveredChapters(rc);
+  const cards = chs.map((c) => ({ type: 'recap', chapter: c, info: true, ids: [] }));
+  const words = chs.flatMap((c) => chapterWords(c.id));
+  const weak = shuffle(words).sort((a, b) => level5(a.id) - level5(b.id)).slice(0, 40);
+  return [...cards, ...noRepeat([...buildDrill(weak, 'mix'), ...buildDrill(weak, 'sentences').slice(0, 8)])];
+}
+
+export function buildBilan(rc) {
+  const chs = coveredChapters(rc);
+  const W = chs.flatMap((c) => chapterWords(c.id));
+  const nx = cyc(W);
+  const audio = audioOk();
+  const mixed = [
+    ...rep(7, () => mk.mcq(nx(), W, 'no-fr')),
+    ...rep(5, () => mk.mcq(nx(), W, 'fr-no')),
+    ...rep(6, () => mk.translateWord(nx())),
+    ...rep(3, () => mk.translateSent(nx())),
+    ...rep(3, () => (audio ? mk.listen(nx(), W) : mk.mcq(nx(), W, 'fr-no'))),
+    ...rep(2, () => (audio ? mk.dictSent(nx()) : mk.translateSent(nx()))),
+    ...rep(3, () => mk.order(nx(), W)),
+    mk.pairs(sample(W, 5)),
+    mk.speak(nx()),
+  ];
+  // Une question de compréhension tirée de la synthèse de chacun des chapitres couverts.
+  const qs = chs.map((c) => ({ type: 'question', passage: c.data.synthese, q: shuffle(c.data.synthese.questions)[0], skill: 'read', ids: [] }));
+  return [...noRepeat(mixed), ...qs];
+}
+function rep(n, f) { return Array.from({ length: n }, f); }
+
 // ======================================================================
 // RENDERERS
 // ======================================================================
@@ -269,6 +302,26 @@ R.grammar = (ex, el) => {
       ...g.exemples.map((e) => h('div', { class: 'ex-pair' }, h('b', null, e.no), h('span', { class: 'muted' }, e.fr))),
     ),
   );
+};
+
+R.recap = (ex, el) => {
+  const c = ex.chapter;
+  const short = (t) => { const p = t.split('\n')[0]; return p.length > 280 ? p.slice(0, 277) + '…' : p; };
+  const weak = chapterWords(c.id).sort((a, b) => level5(a.id) - level5(b.id)).slice(0, 6);
+  el.append(
+    h('span', { class: 'tag' }, `Résumé · chapitre ${c.id}`),
+    h('h2', null, c.titre),
+    h('div', { class: 'card grammar tint-yellow' },
+      h('h3', { style: { marginBottom: '6px' } }, 'À retenir en grammaire'),
+      ...c.data.lecons.map((l) => h('div', { style: { marginBottom: '10px' } },
+        h('b', null, l.grammaire.titre),
+        h('p', { style: { margin: '2px 0' } }, short(l.grammaire.texte)),
+        h('div', { class: 'ex-pair' }, h('b', null, l.grammaire.exemples[0].no), h('span', { class: 'muted' }, l.grammaire.exemples[0].fr))))),
+    h('div', { class: 'card' },
+      h('h3', { style: { marginBottom: '6px' } }, 'Mots à revoir'),
+      ...weak.map((w) => h('div', { class: 'row', style: { margin: '6px 0' } },
+        h('div', { style: { flex: 1 } }, h('b', null, w.no), h('span', { class: 'pron' }, '  ' + w.pron), h('div', { class: 'muted' }, w.fr)),
+        h('button', { class: 'icon-btn', 'aria-label': 'Écouter', onclick: () => speak(w.no) }, '🔊')))));
 };
 
 R.passage = (ex, el) => {

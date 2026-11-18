@@ -6,7 +6,7 @@ import { recordWord, introduce } from './leitner.js';
 import { addXp, addCoins, bump, touchStreak, checkBadges, openChest, levelInfo, SHOP } from './game.js';
 import { sfx, stop as stopAudio } from './audio.js';
 import { avatarSVG } from './avatar.js';
-import { chapterById } from './content.js';
+import { C } from './content.js';
 import { chapterProgress } from './schedule.js';
 
 const PRAISE = ['Bravo !', 'Excellent !', 'Parfait !', 'Super !', 'Très bien !', 'Joli !'];
@@ -178,7 +178,7 @@ export function runSession(app, opts) {
     // Avancée du personnage
     let travel = null;
     if (opts.chapter) {
-      const ch = opts.chapter, prev = chapterById(ch.id - 1);
+      const ch = opts.chapter, prev = C.chapters[ch.pos - 2];
       const p = chapterProgress(ch);
       travel = h('div', null,
         h('div', { class: 'travel' },
@@ -195,9 +195,9 @@ export function runSession(app, opts) {
       }, 120);
     }
 
-    const title = !passed ? 'Presque !' : perfect ? 'Parfait ! 🎉' : opts.kind === 'review' ? 'Révision terminée' : opts.kind === 'drill' ? 'Entraînement terminé !' : isStory ? 'Histoire terminée !' : isSynth ? 'Chapitre validé ! 🏔️' : 'Leçon terminée !';
+    const title = !passed ? 'Presque !' : perfect ? 'Parfait ! 🎉' : opts.kind === 'review' ? 'Révision terminée' : opts.kind === 'drill' ? 'Entraînement terminé !' : isStory ? 'Histoire terminée !' : isSynth ? (opts.chapter.revision ? 'Bilan réussi ! 🏆' : 'Chapitre validé ! 🏔️') : 'Leçon terminée !';
     const msg = isStory ? 'Tu comprends de mieux en mieux le norvégien !' : opts.kind === 'drill' ? 'Plus tu répètes, mieux tu retiens. Bravo !' : !passed
-      ? `Il faut 70 % pour valider la synthèse. Tu as fait ${pct} %. Retente-la, tu y es presque !`
+      ? `Il faut 70 % pour valider. Tu as fait ${pct} %. Retente-la, tu y es presque !`
       : isSynth ? `Bravo, tu continues vers le nord !` : perfect ? 'Aucune erreur, impressionnant.' : 'Chaque leçon te rapproche du A2.';
 
     const screen = h('div', { class: 'session finish' },

@@ -31,8 +31,19 @@ export async function loadContent() {
     try { return { ...c, ready: true, data: await getJSON('content/' + c.fichier) }; }
     catch { return { ...c, ready: false, data: null }; }
   }));
+  const readyById = new Map(loaded.map((c) => [c.id, c.ready]));
   for (const ch of loaded) {
     ch.units = [];
+    if (ch.revision) {
+      // Chapitre de révision : un résumé suivi d'un entraînement, puis un bilan (pas de mots nouveaux).
+      ch.data = null;
+      ch.ready = ch.couvre.every((id) => readyById.get(id));
+      ch.units.push({ id: `${ch.id}-R`, ch: ch.id, kind: 'recap', n: 1, lesson: null, ready: ch.ready, titre: 'Résumé + entraînement' });
+      ch.units.push({ id: `${ch.id}-S`, ch: ch.id, kind: 'synth', n: 0, lesson: null, ready: ch.ready, titre: 'Bilan' });
+      ch.units.forEach((u) => { C.units.push(u); (ch.id === 105 ? C.free : C.course).push(u); });
+      C.chapters.push(ch);
+      continue;
+    }
     const nLessons = ch.data?.lecons?.length || (ch.id <= 5 ? 2 : 5);
     for (let l = 1; l <= nLessons; l++) {
       const lesson = ch.data?.lecons?.[l - 1] || null;
@@ -52,6 +63,7 @@ export async function loadContent() {
     ch.units.forEach((u) => { C.units.push(u); (ch.id <= 5 ? C.free : C.course).push(u); });
     C.chapters.push(ch);
   }
+  C.chapters.forEach((c, i) => { c.pos = i + 1; });
   return C;
 }
 
