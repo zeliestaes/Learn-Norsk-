@@ -250,7 +250,17 @@ function practiceCard(ch) {
   return h('div', { class: 'card', style: { marginTop: '16px' } },
     h('h3', null, '🏋️ Entraînement libre'),
     h('p', { class: 'muted' }, `Autant de fois que tu veux, sur les ${seen} mots déjà vus de ce chapitre.`),
-    h('div', { class: 'grid2' }, FOCI.map(([f, label]) => h('button', { class: 'btn ghost small', style: { width: '100%' }, onclick: () => go(`#/entrainement/${ch.id}/${f}`) }, label))));
+    h('div', { class: 'grid2' }, FOCI.map(([f, label]) => h('button', { class: 'btn ghost small', style: { width: '100%' }, onclick: () => go(`#/entrainement/${ch.id}/${f}`) }, label))),
+    lessonDrills(ch));
+}
+
+// Un entraînement par leçon : ses 8 mots + ceux de la leçon précédente.
+function lessonDrills(ch) {
+  const done = ch.units.filter((u) => u.kind === 'lesson' && isDone(u));
+  if (!done.length) return null;
+  return h('div', { style: { marginTop: '12px' } },
+    h('small', { class: 'muted' }, 'Ou entraîne-toi sur une leçon précise :'),
+    h('div', { class: 'chips', style: { marginTop: '6px' } }, done.map((u) => h('button', { class: 'chip', onclick: () => go(`#/entrainement/${ch.id}/l${u.n}`) }, `🏋️ Leçon ${u.n}`))));
 }
 
 const STORY_KINDS = [['lire', '📖', 'Histoire à lire'], ['ecouter', '🎧', 'Histoire audio avec transcription']];
@@ -356,7 +366,13 @@ export function Practice(app, chId, focus) {
     return runSession(app, { kind: 'drill', exercises: buildDrill(words, focus), onClose: () => go('#/revision'), onRetry: () => Practice(app, 'all', focus) });
   }
   const ch = chapterById(+chId);
-  const words = ch ? chapterWords(ch.id).filter((w) => state.words[w.id]) : [];
+  const lm = /^l(\d+)$/.exec(focus || '');
+  let words = ch ? chapterWords(ch.id).filter((w) => state.words[w.id]) : [];
+  if (lm) {
+    const n = +lm[1];
+    words = words.filter((w) => w.lesson === n || w.lesson === n - 1);
+    focus = 'mixlong';
+  }
   if (!ch || words.length < 4) { toast('Fais d\'abord quelques leçons de ce chapitre.'); return go('#/chapitre/' + chId); }
   runSession(app, {
     kind: 'drill', chapter: ch, exercises: buildDrill(words, focus),
