@@ -7,7 +7,7 @@ export const C = {
   free: [],          // unités des chapitres 1-5
 };
 
-export const FOCUS_LABEL = { vocab: 'vocabulaire', write: 'écrire', listen: 'écouter', sentences: 'phrases', mix: 'mixte' };
+export const FOCUS_LABEL = { vocab: 'vocabulaire', write: 'écrire', listen: 'écouter', sentences: 'phrases', mix: 'mixte', mixlong: 'mixte' };
 
 export function parseNo(no) {
   // Renvoie { art, bare, verb } pour "en kaffe" / "å drikke" / "hei".
@@ -54,7 +54,7 @@ export async function loadContent() {
       });
     }
     // Séances d'entraînement : elles réutilisent les mots du chapitre (aucun mot nouveau).
-    const foci = ch.id <= 5 ? ['vocab', 'write', 'listen', 'sentences'] : ['mix'];
+    const foci = ch.id <= 5 ? ['vocab', 'write', 'listen', 'sentences'] : ['mixlong'];
     foci.forEach((focus, k) => {
       ch.units.push({ id: `${ch.id}-D${k + 1}`, ch: ch.id, kind: 'drill', n: k + 1, focus, lesson: null, ready: !!ch.data, titre: 'Entraînement · ' + FOCUS_LABEL[focus] });
     });

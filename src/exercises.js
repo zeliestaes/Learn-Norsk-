@@ -73,16 +73,35 @@ export function buildLesson(unit) {
   const W = lessonWords(unit.ch, unit.n);
   const A = W.slice(0, 4), B = W.slice(4);
   const seq = [];
+  const audio = audioOk();
+
+  // 1) Rappel : on revoit d'abord les mots de la leçon précédente (ou les plus fragiles du chapitre précédent).
+  let prev = unit.n > 1 ? lessonWords(unit.ch, unit.n - 1) : chapterWords(unit.ch - 1).filter((w) => state.words[w.id]);
+  prev = prev.sort((a, b) => level5(a.id) - level5(b.id)).slice(0, 8);
+  if (prev.length >= 4) {
+    const rp = cyc(prev);
+    seq.push({ type: 'note', info: true, ids: [], title: 'Rappel', text: unit.n > 1 ? 'On commence par revoir les mots de la leçon précédente.' : 'On commence par revoir quelques mots du chapitre précédent.' });
+    seq.push(...noRepeat([
+      mk.mcq(rp(), prev, 'no-fr'), mk.mcq(rp(), prev, 'fr-no'),
+      mk.translateWord(rp()), mk.translateWord(rp()),
+      audio ? mk.listen(rp(), prev) : mk.mcq(rp(), prev, 'no-fr'),
+      mk.translateWord(rp()),
+    ]));
+  }
+
+  // 2) Mots nouveaux par petits paquets de 4 : découverte, reconnaissance, puis production.
   const half = (ws) => {
     ws.forEach((w) => seq.push(mk.discover(w)));
     shuffle(ws).forEach((w, i) => seq.push(mk.mcq(w, W, i % 2 ? 'fr-no' : 'no-fr')));
+    shuffle(ws).slice(0, 2).forEach((w) => seq.push(mk.translateWord(w)));
   };
   half(A); half(B);
   seq.push({ type: 'grammar', g: L.grammaire, info: true, ids: [] });
+
+  // 3) Beaucoup de répétition sur les 8 mots, mélangée.
   const nx = cyc(W);
-  const audio = audioOk();
   const mixed = [
-    mk.translateWord(nx()), mk.translateWord(nx()), mk.translateSent(nx()),
+    mk.translateWord(nx()), mk.translateWord(nx()), mk.translateSent(nx()), mk.translateSent(nx()),
     audio ? mk.listen(nx(), W) : mk.mcq(nx(), W, 'fr-no'),
     audio ? mk.listen(nx(), W) : mk.mcq(nx(), W, 'no-fr'),
     audio ? mk.dictWord(nx()) : mk.translateWord(nx()),
@@ -181,6 +200,18 @@ export function buildDrill(words, focus = 'mix') {
       ...rep(8, () => mk.order(nxS(), base)),
       ...rep(4, DS),
       ...rep(4, () => mk.speak(nxS())),
+    ];
+  } else if (focus === 'mixlong') {
+    ex = [
+      ...rep(6, () => mk.mcq(nx(), base, 'no-fr')),
+      ...rep(5, () => mk.mcq(nx(), base, 'fr-no')),
+      ...rep(6, () => mk.translateWord(nx())),
+      ...rep(4, L),
+      ...rep(3, DW),
+      ...rep(4, () => mk.translateSent(nxS())),
+      ...rep(4, () => mk.order(nxS(), base)),
+      ...(pairsOk ? rep(2, () => mk.pairs(sample(base, 5))) : []),
+      ...rep(2, () => mk.speak(nxS())),
     ];
   } else { // mix
     ex = [
@@ -302,6 +333,10 @@ R.grammar = (ex, el) => {
       ...g.exemples.map((e) => h('div', { class: 'ex-pair' }, h('b', null, e.no), h('span', { class: 'muted' }, e.fr))),
     ),
   );
+};
+
+R.note = (ex, el) => {
+  el.append(h('span', { class: 'tag' }, ex.title), h('div', { class: 'card tint-lilac' }, h('h2', null, '🔁 ' + ex.title), h('p', null, ex.text)));
 };
 
 R.recap = (ex, el) => {
