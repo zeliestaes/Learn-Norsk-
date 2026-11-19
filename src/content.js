@@ -45,6 +45,8 @@ export async function loadContent() {
       continue;
     }
     const nLessons = ch.data?.lecons?.length || (ch.id <= 5 ? 2 : 5);
+    const free = ch.id <= 5;
+    const drill = (k, scope, focus, titre) => ch.units.push({ id: `${ch.id}-D${k}`, ch: ch.id, kind: 'drill', n: k, scope, focus, lesson: null, ready: !!ch.data, titre });
     for (let l = 1; l <= nLessons; l++) {
       const lesson = ch.data?.lecons?.[l - 1] || null;
       ch.units.push({ id: `${ch.id}-${l}`, ch: ch.id, kind: 'lesson', n: l, lesson, ready: !!lesson, titre: lesson?.titre || `Leçon ${l}` });
@@ -52,12 +54,11 @@ export async function loadContent() {
         const id = `${ch.id}-${l}-${i + 1}`;
         C.words.set(id, { id, ch: ch.id, lesson: l, ...parseNo(w.no), ...w });
       });
+      // Un drill juste après chaque paquet de 8 mots (le dernier couvre tout le chapitre).
+      if (!free) drill(l, l === nLessons ? 'all' : l, 'mix', l === nLessons ? 'Entraînement du chapitre' : `Entraînement · leçon ${l}`);
+      else if (l === 1 || l === 2) drill(l, l, 'mix', `Entraînement · leçon ${l}`);
     }
-    // Séances d'entraînement : elles réutilisent les mots du chapitre (aucun mot nouveau).
-    const foci = ch.id <= 5 ? ['vocab', 'write', 'listen', 'sentences'] : ['mixlong'];
-    foci.forEach((focus, k) => {
-      ch.units.push({ id: `${ch.id}-D${k + 1}`, ch: ch.id, kind: 'drill', n: k + 1, focus, lesson: null, ready: !!ch.data, titre: 'Entraînement · ' + FOCUS_LABEL[focus] });
-    });
+    if (free) { drill(3, 'all', 'listen', 'Entraînement · écouter'); drill(4, 'all', 'sentences', 'Entraînement · phrases'); }
     const synth = ch.data?.synthese || null;
     ch.units.push({ id: `${ch.id}-S`, ch: ch.id, kind: 'synth', n: 0, lesson: synth, ready: !!synth, titre: 'Synthèse' });
     ch.units.forEach((u) => { C.units.push(u); (ch.id <= 5 ? C.free : C.course).push(u); });
@@ -65,6 +66,11 @@ export async function loadContent() {
   }
   C.chapters.forEach((c, i) => { c.pos = i + 1; });
   return C;
+}
+
+export function drillWords(u) {
+  if (u.scope === 'all') return chapterWords(u.ch);
+  return [...lessonWords(u.ch, u.scope), ...(u.scope > 1 ? lessonWords(u.ch, u.scope - 1) : [])];
 }
 
 export const chapterById = (id) => C.chapters.find((c) => c.id === id);

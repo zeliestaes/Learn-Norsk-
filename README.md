@@ -24,13 +24,15 @@ scripts/build-sw.js                       régénère la liste de fichiers hors 
 
 ## Structure d'un chapitre
 
-- Chapitres 1 à 5 : 2 leçons (16 mots) + **4 entraînements** (vocabulaire, écrire, écouter, phrases) + synthèse = 7 étapes.
-- Chapitres 6 et suivants : 5 leçons (40 mots) + **1 entraînement mixte** + synthèse = 7 étapes.
-- Les entraînements ne contiennent **aucun mot nouveau** : ils génèrent des exercices sur les mots déjà vus (les moins bien connus d'abord). Ils s'ouvrent quand toutes les leçons du chapitre sont terminées.
-- Chaque leçon commence par un **rappel** (6 exercices sur les mots de la leçon précédente), présente les mots nouveaux par paquets de 4 avec reconnaissance puis production, et se termine par 12 exercices mélangés. Chaque leçon a aussi un **drill dédié** (page du chapitre) ; l'entraînement de chapitre des chapitres 6 et suivants compte environ 36 exercices.
-- Sur la page de chaque chapitre, l'**entraînement libre** (4 thèmes) est répétable à volonté ; l'écran Réviser propose aussi un entraînement ciblé sur tous les mots appris.
-- **Chapitres de révision** (★ sur la carte) après les chapitres 5, 10, 15, 20, 25 et 30 : un résumé des 5 chapitres précédents suivi d'un entraînement sur les mots les plus fragiles, puis un bilan à réussir à 70 % (coffre-surprise). Ils sont définis dans `content/index.json` (`revision`, `couvre`) et générés automatiquement à partir du contenu des chapitres.
-- Le programme à rythme quotidien (chapitres 6 à 34 + 5 révisions) compte 29 × 7 + 5 × 2 = 213 étapes, soit environ 16 jours d'avance sur le 30 juin 2027. Les chapitres 1 à 5 et la première révision sont ouverts à la demande.
+Les leçons (8 mots nouveaux chacune) alternent avec des **drills** : jamais deux paquets de mots à la suite sans entraînement.
+
+- Chapitres 1 à 5 : leçon 1 → drill 1 → leçon 2 → drill 2 → entraînement « écouter » → entraînement « phrases » → synthèse (16 mots).
+- Chapitres 6 et suivants : leçon 1 → drill 1 → leçon 2 → drill 2 → … → leçon 5 → **entraînement du chapitre** (tous les mots) → synthèse (40 mots).
+- Chaque drill (≈ 27 exercices ; ≈ 36 pour celui du chapitre) reprend les mots de la leçon qui précède et ceux de la leçon d'avant, les plus fragiles d'abord. Aucun mot nouveau.
+- Chaque leçon commence par un **rappel** (6 exercices sur la leçon précédente), présente les mots par paquets de 4 (reconnaissance puis production) et se termine par des exercices mélangés.
+- Les drills sont répétables à volonté : **entraînement libre** et **drill par leçon** sur la page de chaque chapitre, **entraînement ciblé** dans Réviser.
+- **Chapitres de révision** (★ sur la carte) après les chapitres 5, 10, 15, 20, 25 et 30 : résumé des 5 chapitres précédents + entraînement sur les mots fragiles, puis bilan à 70 % (coffre-surprise). Définis dans `content/index.json` (`revision`, `couvre`), générés à partir du contenu des chapitres.
+- **Rythme quotidien** : seules les leçons, synthèses et révisions comptent dans le calendrier (une nouvelle par jour). Les drills s'ouvrent dès que la leçon correspondante est terminée et doivent être faits avant la leçon suivante : une journée = une leçon + son drill. Chapitres 6 à 34 + 5 révisions = 184 étapes, soit environ 45 jours d'avance sur le 30 juin 2027.
 
 ## Histoires (chapitres 6 et suivants)
 

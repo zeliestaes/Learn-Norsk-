@@ -4,8 +4,9 @@ import { today, dayDiff, addDays } from './util.js';
 
 export const daysSince = () => Math.max(0, dayDiff(state.startDate, today()));
 export const isDone = (u) => (u.kind === 'synth' ? !!state.chapters[u.ch]?.validated : !!state.units[u.id]?.done);
-export const doneCourse = () => C.course.filter(isDone).length;
-export const totalCourse = () => C.course.length;
+const calUnits = () => C.course.filter((u) => u.kind !== 'drill');
+export const doneCourse = () => calUnits().filter(isDone).length;
+export const totalCourse = () => calUnits().length;
 
 export function availableCount() { return daysSince() + 1 + (state.bonus || 0); }
 
@@ -22,12 +23,17 @@ export function unitStatus(u) {
   }
   if (u.kind === 'drill' && !done) {
     const ch = C.chapters.find((c) => c.id === u.ch);
-    if (!ch.units.filter((x) => x.kind === 'lesson').every(isDone)) return { open: false, done, reason: 'lessons' };
+    const need = u.scope === 'all' ? ch.units.filter((x) => x.kind === 'lesson') : ch.units.filter((x) => x.kind === 'lesson' && x.n <= u.scope);
+    if (!need.every(isDone)) return { open: false, done, reason: 'lessons' };
   }
   if (u.ch <= 5) return { open: true, done };
   const k = C.course.indexOf(u);
-  if (k >= availableCount()) {
-    return { open: false, done, reason: 'date', date: addDays(state.startDate, k - (state.bonus || 0)) };
+  if (u.kind !== 'drill') {
+    // La date de déblocage ne compte que les leçons, synthèses et bilans (les drills suivent la leçon).
+    const kc = calUnits().indexOf(u);
+    if (kc >= availableCount()) {
+      return { open: false, done, reason: 'date', date: addDays(state.startDate, kc - (state.bonus || 0)) };
+    }
   }
   if (k > 0 && !isDone(C.course[k - 1]) && !done) return { open: false, done, reason: 'order', prev: C.course[k - 1] };
   return { open: true, done };
