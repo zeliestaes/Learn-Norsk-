@@ -98,15 +98,13 @@ export function buildLesson(unit) {
   half(A); half(B);
   seq.push({ type: 'grammar', g: L.grammaire, info: true, ids: [] });
 
-  // 3) Beaucoup de répétition sur les 8 mots, mélangée.
+  // 3) Répétition mélangée sur les 8 mots (un drill complet suit juste après la leçon).
   const nx = cyc(W);
   const mixed = [
-    mk.translateWord(nx()), mk.translateWord(nx()), mk.translateSent(nx()), mk.translateSent(nx()),
+    mk.translateWord(nx()), mk.translateWord(nx()), mk.translateSent(nx()),
     audio ? mk.listen(nx(), W) : mk.mcq(nx(), W, 'fr-no'),
-    audio ? mk.listen(nx(), W) : mk.mcq(nx(), W, 'no-fr'),
     audio ? mk.dictWord(nx()) : mk.translateWord(nx()),
-    audio ? mk.dictSent(nx()) : mk.translateSent(nx()),
-    mk.order(nx(), W), mk.order(nx(), W),
+    mk.order(nx(), W),
     mk.pairs(sample(W, 5)),
     mk.speak(nx()),
   ];

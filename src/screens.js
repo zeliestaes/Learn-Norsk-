@@ -1,7 +1,7 @@
 // Écrans : accueil/carte, chapitre, révisions, lexique, profil, boutique, réglages.
 import { h, toast, frDate, today, dayDiff } from './util.js';
 import { state, save, exportJSON, importJSON, resetAll } from './state.js';
-import { C, chapterById, unitById, chapterWords, FOCUS_LABEL } from './content.js';
+import { C, chapterById, unitById, chapterWords, drillWords } from './content.js';
 import { unitStatus, todayInfo, paceIndicator, unlockBonus, currentChapter, chapterProgress, isDone, doneCourse, totalCourse, daysSince } from './schedule.js';
 import { dueCount, dueWords, level5, learnedCount } from './leitner.js';
 import { levelInfo, todayQuests, BADGES, SHOP, owns, buy, equip, skillRate, a2Progress, checkBadges } from './game.js';
@@ -207,9 +207,9 @@ export function Chapter(app, id) {
     else if (st.reason === 'soon') sub = 'Contenu en préparation';
     else if (st.reason === 'date') sub = `Disponible le ${frDate(st.date)}`;
     else if (st.reason === 'order') sub = 'Termine d\'abord la leçon précédente';
-    else if (st.reason === 'lessons') sub = 'Termine d\'abord les leçons du chapitre';
+    else if (st.reason === 'lessons') sub = 'Termine d\'abord la leçon correspondante';
     else if (st.reason === 'coverage') sub = `Termine d'abord les chapitres ${st.from} à ${st.to}`;
-    else sub = u.kind === 'synth' ? 'Il faut 70 % pour valider' : u.kind === 'drill' ? 'Révision active des mots du chapitre' : u.kind === 'recap' ? `Résumé des chapitres ${ch.couvre[0]} à ${ch.couvre[ch.couvre.length - 1]} puis entraînement` : '8 nouveaux mots';
+    else sub = u.kind === 'synth' ? 'Il faut 70 % pour valider' : u.kind === 'drill' ? 'Drill sur les mots que tu viens d\'apprendre' : u.kind === 'recap' ? `Résumé des chapitres ${ch.couvre[0]} à ${ch.couvre[ch.couvre.length - 1]} puis entraînement` : '8 nouveaux mots';
     const title = u.kind === 'synth' ? (ch.revision ? 'Bilan' : 'Synthèse') : u.kind === 'drill' || u.kind === 'recap' ? u.titre : `Leçon ${u.n}${u.lesson ? ' · ' + u.lesson.titre : ''}`;
     return h('button', {
       class: 'item' + (st.open ? '' : ' locked') + (next ? ' now' : ''),
@@ -371,7 +371,7 @@ export function Practice(app, chId, focus) {
   if (lm) {
     const n = +lm[1];
     words = words.filter((w) => w.lesson === n || w.lesson === n - 1);
-    focus = 'mixlong';
+    focus = 'mix';
   }
   if (!ch || words.length < 4) { toast('Fais d\'abord quelques leçons de ce chapitre.'); return go('#/chapitre/' + chId); }
   runSession(app, {
@@ -384,13 +384,15 @@ export function Practice(app, chId, focus) {
 // ======================================================================
 // SÉANCES
 // ======================================================================
+const drillFocus = (u) => (u.focus === 'mix' && u.scope === 'all' && drillWords(u).length > 16 ? 'mixlong' : u.focus);
+
 export function Play(app, id) {
   const unit = unitById(id);
   if (!unit) return go('#/');
   const st = unitStatus(unit);
   if (!st.open) { toast('Cette leçon n\'est pas disponible.'); return go('#/chapitre/' + unit.ch); }
   const ch = chapterById(unit.ch);
-  const exercises = unit.kind === 'recap' ? buildRecap(ch) : unit.kind === 'synth' ? (ch.revision ? buildBilan(ch) : buildSynth(ch)) : unit.kind === 'drill' ? buildDrill(chapterWords(ch.id), unit.focus) : buildLesson(unit);
+  const exercises = unit.kind === 'recap' ? buildRecap(ch) : unit.kind === 'synth' ? (ch.revision ? buildBilan(ch) : buildSynth(ch)) : unit.kind === 'drill' ? buildDrill(drillWords(unit), drillFocus(unit)) : buildLesson(unit);
   runSession(app, {
     kind: unit.kind === 'recap' ? 'drill' : unit.kind, unit, chapter: ch, exercises,
     onClose: () => go('#/'),
